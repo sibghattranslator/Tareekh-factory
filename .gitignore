@@ -1,0 +1,15 @@
+images/
+recordings/
+Ready to Upload/
+music/
+drafts/
+Voice Samples/
+samples/
+factory/_work/
+factory/yt_chrome/
+factory/.ready*
+yt_debug/
+__pycache__/
+*.pyc
+*.mp4
+*.wav

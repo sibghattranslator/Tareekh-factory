@@ -1,0 +1,84 @@
+TK003 - UPLOAD DETAILS  (topic: roadmap 3 - Pashtunwali)
+===========================================================
+
+TITLE (best, already used as the file name)
+Pashtunwali – पश्तूनवाली: वो अनलिखा क़ानून, मेहमान और बदला | The Pashtun Code
+
+OTHER TITLE OPTIONS
+2. Pashtunwali Explained – پشتونولی: عزت، پناہ، بدل اور جرگہ
+3. Badal, Melmastia, Nanawatai – पश्तूनवाली के तीन ख़ंभे | Pashtun Honour Code
+4. जब एक गाँव ने ताक़तवर लोगों को “ना” कहा – Pashtunwali की कहानी
+5. What Is Pashtunwali? The Unwritten Law of the Pashtuns
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu word پشتونولی + "THE UNWRITTEN LAW" + "Hospitality · Refuge · Revenge · Jirga".
+(If you want a picture behind it, put your favourite picture in images\tk003 as 01a.jpg before rendering.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk003_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+What is Pashtunwali, the unwritten code of the Pashtuns? Hospitality, refuge, revenge and the jirga - explained with sources, supporters and critics.
+पश्तूनवाली क्या है? मेहमाननवाज़ी, पनाह, बदला और जिरगा - सबूतों के साथ, दोनों पक्षों की बात।
+پشتونولی کیا ہے؟ ملمستیا، ننواتی، بدل اور جرگہ، حوالوں اور دونوں رایوں کے ساتھ۔
+
+CHAPTERS
+(paste from tk003_chapters.txt)
+
+SOURCES (main)
+- Tom Ginsburg, "An Economic Interpretation of the Pashtunwali", University of Chicago Legal Forum (2011): https://home.uchicago.edu/tginsburg/pdf/articles/AnEconomicAnalysisOfThePashtunwali.pdf
+- Thomas Barfield, "Afghan Customary Law and Its Relationship to Formal Judicial Institutions", USIP: https://www.usip.org/sites/default/files/file/barfield2.pdf
+- USIP Special Report 363, "Islamic Law, Customary Law, and Afghan Informal Justice" (2015)
+- Tilak Devasher, "Pashtunwali - the Way of the Pashtuns", NatStrat: https://natstrat.org/articledetail/publications/-58.html
+- RFE/RL on jirgas: https://www.rferl.org/a/1098043.html
+- History.com, "The Real-Life Story Behind Lone Survivor": https://www.history.com/news/the-real-life-story-behind-lone-survivor
+- The Daily Beast, "The Afghan Village That Saved Navy SEAL Marcus Luttrell": https://www.thedailybeast.com/the-afghan-village-that-saved-navy-seal-marcus-luttrell
+- CBS News / 60 Minutes, Mohammad Gulab and Marcus Luttrell: https://www.cbsnews.com/news/how-an-afghan-and-a-navy-seal-became-brothers
+- Mountstuart Elphinstone, An Account of the Kingdom of Caubul (1815); critical reading: Nazir & Dinakhel, Al-Azhar vol. 10 (2024)
+- Encyclopaedia / reference pages on Pashtunwali and Jirga (Wikipedia, Britannica "Pakhtunwali")
+- Rahat Shah & Sayed Attaullah Shah, "Preserving Tradition and Embracing Change: A Study of Masculinities in Pashtun Society"
+- The Friday Times, "Reclaiming Pashtunwali" (5 Aug 2021); Daily Times (2014 Pakistan Ulema Council statement, as reported)
+Pictures: Wikimedia Commons (credits in tk003_picture_credits.txt - paste them here).
+
+#Pashtunwali #Pashtun #AfghanistanHistory #Jirga #TareekhKiKahani
+
+TAGS (15)
+Pashtunwali, پشتونولی, Pashtun code of honour, melmastia, nanawatai, badal, jirga, loya jirga, Pashtun culture, Pashtun history, Afghanistan history, tareekh ki kahani, पश्तूनवाली, Pashto culture, Pathan code of honour
+
+PINNED COMMENT
+آپ کے خیال میں آج پشتونولی کے کون سے حصے بچنے چاہئیں اور کون سے بدلنے چاہئیں؟ احترام کے ساتھ اپنی رائے لکھیں۔ / Which parts of Pashtunwali should stay today, and which should change? Please share your view respectfully.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk003_subtitles_Urdu.srt   (Urdu is also burned into the video; upload this too so YouTube can search it)
+- English: tk003_subtitles_English.srt
+
+FACT-CHECK TABLE
+| Claim in the video | Source | Confidence |
+| Operation Red Wings, June 2005; Mohammad Gulab sheltered Luttrell in Sabray and refused to hand him to the Taliban-linked fighters | History.com; Daily Beast; CBS/60 Minutes | High (the details of the battle are disputed by some; the video uses only the shelter story) |
+| Villagers say they acted under Pashtunwali / nanawatai | Daily Beast; CBS; History.com | High |
+| Pashtunwali = "way of the Pashtuns", also Pakhtunwali / Afghaniyat; oral tradition | Reference pages; Barfield (USIP) | High |
+| Origin disputed: some say Islam, many say pre-Islamic | Reference pages; EBSCO | Medium (scholarly debate) |
+| It is a code of honour, fluid, not a legal code | Ginsburg (2011); Barfield | High |
+| Nang = honour; tied to zan, zar, zameen | Devasher (NatStrat) | High |
+| Khushal Khan Khattak wrote that he despises a man who does not live by honour | Devasher (NatStrat) | Medium (paraphrase of a translated line) |
+| Melmastia: guests of any race/religion/status served without expecting return | Reference pages | High |
+| Hospitality extends even to strangers/enemies | National Geographic 1967 (via Facts and Details) | Medium (old, general) |
+| Elphinstone visited in 1808 and wrote about hospitality and revenge; his account carries colonial bias | Nazir & Dinakhel (2024); Encyclopaedia Iranica | High |
+| Nanawatai = refuge; root "to go in"; losing side can go to the winner's house to ask forgiveness | Reference pages; EBSCO | Medium |
+| Badal = revenge and also "exchange"; no time limit; closest male relative can be targeted; feuds can last generations | Devasher; reference pages | High (described as "according to some accounts") |
+| Blood money can replace revenge | Reference pages | High |
+| Ginsburg: the code channels and limits private violence | Ginsburg (2011) | High |
+| Jirga = elders in a circle, consensus, binding; almost any dispute can go to it | RFE/RL; reference pages | High |
+| Pakistani paper calls the jirga a speedy-justice system | Tehqeeqat journal paper | Medium |
+| Mirwais Hotak loya jirga 1709 near Kandahar; 1747 jirga chose Ahmad Shah; loya jirgas in 2002 and 2003 | Reference page "Jirga" | High (1709 is "according to tradition") |
+| Code runs alongside, supports, and sometimes clashes with state law; Kabul tried for over a century to impose central courts; no system fully displaced the others | Ginsburg; Barfield (USIP) | High |
+| Custom denies daughters inheritance while Islamic law fixes their share | EBSCO; USIP Special Report 363 | High |
+| Swara = girls given in marriage to settle disputes; criticised in Pakistan | The Friday Times | High |
+| Pakistan Ulema Council 2014 statement on honour killings | Daily Times, as reported | Medium (second-hand) |
+| Urban Pashtuns often do not follow all customs; younger people question them | Reference page; Shah & Shah paper | Medium |
+
+SHORTS (3, optional; they use the AI voice unless you record them in RECORD.bat > Shorts)
+1. Pashtunwali: A Village vs the Taliban #Shorts
+2. Three Pillars of Pashtunwali #Shorts
+3. What is a Jirga? #Shorts
+
+NOTE FOR RECORDING
+Read slowly and clearly on the dramatic lines (scene 1, "Gulab انکار کر دیتا ہے", the badal scene) and a little faster on lists. Leave a half-second pause at every full stop; the factory keeps your pauses.

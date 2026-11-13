@@ -1,0 +1,1194 @@
+{
+ "id": "tk003",
+ "format": 2,
+ "title": "Pashtunwali – पश्तूनवाली: वो अनलिखा क़ानून, मेहमान और बदला | The Pashtun Code",
+ "thumb_text": "The Unwritten Law",
+ "thumb_ur": "پشتونولی",
+ "thumb_sub": "Hospitality · Refuge · Revenge · Jirga",
+ "scenes": [
+  {
+   "text_on_screen": "Kunar, 2005",
+   "narration_ur": "جون دو ہزار پانچ۔ افغانستان کا صوبہ کنڑ۔ پہاڑوں میں ایک امریکی فوجی زخمی پڑا ہے، اور اس کے تین ساتھی مارے جا چکے ہیں۔ گاؤں کا ایک آدمی، محمد گلاب، اسے دیکھ لیتا ہے۔ وہ اسے اپنے گاؤں سبرے لے جاتا ہے، کھانا دیتا ہے اور پناہ دیتا ہے۔ پھر طالبان سے جڑے مسلح لوگ گاؤں کو گھیر لیتے ہیں اور مطالبہ کرتے ہیں کہ امریکی ہمارے حوالے کرو۔ گلاب انکار کر دیتا ہے۔ نہ کوئی عدالت تھی، نہ کوئی لکھا ہوا قانون۔ گلاب اور گاؤں والے کہتے ہیں کہ وہ ایک پرانے ضابطے پر چل رہے تھے، جس کا نام ہے پشتونولی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "June 2005.",
+    "Kunar province, Afghanistan.",
+    "In the mountains an American soldier lies wounded, and three of his teammates have been killed.",
+    "A villager, Mohammad Gulab, finds him.",
+    "He carries him to his village, Sabray, and gives him food and shelter.",
+    "Then armed men linked to the Taliban surround the village and demand that the American be handed over.",
+    "Gulab refuses.",
+    "There was no court and no written law.",
+    "Gulab and the villagers say they were following an old code called Pashtunwali."
+   ],
+   "shots": [
+    {
+     "search": "Kunar Province Afghanistan mountains"
+    },
+    {
+     "card": {
+      "ur": "سبرے، کنڑ",
+      "en": "Sabray, Kunar · June 2005"
+     }
+    },
+    {
+     "search": "Afghan village mountain houses"
+    },
+    {
+     "search": "Hindu Kush valley village"
+    },
+    {
+     "search": "Afghan elders sitting village"
+    },
+    {
+     "card": {
+      "ur": "پشتونولی",
+      "en": "Pashtunwali"
+     }
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Kunar, 2005",
+    "ur": "کنڑ، ۲۰۰۵"
+   },
+   "sfx": "hit",
+   "feel": "سنجیدہ اور دھیمی آواز، جیسے کوئی راز بتا رہے ہوں۔ آخر تک تناؤ بڑھائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "پانچ"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "کنڑ"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "زخمی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "پناہ"
+    },
+    {
+     "m": [
+      "fast"
+     ],
+     "w": "گھیر"
+    },
+    {
+     "m": [
+      "stress",
+      "pause2"
+     ],
+     "w": "انکار"
+    },
+    {
+     "m": [
+      "slow",
+      "soft",
+      "pause"
+     ],
+     "w": "قانون"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "پشتونولی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Pashtunwali",
+   "narration_ur": "پشتونولی کا مطلب ہے پشتونوں کا راستہ۔ اسے پختونولی اور افغانیت بھی کہا جاتا ہے۔ یہ کسی کتاب میں لکھا ہوا قانون نہیں، بلکہ نسل در نسل زبانی چلتی آئی روایت ہے۔ کچھ لوگ اسے اسلام سے نکلا ہوا مانتے ہیں، جبکہ کئی محققین کے مطابق یہ اسلام سے پہلے کے زمانے سے چلی آ رہی ہے۔ ماہرین ایک بات بار بار کہتے ہیں: یہ قانون کی کتاب سے زیادہ عزت کا ضابطہ ہے، اور اس کی تفصیلیں جگہ جگہ بدل جاتی ہیں۔ تو سوال یہ ہے کہ اس ضابطے کے اصل ستون کون سے ہیں؟",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Pashtunwali means the way of the Pashtuns.",
+    "It is also called Pakhtunwali and Afghaniyat.",
+    "It is not a law written in a book; it is a tradition passed down by word of mouth, generation after generation.",
+    "Some see it as coming from Islam, while many researchers say it goes back to pre-Islamic times.",
+    "Experts keep repeating one point: it is more a code of honour than a law book, and its details change from place to place.",
+    "So what are the real pillars of this code?"
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "پشتونولی — پشتونوں کا راستہ",
+      "en": "The way of the Pashtuns"
+     }
+    },
+    {
+     "search": "Pashtun men traditional clothing"
+    },
+    {
+     "search": "Pashto manuscript old"
+    },
+    {
+     "search": "Pashtun tribal elders"
+    },
+    {
+     "search": "Afghan tribesmen 19th century illustration"
+    },
+    {
+     "card": {
+      "ur": "زبانی روایت",
+      "en": "An oral tradition"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Pashtunwali",
+    "ur": "پشتونولی"
+   },
+   "feel": "آرام سے، واضح۔ آخر میں سوال کی طرح آواز اٹھائیں اور رک جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "راستہ"
+    },
+    {
+     "m": [
+      "fast"
+     ],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "زبانی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "عزت"
+    },
+    {
+     "m": [
+      "rise",
+      "pause2"
+     ],
+     "w": "ستون"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Nang — honour",
+   "narration_ur": "پشتونولی کے مرکز میں ایک لفظ ہے: ننگ، یعنی عزت۔ کہا جاتا ہے کہ پشتون کے لیے عزت کے بغیر زندگی کا کوئی مطلب نہیں۔ روایتی طور پر عزت کو تین چیزوں سے جوڑا جاتا ہے: زن، زر اور زمین، یعنی عورت، دولت اور زمین۔ سترہویں صدی کے شاعر خوشحال خان خٹک نے لکھا کہ جو شخص عزت کو اپنی زندگی کا رہنما نہیں بناتا، وہ اسے حقیر لگتا ہے۔ اور باقی اصول اسی عزت کی حفاظت کے لیے بنتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "At the centre of Pashtunwali is one word: nang, honour.",
+    "It is said that for a Pashtun, life without honour has no meaning.",
+    "Traditionally honour is tied to three things: zan, zar and zameen, meaning women, wealth and land.",
+    "The seventeenth-century poet Khushal Khan Khattak wrote that he despises the man who does not let honour guide his life.",
+    "And the other principles are built to protect this honour."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ننگ",
+      "en": "Nang — Honour"
+     }
+    },
+    {
+     "search": "Khushal Khan Khattak"
+    },
+    {
+     "search": "Khushal Khan Khattak mausoleum Akora Khattak"
+    },
+    {
+     "card": {
+      "ur": "زن، زر، زمین",
+      "en": "Zan · Zar · Zameen"
+     }
+    },
+    {
+     "search": "Pashtun warrior portrait old painting"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Nang — honour",
+    "ur": "ننگ"
+   },
+   "chapter": {
+    "n": 1,
+    "ur": "ننگ: عزت",
+    "en": "Nang: The Centre of Honour"
+   },
+   "feel": "گہری، پُرسکون آواز۔ ایک لفظ 'ننگ' پر پورا وزن ڈالیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "ننگ"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "زندگی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "زمین"
+    },
+    {
+     "m": [
+      "low",
+      "slow"
+     ],
+     "w": "حقیر"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "حفاظت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Melmastia",
+   "narration_ur": "پہلا ستون ہے ملمستیا، یعنی مہمان نوازی۔ مہمان چاہے کسی بھی نسل، مذہب یا حیثیت کا ہو، اس کی خدمت بدلے کی امید کے بغیر کی جاتی ہے۔ بعض بیانات کے مطابق یہ مہمان نوازی اجنبی بلکہ دشمن تک کو بھی ملتی ہے۔ انیس سو آٹھ میں برطانوی سفیر ماؤنٹ اسٹورٹ ایلفنسٹن افغانستان آیا، اور اپنی کتاب میں اس نے افغانوں کی مہمان نوازی اور انتقام دونوں کا ذکر کیا۔ مگر آج کے محققین کہتے ہیں کہ اس کتاب پر نوآبادیاتی سوچ کا اثر ہے، اس لیے اسے احتیاط سے پڑھنا چاہیے۔ پشتون معاشرے میں مہمان نوازی صرف اخلاق نہیں، میزبان کی عزت اور مقام بھی بڑھاتی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The first pillar is melmastia, hospitality.",
+    "Whatever the guest's race, religion or status, he is served without hope of reward.",
+    "According to some accounts, it extends even to strangers and enemies.",
+    "In 1808 the British envoy Mountstuart Elphinstone came to Afghanistan, and in his book he described both Afghan hospitality and revenge.",
+    "But today's researchers say the book carries colonial bias, so it should be read with care.",
+    "In Pashtun society hospitality is not just good manners; it also raises the host's honour and standing."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ملمستیا",
+      "en": "Melmastia — Hospitality"
+     }
+    },
+    {
+     "search": "Afghan tea hospitality guests"
+    },
+    {
+     "search": "Mountstuart Elphinstone portrait"
+    },
+    {
+     "search": "Elphinstone embassy Peshawar 1809 Shah Shuja"
+    },
+    {
+     "search": "Afghan dastarkhan meal guests"
+    },
+    {
+     "card": {
+      "ur": "مہمان",
+      "en": "The guest is protected"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Melmastia",
+    "ur": "ملمستیا"
+   },
+   "chapter": {
+    "n": 2,
+    "ur": "ملمستیا اور ننواتی: مہمان کا قانون",
+    "en": "Melmastia and Nanawatai: The Law of the Guest"
+   },
+   "feel": "گرم جوشی اور نرمی، جیسے مہمان کا استقبال کر رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "warm",
+      "stress"
+     ],
+     "w": "ملمستیا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بدلے"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "دشمن"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "احتیاط"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "عزت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Nanawatai",
+   "narration_ur": "دوسرا ستون ہے ننواتی، یعنی پناہ۔ کہا جاتا ہے کہ پشتو میں اس لفظ کی جڑ کا مطلب ہے اندر جانا۔ جو شخص پناہ مانگتا ہوا آپ کے گھر میں آ جائے، اسے اس کے دشمنوں سے بچانا آپ کی ذمہ داری بن جاتی ہے۔ ننواتی کا ایک اور رخ بھی ہے: جھگڑے میں ہارنے والا فریق جیتنے والے کے گھر جا کر معافی مانگ سکتا ہے، اور عزت کے ساتھ دشمنی ختم ہو سکتی ہے۔ سبرے کے گاؤں والوں نے یہی اصول نبھانے کا دعویٰ کیا تھا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The second pillar is nanawatai, refuge.",
+    "It is said that the root of this word in Pashto means to go in.",
+    "If someone comes into your house asking for refuge, protecting him from his enemies becomes your duty.",
+    "Nanawatai has another side: the losing party in a dispute can go to the winner's house and ask for forgiveness, and the feud can end with dignity.",
+    "The villagers of Sabray said this was the principle they were following."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ننواتی",
+      "en": "Nanawatai — Refuge"
+     }
+    },
+    {
+     "search": "Afghan village house courtyard"
+    },
+    {
+     "search": "Kunar River valley"
+    },
+    {
+     "search": "Pashtun elder with turban portrait"
+    },
+    {
+     "card": {
+      "ur": "پناہ",
+      "en": "Refuge, even at a cost"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Nanawatai",
+    "ur": "ننواتی"
+   },
+   "feel": "نرم اور احترام والی آواز۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "ننواتی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "ذمہ داری"
+    },
+    {
+     "m": [
+      "slow",
+      "warm"
+     ],
+     "w": "معافی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سبرے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Badal",
+   "narration_ur": "تیسرا ستون سب سے زیادہ بحث میں رہتا ہے: بدل۔ اس کا مطلب بدلہ بھی ہے اور لین دین یا تبادلہ بھی۔ روایت کہتی ہے کہ جس کی عزت پر ضرب لگے، یا جس کے خاندان کا کوئی فرد مارا جائے، اس کا حساب چکایا جانا چاہیے۔ اور اس کے لیے وقت کی کوئی حد نہیں ہوتی۔ بعض بیانات کے مطابق اگر قصوروار ہاتھ نہ آئے تو اس کے قریبی مرد رشتہ دار کو بھی نشانہ بنایا جا سکتا ہے۔ اسی وجہ سے دشمنیاں نسلوں تک چل سکتی ہیں اور سینکڑوں جانیں جا سکتی ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The third pillar is the most debated: badal.",
+    "It means revenge, but also exchange.",
+    "Tradition says that when a man's honour is attacked, or someone from his family is killed, the account must be settled.",
+    "And there is no time limit.",
+    "According to some accounts, if the guilty man cannot be reached, his closest male relative may be targeted instead.",
+    "This is why feuds can last for generations and cost hundreds of lives."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "بدل",
+      "en": "Badal — Settling the Account"
+     }
+    },
+    {
+     "search": "Waziristan tribesmen rifles old photograph"
+    },
+    {
+     "search": "Khyber tribesmen 1890s photograph"
+    },
+    {
+     "search": "tower house Waziristan"
+    },
+    {
+     "search": "Pashtun tribal village old photograph"
+    },
+    {
+     "card": {
+      "ur": "نسلوں کی دشمنی",
+      "en": "Feuds that outlive generations"
+     }
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Badal",
+    "ur": "بدل"
+   },
+   "chapter": {
+    "n": 3,
+    "ur": "بدل: حساب برابر",
+    "en": "Badal: Honour and Revenge"
+   },
+   "sfx": "hit",
+   "feel": "گہری، بھاری آواز۔ رفتار آہستہ، ہر جملے کے بعد وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "بدل"
+    },
+    {
+     "m": [
+      "low",
+      "slow"
+     ],
+     "w": "بدلہ"
+    },
+    {
+     "m": [
+      "low",
+      "slow"
+     ],
+     "w": "حساب"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "وقت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "قریبی"
+    },
+    {
+     "m": [
+      "low",
+      "slow",
+      "pause2"
+     ],
+     "w": "نسلوں"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Blood money & jirga",
+   "narration_ur": "مگر بدل کے ساتھ ایک راستہ بھی رکھا گیا ہے۔ بعض اوقات خون بہا، یعنی مالی معاوضہ، بدلے کی جگہ لے لیتا ہے۔ اور اس کے لیے بزرگوں کا جرگہ بیٹھتا ہے۔ شکاگو یونیورسٹی کے قانون کے پروفیسر ٹام گنزبرگ لکھتے ہیں کہ پشتونولی کو صرف وحشت کہنا درست نہیں۔ ان کے مطابق یہ ایسا نظام ہے جو نجی تشدد کو راستہ بھی دیتا ہے اور اسے حد میں بھی رکھتا ہے۔ یعنی ریاست کے بغیر بھی ترتیب قائم رکھنے کی ایک کوشش۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "But badal also comes with a way out.",
+    "Sometimes blood money, meaning financial compensation, takes the place of revenge.",
+    "And for that, a council of elders, a jirga, sits down.",
+    "Tom Ginsburg, a law professor at the University of Chicago, writes that it is wrong to call Pashtunwali simply barbaric.",
+    "In his view, it is a system that both channels private violence and keeps it within limits.",
+    "In other words, an attempt to keep order even without a state."
+   ],
+   "shots": [
+    {
+     "search": "jirga elders circle Pashtun"
+    },
+    {
+     "search": "tribal jirga Khyber Pakhtunkhwa"
+    },
+    {
+     "card": {
+      "ur": "خون بہا",
+      "en": "Compensation instead of revenge"
+     }
+    },
+    {
+     "search": "Afghan tribal elders meeting"
+    },
+    {
+     "card": {
+      "ur": "ریاست کے بغیر نظم",
+      "en": "Order without a state"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Blood money & jirga",
+    "ur": "خون بہا اور جرگہ"
+   },
+   "feel": "آواز میں امید۔ 'مگر' پر ہلکا موڑ دیں۔",
+   "delivery": [
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "مگر"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "وحشت"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress",
+      "pause"
+     ],
+     "w": "ریاست"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The Jirga",
+   "narration_ur": "اب سوال یہ ہے کہ فیصلہ کون کرتا ہے؟ جواب ہے: جرگہ۔ جرگہ بزرگوں کی وہ مجلس ہے جو دائرے میں بیٹھ کر مسئلہ سنتی ہے اور باہمی رضامندی سے فیصلہ کرتی ہے۔ ریڈیو فری یورپ کے مطابق قتل ہو، بیوی کا گھر چھوڑ جانا ہو یا وراثت کا جھگڑا، تقریباً ہر مسئلہ مقامی جرگے میں رکھا جا سکتا ہے۔ فیصلہ سنایا جائے تو اسے ماننا لازم سمجھا جاتا ہے۔ پاکستان کے ایک تحقیقی مقالے میں جرگے کو تیز انصاف دینے والا نظام کہا گیا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So who decides?",
+    "The answer is the jirga.",
+    "A jirga is an assembly of elders who sit in a circle, hear the dispute and decide by consensus.",
+    "According to Radio Free Europe, almost any problem, from murder to a runaway wife to an inheritance dispute, can be taken to a local jirga.",
+    "Once the decision is announced, it is considered binding.",
+    "A research paper from Pakistan describes the jirga as a system that delivers speedy justice."
+   ],
+   "shots": [
+    {
+     "search": "Afghan jirga elders sitting circle"
+    },
+    {
+     "search": "shura Afghanistan elders meeting"
+    },
+    {
+     "search": "jirga Peshawar"
+    },
+    {
+     "card": {
+      "ur": "جرگہ",
+      "en": "Jirga — Justice without a court"
+     }
+    },
+    {
+     "search": "Pashtun elders discussing under tree"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The Jirga",
+    "ur": "جرگہ"
+   },
+   "chapter": {
+    "n": 4,
+    "ur": "جرگہ: بغیر عدالت کا انصاف",
+    "en": "The Jirga: Justice without a Court"
+   },
+   "feel": "سوال سے شروع کریں، پھر جواب پر زور دیں۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "فیصلہ"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "جرگہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "fast"
+     ],
+     "w": "وراثت"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "لازم"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Loya Jirga",
+   "narration_ur": "جرگے کی بڑی شکل لویہ جرگہ کہلاتی ہے، یعنی بڑی مجلس۔ روایت کے مطابق سترہ سو نو میں میرویس ہوتک نے قندھار کے قریب لویہ جرگہ بلایا تھا۔ سترہ سو سینتالیس میں قندھار کے جرگے نے احمد شاہ درانی کو اپنا بادشاہ چنا، جس کی کہانی ہم پچھلی ویڈیو میں دیکھ چکے ہیں۔ بعد میں بھی نئی حکومتوں اور نئے آئین کے لیے جرگے بلائے جاتے رہے، جیسے دو ہزار دو اور دو ہزار تین میں کابل میں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The big form of the jirga is the loya jirga, the grand council.",
+    "According to tradition, in 1709 Mirwais Hotak convened a loya jirga near Kandahar.",
+    "In 1747 the jirga at Kandahar chose Ahmad Shah Durrani as its king, a story we saw in the last video.",
+    "Later, jirgas were still called for new governments and new constitutions, such as in Kabul in 2002 and 2003."
+   ],
+   "shots": [
+    {
+     "search": "Mirwais Hotak"
+    },
+    {
+     "search": "Ahmad Shah Durrani coronation Kandahar"
+    },
+    {
+     "search": "Loya Jirga 2002 Kabul"
+    },
+    {
+     "search": "Loya Jirga 2003 constitution Kabul"
+    },
+    {
+     "card": {
+      "ur": "لویہ جرگہ",
+      "en": "Loya Jirga — The Grand Council"
+     }
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Loya Jirga",
+    "ur": "لویہ جرگہ"
+   },
+   "feel": "بلند، شان دار اور پُراعتماد۔ تاریخ کی عظمت محسوس کروائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "لویہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "میرویس"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "احمد"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Custom vs state",
+   "narration_ur": "مگر پشتونولی ہمیشہ ریاست کے ساتھ آرام سے نہیں چلی۔ ٹام گنزبرگ کے مطابق یہ نظام ریاستی قانون کے ساتھ ساتھ چلتا ہے، اسے سہارا بھی دیتا ہے، اور کبھی اس سے ٹکرا بھی جاتا ہے۔ ماہرِ بشریات تھامس بارفیلڈ لکھتے ہیں کہ کابل کی حکومتیں ایک صدی سے زیادہ عرصے سے مرکزی عدالتی ڈھانچے مقامی برادریوں پر لاگو کرنے کی کوشش کرتی رہی ہیں۔ لیکن ان کے مطابق عملی طور پر کوئی بھی نظام دوسرے کو مکمل طور پر ہٹا نہیں سکا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "But Pashtunwali has not always sat comfortably beside the state.",
+    "According to Tom Ginsburg, it runs alongside state law, supports it, and sometimes clashes with it.",
+    "The anthropologist Thomas Barfield writes that Kabul's governments have tried for more than a century to impose central judicial systems on local communities.",
+    "But in practice, he says, no system has ever fully replaced the others."
+   ],
+   "shots": [
+    {
+     "search": "Kabul 1920s street old photograph"
+    },
+    {
+     "search": "Amir Abdur Rahman Khan"
+    },
+    {
+     "search": "Afghan qazi court old photograph"
+    },
+    {
+     "card": {
+      "ur": "ریاست اور روایت",
+      "en": "State law and customary law"
+     }
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Custom vs state",
+    "ur": "روایت اور ریاست"
+   },
+   "feel": "سنجیدہ، حقائق بیان کرنے کا انداز۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "low"
+     ],
+     "w": "ہمیشہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "مکمل"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Two views",
+   "narration_ur": "اب وہ حصہ جسے ایمانداری سے بیان کرنا ضروری ہے۔ پشتونولی کے حامی کہتے ہیں کہ یہ ضابطہ مہمان، پناہ اور انصاف کی حفاظت کرتا ہے، اور ریاست کی غیر موجودگی میں معاشرے کو جوڑے رکھتا ہے۔ ناقدین کہتے ہیں کہ اس کے کچھ رواج عورتوں کے ساتھ ناانصافی کرتے ہیں، جیسے وراثت میں بیٹیوں کو حصہ نہ دینا، جبکہ اسلامی قانون میں بیٹیوں کا حصہ مقرر ہے۔ پاکستان میں سوارہ جیسے رواج، جن میں تنازع نمٹانے کے لیے لڑکیوں کی شادی کر دی جاتی ہے، پر سخت تنقید ہوتی رہی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now the part that has to be told honestly.",
+    "Supporters say the code protects the guest, the refugee and justice, and holds society together where the state is absent.",
+    "Critics say some of its customs are unfair to women, such as denying daughters a share of inheritance, while Islamic law fixes a share for daughters.",
+    "In Pakistan, customs such as swara, where girls are given in marriage to settle a dispute, have been sharply criticised."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "دو رائے",
+      "en": "Two Views"
+     }
+    },
+    {
+     "card": {
+      "ur": "حامی",
+      "en": "Supporters: order, refuge, justice"
+     }
+    },
+    {
+     "card": {
+      "ur": "ناقدین",
+      "en": "Critics: women's rights"
+     }
+    },
+    {
+     "search": "Peshawar city skyline"
+    },
+    {
+     "search": "Quran manuscript old"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Two views",
+    "ur": "دو رائے"
+   },
+   "chapter": {
+    "n": 5,
+    "ur": "دو رائے",
+    "en": "Two Views: Supporters and Critics"
+   },
+   "feel": "پہلے جملے کے بعد رکیں۔ دونوں طرف کی بات انصاف سے، نرمی سے۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "low",
+      "pause"
+     ],
+     "w": "ایمانداری"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "حفاظت"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "ناانصافی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سوارہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Reform voices",
+   "narration_ur": "رپورٹوں کے مطابق دو ہزار چودہ میں پاکستان علما کونسل نے کہا کہ عزت کے نام پر قتل کا کوئی اسلامی جواز نہیں۔ امریکی ادارے یو ایس آئی پی کی ایک رپورٹ کہتی ہے کہ افغانستان میں اکثر اسلامی قانون مقامی رواجوں کے نیچے آ جاتا ہے، خاص طور پر خاندانی معاملات میں۔ اور کئی پشتون لکھنے والے خود کہتے ہیں کہ ننگ کا اصل مطلب کمزور کی حفاظت ہے، عورت پر پابندی نہیں۔ ان کا مطالبہ ہے کہ پشتونولی کو مرد اور عورت دونوں کے لیے برابر ضابطہ بنایا جائے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "According to reports, in 2014 the Pakistan Ulema Council said honour killings have no Islamic justification.",
+    "A report by the US Institute of Peace says that in Afghanistan Islamic law is often overridden by local custom, especially in family matters.",
+    "And many Pashtun writers themselves say the true meaning of nang is protecting the weak, not restricting women.",
+    "They argue that Pashtunwali should become an equal code for both men and women."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ننگ کا اصل مطلب؟",
+      "en": "What does nang really mean?"
+     }
+    },
+    {
+     "search": "Pakistan Parliament Islamabad"
+    },
+    {
+     "search": "Qissa Khwani Bazaar Peshawar"
+    },
+    {
+     "card": {
+      "ur": "برابری",
+      "en": "An equal code for all"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Reform voices",
+    "ur": "اصلاح کی آوازیں"
+   },
+   "feel": "امید اور نرمی کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "کمزور"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "برابر"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Pashtunwali today",
+   "narration_ur": "آج شہروں میں رہنے والے بہت سے پشتون ان رواجوں پر پوری طرح نہیں چلتے۔ ایک تحقیقی مقالہ بتاتا ہے کہ نئی نسل تعلیم اور ٹیکنالوجی کے ساتھ ان روایات کو سوال کی نظر سے دیکھ رہی ہے۔ یعنی پشتونولی کوئی جامد چیز نہیں؛ ہر دور میں لوگ اس کے معنی بدلتے رہے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Today many urban Pashtuns do not follow these customs fully.",
+    "A research paper says the younger generation, with education and technology, is questioning these traditions.",
+    "So Pashtunwali is not frozen; in every era people have changed what it means."
+   ],
+   "shots": [
+    {
+     "search": "Peshawar University campus"
+    },
+    {
+     "search": "Kabul city modern view"
+    },
+    {
+     "card": {
+      "ur": "بدلتے معنی",
+      "en": "A code that keeps changing"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Pashtunwali today",
+    "ur": "آج کی پشتونولی"
+   },
+   "feel": "آخر کی طرف روشنی اور امید۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "warm",
+      "stress"
+     ],
+     "w": "بدلتے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Next video",
+   "narration_ur": "تو پشتونولی کیا ہے؟ مہمان کی حفاظت، پناہ کا وعدہ، بدلے کا بوجھ اور جرگے کا انصاف، سب کچھ عزت کے گرد گھومتا ہے۔ اس میں روشن مثالیں بھی ہیں اور سخت پہلو بھی۔ آپ کے خیال میں آج پشتونولی کے کون سے حصے بچنے چاہئیں اور کون سے بدلنے چاہئیں؟ کمنٹ میں احترام کے ساتھ لکھیں۔ اگلی ویڈیو میں ہم ایک اور قوم کی کہانی دیکھیں گے: بلوچ کون ہیں، اور ان کی تاریخ کہاں سے شروع ہوتی ہے۔ ویڈیو پسند آئی ہو تو سبسکرائب کیجیے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So what is Pashtunwali?",
+    "Protecting the guest, the promise of refuge, the burden of revenge and the justice of the jirga: all of it revolves around honour.",
+    "It has bright examples and harsh sides.",
+    "Which parts of Pashtunwali do you think should stay today, and which should change?",
+    "Write in the comments, respectfully.",
+    "In the next video we look at another people: who are the Baloch, and where does their history begin.",
+    "If you liked the video, please subscribe."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "پشتونولی",
+      "en": "Pashtunwali"
+     }
+    },
+    {
+     "search": "Khyber Pass old photograph"
+    },
+    {
+     "search": "Bolan Pass"
+    },
+    {
+     "search": "Hanna Lake Quetta"
+    },
+    {
+     "card": {
+      "ur": "اگلی ویڈیو: بلوچ کون ہیں؟",
+      "en": "Next: Who are the Baloch?"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Next video",
+    "ur": "اگلی ویڈیو"
+   },
+   "feel": "سوال پر آواز اوپر، پھر خلاصے پر آہستہ، آخر میں مسکرا کر۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "کیا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "عزت"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سخت"
+    },
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "بچنے"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "احترام"
+    },
+    {
+     "m": [
+      "warm",
+      "pause"
+     ],
+     "w": "بلوچ"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "سبسکرائب"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Pashtunwali: A Village vs the Taliban #Shorts",
+   "scenes": [
+    {
+     "image": "01a",
+     "text_on_screen": "Kunar, 2005",
+     "narration_ur": "جون دو ہزار پانچ۔ ایک زخمی امریکی فوجی کو ایک افغان گاؤں پناہ دیتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01b",
+     "text_on_screen": "Taliban demand",
+     "narration_ur": "طالبان سے جڑے مسلح لوگ مطالبہ کرتے ہیں کہ اسے ہمارے حوالے کرو۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01c",
+     "text_on_screen": "They refuse",
+     "narration_ur": "گاؤں والے انکار کر دیتے ہیں، کیونکہ ان کے مطابق یہ ننواتی ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01f",
+     "text_on_screen": "Pashtunwali",
+     "narration_ur": "یہ ضابطہ کیا ہے؟ مکمل ویڈیو دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "Three Pillars of Pashtunwali #Shorts",
+   "scenes": [
+    {
+     "image": "04a",
+     "text_on_screen": "Melmastia",
+     "narration_ur": "پہلا ستون: ملمستیا، یعنی مہمان نوازی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05a",
+     "text_on_screen": "Nanawatai",
+     "narration_ur": "دوسرا ستون: ننواتی، یعنی پناہ۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "06a",
+     "text_on_screen": "Badal",
+     "narration_ur": "تیسرا ستون: بدل، یعنی حساب برابر کرنا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "08d",
+     "text_on_screen": "Jirga",
+     "narration_ur": "اور فیصلہ کرتا ہے جرگہ۔ مکمل ویڈیو دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "What is a Jirga? #Shorts",
+   "scenes": [
+    {
+     "image": "08a",
+     "text_on_screen": "Jirga",
+     "narration_ur": "جرگہ بزرگوں کی وہ مجلس ہے جو دائرے میں بیٹھتی ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "08b",
+     "text_on_screen": "Consensus",
+     "narration_ur": "مسئلہ سنتی ہے اور باہمی رضامندی سے فیصلہ کرتی ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09c",
+     "text_on_screen": "Loya Jirga",
+     "narration_ur": "سترہ سو سینتالیس میں ایک جرگے نے ایک بادشاہ چنا تھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09d",
+     "text_on_screen": "Today",
+     "narration_ur": "اور آج بھی لویہ جرگے بلائے جاتے ہیں۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ],
+ "refresh_pics": {
+  "v": 1,
+  "stems": [
+   "14b",
+   "14c",
+   "14d"
+  ]
+ },
+ "rerender_v": 2
+}

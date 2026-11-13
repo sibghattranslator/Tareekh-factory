@@ -1,0 +1,1874 @@
+{
+ "id": "tk002",
+ "format": 2,
+ "title": "Pashtun Qabeele – पश्तून क़बीलों का शजरा | Durrani, Yusufzai, Afridi, Kakar | Tribal Tree",
+ "thumb_text": "The Pashtun Tribal Tree",
+ "thumb_ur": "پشتون قبیلوں کا شجرہ",
+ "thumb_sub": "Durrani · Ghilzai · Yusufzai · Afridi · Kakar",
+ "scenes": [
+  {
+   "text_on_screen": "1747 · Kandahar",
+   "narration_ur": "سال سترہ سو سینتالیس۔ قندھار۔ ایران کا بادشاہ نادر شاہ قتل ہو چکا ہے، اور ابدالی قبیلے کے سردار ایک جرگے میں بیٹھے ہیں۔ سوال ایک ہی ہے: اب ہمارا بادشاہ کون ہوگا؟ جرگہ تقریباً پچیس سال کے ایک نوجوان کو چنتا ہے، احمد خان۔ وہ نیا لقب لیتا ہے، دُرِّ دُرّان، یعنی موتیوں کا موتی۔ اور اسی دن سے ایک پورے قبیلے کا نام بدل جاتا ہے: جو کل تک ابدالی تھے، آج سے درانی کہلاتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The year 1747. Kandahar.",
+    "Nader Shah of Iran has been killed, and the chiefs of the Abdali tribe sit in a jirga.",
+    "There is only one question: who will be our king now?",
+    "The jirga chooses a young man of about twenty-five, Ahmad Khan.",
+    "He takes a new title, Durr-i-Durran, the pearl of pearls.",
+    "And from that day a whole tribe changes its name: those who were Abdali yesterday are called Durrani from now on."
+   ],
+   "shots": [
+    {
+     "search": "Kandahar"
+    },
+    {
+     "search": "Nader Shah"
+    },
+    {
+     "search": "Jirga"
+    },
+    {
+     "search": "Ahmad Shah Durrani",
+     "skip": true
+    },
+    {
+     "card": {
+      "ur": "۱۷۴۷ · قندھار",
+      "en": "1747 · Kandahar"
+     }
+    },
+    {
+     "search": "Durrani Empire"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "1747",
+    "ur": "۱۷۴۷"
+   },
+   "sfx": "hit",
+   "feel": "سنجیدہ اور دھیمی آواز، کہانی کا تناؤ بڑھاتے جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سینتالیس۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "بادشاہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ابدالی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Why Ahmad Khan?",
+   "narration_ur": "لیکن احمد خان ہی کیوں؟ جواب اس کے شجرے میں ہے۔ اس کا باپ ابدالیوں کا سردار تھا، اور گھرانہ سدوزئی تھا، جو پوپلزئی کی ایک شاخ ہے۔ پشتون معاشرے میں قبیلہ صرف نام نہیں، پہچان ہے۔ آج کی کہانی اسی شجرے کی ہے۔ درانی، غلزئی، یوسفزئی، آفریدی، کاکڑ، یہ سب ایک ہی درخت کی شاخیں کیسے بنے؟ اور تاریخ اس درخت کے بارے میں کیا کہتی ہے؟",
+   "narration_roman": "",
+   "subtitle_en": [
+    "But why Ahmad Khan? The answer is in his family tree.",
+    "His father was chief of the Abdalis, and his clan was Sadozai, a branch of the Popalzai.",
+    "In Pashtun society a tribe is not just a name; it is an identity.",
+    "Today's story is about this family tree.",
+    "Durrani, Ghilzai, Yusufzai, Afridi, Kakar: how did all these become branches of one tree?",
+    "And what does history say about this tree?"
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "پشتون قبیلوں کا شجرہ",
+      "en": "The Pashtun Tribal Tree"
+     }
+    },
+    {
+     "search": "Popalzai",
+     "skip": true
+    },
+    {
+     "search": "Sadozai dynasty",
+     "skip": true
+    },
+    {
+     "search": "Pashtun tribes"
+    },
+    {
+     "search": "Yusufzai",
+     "skip": true
+    },
+    {
+     "search": "Afridi",
+     "skip": true
+    },
+    {
+     "search": "Durrani Empire",
+     "skip": true
+    },
+    {
+     "search": "Peshawar"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The family tree",
+    "ur": "شجرہ"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "کیوں؟"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "یوسفزئی،"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "تاریخ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Four houses",
+   "narration_ur": "پشتون افغانستان کے جنوب اور مشرق سے لے کر خیبر پختونخوا اور شمالی بلوچستان تک آباد ہیں۔ قبیلوں اور شاخوں کی گنتی کے اندازے ساڑھے تین سو سے چار سو تک جاتے ہیں۔ لیکن روایتی شجرہ ان سب کو صرف چار بڑے گھرانوں میں بانٹ دیتا ہے۔ دو لفظ یاد رکھیں۔ زئی کا مطلب ہے بیٹا یا اولاد، جیسے یوسفزئی، یوسف کی اولاد۔ اور خیل کا مطلب ہے شاخ، جیسے سلیمان خیل۔ اس طرح ہر پشتون اپنا نام باپ دادا کی ایک لمبی زنجیر سے جوڑ سکتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Pashtuns live from southern and eastern Afghanistan to Khyber Pakhtunkhwa and northern Balochistan.",
+    "Estimates of the number of tribes and branches range from three hundred and fifty to four hundred.",
+    "But the traditional tree divides all of them into just four big houses.",
+    "Remember two words.",
+    "Zai means son or descendants, as in Yusufzai, the descendants of Yusuf.",
+    "And khel means branch, as in Sulaiman Khel.",
+    "This way every Pashtun can link his name to a long chain of ancestors."
+   ],
+   "shots": [
+    {
+     "search": "Pashtunistan"
+    },
+    {
+     "search": "Khyber Pakhtunkhwa"
+    },
+    {
+     "search": "Balochistan, Pakistan"
+    },
+    {
+     "card": {
+      "ur": "زئی = اولاد · خیل = شاخ",
+      "en": "Zai = descendants · Khel = branch"
+     }
+    },
+    {
+     "search": "Pashtun people",
+     "skip": true
+    },
+    {
+     "search": "Sulaiman Khel",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Zai & Khel",
+    "ur": "زئی اور خیل"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "افغانستان"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "گھرانوں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "رکھیں۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "پشتون"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 1 · The root",
+   "narration_ur": "روایت کے مطابق تمام پشتونوں کے جدِ امجد قیس عبدالرشید تھے، جن کا ذکر پچھلی ویڈیو میں آیا۔ کہا جاتا ہے کہ ان کے تین بیٹے تھے: سڑبن، بیٹن اور غرغشت، اور ایک چوتھا، کرلان، جسے گود لیا ہوا بیٹا بتایا جاتا ہے۔ انہی چار ناموں سے چار گھرانے بنے: سڑبنی، بیٹنی، غرغشتی اور کرلانی۔ لیکن مؤرخ اس شجرے کو روایت کہتے ہیں، لکھی ہوئی تاریخ نہیں۔ کسی علاقے کی کہانی میں چار بھائی ہیں، کسی میں دو یا تین۔ اور زیادہ تر محقق مانتے ہیں کہ پشتون کسی ایک آدمی کی اولاد نہیں، کئی گروہ مل کر ایک قوم بنے۔ پھر شجرہ اہم کیوں ہے؟ اس لیے کہ صدیوں تک زمین، اتحاد اور بادشاہت کے فیصلے اسی پر ہوئے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "According to tradition, the forefather of all Pashtuns was Qais Abdur Rashid, mentioned in the last video.",
+    "He is said to have had three sons: Sarban, Bitan and Ghurghusht, and a fourth, Karlan, described as adopted.",
+    "From these four names came four houses: Sarbani, Bitani, Gharghashti and Karlani.",
+    "But historians call this tree a tradition, not written history.",
+    "In some regions the story has four brothers, in others two or three.",
+    "And most researchers believe the Pashtuns are not the children of one man; several groups joined to form one people.",
+    "Then why does the tree matter?",
+    "Because for centuries decisions about land, alliances and kingship rested on it."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "قیس عبدالرشید کے چار بیٹے",
+      "en": "The four sons of Qais"
+     }
+    },
+    {
+     "search": "Qais Abdur Rashid",
+     "skip": true
+    },
+    {
+     "search": "Takht-i-Sulaiman"
+    },
+    {
+     "search": "Genealogy",
+     "skip": true
+    },
+    {
+     "search": "Oral tradition",
+     "skip": true
+    },
+    {
+     "search": "Sulaiman Mountains"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The root",
+    "ur": "جڑ"
+   },
+   "chapter": {
+    "n": 1,
+    "ur": "شجرے کی جڑ",
+    "en": "Chapter 1: The Root of the Tree"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "عبدالرشید"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "روایت"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "شجرہ"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "بادشاہت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 2 · Sarbani",
+   "narration_ur": "باب دو۔ سڑبنی۔ بڑے بیٹے سڑبن کی اولاد دو شاخوں میں گنی جاتی ہے: شرخبون اور خرشبون۔ شرخبون کی طرف ترین، شیرانی اور ابدالی آتے ہیں، جو زیادہ تر قندھار، پشین اور کوہِ سلیمان کے آس پاس بسے۔ خرشبون کی طرف یوسفزئی، مہمند، خلیل، داؤدزئی اور شنواری جیسے قبیلے ہیں، جو پشاور کی وادی اور اس کے شمال میں آباد ہیں۔ یعنی ایک ہی گھرانے کی ایک شاخ مغرب میں قندھار کی طرف ہے، اور دوسری مشرق میں پشاور کی طرف۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Chapter two. The Sarbani.",
+    "The descendants of the eldest son, Sarban, are counted in two branches: Sharkbun and Kharshbun.",
+    "On the Sharkbun side come the Tareen, Sherani and Abdali, who settled mostly around Kandahar, Pishin and the Sulaiman Range.",
+    "On the Kharshbun side are tribes like the Yusufzai, Mohmand, Khalil, Daudzai and Shinwari, living in the Peshawar valley and to its north.",
+    "So one branch of the same house lies west towards Kandahar, and the other east towards Peshawar."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "سڑبنی گھرانہ",
+      "en": "The Sarbani House"
+     }
+    },
+    {
+     "search": "Tareen",
+     "skip": true
+    },
+    {
+     "search": "Mohmand",
+     "skip": true
+    },
+    {
+     "search": "Shinwari",
+     "skip": true
+    },
+    {
+     "search": "Peshawar Valley"
+    },
+    {
+     "search": "Pishin District"
+    },
+    {
+     "search": "Peshawar"
+    },
+    {
+     "search": "Ghazni"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Sarbani",
+    "ur": "سڑبنی"
+   },
+   "chapter": {
+    "n": 2,
+    "ur": "سڑبنی گھرانہ",
+    "en": "Chapter 2: The Sarbani House"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "گھرانے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Durrani: Zirak & Panjpai",
+   "narration_ur": "اب واپس قندھار۔ شجرے کے مطابق ابدالی، ترین ہی کی ایک شاخ ہیں، اور ابدالی یعنی درانی دو حصوں میں بٹتے ہیں۔ پہلا حصہ زیرک ہے، جس میں پوپلزئی، علی کوزئی، بارکزئی اور اچکزئی آتے ہیں۔ دوسرا پنجپائی ہے، جس میں نورزئی، علی زئی اور اسحاق زئی شامل ہیں۔ زیرک زیادہ تر قندھار کے آس پاس رہے، اور پنجپائی مغرب میں ہلمند اور فراہ کی طرف۔ کہا جاتا ہے کہ اچکزئی پہلے بارکزئی ہی کا حصہ تھے، اور احمد شاہ نے انہیں الگ قبیلہ بنا دیا۔ ان میں سے دو نام آگے چل کر افغانستان کی پوری تاریخ لکھنے والے تھے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Back to Kandahar now.",
+    "According to the tree, the Abdali are a branch of the Tareen, and the Abdali, the Durrani, split into two parts.",
+    "The first is Zirak, which includes the Popalzai, Alikozai, Barakzai and Achakzai.",
+    "The second is Panjpai, which includes the Nurzai, Alizai and Ishaqzai.",
+    "Zirak mostly lived around Kandahar, and Panjpai to the west towards Helmand and Farah.",
+    "It is said the Achakzai were once part of the Barakzai, and Ahmad Shah made them a separate tribe.",
+    "Two of these names would go on to write the whole history of Afghanistan."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "زیرک · پنجپائی",
+      "en": "Zirak · Panjpai"
+     }
+    },
+    {
+     "search": "Barakzai",
+     "skip": true
+    },
+    {
+     "search": "Achakzai"
+    },
+    {
+     "search": "Helmand Province",
+     "skip": true
+    },
+    {
+     "search": "Farah Province"
+    },
+    {
+     "search": "Durrani"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Durrani",
+    "ur": "درانی"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "قندھار۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "افغانستان"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Popalzai & Barakzai: the kings",
+   "narration_ur": "پہلا نام پوپلزئی۔ احمد شاہ درانی اسی کی سدوزئی شاخ سے تھے، اور ان کا خاندان کئی پشتوں تک تخت پر رہا۔ دوسرا نام بارکزئی۔ انیسویں صدی میں دوست محمد خان نے سدوزئی کی جگہ بارکزئی حکومت قائم کی، اور ان کی محمدزئی شاخ کے لوگ بیسویں صدی تک بادشاہ رہے۔ آخری بادشاہ ظاہر شاہ تھے، جن کی بادشاہت انیس سو تہتر میں ختم ہوئی۔ یعنی سترہ سو سینتالیس کے بعد تقریباً ہر افغان بادشاہ درانی تھا۔ لیکن درانی اکیلے نہیں تھے۔ ان سے پہلے ایک اور گھرانہ تخت تک پہنچ چکا تھا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The first name is Popalzai.",
+    "Ahmad Shah Durrani came from its Sadozai branch, and his family stayed on the throne for several generations.",
+    "The second name is Barakzai.",
+    "In the nineteenth century Dost Mohammad Khan replaced the Sadozai with Barakzai rule, and men of their Mohammadzai branch were kings until the twentieth century.",
+    "The last king was Zahir Shah, whose monarchy ended in 1973.",
+    "So after 1747 almost every Afghan king was a Durrani.",
+    "But the Durrani were not alone.",
+    "Another house had reached the throne before them."
+   ],
+   "shots": [
+    {
+     "search": "Ahmad Shah Durrani",
+     "skip": true
+    },
+    {
+     "search": "Dost Mohammad Khan",
+     "skip": true
+    },
+    {
+     "search": "Mohammad Zahir Shah"
+    },
+    {
+     "search": "Kingdom of Afghanistan",
+     "skip": true
+    },
+    {
+     "search": "Kabul",
+     "skip": true
+    },
+    {
+     "card": {
+      "ur": "۱۷۴۷ سے ۱۹۷۳",
+      "en": "1747 to 1973"
+     }
+    },
+    {
+     "search": "Ahmad Shah Baba mausoleum"
+    },
+    {
+     "search": "Arg (Kabul)",
+     "skip": true
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The kings",
+    "ur": "بادشاہ"
+   },
+   "feel": "بھاری، پُر وقار آواز، تاریخ کے وزن کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پوپلزئی۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "درانی"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "گھرانہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 3 · Bitani",
+   "narration_ur": "باب تین۔ بیٹنی۔ دوسرے بیٹے بیٹن کے گھرانے میں تین بڑے نام ہیں: غلزئی، جنہیں غلجی بھی کہتے ہیں، لودھی اور نیازی۔ روایت انہیں بیٹن کی بیٹی بی بی متو کی اولاد بتاتی ہے۔ مؤرخ ایک اور راستہ دکھاتے ہیں۔ کئی محقق، اور انسائیکلوپیڈیا ایرانیکا بھی، کہتے ہیں کہ غلزئی کا اصل حصہ غالباً خلج تھے، ایک پرانا گروہ جو غزنی کے آس پاس رہتا تھا اور آہستہ آہستہ پشتو بولنے لگا۔ سب مؤرخ اس سے اتفاق نہیں کرتے، اور یہ بحث آج بھی جاری ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Chapter three. The Bitani.",
+    "In the house of the second son, Bitan, there are three big names: Ghilzai, also called Ghilji, Lodi and Niazi.",
+    "Tradition makes them descendants of Bitan's daughter, Bibi Mato.",
+    "Historians point to another route.",
+    "Many researchers, and Encyclopaedia Iranica, say the core of the Ghilzai was probably the Khalaj, an old group that lived around Ghazni and gradually began speaking Pashto.",
+    "Not all historians agree, and the debate continues today."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "بیٹنی گھرانہ",
+      "en": "The Bitani House"
+     }
+    },
+    {
+     "search": "Ghilji",
+     "skip": true
+    },
+    {
+     "search": "Khalaj people",
+     "skip": true
+    },
+    {
+     "search": "Ghazni",
+     "skip": true
+    },
+    {
+     "search": "Niazi",
+     "skip": true
+    },
+    {
+     "search": "Lodi tribe"
+    },
+    {
+     "search": "Ghazni"
+    },
+    {
+     "search": "Ghaznavids"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Bitani",
+    "ur": "بیٹنی"
+   },
+   "chapter": {
+    "n": 3,
+    "ur": "بیٹنی گھرانہ",
+    "en": "Chapter 3: The Bitani House"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "تین۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "اتفاق"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "1709 · Mirwais Hotak",
+   "narration_ur": "غلزئی میں بھی کئی قبیلے ہیں: ہوتک، توخی، سلیمان خیل، خروٹی، احمدزئی، اندڑ، ترہ کی اور ناصر۔ ان میں ہوتک نے وہ کام کیا جو درانی سے بھی پہلے ہوا۔ سترہ سو نو میں قندھار کے میرویس ہوتک نے ایران کے صفوی حاکموں کے خلاف بغاوت کی اور قندھار آزاد کر لیا۔ سترہ سو بائیس میں ان کے بیٹے محمود نے اصفہان فتح کر لیا، جو ایران کا دارالحکومت تھا۔ یہ حکومت سترہ سو اڑتیس تک چلی، جب نادر شاہ نے قندھار لے لیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Ghilzai also include many tribes: Hotak, Tokhi, Sulaiman Khel, Kharoti, Ahmadzai, Andar, Taraki and Nasir.",
+    "Among them, the Hotak did something that happened even before the Durrani.",
+    "In 1709 Mirwais Hotak of Kandahar rebelled against the Safavid rulers of Iran and freed Kandahar.",
+    "In 1722 his son Mahmud conquered Isfahan, the capital of Iran.",
+    "This rule lasted until 1738, when Nader Shah took Kandahar."
+   ],
+   "shots": [
+    {
+     "search": "Mirwais Hotak"
+    },
+    {
+     "search": "Hotak dynasty"
+    },
+    {
+     "search": "Safavid dynasty"
+    },
+    {
+     "search": "Isfahan"
+    },
+    {
+     "search": "Mahmud Hotak"
+    },
+    {
+     "card": {
+      "ur": "۱۷۰۹ · میرویس ہوتک",
+      "en": "1709 · Mirwais Hotak"
+     }
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Hotak",
+    "ur": "ہوتک"
+   },
+   "feel": "بھاری، پُر وقار آواز، تاریخ کے وزن کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "احمدزئی،"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "قندھار"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Lodi & Suri: Delhi",
+   "narration_ur": "اسی گھرانے کی شاخ لودھی نے دہلی پر حکومت کی۔ اس سلطنت کی بنیاد چودہ سو اکیاون میں بہلول لودھی نے رکھی۔ لودھی سلطان پندرہ سو چھبیس تک دہلی کے تخت پر رہے، جب پانی پت میں بابر نے ابراہیم لودھی کو شکست دی۔ اور چودہ سال بعد شیر شاہ سوری نے بابر کے بیٹے ہمایوں کو ہندوستان سے نکال دیا۔ سور قبیلہ بھی اسی گھرانے میں گنا جاتا ہے۔ یعنی قندھار، اصفہان اور دہلی، تینوں تختوں پر اس گھرانے کے لوگ بیٹھ چکے تھے۔ درانی اور غلزئی کا مقابلہ افغان سیاست میں صدیوں نظر آیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Lodi, a branch of the same house, ruled Delhi.",
+    "The sultanate was founded in 1451 by Bahlul Lodi.",
+    "Lodi sultans sat on the throne of Delhi until 1526, when Babur defeated Ibrahim Lodi at Panipat.",
+    "Fourteen years later Sher Shah Suri drove Babur's son Humayun out of India.",
+    "The Sur tribe is also counted in the same house.",
+    "So Kandahar, Isfahan and Delhi: all three thrones had been held by people of this house.",
+    "The rivalry of Durrani and Ghilzai shows up in Afghan politics for centuries."
+   ],
+   "shots": [
+    {
+     "search": "Lodi dynasty"
+    },
+    {
+     "search": "Bahlul Lodi"
+    },
+    {
+     "search": "First Battle of Panipat"
+    },
+    {
+     "search": "Sher Shah Suri"
+    },
+    {
+     "search": "Humayun"
+    },
+    {
+     "search": "Lodi Gardens"
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Delhi",
+    "ur": "دہلی"
+   },
+   "feel": "بھاری، پُر وقار آواز، تاریخ کے وزن کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "گھرانے"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "مقابلہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 4 · Gharghashti",
+   "narration_ur": "باب چار۔ غرغشتی۔ تیسرے بیٹے غرغشت کا گھرانہ گنتی میں چھوٹا ہے، لیکن اس میں ایک بہت بڑا قبیلہ ہے: کاکڑ۔ شجرے کے مطابق کاکڑ، دانی کے بیٹے اور غرغشت کے پوتے تھے۔ اسی گھرانے میں صافی، جدون، موسیٰ خیل اور مندوخیل بھی گنے جاتے ہیں۔ کاکڑ زیادہ تر شمالی بلوچستان میں آباد ہیں: ژوب، قلعہ سیف اللہ، لورالائی، پشین اور کوئٹہ، اور سرحد کے اس پار قندھار کے علاقے میں بھی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Chapter four. The Gharghashti.",
+    "The house of the third son, Ghurghusht, is smaller in number, but it holds one very big tribe: the Kakar.",
+    "According to the tree the Kakar were sons of Dani and grandsons of Ghurghusht.",
+    "The Safi, Jadoon, Musa Khel and Mandokhel are also counted in this house.",
+    "The Kakar live mostly in northern Balochistan: Zhob, Qila Saifullah, Loralai, Pishin and Quetta, and across the border near Kandahar."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "غرغشتی گھرانہ",
+      "en": "The Gharghashti House"
+     }
+    },
+    {
+     "search": "Kakar",
+     "skip": true
+    },
+    {
+     "search": "Zhob",
+     "skip": true
+    },
+    {
+     "search": "Loralai",
+     "skip": true
+    },
+    {
+     "search": "Quetta"
+    },
+    {
+     "search": "Qila Saifullah",
+     "skip": true
+    },
+    {
+     "search": "Zhob Valley"
+    },
+    {
+     "search": "Loralai"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Gharghashti",
+    "ur": "غرغشتی"
+   },
+   "chapter": {
+    "n": 4,
+    "ur": "غرغشتی گھرانہ",
+    "en": "Chapter 4: The Gharghashti House"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "چار۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "گھرانہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "لورالائی،"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Kakars in the British era",
+   "narration_ur": "انیس سو گیارہ کی انسائیکلوپیڈیا برٹانیکا لکھتی ہے کہ بلوچستان کے پشتون قبیلوں میں کاکڑ سب سے اہم تھے، ایک لاکھ سے زیادہ لوگ۔ اٹھارہ سو چوراسی میں انگریزوں نے ژوب کی وادی میں کاکڑوں کے خلاف فوج بھیجی تھی۔ اگر آپ کوئٹہ، پشین یا ژوب سے ہیں، تو بہت ممکن ہے کہ آپ کے پڑوسی اسی گھرانے سے ہوں۔ لیکن اب چوتھے بیٹے کی باری ہے، جس کی کہانی سب سے عجیب ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The 1911 Encyclopaedia Britannica says the Kakar were the most important of the Pashtun tribes in Balochistan, more than a hundred thousand people.",
+    "In 1884 the British sent troops against the Kakars in the Zhob valley.",
+    "If you are from Quetta, Pishin or Zhob, it is quite possible your neighbours belong to this house.",
+    "But now it is the turn of the fourth son, whose story is the strangest."
+   ],
+   "shots": [
+    {
+     "search": "Zhob District",
+     "skip": true
+    },
+    {
+     "search": "British Raj",
+     "skip": true
+    },
+    {
+     "search": "Encyclopædia Britannica Eleventh Edition",
+     "skip": true
+    },
+    {
+     "search": "Quetta",
+     "skip": true
+    },
+    {
+     "search": "Pishin District",
+     "skip": true
+    },
+    {
+     "card": {
+      "ur": "اب چوتھا بیٹا",
+      "en": "Now the fourth son"
+     }
+    },
+    {
+     "search": "Quetta",
+     "skip": true
+    },
+    {
+     "search": "Zhob",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Kakars",
+    "ur": "کاکڑ"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "انسائیکلوپیڈیا"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "چوتھے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 5 · Karlani",
+   "narration_ur": "باب پانچ۔ کرلانی۔ اس گھرانے کے جد کرلان کے بارے میں روایتیں ایک دوسرے سے نہیں ملتیں۔ ایک کہانی کہتی ہے کہ دو بھائیوں کو ایک خالی پڑاؤ پر ایک بچہ ملا۔ ایک بھائی بے اولاد تھا، اس نے لوہے کی ایک کڑاہی دے کر وہ بچہ لے لیا، اور اسی سے اس کا نام کرلان پڑ گیا۔ کچھ مؤرخ اس کہانی کو ایک اشارہ سمجھتے ہیں کہ شاید یہ قبیلے بعد میں پشتون شجرے میں شامل ہوئے۔ لیکن کرلانی خود کو پورا پشتون مانتے ہیں اور پشتونولی پر چلتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Chapter five. The Karlani.",
+    "The traditions about Karlan, the founder of this house, do not agree with each other.",
+    "One story says two brothers found a child at an empty camp.",
+    "One brother was childless; he took the child in exchange for an iron cooking pot, and that is how he got the name Karlan.",
+    "Some historians see this story as a hint that these tribes may have joined the Pashtun tree later.",
+    "But the Karlani themselves consider themselves fully Pashtun and follow Pashtunwali."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "کرلانی گھرانہ",
+      "en": "The Karlani House"
+     }
+    },
+    {
+     "card": {
+      "ur": "کرلان: گود لیا ہوا بیٹا",
+      "en": "Karlan: the adopted son"
+     }
+    },
+    {
+     "search": "Waziristan"
+    },
+    {
+     "search": "Kohat"
+    },
+    {
+     "search": "Pashtunwali"
+    },
+    {
+     "search": "Orakzai"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Karlani",
+    "ur": "کرلانی"
+   },
+   "chapter": {
+    "n": 5,
+    "ur": "کرلانی گھرانہ",
+    "en": "Chapter 5: The Karlani House"
+   },
+   "feel": "سنجیدہ اور دھیمی آواز، کہانی کا تناؤ بڑھاتے جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پانچ۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "پشتونولی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Afridi: guardians of Khyber",
+   "narration_ur": "کرلانی گھرانے کا سب سے مشہور نام آفریدی ہے۔ خیبر پاس، جو کابل کو پشاور سے جوڑتا ہے، انہی کے علاقے سے گزرتا ہے۔ ہیروڈوٹس نے ڈھائی ہزار سال پہلے اس طرف ایک قوم اپاریتائی کا نام لکھا تھا، اور کچھ محقق اسے آفریدی سے جوڑتے ہیں، لیکن یہ صرف اندازہ ہے۔ آفریدی کے آٹھ خیل مانے جاتے ہیں: کوکی خیل، کمبر خیل، کمر خیل، ملک دین خیل، سپاہ، زکا خیل، آکا خیل اور آدم خیل۔ مغل ہوں یا انگریز، ہر حکومت کو اس درے سے گزرنے کے لیے ان سے سمجھوتہ کرنا پڑا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The most famous name of the Karlani house is Afridi.",
+    "The Khyber Pass, which links Kabul to Peshawar, passes through their land.",
+    "Herodotus wrote two and a half thousand years ago of a people called the Aparytai in this direction, and some researchers link them to the Afridi, but that is only a guess.",
+    "The Afridi are counted in eight khels: Kuki Khel, Kambar Khel, Qambar Khel, Malik Din Khel, Sipah, Zakka Khel, Aka Khel and Adam Khel.",
+    "Whether Mughal or British, every government had to make a deal with them to pass through this pass."
+   ],
+   "shots": [
+    {
+     "search": "Afridi",
+     "skip": true
+    },
+    {
+     "search": "Khyber Pass"
+    },
+    {
+     "search": "Jamrud Fort",
+     "skip": true
+    },
+    {
+     "search": "Landi Kotal"
+    },
+    {
+     "search": "Herodotus",
+     "skip": true
+    },
+    {
+     "search": "Khyber Rifles"
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Afridi",
+    "ur": "آفریدی"
+   },
+   "feel": "بھاری، پُر وقار آواز، تاریخ کے وزن کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کرلانی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "اپاریتائی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "انگریز،"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The mountain tribes",
+   "narration_ur": "اسی گھرانے میں خٹک، اورکزئی، بنگش، وزیر اور محسود بھی آتے ہیں۔ خٹک کوہاٹ اور کرک کی طرف ہیں، اورکزئی تیراہ میں، بنگش کرم اور کوہاٹ میں، اور وزیر اور محسود وزیرستان میں۔ نقشے پر دیکھیں تو یہ سب ایک ہی لکیر میں ہیں، خیبر سے نیچے وزیرستان تک، پہاڑوں کے بیچ، اسی لیے انہیں اکثر پہاڑی قبیلے کہا جاتا ہے۔ انہی پہاڑوں سے خوشحال خان خٹک جیسے شاعر اور جنگجو نکلے۔ چار گھرانے ہو گئے۔ لیکن کبھی کبھی ایک پورا قبیلہ اپنا گھر چھوڑ کر نیا وطن ڈھونڈنے نکل پڑتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Khattak, Orakzai, Bangash, Wazir and Mehsud also belong to this house.",
+    "The Khattak are towards Kohat and Karak, the Orakzai in Tirah, the Bangash in Kurram and Kohat, and the Wazir and Mehsud in Waziristan.",
+    "On the map they lie in one line, from Khyber down to Waziristan, among the mountains, which is why they are often called the mountain tribes.",
+    "Poets and warriors like Khushal Khan Khattak came out of these mountains.",
+    "That makes four houses.",
+    "But sometimes a whole tribe leaves its home to look for a new homeland."
+   ],
+   "shots": [
+    {
+     "search": "Khattak",
+     "skip": true
+    },
+    {
+     "search": "Wazir people",
+     "skip": true
+    },
+    {
+     "search": "Mehsud",
+     "skip": true
+    },
+    {
+     "search": "Bangash"
+    },
+    {
+     "search": "Khushal Khan Khattak",
+     "skip": true
+    },
+    {
+     "search": "Waziristan",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Mountain tribes",
+    "ur": "پہاڑی قبیلے"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اورکزئی،"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ڈھونڈنے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Chapter 6 · The Yusufzai journey",
+   "narration_ur": "باب چھ۔ یوسفزئی کا سفر۔ پندرہویں صدی کے آخر میں یوسفزئی کابل کے آس پاس رہتے تھے، جہاں تیموری حاکم الغ بیگ کی حکومت تھی، جو بابر کا چچا تھا۔ روایت کے مطابق قبیلے کی بڑھتی طاقت حاکم کو کھٹکنے لگی، اس نے یوسفزئی سرداروں کو بلایا اور ان میں سے زیادہ تر کو قتل کروا دیا۔ سردار ملک سلیمان نے اپنی جان کے بدلے اپنے بھتیجے ملک احمد کی جان مانگی۔ ملک احمد بچ گیا، اور وہی نوجوان اپنے بچے ہوئے قبیلے کو لے کر مشرق کی طرف، پشاور کی وادی میں اتر آیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Chapter six. The journey of the Yusufzai.",
+    "In the late fifteenth century the Yusufzai lived around Kabul, ruled by the Timurid governor Ulugh Beg, an uncle of Babur.",
+    "According to tradition the tribe's growing strength began to worry the ruler; he called the Yusufzai chiefs and had most of them killed.",
+    "The chief Malik Sulaiman asked for the life of his nephew Malik Ahmad in exchange for his own.",
+    "Malik Ahmad survived, and that young man led his surviving tribe east into the Peshawar valley."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "یوسفزئی کا سفر",
+      "en": "The Yusufzai Journey"
+     }
+    },
+    {
+     "search": "Kabul"
+    },
+    {
+     "search": "Ulugh Beg Kabuli",
+     "skip": true
+    },
+    {
+     "search": "Yusufzai",
+     "skip": true
+    },
+    {
+     "search": "Kabul River"
+    },
+    {
+     "search": "Peshawar"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The journey",
+    "ur": "سفر"
+   },
+   "chapter": {
+    "n": 6,
+    "ur": "یوسفزئی کا سفر",
+    "en": "Chapter 6: The Yusufzai Journey"
+   },
+   "feel": "سنجیدہ اور دھیمی آواز، کہانی کا تناؤ بڑھاتے جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "نوجوان"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Swat & Sheikh Mali's system",
+   "narration_ur": "پشاور کی وادی میں دلہ زاک قبیلہ آباد تھا۔ پہلے اس نے یوسفزئی کو پناہ اور زمین دی۔ پھر جنگ چھڑ گئی، اور دلہ زاک دریائے سندھ کے پار چلے گئے۔ سولہویں صدی میں یوسفزئی نے سوات، بونیر اور دیر بھی لے لیے۔ پندرہ سو انیس میں بابر نے یوسفزئی سردار کی بیٹی بی بی مبارکہ سے شادی کی، جس سے مغلوں اور یوسفزئی کے بیچ صلح کا راستہ کھلا۔ پھر شیخ ملی نے ایک انوکھا نظام بنایا جسے ویش کہتے ہیں: زمین قبیلے کی شاخوں میں بانٹی گئی اور کچھ سالوں بعد دوبارہ بانٹی جاتی تھی، تاکہ کسی کے پاس ہمیشہ اچھی زمین نہ رہے۔ سوات میں یہ نظام بیسویں صدی تک چلا، اور انیس سو اٹھائیس سے انیس سو بتیس کے بیچ میاں گل عبدالودود نے اسے ختم کر دیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Dilazak tribe lived in the Peshawar valley.",
+    "At first they gave the Yusufzai refuge and land.",
+    "Then war broke out, and the Dilazak went across the Indus.",
+    "In the sixteenth century the Yusufzai also took Swat, Buner and Dir.",
+    "In 1519 Babur married Bibi Mubarika, daughter of a Yusufzai chief, which opened a path to peace between the Mughals and the Yusufzai.",
+    "Then Sheikh Mali built a unique system called wesh: land was divided among the tribe's branches and redistributed after some years, so that no one always kept the best land.",
+    "In Swat this system lasted into the twentieth century, and between 1928 and 1932 Miangul Abdul Wadud ended it."
+   ],
+   "shots": [
+    {
+     "search": "Dilazak"
+    },
+    {
+     "search": "Swat Valley"
+    },
+    {
+     "search": "Buner District"
+    },
+    {
+     "search": "Babur"
+    },
+    {
+     "search": "Mughal Empire"
+    },
+    {
+     "search": "Miangul Abdul Wadud",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Wesh",
+    "ur": "ویش"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پشاور"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "عبدالودود"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Two views of the tree",
+   "narration_ur": "اب دونوں طرف کی بات۔ پہلا نظریہ روایت کا ہے: تمام قبیلے ایک ہی باپ کی اولاد ہیں، اور شجرہ خون کا رشتہ ہے۔ بہت سے پشتون اسے اپنی پہچان کا حصہ مانتے ہیں۔ دوسرا نظریہ مؤرخوں کا ہے: شجرہ وقت کے ساتھ بنا اور بدلا۔ نئے گروہ اس میں شامل ہوتے رہے، جیسے کرلان کی کہانی میں اشارہ ہے، اور جیسے خلج اور غلزئی کی بحث میں۔ باہر سے آ کر پناہ لینے والے خاندانوں کو پشتو میں ہمسایہ کہا جاتا ہے، اور کئی بار کچھ پشتوں کے بعد وہی خاندان اسی قبیلے کا حصہ گنے جانے لگتے ہیں۔ دونوں باتیں ساتھ ساتھ سچ ہو سکتی ہیں: شجرہ خون سے زیادہ ایک معاہدہ ہے، کہ ہم ایک ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now both sides.",
+    "The first view is the tradition: all tribes are children of one father, and the tree is a blood relation.",
+    "Many Pashtuns consider it part of their identity.",
+    "The second view is that of historians: the tree formed and changed over time.",
+    "New groups kept joining it, as the Karlan story hints and as the Khalaj-Ghilzai debate shows.",
+    "Families who came from outside and took refuge are called hamsaya in Pashto, and often after a few generations the same families are counted as part of the tribe.",
+    "Both can be true together: the tree is more a pact than blood, a pact that says we are one."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "روایتی نظریہ",
+      "en": "The traditional view"
+     }
+    },
+    {
+     "card": {
+      "ur": "مؤرخوں کا نظریہ",
+      "en": "The historians' view"
+     }
+    },
+    {
+     "search": "Pashtunwali",
+     "skip": true
+    },
+    {
+     "search": "Jirga",
+     "skip": true
+    },
+    {
+     "search": "Ethnic group",
+     "skip": true
+    },
+    {
+     "card": {
+      "ur": "شجرہ ایک معاہدہ",
+      "en": "The tree as a pact"
+     }
+    },
+    {
+     "search": "Family tree",
+     "skip": true
+    },
+    {
+     "search": "Tribe",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Two views",
+    "ur": "دو نظریے"
+   },
+   "chapter": {
+    "n": 7,
+    "ur": "دو نظریے",
+    "en": "Chapter 7: Two Views"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "دونوں"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "معاہدہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Why it matters today",
+   "narration_ur": "یہ شجرہ آج بھی کیوں اہم ہے؟ اس لیے کہ اٹھارہ سو ترانوے میں جب ڈیورنڈ لائن کھینچی گئی، تو وہ کئی قبیلوں کے بیچ سے گزری۔ مہمند، شنواری، وزیر، اچکزئی اور کاکڑ کے لوگ آج سرحد کے دونوں طرف رہتے ہیں۔ اچکزئی چمن اور سپین بولدک کے دونوں طرف ہیں، اور شنواری طورخم کے دونوں طرف۔ اس لکیر پر پاکستان اور افغانستان کا مؤقف الگ الگ ہے، اور اس پر ہم پوری ویڈیو بنائیں گے، دونوں طرف کی دلیل کے ساتھ۔ آج کروڑوں پشتون شہروں میں رہتے ہیں اور قبیلہ ان کی زندگی کا فیصلہ نہیں کرتا، مگر نام کے آخر میں لگا زئی یا خیل اب بھی بتاتا ہے کہ کہانی کہاں سے شروع ہوئی تھی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Why does this tree still matter today?",
+    "Because when the Durand Line was drawn in 1893, it passed through the middle of several tribes.",
+    "Mohmand, Shinwari, Wazir, Achakzai and Kakar people live on both sides of the border today.",
+    "The Achakzai are on both sides of Chaman and Spin Boldak, and the Shinwari on both sides of Torkham.",
+    "Pakistan and Afghanistan hold different positions on this line, and we will make a full video on it, with the arguments of both sides.",
+    "Today millions of Pashtuns live in cities and tribe does not decide their life, but the zai or khel at the end of a name still tells where the story began."
+   ],
+   "shots": [
+    {
+     "search": "Durand Line",
+     "skip": true
+    },
+    {
+     "search": "Chaman"
+    },
+    {
+     "search": "Spin Boldak"
+    },
+    {
+     "search": "Torkham",
+     "skip": true
+    },
+    {
+     "search": "Mohmand"
+    },
+    {
+     "card": {
+      "ur": "ایک قبیلہ، دو ملک",
+      "en": "One tribe, two countries"
+     }
+    },
+    {
+     "search": "Khyber Pass",
+     "skip": true
+    },
+    {
+     "search": "Peshawar",
+     "skip": true
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The Durand Line",
+    "ur": "ڈیورنڈ لائن"
+   },
+   "feel": "سنجیدہ اور دھیمی آواز، کہانی کا تناؤ بڑھاتے جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "شجرہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "کروڑوں"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Recap",
+   "narration_ur": "تو ایک بار پھر۔ چار گھرانے۔ سڑبنی، جن میں درانی اور یوسفزئی ہیں۔ بیٹنی، جن میں غلزئی اور لودھی ہیں۔ غرغشتی، جن میں کاکڑ ہیں۔ اور کرلانی، جن میں آفریدی، خٹک اور وزیر ہیں۔ آپ کا قبیلہ کون سا ہے، اور آپ کے بزرگ اس کی کیا کہانی سناتے ہیں؟ کمنٹ میں احترام کے ساتھ ضرور لکھیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Once again: four houses.",
+    "The Sarbani, which include the Durrani and Yusufzai.",
+    "The Bitani, which include the Ghilzai and Lodi.",
+    "The Gharghashti, which include the Kakar.",
+    "And the Karlani, which include the Afridi, Khattak and Wazir.",
+    "Which is your tribe, and what story do your elders tell about it?",
+    "Do write in the comments, respectfully."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "چار گھرانے",
+      "en": "Four houses"
+     }
+    },
+    {
+     "search": "Durrani Empire",
+     "skip": true
+    },
+    {
+     "search": "Yusufzai",
+     "skip": true
+    },
+    {
+     "search": "Lodi dynasty"
+    },
+    {
+     "search": "Kakar",
+     "skip": true
+    },
+    {
+     "search": "Afridi",
+     "skip": true
+    },
+    {
+     "search": "Mirwais Hotak"
+    },
+    {
+     "search": "Hotak dynasty"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Recap",
+    "ur": "خلاصہ"
+   },
+   "feel": "آرام، واضح اور دوستانہ آواز۔ سوال پر ہلکا اٹھاؤ، جملوں کے بیچ وقفہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پھر۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "قبیلہ"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "احترام"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Subscribe · Follow",
+   "narration_ur": "شکریہ کہ آپ نے آخر تک دیکھا۔ اگر یہ ویڈیو آپ کے کام آئی ہو تو چینل تاریخ کی کہانی کو سبسکرائب کیجیے اور گھنٹی کا بٹن دبائیے، تاکہ اگلی ویڈیو سیدھی آپ تک پہنچے۔ جو قانون کسی کتاب میں نہیں لکھا مگر ان سب قبیلوں کو باندھے رکھتا ہے، یعنی پشتونولی، اس پر ہماری ویڈیو چینل پر پہلے سے موجود ہے۔ اس کے بعد ہم بلوچوں کی تاریخ کی طرف جائیں گے۔ ویڈیو دوستوں کے ساتھ شیئر کیجیے، اور کمنٹ میں اپنی رائے لکھیے۔ اللہ حافظ۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Thank you for watching to the end.",
+    "If this video was useful, subscribe to the channel Tareekh Ki Kahani and press the bell, so the next video reaches you directly.",
+    "The law that is written in no book but binds all these tribes together, Pashtunwali, already has a video on our channel.",
+    "After that we move to the history of the Baloch.",
+    "Share the video with your friends, and write your opinion in the comments.",
+    "Allah Hafiz."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "سبسکرائب کیجیے  🔔",
+      "en": "Subscribe · Press the bell"
+     }
+    },
+    {
+     "search": "Pashtunwali",
+     "skip": true
+    },
+    {
+     "search": "Hindu Kush"
+    },
+    {
+     "card": {
+      "ur": "پشتونولی — چینل پر موجود",
+      "en": "Pashtunwali — already on the channel"
+     }
+    },
+    {
+     "search": "Bolan Pass",
+     "skip": true
+    },
+    {
+     "search": "Quetta",
+     "skip": true
+    },
+    {
+     "search": "Quetta"
+    },
+    {
+     "search": "Kandahar",
+     "skip": true
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Thank you",
+    "ur": "شکریہ"
+   },
+   "feel": "گرم، دوستانہ، مسکراہٹ کے ساتھ۔ سبسکرائب پر نرمی سے زور، آخر میں 'اللہ حافظ' آہستہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "دیکھا۔"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "پشتونولی،"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "حافظ۔"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "How Abdali Became Durrani #Shorts",
+   "scenes": [
+    {
+     "image": "01c",
+     "text_on_screen": "1747 · Kandahar",
+     "narration_ur": "سال سترہ سو سینتالیس۔ قندھار میں ابدالی سرداروں کا جرگہ بیٹھا ہے۔ سوال ایک ہی ہے: ہمارا بادشاہ کون ہوگا؟",
+     "narration_roman": ""
+    },
+    {
+     "image": "01b",
+     "text_on_screen": "Ahmad Khan",
+     "narration_ur": "جرگہ تقریباً پچیس سال کے احمد خان کو چنتا ہے۔ وہ سدوزئی گھرانے سے ہے، جو پوپلزئی کی ایک شاخ ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01f",
+     "text_on_screen": "Durr-i-Durran",
+     "narration_ur": "وہ نیا لقب لیتا ہے، دُرِّ دُرّان، یعنی موتیوں کا موتی۔ اور اسی دن سے پورا ابدالی قبیلہ درانی کہلانے لگتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07c",
+     "text_on_screen": "Full video",
+     "narration_ur": "اس کے بعد تقریباً ہر افغان بادشاہ درانی تھا۔ پہلے سدوزئی، پھر بارکزئی۔ پوری کہانی لمبی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "The 4 Houses of the Pashtuns #Shorts",
+   "scenes": [
+    {
+     "image": "03c",
+     "text_on_screen": "350+ tribes",
+     "narration_ur": "پشتونوں کے ساڑھے تین سو سے زیادہ قبیلے اور شاخیں ہیں۔ لیکن روایتی شجرہ ان سب کو صرف چار گھرانوں میں بانٹتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05e",
+     "text_on_screen": "1 · Sarbani",
+     "narration_ur": "پہلا، سڑبنی۔ اس میں درانی، ترین، یوسفزئی اور مہمند آتے ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "08f",
+     "text_on_screen": "2 · Bitani",
+     "narration_ur": "دوسرا، بیٹنی۔ اس میں غلزئی، لودھی اور نیازی ہیں۔ دہلی کے لودھی سلطان اسی گھرانے سے تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11e",
+     "text_on_screen": "3 · Gharghashti",
+     "narration_ur": "تیسرا، غرغشتی۔ اس کا سب سے بڑا قبیلہ کاکڑ ہے، جو ژوب، پشین اور کوئٹہ کی طرف آباد ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "14b",
+     "text_on_screen": "4 · Karlani",
+     "narration_ur": "اور چوتھا، کرلانی۔ آفریدی، خٹک، اورکزئی، وزیر اور محسود۔ آپ کس گھرانے سے ہیں؟ کمنٹ میں لکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "How the Yusufzai Reached Swat #Shorts",
+   "scenes": [
+    {
+     "image": "16b",
+     "text_on_screen": "Kabul · 15th c.",
+     "narration_ur": "پندرہویں صدی کے آخر میں یوسفزئی کابل کے پاس رہتے تھے۔ روایت کے مطابق حاکم الغ بیگ نے ان کے سرداروں کو بلا کر قتل کروا دیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "16e",
+     "text_on_screen": "Malik Ahmad",
+     "narration_ur": "سردار ملک سلیمان نے اپنی جان کے بدلے اپنے بھتیجے ملک احمد کی جان مانگی۔ ملک احمد بچ گیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "17b",
+     "text_on_screen": "Peshawar → Swat",
+     "narration_ur": "وہ اپنے قبیلے کو پشاور کی وادی میں لے آیا۔ پھر یوسفزئی نے سوات، بونیر اور دیر تک اپنا وطن بنا لیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "17a",
+     "text_on_screen": "Wesh",
+     "narration_ur": "اور شیخ ملی نے زمین کو باری باری بانٹنے کا نظام بنایا، جسے ویش کہتے ہیں۔ پوری کہانی لمبی ویڈیو میں۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ],
+ "rerender_v": 5
+}

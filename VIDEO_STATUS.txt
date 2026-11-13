@@ -1,0 +1,153 @@
+TAREEKH KI KAHANI - VIDEO STATUS
+============================================================
+(RENDER.bat updates this file automatically after every video)
+
+RENDERED (finished videos, ready to upload / uploaded)
+------------------------------------------------------------
+tk002 | 2. Pashtun tribes - Durrani, Ghilzai, Yusufzai, Afridi, Kakar | saved 2026-11-11 | rendered 2026-11-11
+tk001 | 1. Who are the Pashtuns (Pathans)? | saved 2026-11-10 | rendered 2026-11-10
+
+SCRIPT SAVED (waiting for RENDER.bat)
+------------------------------------------------------------
+(none yet)
+
+REMAINING (118 topics)
+------------------------------------------------------------
+
+ERA 1 - ANCIENT LAND & PEOPLES
+  3. Pashtunwali - the unwritten law (melmastia, nanawatai, badal)
+  4. Who are the Baloch? Origin and history
+  5. Tajiks, Hazaras, Uzbeks, Turkmen - peoples of Afghanistan
+  6. Ancient Afghanistan - Aryana, Bactria and the Avesta
+  7. Persian Achaemenid Empire in Afghanistan (Cyrus, Darius)
+  8. Alexander the Great in Afghanistan and the Swat-Bajaur campaigns
+  9. Greco-Bactrian Kingdom - Greeks in Afghanistan
+ 10. Kushan Empire - Kanishka, Peshawar and the Silk Road
+ 11. Gandhara civilisation - Taxila, Peshawar, Swat
+ 12. The Bamiyan Buddhas - built, worshipped, destroyed
+ 13. Hephthalites (White Huns) and the Sasanians
+ 14. The Hindu Shahi and Turk Shahi kings of Kabul
+
+ERA 2 - ISLAM & THE TURKIC DYNASTIES
+ 15. Arrival of Islam in Khorasan and Kabul
+ 16. Saffarids - Yaqub Laith, the coppersmith king
+ 17. Samanids - the Persian golden age of Central Asia
+ 18. Ghaznavid Empire - Sabuktigin
+ 19. Mahmud of Ghazni - 17 raids into India: facts vs myths
+ 20. Al-Biruni, Firdausi and the Ghazni court
+ 21. Ghurid Empire - Muhammad Ghori and the Battle of Tarain
+ 22. Delhi Sultanate - the Afghan and Turkic sultans
+ 23. Khwarazmian Empire and Sultan Jalaluddin
+
+ERA 3 - THE MONGOLS & TIMURIDS
+ 24. Who were the Mongols? Genghis Khan's rise
+ 25. Mongol invasion of Khorasan - Balkh, Herat, Bamiyan destroyed
+ 26. Battle of the Indus (1221) - Jalaluddin vs Genghis Khan
+ 27. Ilkhanate and Chagatai Khanate - Mongols after Genghis
+ 28. Timur (Tamerlane) - conquests and the sack of Delhi
+ 29. Timurid Herat - Shah Rukh, Gawharshad and the Herat renaissance
+
+ERA 4 - MUGHALS, AFGHANS & PERSIANS
+ 30. Babur - from Fergana to Kabul to Panipat (1526)
+ 31. Who were the Mughals? Turco-Mongol roots
+ 32. Lodi dynasty - the Afghan sultans of Delhi
+ 33. Sher Shah Suri - the Afghan who defeated Humayun
+ 34. Humayun's exile in Persia and return
+ 35. Akbar and the Afghans - Yusufzai revolt, Bayazid Pir Roshan
+ 36. Khushal Khan Khattak - warrior poet against Aurangzeb
+ 37. Rahman Baba and Pashto literature
+ 38. Safavid Persia and Kandahar - the Mughal-Safavid wars
+ 39. Mirwais Hotak - the Kandahar uprising (1709)
+ 40. Hotaki Empire - Afghans conquer Isfahan (1722)
+ 41. Nadir Shah - the Persian conqueror and the sack of Delhi (1739)
+ 42. Mughal decline - from Aurangzeb to the last emperor
+
+ERA 5 - BIRTH OF AFGHANISTAN
+ 43. Ahmad Shah Durrani - the Loya Jirga of 1747 and the Durrani Empire
+ 44. Third Battle of Panipat (1761) - Durranis vs Marathas
+ 45. Timur Shah Durrani - capital moves to Kabul
+ 46. Zaman Shah and the civil wars of the Durranis
+ 47. Ranjit Singh and the Sikh Empire - Peshawar lost (1834)
+ 48. Battle of Jamrud (1837) - Hari Singh Nalwa
+ 49. Khanate of Kalat - Baloch rulers and the Afghans
+
+ERA 6 - THE GREAT GAME & ANGLO-AFGHAN WARS
+ 50. The Great Game - Britain vs Russia in Central Asia
+ 51. Dost Mohammad Khan & Shah Shuja - kings, exile and British puppets
+ 52. First Anglo-Afghan War (1839-42) - the army that was destroyed
+ 53. Retreat from Kabul (1842) - Dr Brydon and Gandamak
+ 54. British conquest of Sindh and Punjab - the road to the frontier
+ 55. Russia takes Central Asia - Tashkent, Samarkand, Bukhara, Khiva
+ 56. Second Anglo-Afghan War (1878-80) - Maiwand and the Treaty of Gandamak
+ 57. Malalai of Maiwand - legend and history
+ 58. Amir Abdur Rahman Khan - the "Iron Amir"
+ 59. The Durand Line Agreement 1893 - what was signed and why
+ 60. Panjdeh Incident 1885 and the northern border with Russia
+ 61. The Wakhan Corridor - why Afghanistan has a thin finger
+ 62. Frontier Crimes Regulation (FCR) and the tribal areas
+ 63. Siege of Malakand 1897 and the frontier uprisings
+ 64. Faqir of Ipi and the Waziristan resistance
+ 65. British Balochistan and Quetta - how Quetta was built
+ 66. Quetta earthquake 1935
+
+ERA 7 - INDEPENDENCE & THE 20TH CENTURY
+ 67. Third Anglo-Afghan War (1919) - Afghan independence
+ 68. King Amanullah Khan - reforms and fall
+ 69. Bacha-e-Saqao (Habibullah Kalakani) - nine months in power
+ 70. Nadir Shah (of Afghanistan) and his assassination
+ 71. Khudai Khidmatgar - Bacha Khan and the Red Shirts
+ 72. 1947 - partition, the NWFP referendum and the Pashtuns
+ 73. 1947 - Afghanistan's UN vote against Pakistan
+ 74. Pashtunistan issue - origin and history
+ 75. Durand Line - Pakistan's position vs Afghanistan's position (both sides)
+ 76. Kalat's accession to Pakistan (1948) - the full story
+ 77. King Zahir Shah's 40 years
+ 78. 1961-63 border closures and the Bajaur crisis
+ 79. Daoud Khan's coup (1973) and Pakistan relations
+
+ERA 8 - REVOLUTION, SOVIET WAR & CIVIL WAR
+ 80. Saur Revolution 1978 - Taraki and Amin
+ 81. Soviet invasion 1979 - why the USSR came
+ 82. The mujahideen parties - the Peshawar Seven
+ 83. Pakistan, the US and the Afghan jihad (1980s)
+ 84. Stinger missiles - did they win the war?
+ 85. Geneva Accords 1988 and Soviet withdrawal
+ 86. Dr Najibullah - the last communist president
+ 87. Afghan civil war 1992-96 - Kabul destroyed
+ 88. Ahmad Shah Massoud - the Lion of Panjshir
+ 89. Afghan refugees in Pakistan - 40 years
+
+ERA 9 - TALIBAN, 9/11 & TODAY
+ 90. Taliban 1996-2001 - rise and rule
+ 91. 9/11 and the US invasion (2001)
+ 92. Tora Bora and the hunt for al-Qaeda
+ 93. Bonn Conference and the Karzai era
+ 94. FATA merger with Khyber Pakhtunkhwa (2018)
+ 95. Border fencing on the Durand Line
+ 96. Doha Agreement (2020) - what was promised
+ 97. 2021 - US withdrawal and the fall of Kabul
+ 98. Pakistan-Afghanistan relations after 2021 (as of the recording date)
+
+ERA 10 - PLACES & SPECIAL STORIES (can be placed anywhere)
+ 99. Khyber Pass - 2,000 years of invasions
+100. Torkham & Chaman - the story of two border crossings
+101. Bolan Pass - gateway of Balochistan
+102. Kandahar - city of kings
+103. Herat - pearl of Khorasan
+104. Kabul - 3,000 years of history
+105. Peshawar - the oldest living city of South Asia?
+106. Balkh - mother of cities
+107. Ghazni - the city of minarets
+108. The Silk Road through Afghanistan
+109. Mes Aynak and the Bactrian gold (Tillya Tepe)
+110. Panjshir valley - never conquered?
+111. The Kalash and Nuristan - the old religions of the Hindu Kush
+112. Rumi - born in Balkh
+113. Jamaluddin Afghani - the reformer
+114. Abdul Ghaffar Khan vs Muslim League - the 1940s politics
+115. Afghan kings' family tree - from Ahmad Shah to Zahir Shah (overview)
+116. Every invader of Afghanistan - why "graveyard of empires"? (myth vs facts)
+117. Mughals vs Afghans - complete rivalry (overview)
+118. Who were the Pathans in India? - Rohillas, Bangash, Lodis, Suris
+119. Pashtun diaspora - Karachi, the Gulf and the world
+120. How the borders of Pakistan were made - Durand, Radcliffe, Goldsmid

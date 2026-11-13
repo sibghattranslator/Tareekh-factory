@@ -1,0 +1,9 @@
+TAREEKH KI KAHANI - TOPICS DONE (official queue)
+==============================================
+Format: video no. | roadmap no. | title | date saved
+
+tk001 | roadmap 1 | Who are the Pashtuns (Pathans)? - Pathan Kaun Hain? Bani Israel, Aryan ya kuch aur - DNA ka sach | 2026-11-10
+
+tk002 | roadmap 2 | Pashtun Qabeele – पश्तून क़बीलों का शजरा: Durrani, Ghilzai, Yusufzai, Afridi, Kakar | 2026-11-11
+
+NEXT: tk003 = roadmap 3 - Pashtunwali - the unwritten law (melmastia, nanawatai, badal)

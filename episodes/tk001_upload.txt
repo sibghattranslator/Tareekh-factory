@@ -1,0 +1,53 @@
+TK001 - UPLOAD DETAILS  (topic: roadmap 1 - Who are the Pashtuns?)
+===========================================================
+
+TITLE (best, already used as the file name)
+Pashtun Kaun Hain? – पश्तून कौन हैं? Bani Israel, Language, DNA | Who Are the Pashtuns?
+
+OTHER TITLE OPTIONS
+2. Kya Pathan Bani Israel Hain? – क्या पठान बनी इसराईल हैं? सबूत क्या कहते हैं
+3. Qais Abdur Rashid se DNA tak – पश्तूनों की ढाई हज़ार साल पुरानी पहेली
+4. Afghan, Pathan, Pashtun – एक क़ौम, कई नज़रिये | Origin of the Pashtuns
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu text پشتون کون ہیں؟ + "WHO ARE THE PASHTUNS?" + "Bani Israel · Language · DNA".
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk001_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+Who are the Pashtuns, and where did they come from? Bani Israel, Aryan, Saka or Bactrian: every theory, with the evidence and both sides.
+पश्तून (पठान) कौन हैं? पुरानी किताबें, ज़बान और DNA क्या कहते हैं, हर नज़रिया सबूतों के साथ।
+پشتون کون ہیں؟ پرانی کتابیں، زبان اور ڈی این اے کیا کہتے ہیں؟ ہر نظریہ، ثبوت اور دونوں طرف کی دلیل کے ساتھ۔
+
+CHAPTERS
+(paste from tk001_chapters.txt)
+
+SOURCES (main)
+- Nimat Allah al-Harawi, Makhzan-i Afghani (c. 1612), Eng. tr. B. Dorn, History of the Afghans (1829-36)
+- Encyclopaedia Iranica, "Afghan" and "Aryana"; Encyclopaedia Britannica, "Pashtun"
+- H. W. Bellew, The Races of Afghanistan (1880); Olaf Caroe, The Pathans (1958)
+- Herodotus, Histories III.91, III.102, VII.67
+- N. Sims-Williams, Bactrian Documents from Northern Afghanistan II (2007)
+- G. Morgenstierne; A. Korn, "The position of Pashto within the East Iranian languages" (HAL)
+- Haber et al., "Afghanistan's Ethnic Groups Share a Y-Chromosomal Heritage...", PLoS ONE 7(3): e34288 (2012)
+- The Guardian, 17 Jan 2010, "Pashtun clue to lost tribes of Israel"; Dawn report on the Malihabad study
+- Wikipedia, "Theories of Pashtun origin" and "Afghan (ethnonym)" (used to cross-check names and dates)
+Pictures: Wikimedia Commons (credits in tk001_picture_credits.txt - paste them here).
+
+The Bani Israel tradition and the scholarly view are both presented; the video does not claim to settle the question.
+
+#Pashtun #PashtunHistory #Pathan #Afghanistan #TareekhKiKahani
+
+TAGS (15)
+Pashtun history, Who are the Pashtuns, Pathan kaun hain, Pashtun origin, Bani Israel Pathan, Qais Abdur Rashid, Afghan history in Urdu, Pashtun DNA, Makhzan-e-Afghani, Pakhtun tareekh, पठान का इतिहास, Afghanistan history Hindi, Pashto language origin, Herodotus Pactyes, Tareekh Ki Kahani
+
+PINNED COMMENT
+آپ کے خاندان میں پشتونوں کی اصل کے بارے میں کون سی روایت سنائی جاتی ہے: قیس عبدالرشید، بنی اسرائیل، یا کچھ اور؟ اپنے علاقے اور قبیلے کے ساتھ لکھیں، احترام کے ساتھ۔ / Which tradition about Pashtun origins is told in your family? Write your region and tribe, respectfully.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk001_subtitles_Urdu.srt
+- English: tk001_subtitles_English.srt
+
+SHORTS (3, files in the Shorts folder)
+1. Are the Pashtuns a Lost Tribe? #Shorts
+2. The Oldest Mention of the Pashtuns #Shorts
+3. What Does DNA Say About Pashtuns? #Shorts

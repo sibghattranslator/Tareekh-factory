@@ -1,0 +1,52 @@
+TK002 - UPLOAD DETAILS  (topic: roadmap 2 - Pashtun tribal tree)
+===========================================================
+
+TITLE (best, already used as the file name)
+Pashtun Qabeele – पश्तून क़बीलों का शजरा | Durrani, Yusufzai, Afridi, Kakar | Tribal Tree
+
+OTHER TITLE OPTIONS
+2. Durrani vs Ghilzai – अफ़ग़ानिस्तान के तख़्त की 300 साल पुरानी कहानी | Pashtun Tribes
+3. Pathanon ke 4 Gharane – पठानों के चार घराने: आपका क़बीला किस शाख़ से है?
+4. Abdali se Durrani kaise bane? – पश्तून क़बीलों का पूरा शजरा (Family Tree)
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu text پشتون قبیلوں کا شجرہ + "THE PASHTUN TRIBAL TREE" + tribe names.
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk002_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+The full family tree of the Pashtun tribes: Sarbani, Bitani, Gharghashti and Karlani, and what tradition and historians say about it.
+पश्तून क़बीलों का पूरा शजरा: दुर्रानी, ग़िलज़ई, यूसुफ़ज़ई, अफ़रीदी, काकड़, रिवायत क्या कहती है और इतिहासकार क्या कहते हैं।
+پشتون قبیلوں کا مکمل شجرہ: درانی، غلزئی، یوسفزئی، آفریدی، کاکڑ، روایت کیا کہتی ہے اور مؤرخ کیا کہتے ہیں۔
+
+CHAPTERS
+(paste from tk002_chapters.txt)
+
+SOURCES (main)
+- Encyclopaedia Iranica: "Afridi" (C. M. Kieffer), "Abdali / Dorrani", "Ghilzi" (M. J. Hanifi), "Khalaj i. Tribe", "Barakzi", "Acakzi"
+- Encyclopaedia Britannica (1911): "Afridi", "Kakar"; Imperial Gazetteer of India, Baluchistan (1908) (British-colonial sources)
+- Abubakar Siddique, The Pashtun Question (Hurst, 2014)
+- Olaf Caroe, The Pathans (1958) (British-colonial author)
+- Herodotus, Histories 3.91 (Aparytai)
+- Gulbadan Begum, Humayun-nama (Bibi Mubarika married Babur, 1519)
+- CSIS, "Governance and Militancy in Pakistan's Swat Valley" (2011); Dawn, "Understanding Swat"
+- Wikipedia overview pages used to cross-check names and dates: Pashtun tribes, Qais Abdur Rashid, Sarbani, Karlani, Durrani, Ghilji, Yusufzai, Dilazak, Kakar
+Pictures: Wikimedia Commons (credits in tk002_picture_credits.txt - paste them here).
+
+This video is for education. The tree is based on tradition; where historians differ, both views are given.
+
+#PashtunHistory #Pathan #Afghanistan #TareekhKiKahani #History
+
+TAGS (15)
+pashtun tribes, pathan tribes, pashtun family tree, durrani, ghilzai, yusufzai, afridi, kakar, pashtun qabeele, pathan qabeele, afghanistan history in hindi, afghanistan ki tareekh, ahmad shah durrani, tareekh ki kahani, pathan history in urdu
+
+PINNED COMMENT
+آپ کا قبیلہ کون سا ہے، اور آپ کے بزرگ اس کے بارے میں کیا کہانی سناتے ہیں؟ قبیلے کا نام اور علاقہ لکھیں، اور ہر قبیلے کا احترام کریں۔ / Which tribe are you from, and what story do your elders tell about it? Please respect every tribe.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk002_subtitles_Urdu.srt
+- English: tk002_subtitles_English.srt
+
+SHORTS (3, files in the Shorts folder)
+1. How Abdali Became Durrani #Shorts
+2. The 4 Houses of the Pashtuns #Shorts
+3. How the Yusufzai Reached Swat #Shorts
