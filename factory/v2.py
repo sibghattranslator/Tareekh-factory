@@ -42,7 +42,7 @@ CRF = os.environ.get("TK_CRF", "18")          # single shots (they are encoded o
 FINAL_CRF = os.environ.get("TK_FINAL_CRF", "21")
 BURN = [x.strip() for x in os.environ.get("TK_BURN", "").split(",") if x.strip()]   # "" = none (YouTube subtitles only); "ur" or "ur,en" burns them in
 TEST = os.environ.get("TK_TEST") == "1"
-MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.85"))      # 0.7 = quieter music, 1.4 = louder
+MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.65"))      # 0.7 = quieter music, 1.4 = louder
 AI_VOICE = os.environ.get("TK_VOICE_UR", "ur-PK-AsadNeural")
 UA = "TareekhKiKahani/1.0 (history documentary channel; sibghattranslator@gmail.com)"
 

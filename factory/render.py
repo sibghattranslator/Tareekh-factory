@@ -441,7 +441,7 @@ def build_short_v2(ep, sh, k, work, rec_dir, final):
         f = fills[j % 3]
         if f is not None and j < len(voices) - 1: hits.append((off + len(a) - int(0.25 * v2.SR), f * 0.5))
     if hit is not None: hits.append((int(0.1 * v2.SR), hit * 0.8))
-    old = v2.MUSIC_GAIN; v2.MUSIC_GAIN = old * 1.25            # a phone speaker needs a little more music than a TV
+    old = v2.MUSIC_GAIN; v2.MUSIC_GAIN = old                       # same music level as the long video
     try: master = v2.build_master([(0, total, "calm")], total, voices, hits, [])
     finally: v2.MUSIC_GAIN = old
     mw = work / "master.wav"; v2.write_wav(mw, master)
@@ -461,6 +461,7 @@ def render(ep_file):
             print(f"  {ep}: unsafe/old pictures removed - making the video again")
             for f in old: f.unlink()
             shutil.rmtree(sh_dir, ignore_errors=True); old = []
+            if data.get("reupload"): (out_dir / "uploaded.json").unlink(missing_ok=True)   # new version replaces the live one
     if fetch_pictures(ep) and old:
         print(f"  {ep}: new pictures downloaded - making the video again")
         for f in old: f.unlink()

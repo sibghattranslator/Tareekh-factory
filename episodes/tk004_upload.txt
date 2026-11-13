@@ -35,20 +35,18 @@ SOURCES (main)
 - The Friday Times, "Khans and fractious chieftains" (2016)
 - Pakistan Bureau of Statistics, 2023 census (Balochi mother-tongue count, as cited by Wikipedia)
 
-TAGS (15)
-baloch, baloch history, who are the baloch, balochistan, balochi language, brahui, mehrgarh, mir chakar rind, khanate of kalat, baloch origin, tareekh ki kahani, history of balochistan, pakistan history, urdu documentary, quetta
-
-HASHTAGS (max 5)
 #Baloch #Balochistan #History #TareekhKiKahani #Documentary
 
-SHORTS
-1. Where Did the Baloch Come From? 3 Stories #Shorts
-2. The Dravidian Language in Balochistan #Shorts
-3. 9,000 Years Before the Baloch: Mehrgarh #Shorts
+TAGS (15)
+baloch, baloch history, who are the baloch, balochistan, balochi language, brahui, mehrgarh, mir chakar rind, khanate of kalat, baloch origin, tareekh ki kahani, history of balochistan, pakistan history, urdu documentary, quetta
 
 PINNED COMMENT
 بلوچ کہاں سے آئے: حلب کی روایت، کیسپین کا زبان کا نظریہ، یا کرمان کا پرانا مرکز؟ آپ کے خیال میں ثبوت کس کے زیادہ قریب ہے؟ احترام کے ساتھ لکھیں۔
 Main sources: Encyclopaedia Iranica (Baluchistan i), Pagani et al. on Brahui, Dames (1904). Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk004_subtitles_Urdu.srt
+- English: tk004_subtitles_English.srt
 
 FACT-CHECK TABLE
 Claim | Source | Confidence
@@ -73,3 +71,8 @@ Khanate of Kalat founded 1666, Mir Ahmad Khan; peak under Nasir Khan I (1749-94)
 Nasir Khan and Durrani relations: sources differ | Wikipedia (Khanate of Kalat) | medium
 Baloch region formally divided since 1870 | Iranica (Baluchistan i) | high
 Baloch Culture Day on 2 March | Wikipedia (Baloch people) | medium
+
+SHORTS (3, files in the Shorts folder)
+1. Where Did the Baloch Come From? 3 Stories #Shorts
+2. The Dravidian Language in Balochistan #Shorts
+3. 9,000 Years Before the Baloch: Mehrgarh #Shorts

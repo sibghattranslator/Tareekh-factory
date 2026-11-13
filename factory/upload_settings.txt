@@ -1,0 +1,7 @@
+# UPLOAD.bat reads this file. Minutes must be 00, 15, 30 or 45.
+# Every episode gets one "slot day": its Shorts go out in the morning, its long video in the evening.
+long_time=18:00
+shorts_time=07:45
+gap_minutes=60
+days_between_episodes=2
+first_day_offset=1

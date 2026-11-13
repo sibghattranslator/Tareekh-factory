@@ -32,7 +32,7 @@ def parse_upload(ep_dir, ep):
     title = block("TITLE (best, already used as the file name)", ["OTHER TITLE"]).splitlines()[0].strip()
     desc = block("DESCRIPTION", ["\nTAGS"])
     desc = re.sub(r"^[^\n]*\n-{5,}\n", "", desc, count=1).strip()          # drop "(paste...)" + dashed line
-    tags = block("TAGS (15)", ["\nPINNED COMMENT", "\nSUBTITLES"]).strip()
+    tags = block("TAGS (15)", ["\nPINNED COMMENT", "\nSUBTITLES", "\nSHORTS"]).strip()
     pinned = block("PINNED COMMENT", ["\nSUBTITLES", "\nFACT-CHECK"]).strip()
     chap = ep_dir / f"{ep}_chapters.txt"
     if chap.exists():
@@ -198,20 +198,136 @@ def upload_subs(page, vid, files):
         except Exception as e: log(f"(English subtitles failed: {e})"); shot(page, f"{vid}_sub_en")
 
 
+# ----------------------------------------------------------------------------- settings + schedule (automatic)
+SETTINGS_F = ROOT / "factory" / "upload_settings.txt"
+STATE_F = ROOT / "factory" / "schedule_state.json"          # remembers which day each episode was given (not in git)
+DEFAULTS = {"long_time": "18:00", "shorts_time": "07:45", "gap_minutes": "60", "days_between_episodes": "2", "first_day_offset": "1"}
+
+
+def load_settings():
+    st = dict(DEFAULTS)
+    if SETTINGS_F.exists():
+        for ln in SETTINGS_F.read_text(encoding="utf-8", errors="replace").replace("\r", "").splitlines():
+            if "=" in ln and not ln.strip().startswith("#"):
+                k, v = ln.split("=", 1); st[k.strip()] = v.strip()
+    for k in ("long_time", "shorts_time"):
+        hh, mm = st[k].split(":")
+        if int(mm) % 15: sys.exit(f"upload_settings.txt: {k} minutes must be 00, 15, 30 or 45")
+    return st
+
+
+def pending_episodes(only=None):
+    """Episodes in 'Ready to Upload' that still have something to upload: long video and/or Shorts."""
+    out = []
+    for d in sorted(READY.glob("tk[0-9][0-9][0-9]")):
+        if only and d.name != only: continue
+        longs = [x for x in d.glob("*.mp4")]
+        if not longs: continue
+        done_f = d / "uploaded.json"
+        done = json.loads(done_f.read_text()) if done_f.exists() else {}
+        shorts = sorted((d / "Shorts").glob("*.mp4")) if (d / "Shorts").exists() else []
+        left_long = "long" not in done
+        left_shorts = [f for f in shorts if f.name not in done]
+        if left_long or left_shorts: out.append((d.name, d, left_long, left_shorts))
+    return out
+
+
+def make_plan(pend, st):
+    state = json.loads(STATE_F.read_text()) if STATE_F.exists() else {}
+    days = state.get("days", {})
+    day = dt.date.today() + dt.timedelta(days=int(st["first_day_offset"]))
+    if days:
+        day = max(day, max(dt.date.fromisoformat(v) for v in days.values()) + dt.timedelta(days=int(st["days_between_episodes"])))
+    plan = []
+    for ep, d, left_long, left_shorts in pend:
+        if ep in days and dt.date.fromisoformat(days[ep]) >= dt.date.today() + dt.timedelta(days=1):
+            my = dt.date.fromisoformat(days[ep])                         # same slot as an earlier (partly failed) run
+        else:
+            my = day; days[ep] = my.isoformat(); day = my + dt.timedelta(days=int(st["days_between_episodes"]))
+        lt = dt.datetime.combine(my, dt.datetime.strptime(st["long_time"], "%H:%M").time())
+        sh = dt.datetime.combine(my, dt.datetime.strptime(st["shorts_time"], "%H:%M").time())
+        plan.append((ep, d, left_long, left_shorts, lt, sh))
+    state["days"] = days
+    return plan, state
+
+
+def preflight(ep, d):
+    """Prints what is ready for one episode. Returns False if the episode cannot be uploaded."""
+    up = d / "upload.txt"
+    items = [("video", any(d.glob("*.mp4"))), ("upload.txt (title, description, tags)", up.exists()),
+             ("thumbnail", (d / f"{ep}_thumbnail.jpg").exists()),
+             ("Urdu subtitles", (d / f"{ep}_subtitles_Urdu.srt").exists()),
+             ("English subtitles", (d / f"{ep}_subtitles_English.srt").exists()),
+             ("chapters", (d / f"{ep}_chapters.txt").exists())]
+    for name, ok in items: print(f"      [{'OK' if ok else 'MISSING'}] {name}")
+    if not up.exists() or not any(d.glob("*.mp4")): return False
+    meta = parse_upload(d, ep)
+    print(f"      title ({len(meta['title'])} chars): {meta['title']}")
+    print(f"      tags: {len(meta['tags'])}   description: {len(meta['desc'])} chars")
+    return bool(meta["title"])
+
+
+def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
+    meta = parse_upload(ep_dir, ep)
+    done_f = ep_dir / "uploaded.json"
+    done = json.loads(done_f.read_text()) if done_f.exists() else {}
+    longs = [x for x in ep_dir.glob("*.mp4")]
+    if longs and "long" not in done:
+        f = longs[0]; log(f"LONG: {f.name}  ->  {long_at:%Y-%m-%d %H:%M}")
+        try:
+            vid = upload_one(page, f, meta, long_at, thumb=ep_dir / f"{ep}_thumbnail.jpg")
+            if vid:
+                subs = {"ur": ep_dir / f"{ep}_subtitles_Urdu.srt", "en": ep_dir / f"{ep}_subtitles_English.srt"}
+                upload_subs(page, vid, {k: v for k, v in subs.items() if v.exists()})
+            done["long"] = vid or "unknown"; done_f.write_text(json.dumps(done))
+        except Exception:
+            traceback.print_exc(); shot(page, f"{ep}_long_fail")
+    tag_line = "#Shorts #TareekhKiKahani"
+    for i, f in enumerate(sorted((ep_dir / "Shorts").glob("*.mp4")) if (ep_dir / "Shorts").exists() else []):
+        if f.name in done: continue
+        title = f.stem
+        sm = dict(meta); sm["title"] = title[:100]
+        sm["desc"] = f"{re.sub(r'#Shorts', '', title).strip(' -')} - full video on the channel.\n\n{tag_line}"
+        when = shorts_at + dt.timedelta(minutes=gap * i)
+        log(f"SHORT: {f.name}  ->  {when:%Y-%m-%d %H:%M}")
+        try:
+            vid = upload_one(page, f, sm, when, is_short=True)
+            done[f.name] = vid or "unknown"; done_f.write_text(json.dumps(done))
+        except Exception:
+            traceback.print_exc(); shot(page, f"{ep}_short{i}_fail")
+    (ep_dir / f"{ep}_pinned_comment.txt").write_text(meta["pinned"] + "\n\n" + meta["credits"], encoding="utf-8")
+    log(f"{ep}: pinned comment + picture credits saved in {ep_dir / (ep + '_pinned_comment.txt')} (paste once the video is public)")
+
+
 # ----------------------------------------------------------------------------- main
 def main():
     import argparse
     ap = argparse.ArgumentParser()
-    ap.add_argument("ep", help="episode id, e.g. tk004")
-    ap.add_argument("--long-at", required=True, help='"YYYY-MM-DD HH:MM" (minutes 00/15/30/45)')
-    ap.add_argument("--shorts-start", required=True, help='first Short, same format')
-    ap.add_argument("--gap", type=int, default=60, help="minutes between Shorts")
+    ap.add_argument("ep", nargs="?", help="one episode, e.g. tk004 (default: every episode that still has something to upload)")
+    ap.add_argument("--plan", action="store_true", help="only show what would be uploaded and when")
+    ap.add_argument("--yes", action="store_true", help="do not ask for confirmation")
+    ap.add_argument("--long-at", help='override: "YYYY-MM-DD HH:MM"')
+    ap.add_argument("--shorts-start", help="override: first Short, same format")
+    ap.add_argument("--gap", type=int, help="minutes between Shorts")
     a = ap.parse_args()
-    ep = a.ep.lower(); ep_dir = READY / ep
-    if not ep_dir.exists(): sys.exit(f"Folder not found: {ep_dir}")
-    meta = parse_upload(ep_dir, ep)
-    done_f = ep_dir / "uploaded.json"
-    done = json.loads(done_f.read_text()) if done_f.exists() else {}
+    st = load_settings(); gap = a.gap or int(st["gap_minutes"])
+    pend = pending_episodes(a.ep.lower() if a.ep else None)
+    print("\n  CHECKING WHAT IS LEFT TO UPLOAD ...")
+    if not pend:
+        print("  Nothing left: every finished video and Short in 'Ready to Upload' is already uploaded."); return
+    plan, state = make_plan(pend, st)
+    ok_plan = []
+    for ep, d, left_long, left_shorts, lt, sh in plan:
+        if a.long_at: lt = parse_when(a.long_at)
+        if a.shorts_start: sh = parse_when(a.shorts_start)
+        print(f"\n  {ep}: {'long video' if left_long else ''}{' + ' if left_long and left_shorts else ''}{str(len(left_shorts)) + ' Short(s)' if left_shorts else ''}")
+        print(f"      schedule: Shorts {sh:%Y-%m-%d %H:%M} (every {gap} min), long video {lt:%Y-%m-%d %H:%M}")
+        if preflight(ep, d): ok_plan.append((ep, d, lt, sh))
+        else: print(f"      -> {ep} skipped (something essential is missing, see above)")
+    if a.plan or not ok_plan: return
+    if not a.yes and os.environ.get("TK_UPLOAD_YES") != "1":
+        input("\n  Press ENTER to start uploading (Ctrl+C to stop) ... ")
+    STATE_F.write_text(json.dumps(state))
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         br = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
@@ -220,38 +336,11 @@ def main():
         while "accounts.google" in page.url or "ServiceLogin" in page.url:
             input("  Sign in to Google in the Chrome window, then press ENTER here ...")
             page.goto("https://studio.youtube.com", wait_until="domcontentloaded"); time.sleep(4)
-        # ---- long video
-        longs = [x for x in ep_dir.glob("*.mp4")]
-        if longs and "long" not in done:
-            f = longs[0]; log(f"LONG: {f.name}")
-            try:
-                vid = upload_one(page, f, meta, parse_when(a.long_at), thumb=ep_dir / f"{ep}_thumbnail.jpg")
-                if vid:
-                    subs = {"ur": ep_dir / f"{ep}_subtitles_Urdu.srt", "en": ep_dir / f"{ep}_subtitles_English.srt"}
-                    upload_subs(page, vid, {k: v for k, v in subs.items() if v.exists()})
-                done["long"] = vid or "unknown"; done_f.write_text(json.dumps(done))
-            except Exception:
-                traceback.print_exc(); shot(page, f"{ep}_long_fail")
-        # ---- shorts
-        tag_line = "#Shorts #TareekhKiKahani"
-        t0 = parse_when(a.shorts_start)
-        for i, f in enumerate(sorted((ep_dir / "Shorts").glob("*.mp4"))):
-            if f.name in done: continue
-            title = f.stem
-            sm = dict(meta); sm["title"] = title[:100]
-            sm["desc"] = f"{re.sub(r'#Shorts', '', title).strip(' -')} - full video on the channel.\n\n{tag_line}"
-            sm["tags"] = meta["tags"]
-            log(f"SHORT: {f.name}")
-            try:
-                vid = upload_one(page, f, sm, t0 + dt.timedelta(minutes=a.gap * i), is_short=True)
-                done[f.name] = vid or "unknown"; done_f.write_text(json.dumps(done))
-            except Exception:
-                traceback.print_exc(); shot(page, f"{ep}_short{i}_fail")
-        # ---- pinned comment text for you to paste
-        (ep_dir / f"{ep}_pinned_comment.txt").write_text(
-            meta["pinned"] + "\n\n" + meta["credits"], encoding="utf-8")
-        print("\n  DONE. Uploaded items are remembered; run again to retry any that failed.")
-        print(f"  Pinned comment + picture credits: {ep_dir / (ep + '_pinned_comment.txt')} (paste once the video is public).")
+        for ep, d, lt, sh in ok_plan:
+            print(f"\n  ===== {ep} =====")
+            upload_episode(page, ep, d, lt, sh, gap)
+        left = pending_episodes(a.ep.lower() if a.ep else None)
+        print("\n  DONE. " + ("Still not uploaded (run UPLOAD.bat again to retry): " + ", ".join(e for e, *_ in left) if left else "Everything is uploaded and scheduled."))
         page.close()
 
 
