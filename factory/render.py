@@ -410,6 +410,45 @@ def add_music(joined, final):
         shutil.copy(joined, final)
 
 
+def build_short_v2(ep, sh, k, work, rec_dir, final):
+    """Shorts of format-2 episodes: same voice clean-up, mood colour, music beds, ducking and drum/guitar accents as the long video."""
+    import v2, numpy as np
+    work.mkdir(parents=True, exist_ok=True)
+    clips, durs, voices, starts = [], [], [], []
+    n = len(sh["scenes"]); t = 0.0
+    for i, sc in enumerate(sh["scenes"], 1):
+        print(f"  {ep} SHORT {k} scene {i}/{n} ...", end=" ", flush=True)
+        pic = find_pic(ep, sc.get("image", i)); had = bool(pic)
+        if not pic:
+            pic = work / f"{i:02d}_placeholder.jpg"; placeholder(pic, sc, i)
+        a, who = v2.scene_voice(ep, i, sc, work, rec_dir)
+        wav = work / f"{i:02d}.wav"; v2.write_wav(wav, a)
+        secs = len(a) / v2.SR + 0.7
+        img2x = work / f"{i:02d}_2x.jpg"; ov = work / f"{i:02d}_text.png"
+        short_frame(pic, img2x); short_text(sc, ov)
+        clip = work / f"{i:02d}.mp4"
+        make_clip(img2x, ov, wav, clip, secs + XF, i - 1, SW, SH)
+        clips.append(clip); durs.append(secs + XF); voices.append((int(round(t * v2.SR)) + int(0.15 * v2.SR), a))
+        t += secs + XF - XF
+        print(f"{secs:.0f}s ({who}{'' if had else ', NO PICTURE'})")
+    joined = work / "joined.mp4"
+    join_with_transitions(clips, durs, joined, work)
+    total = int(round((sum(durs) - XF * (n - 1)) * v2.SR))
+    hit = v2.load_music("hit"); fills = [v2.load_music(x) for x in ("fill_a", "fill_b", "fill_c")]
+    hits = []
+    for j, (off, a) in enumerate(voices):
+        if hit is not None and j > 0: hits.append((max(off - int(0.15 * v2.SR), 0), hit * 0.7))
+        f = fills[j % 3]
+        if f is not None and j < len(voices) - 1: hits.append((off + len(a) - int(0.25 * v2.SR), f * 0.5))
+    if hit is not None: hits.append((int(0.1 * v2.SR), hit * 0.8))
+    old = v2.MUSIC_GAIN; v2.MUSIC_GAIN = old * 1.25            # a phone speaker needs a little more music than a TV
+    try: master = v2.build_master([(0, total, "calm")], total, voices, hits, [])
+    finally: v2.MUSIC_GAIN = old
+    mw = work / "master.wav"; v2.write_wav(mw, master)
+    run(["-i", joined, "-i", mw, "-map", "0:v", "-map", "1:a", "-af", "loudnorm=I=-14:TP=-1.5:LRA=9",
+         "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", final])
+
+
 def render(ep_file):
     ep = ep_file.stem
     data = json.loads(ep_file.read_text(encoding="utf-8"))
@@ -455,9 +494,12 @@ def render(ep_file):
         sfinal = sh_dir / (safe_name(sh["title"]) + ".mp4")
         if sfinal.exists(): continue
         sh_dir.mkdir(parents=True, exist_ok=True)
-        joined, _, _ = build(ep, sh["scenes"], work / f"short{k}", f"{ep} SHORT {k}", vertical=True,
-                             rec_dir=RECS / ep / f"short{k}")
-        add_music(joined, sfinal)
+        if data.get("format") == 2:
+            build_short_v2(ep, sh, k, work / f"short{k}", RECS / ep / f"short{k}", sfinal)
+        else:
+            joined, _, _ = build(ep, sh["scenes"], work / f"short{k}", f"{ep} SHORT {k}", vertical=True,
+                                 rec_dir=RECS / ep / f"short{k}")
+            add_music(joined, sfinal)
         print(f"  DONE: {sfinal}")
     shutil.rmtree(work, ignore_errors=True)
 
