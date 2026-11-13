@@ -101,43 +101,28 @@ TIME_RE = re.compile(r"^\d{1,2}:\d{2} [AP]M$")
 
 
 def pick_time(page, hhmm):
-    """Sets the schedule time. Tries typing into the time box first, then the drop-down list. Returns True if the
-    time shown afterwards is the wanted one."""
+    """Sets the schedule time (tested on live Studio: the time box is the one input inside ytcp-datetime-picker)."""
     label = dt.datetime.strptime(hhmm, "%H:%M").strftime("%I:%M %p").lstrip("0")
-    def shown():
-        for sel in ("ytcp-datetime-picker #time-of-day-container input", "ytcp-datetime-picker input", "ytcp-visibility-scheduler input"):
-            try:
-                b = page.locator(sel).first
-                if b.count(): return b.input_value().strip().lstrip("0")
-            except Exception: pass
-        try: return page.get_by_text(TIME_RE).first.inner_text().strip().lstrip("0")
-        except Exception: return ""
-    for sel in ("ytcp-datetime-picker #time-of-day-container input", "ytcp-datetime-picker input", "ytcp-visibility-scheduler input"):
-        try:
-            b = page.locator(sel).first
-            if not b.count(): continue
-            b.click(); b.press("Control+A"); b.type(label, delay=40); b.press("Enter"); time.sleep(0.8)
-            if shown().upper() == label.upper(): return True
-        except Exception: pass
-    try:                                                   # drop-down list
-        page.get_by_text(TIME_RE).first.click(); time.sleep(0.8)
-        opt = page.get_by_text(label, exact=True).last
-        opt.scroll_into_view_if_needed(); opt.click(); time.sleep(0.6)
-    except Exception: pass
-    return shown().upper() == label.upper()
+    page.evaluate("""(v) => { const i = document.querySelector('ytcp-datetime-picker input'); i.focus(); i.select();
+        Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(i, v);
+        i.dispatchEvent(new Event('input', {bubbles: true, composed: true}));
+        i.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter', code: 'Enter', keyCode: 13, bubbles: true, composed: true}));
+        i.dispatchEvent(new Event('change', {bubbles: true, composed: true})); i.blur(); }""", label)
+    time.sleep(1.2)
+    return page.locator("ytcp-datetime-picker input").first.input_value().strip().upper() == label.upper()
 
 
 def pick_date(page, d):
+    """Sets the schedule date. The calendar's text box only accepts REAL key presses (not script events)."""
     want = f"{MONTHS[d.month - 1]} {d.day}, {d.year}"
-    cur = page.get_by_text(DATE_RE).first
-    if cur.inner_text().strip() == want: return
-    cur.click(); time.sleep(0.8)
-    try:
-        box = page.locator("ytcp-date-picker input, tp-yt-paper-dialog input, input[type=text]").last
-        box.fill(want); box.press("Enter")
-    except Exception as e:
-        log(f"(date not set, YouTube default kept: {e})")
-    time.sleep(0.6)
+    def shown():
+        return page.locator("#datepicker-trigger .dropdown-trigger-text").first.inner_text().strip()
+    if shown() == want: return True
+    page.evaluate("document.querySelector('#datepicker-trigger').click()"); time.sleep(1)
+    box = page.locator("ytcp-date-picker input").first
+    box.click(); box.press("Control+A"); box.type(want, delay=40); box.press("Enter"); time.sleep(1)
+    page.evaluate("document.activeElement && document.activeElement.blur()"); time.sleep(0.5)
+    return shown() == want
 
 
 def get_video_id(page):
@@ -149,6 +134,43 @@ def get_video_id(page):
         m = re.search(r"(?:youtu\.be/|shorts/|v=)([\w-]{11})", h)
         if m: return m.group(1)
     return None
+
+
+def schedule_in_dialog(page, when, vid=None):
+    """Upload dialog is open on any step: go to Visibility, schedule, confirm. Tested on live Studio."""
+    for _ in range(3):                                    # Next x3 -> Visibility
+        page.locator("#next-button").click(); time.sleep(1.5)
+    page.evaluate("(document.querySelector('#second-container-expand-button') || document.querySelector('#visibility-title')).click()")
+    time.sleep(1.5)                                       # the 'Schedule' part with date + time opens
+    if not pick_date(page, when):
+        log(f"(!) could not set the date {when:%Y-%m-%d} - scheduling with the date YouTube shows; change it later in Studio)")
+    if not pick_time(page, when.strftime("%H:%M")):
+        log(f"(!) could not set the time {when:%H:%M} - scheduling with the time YouTube shows; change it later in Studio)")
+    time.sleep(0.5)
+    page.evaluate("document.querySelector('#done-button').click()")          # button says 'Schedule'
+    time.sleep(4)
+    for _ in range(3):                                    # 'We are still checking' notice
+        b = page.get_by_role("button", name="Got it")
+        if b.count():
+            try: b.first.click(); time.sleep(2)
+            except Exception: pass
+    if not vid:
+        try: vid = get_video_id(page)
+        except Exception: pass
+    time.sleep(3)
+    try: page.get_by_role("button", name="Close").first.click(timeout=4000)
+    except Exception: pass
+    return vid
+
+
+def finish_draft(page, vid, when):
+    """A video that reached YouTube earlier but was never scheduled (private draft): open it and schedule it.
+    Returns False if it was already scheduled (nothing to do)."""
+    page.goto(f"https://studio.youtube.com/video/{vid}/edit", wait_until="domcontentloaded"); time.sleep(6)
+    if not page.get_by_text("Edit draft", exact=True).count(): return False
+    page.get_by_text("Edit draft", exact=True).first.click()
+    page.wait_for_selector("ytcp-uploads-dialog #next-button", timeout=60000); time.sleep(2)
+    schedule_in_dialog(page, when, vid); return True
 
 
 def upload_one(page, f, meta, when, thumb=None, is_short=False, st=None):
@@ -190,27 +212,7 @@ def upload_one(page, f, meta, when, thumb=None, is_short=False, st=None):
     except Exception: pass
     st["vid"] = vid
     wait_dialog_ready(page)
-    for _ in range(3):                                    # Next x3 -> Visibility
-        page.locator("#next-button").click(); time.sleep(1.5)
-    page.get_by_text("Schedule", exact=True).first.click(); time.sleep(1)
-    pick_date(page, when)
-    if not pick_time(page, when.strftime("%H:%M")):
-        log(f"(!) could not set the time {when:%H:%M} - scheduling with the time YouTube shows; change it later in Studio)")
-    time.sleep(0.5)
-    try: page.locator("#done-button").click()
-    except Exception: page.get_by_role("button", name="Schedule").last.click()
-    time.sleep(4)
-    for _ in range(3):                                    # 'We are still checking' notice
-        b = page.get_by_role("button", name="Got it")
-        if b.count():
-            try: b.first.click(); time.sleep(2)
-            except Exception: pass
-    if not vid:
-        try: vid = get_video_id(page)
-        except Exception: pass
-    time.sleep(3)
-    try: page.get_by_role("button", name="Close").first.click(timeout=4000)
-    except Exception: pass
+    vid = schedule_in_dialog(page, when, vid)
     return vid
 
 
@@ -296,7 +298,8 @@ def pending_episodes(only=None):
         shorts = sorted((d / "Shorts").glob("*.mp4")) if (d / "Shorts").exists() else []
         left_long = "long" not in done
         left_shorts = [f for f in shorts if f.name not in done]
-        if left_long or left_shorts: out.append((d.name, d, left_long, left_shorts))
+        has_draft = any(str(v).startswith("draft:") for v in done.values())
+        if left_long or left_shorts or has_draft: out.append((d.name, d, left_long, left_shorts))
     return out
 
 
@@ -343,6 +346,22 @@ def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
     done_f = ep_dir / "uploaded.json"
     done = load_done(ep_dir, ep)
     longs = [x for x in ep_dir.glob("*.mp4")]
+    short_files = sorted((ep_dir / "Shorts").glob("*.mp4")) if (ep_dir / "Shorts").exists() else []
+    subs = {"ur": ep_dir / f"{ep}_subtitles_Urdu.srt", "en": ep_dir / f"{ep}_subtitles_English.srt"}
+    for key, val in list(done.items()):                  # drafts left by an earlier run: schedule them now
+        if not str(val).startswith("draft:"): continue
+        dvid = val.split(":", 1)[1]
+        if dvid == "unknown": DRAFTS.append(f"{ep}  {key} (id unknown)"); continue
+        if key == "long": when = long_at
+        else:
+            names = [x.name for x in short_files]; when = shorts_at + dt.timedelta(minutes=gap * (names.index(key) if key in names else 0))
+        log(f"FINISH DRAFT: {key}  ->  {when:%Y-%m-%d %H:%M}  (https://youtu.be/{dvid})")
+        try:
+            finish_draft(page, dvid, when)
+            if key == "long": upload_subs(page, dvid, {k: v for k, v in subs.items() if v.exists()})
+            done[key] = dvid; done_f.write_text(json.dumps(done))
+        except Exception:
+            traceback.print_exc(); shot(page, f"{ep}_draft_{dvid}_fail"); DRAFTS.append(f"{ep}  {key}: https://youtu.be/{dvid}")
     if longs and "long" not in done:
         f = longs[0]; log(f"LONG: {f.name}  ->  {long_at:%Y-%m-%d %H:%M}")
         st = {}
