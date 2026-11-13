@@ -216,15 +216,44 @@ def load_settings():
     return st
 
 
+SKIP_F = ROOT / "factory" / "upload_skip.txt"              # episodes already live on YouTube (uploaded by hand) - never upload again
+
+
+def skipped_episodes():
+    if not SKIP_F.exists(): return set()
+    lines = SKIP_F.read_text(encoding="utf-8", errors="replace").replace("\r", "").splitlines()
+    return {ln.split("#")[0].strip().lower() for ln in lines if ln.split("#")[0].strip()}
+
+
+def episode_version(ep):
+    """rerender_v of an episode that is marked "reupload" (the new video replaces the live one), else None."""
+    try:
+        d = json.loads((ROOT / "episodes" / f"{ep}.json").read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    return d.get("rerender_v", 1) if d.get("reupload") else None
+
+
+def load_done(ep_dir, ep):
+    """What is already uploaded for this episode. A new version of a 'reupload' episode starts from zero once."""
+    f = ep_dir / "uploaded.json"
+    done = json.loads(f.read_text()) if f.exists() else {}
+    rv = episode_version(ep)
+    if rv is not None:
+        if done.get("rv") != rv: done = {}
+        done["rv"] = rv
+    return done
+
+
 def pending_episodes(only=None):
     """Episodes in 'Ready to Upload' that still have something to upload: long video and/or Shorts."""
-    out = []
+    out = []; skip = skipped_episodes()
     for d in sorted(READY.glob("tk[0-9][0-9][0-9]")):
         if only and d.name != only: continue
+        if d.name in skip and not only: continue
         longs = [x for x in d.glob("*.mp4")]
         if not longs: continue
-        done_f = d / "uploaded.json"
-        done = json.loads(done_f.read_text()) if done_f.exists() else {}
+        done = load_done(d, d.name)
         shorts = sorted((d / "Shorts").glob("*.mp4")) if (d / "Shorts").exists() else []
         left_long = "long" not in done
         left_shorts = [f for f in shorts if f.name not in done]
@@ -270,7 +299,7 @@ def preflight(ep, d):
 def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
     meta = parse_upload(ep_dir, ep)
     done_f = ep_dir / "uploaded.json"
-    done = json.loads(done_f.read_text()) if done_f.exists() else {}
+    done = load_done(ep_dir, ep)
     longs = [x for x in ep_dir.glob("*.mp4")]
     if longs and "long" not in done:
         f = longs[0]; log(f"LONG: {f.name}  ->  {long_at:%Y-%m-%d %H:%M}")

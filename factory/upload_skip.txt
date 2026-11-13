@@ -1,0 +1,2 @@
+# UPLOAD.bat never uploads the episodes listed here (they are already live on YouTube). One per line.
+tk003   # Pashtunwali - uploaded by hand, must stay untouched
