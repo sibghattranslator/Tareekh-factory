@@ -14,3 +14,8 @@ __pycache__/
 *.mp4
 *.wav
 factory/schedule_state.json
+
+# Google sign-in secrets - NEVER commit (repo is public)
+factory/client_secret*.json
+factory/yt_token.json
+**/meta_done.json
