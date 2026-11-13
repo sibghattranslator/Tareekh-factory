@@ -66,7 +66,20 @@ def set_box(page, index, text):
         document.execCommand('insertText', false, t); }""", [index, text])
 
 
-def wait_dialog_ready(page, timeout=900):
+def attach_file(page, selector, path):
+    """Put a file into a file input. Big files (long videos, 270-500 MB) cannot go through Playwright over the
+    Chrome debugging port (it stops at 50 MB) - so for those Chrome itself is told the file's path directly."""
+    path = str(path)
+    if os.path.getsize(path) < 40 * 1024 * 1024:
+        page.locator(selector).first.set_input_files(path, timeout=120000); return
+    cdp = page.context.new_cdp_session(page)
+    r = cdp.send("Runtime.evaluate", {"expression": "document.querySelector(%s)" % json.dumps(selector)})
+    oid = r.get("result", {}).get("objectId")
+    if not oid: raise RuntimeError(f"file box {selector} not found on the page")
+    cdp.send("DOM.setFileInputFiles", {"files": [path], "objectId": oid})
+
+
+def wait_dialog_ready(page, timeout=10800):
     """Wait until the upload itself is finished (footer no longer says 'Uploading')."""
     t0 = time.time(); last = ""
     while time.time() - t0 < timeout:
@@ -88,10 +101,30 @@ TIME_RE = re.compile(r"^\d{1,2}:\d{2} [AP]M$")
 
 
 def pick_time(page, hhmm):
+    """Sets the schedule time. Tries typing into the time box first, then the drop-down list. Returns True if the
+    time shown afterwards is the wanted one."""
     label = dt.datetime.strptime(hhmm, "%H:%M").strftime("%I:%M %p").lstrip("0")
-    page.get_by_text(TIME_RE).first.click(); time.sleep(0.6)
-    opt = page.get_by_text(label, exact=True).last
-    opt.scroll_into_view_if_needed(); opt.click(); time.sleep(0.4)
+    def shown():
+        for sel in ("ytcp-datetime-picker #time-of-day-container input", "ytcp-datetime-picker input", "ytcp-visibility-scheduler input"):
+            try:
+                b = page.locator(sel).first
+                if b.count(): return b.input_value().strip().lstrip("0")
+            except Exception: pass
+        try: return page.get_by_text(TIME_RE).first.inner_text().strip().lstrip("0")
+        except Exception: return ""
+    for sel in ("ytcp-datetime-picker #time-of-day-container input", "ytcp-datetime-picker input", "ytcp-visibility-scheduler input"):
+        try:
+            b = page.locator(sel).first
+            if not b.count(): continue
+            b.click(); b.press("Control+A"); b.type(label, delay=40); b.press("Enter"); time.sleep(0.8)
+            if shown().upper() == label.upper(): return True
+        except Exception: pass
+    try:                                                   # drop-down list
+        page.get_by_text(TIME_RE).first.click(); time.sleep(0.8)
+        opt = page.get_by_text(label, exact=True).last
+        opt.scroll_into_view_if_needed(); opt.click(); time.sleep(0.6)
+    except Exception: pass
+    return shown().upper() == label.upper()
 
 
 def pick_date(page, d):
@@ -118,15 +151,18 @@ def get_video_id(page):
     return None
 
 
-def upload_one(page, f, meta, when, thumb=None, is_short=False):
+def upload_one(page, f, meta, when, thumb=None, is_short=False, st=None):
+    """st (dict) is filled while working: st["attached"]=True once the file is in YouTube (a private draft now exists),
+    st["vid"]=its id. The caller uses it so that a failure later NEVER causes the same file to be uploaded again."""
+    st = st if st is not None else {}
     page.goto(UPLOAD_URL, wait_until="domcontentloaded"); time.sleep(4)
-    page.locator("input[type=file]").first.set_input_files(str(f))
-    page.wait_for_selector("#textbox", timeout=60000); time.sleep(3)
+    attach_file(page, "input[type=file]", f)
+    page.wait_for_selector("#textbox", timeout=180000); st["attached"] = True; time.sleep(3)
     set_box(page, 0, meta["title"]); time.sleep(0.5)
     set_box(page, 1, meta["desc"]); time.sleep(0.5)
     if thumb and thumb.exists():
         try:
-            page.locator("#file-loader").first.set_input_files(str(thumb)); time.sleep(2)
+            attach_file(page, "#file-loader", thumb); time.sleep(2)
         except Exception as e: log(f"(thumbnail skipped: {e})")
     try:                                                  # not made for kids
         page.locator('tp-yt-paper-radio-button[name="VIDEO_MADE_FOR_KIDS_NOT_MFK"]').click()
@@ -152,11 +188,14 @@ def upload_one(page, f, meta, when, thumb=None, is_short=False):
     vid = None
     try: vid = get_video_id(page)
     except Exception: pass
+    st["vid"] = vid
     wait_dialog_ready(page)
     for _ in range(3):                                    # Next x3 -> Visibility
         page.locator("#next-button").click(); time.sleep(1.5)
     page.get_by_text("Schedule", exact=True).first.click(); time.sleep(1)
-    pick_date(page, when); pick_time(page, when.strftime("%H:%M"))
+    pick_date(page, when)
+    if not pick_time(page, when.strftime("%H:%M")):
+        log(f"(!) could not set the time {when:%H:%M} - scheduling with the time YouTube shows; change it later in Studio)")
     time.sleep(0.5)
     try: page.locator("#done-button").click()
     except Exception: page.get_by_role("button", name="Schedule").last.click()
@@ -296,6 +335,9 @@ def preflight(ep, d):
     return bool(meta["title"])
 
 
+DRAFTS = []          # files that reached YouTube but could not be scheduled (they wait there as private drafts)
+
+
 def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
     meta = parse_upload(ep_dir, ep)
     done_f = ep_dir / "uploaded.json"
@@ -303,14 +345,18 @@ def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
     longs = [x for x in ep_dir.glob("*.mp4")]
     if longs and "long" not in done:
         f = longs[0]; log(f"LONG: {f.name}  ->  {long_at:%Y-%m-%d %H:%M}")
+        st = {}
         try:
-            vid = upload_one(page, f, meta, long_at, thumb=ep_dir / f"{ep}_thumbnail.jpg")
+            vid = upload_one(page, f, meta, long_at, thumb=ep_dir / f"{ep}_thumbnail.jpg", st=st)
             if vid:
                 subs = {"ur": ep_dir / f"{ep}_subtitles_Urdu.srt", "en": ep_dir / f"{ep}_subtitles_English.srt"}
                 upload_subs(page, vid, {k: v for k, v in subs.items() if v.exists()})
             done["long"] = vid or "unknown"; done_f.write_text(json.dumps(done))
         except Exception:
             traceback.print_exc(); shot(page, f"{ep}_long_fail")
+            if st.get("attached"):                       # the file is already in YouTube as a private draft: never upload it again
+                done["long"] = "draft:" + (st.get("vid") or "unknown"); done_f.write_text(json.dumps(done))
+                DRAFTS.append(f"{ep}  long video: {f.name}")
     tag_line = "#Shorts #TareekhKiKahani"
     for i, f in enumerate(sorted((ep_dir / "Shorts").glob("*.mp4")) if (ep_dir / "Shorts").exists() else []):
         if f.name in done: continue
@@ -319,11 +365,15 @@ def upload_episode(page, ep, ep_dir, long_at, shorts_at, gap):
         sm["desc"] = f"{re.sub(r'#Shorts', '', title).strip(' -')} - full video on the channel.\n\n{tag_line}"
         when = shorts_at + dt.timedelta(minutes=gap * i)
         log(f"SHORT: {f.name}  ->  {when:%Y-%m-%d %H:%M}")
+        st = {}
         try:
-            vid = upload_one(page, f, sm, when, is_short=True)
+            vid = upload_one(page, f, sm, when, is_short=True, st=st)
             done[f.name] = vid or "unknown"; done_f.write_text(json.dumps(done))
         except Exception:
             traceback.print_exc(); shot(page, f"{ep}_short{i}_fail")
+            if st.get("attached"):
+                done[f.name] = "draft:" + (st.get("vid") or "unknown"); done_f.write_text(json.dumps(done))
+                DRAFTS.append(f"{ep}  Short: {f.name}")
     (ep_dir / f"{ep}_pinned_comment.txt").write_text(meta["pinned"] + "\n\n" + meta["credits"], encoding="utf-8")
     log(f"{ep}: pinned comment + picture credits saved in {ep_dir / (ep + '_pinned_comment.txt')} (paste once the video is public)")
 
@@ -361,6 +411,7 @@ def main():
     with sync_playwright() as p:
         br = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
         ctx = br.contexts[0]; page = ctx.new_page(); page.set_default_timeout(30000)
+        page.on("dialog", lambda d: d.accept())               # 'Leave site?' prompts must not freeze the next upload
         page.goto("https://studio.youtube.com", wait_until="domcontentloaded"); time.sleep(4)
         while "accounts.google" in page.url or "ServiceLogin" in page.url:
             input("  Sign in to Google in the Chrome window, then press ENTER here ...")
@@ -368,6 +419,10 @@ def main():
         for ep, d, lt, sh in ok_plan:
             print(f"\n  ===== {ep} =====")
             upload_episode(page, ep, d, lt, sh, gap)
+        if DRAFTS:
+            print("\n  !!! THESE ARE IN YOUTUBE AS PRIVATE DRAFTS (uploaded, but scheduling failed). They will NOT be uploaded again.")
+            print("      Open YouTube Studio > Content, find them, and set Visibility > Schedule by hand:")
+            for x in DRAFTS: print("        - " + x)
         left = pending_episodes(a.ep.lower() if a.ep else None)
         print("\n  DONE. " + ("Still not uploaded (run UPLOAD.bat again to retry): " + ", ".join(e for e, *_ in left) if left else "Everything is uploaded and scheduled."))
         page.close()
