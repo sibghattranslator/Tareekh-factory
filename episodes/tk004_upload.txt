@@ -1,0 +1,75 @@
+TK004 - UPLOAD DETAILS  (topic: roadmap 4 - Who are the Baloch?)
+===========================================================
+
+TITLE (best, already used as the file name)
+Who Are the Baloch? – बलोच कौन हैं: हलब, कैस्पियन और ब्राहुई का राज़ | Baloch Origins
+
+OTHER TITLE OPTIONS
+2. Baloch Kaun Hain? – بلوچ کون ہیں؟ حلب، کیسپین اور کرمان کی کہانیاں
+3. The Baloch: Aleppo, Caspian or Kerman? – बलोच कहाँ से आए?
+4. बलोच कौन हैं? तीन कहानियाँ, एक सवाल – Origin of the Baloch People
+5. Brahui, Balochi and the Baloch Mystery – ब्राहुई का राज़
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu word بلوچ + "WHO ARE THE BALOCH?" + "Origins · Language · Tribes · Kalat".
+(Neutral landscape picture only. Never any flag or banned-group image.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk004_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+Who are the Baloch and where did they come from? Aleppo tradition, the Caspian language theory, Kerman and the Brahui puzzle - tradition, theory and evidence kept apart.
+बलोच कौन हैं और कहाँ से आए? हलब की रिवायत, कैस्पियन का भाषा-सिद्धांत और ब्राहुई की पहेली - दावे और सबूत अलग-अलग।
+بلوچ کون ہیں اور کہاں سے آئے؟ حلب کی روایت، کیسپین کا زبان کا نظریہ، کرمان اور براہوی کا معمہ، روایت اور ثبوت الگ الگ۔
+
+CHAPTERS
+(paste from tk004_chapters.txt)
+
+SOURCES (main)
+- Encyclopaedia Iranica, "Baluchistan i. Geography, History and Ethnography": https://www.iranicaonline.org/articles/baluchistan-i
+- Encyclopaedia Iranica, Baluchistan iii (Baluchi language) and "Baluchi epic" entries: https://www.iranicaonline.org/?p=1513
+- Pagani, Colonna, Tyler-Smith, Ayub, "An ethnolinguistic and genetic perspective on the origins of the Dravidian-speaking Brahui in Pakistan": https://research.monash.edu/en/publications/an-ethnolinguistic-and-genetic-perspective-on-the-origins-of-the-/
+- Historical Studies (Iran), "The origin and historical background of the Baloch people": https://historicalstudy.ihcs.ac.ir/article_10163_en.html
+- Wikipedia: Baloch people; Balochi language; Brahui language; Khanate of Kalat; Nasir Khan I Ahmadzai; Mehrgarh; Rind-Lashari War
+- M. L. Longworth Dames, The Baloch Race (1904), as cited by Iranica
+- Sabir Badalkhan, studies of Balochi oral epic (Hani and Sheh Mureed): https://journal.oraltradition.org/wp-content/uploads/files/articles/19ii/Badalkhan.pdf
+- Muhammad Shafique and Sohail Akhtar, "Thirty Year Intra-Tribal Rind-Lashar Baloch War", JRSP 57 (2020)
+- The Friday Times, "Khans and fractious chieftains" (2016)
+- Pakistan Bureau of Statistics, 2023 census (Balochi mother-tongue count, as cited by Wikipedia)
+
+TAGS (15)
+baloch, baloch history, who are the baloch, balochistan, balochi language, brahui, mehrgarh, mir chakar rind, khanate of kalat, baloch origin, tareekh ki kahani, history of balochistan, pakistan history, urdu documentary, quetta
+
+HASHTAGS (max 5)
+#Baloch #Balochistan #History #TareekhKiKahani #Documentary
+
+SHORTS
+1. Where Did the Baloch Come From? 3 Stories #Shorts
+2. The Dravidian Language in Balochistan #Shorts
+3. 9,000 Years Before the Baloch: Mehrgarh #Shorts
+
+PINNED COMMENT
+بلوچ کہاں سے آئے: حلب کی روایت، کیسپین کا زبان کا نظریہ، یا کرمان کا پرانا مرکز؟ آپ کے خیال میں ثبوت کس کے زیادہ قریب ہے؟ احترام کے ساتھ لکھیں۔
+Main sources: Encyclopaedia Iranica (Baluchistan i), Pagani et al. on Brahui, Dames (1904). Full list in the description.
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Balochi is a Northwestern Iranian language | Iranica; Wikipedia (Balochi language) | high
+Mehrgarh farming village c. 7000 BCE near Bolan, SE of Quetta | Wikipedia (Mehrgarh); Jarrige excavations | high
+Earliest mention of the name in an 8th-century Pahlavi text | encyclopedia.com (Baluchistan); Wikipedia | medium
+Arab geographers (e.g. al-Muqaddasi) place Baloch between Kerman, Khorasan, Sistan, Makran | Wikipedia (Baloch people) | medium-high
+Aleppo/Amir Hamza tradition cannot be taken at face value | Iranica (Baluchistan i) | high (as Iranica's view)
+Tradition varies (Harun version; Ali Sher Qani: only Rind) | Wikipedia (Baloch people) citing Qani, Tuhfat al-Kiram | medium
+Caspian homeland suggested from linguistic ties to Parthian/Median | Wikipedia (Baloch people); Iranica | medium
+Dames 1902: theory of Median descent | Wikipedia (Baloch people) | medium
+Eastern Kerman / Jiroft population in 4th century | Historical Studies (Iran) paper | low-medium (one paper)
+Genetics: West Eurasian, Iranian Plateau share, limited South Asian | Zenodo review (Jan 2026), preprint-level | low-medium
+Seljuk invasion of Kerman pushed migration east (12th c.) | Wikipedia (Baloch people) | medium
+Waves into Sindh (13th-14th c.) and Punjab (15th c.) | Wikipedia (Baloch people) | medium
+Brahui is Dravidian; genetically close to neighbours | Pagani et al.; Wikipedia (Brahui) | high
+Parpola links Brahui to Harappan | Wikipedia (Brahui people) citing Parpola | medium
+Many Baloch communities of other origins; Barakzay of Afghan origin | Iranica (Baluchistan i) | high
+Rind-Lashar thirty-year war, c. 1475-1525 (dates vary) | Iranica (Baluchi epic); Shafique and Akhtar (2020) | medium
+Chakar-Humayun link not confirmed by Mughal sources | Pashtunhistory.com blog (secondary, pro-Pashtun site); Wikipedia | low-medium
+Khanate of Kalat founded 1666, Mir Ahmad Khan; peak under Nasir Khan I (1749-94) | Iranica; Wikipedia (Khanate of Kalat) | high
+Nasir Khan and Durrani relations: sources differ | Wikipedia (Khanate of Kalat) | medium
+Baloch region formally divided since 1870 | Iranica (Baluchistan i) | high
+Baloch Culture Day on 2 March | Wikipedia (Baloch people) | medium

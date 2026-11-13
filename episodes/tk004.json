@@ -1,0 +1,1509 @@
+{
+ "id": "tk004",
+ "format": 2,
+ "title": "Who Are the Baloch? – बलोच कौन हैं: हलब, कैस्पियन और ब्राहुई का राज़ | Baloch Origins",
+ "thumb_text": "Who Are the Baloch?",
+ "thumb_ur": "بلوچ",
+ "thumb_sub": "Origins · Language · Tribes · Kalat",
+ "scenes": [
+  {
+   "text_on_screen": "Aleppo? Caspian? Kerman?",
+   "narration_ur": "بلوچوں کی اپنی روایت کہتی ہے کہ ان کے آباؤ اجداد شام کے شہر حلب سے آئے تھے۔ مگر زبان کے ماہرین بلوچی کو بحیرۂ کیسپین کے علاقے کی طرف لے جاتے ہیں۔ اور انھی کے بیچ ایک اور زبان بھی بولی جاتی ہے، براہوی، جو جنوبی ہندوستان کی دراوڑی زبانوں کے خاندان سے ہے۔ تو سوال یہ ہے: بلوچ کون ہیں، اور وہ آئے کہاں سے؟ آج ہم تینوں کہانیاں ایک ایک کر کے دیکھیں گے، اور بتائیں گے کہ کون سی بات پکی ہے اور کون سی ابھی تک بحث میں ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Baloch tradition says their ancestors came from the Syrian city of Aleppo.",
+    "But language experts point Balochi toward the Caspian Sea region.",
+    "And in their midst another language is spoken, Brahui, which belongs to the Dravidian family of South India.",
+    "So the question is: who are the Baloch, and where did they come from?",
+    "Today we look at all three stories one by one, and say which points are firm and which are still debated."
+   ],
+   "shots": [
+    {
+     "search": "Balochistan Pakistan landscape"
+    },
+    {
+     "card": {
+      "ur": "بلوچ کون ہیں؟",
+      "en": "Who are the Baloch?"
+     }
+    },
+    {
+     "search": "Citadel of Aleppo"
+    },
+    {
+     "search": "Caspian Sea coast"
+    },
+    {
+     "search": "Brahui language"
+    },
+    {
+     "search": "Bolan Pass"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Three stories",
+    "ur": "تین کہانیاں"
+   },
+   "sfx": "hit",
+   "feel": "سنجیدہ اور دھیمی آواز، جیسے کوئی پہیلی پیش کر رہے ہوں۔ آخری سوال پر آواز ذرا اوپر۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "حلب"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کیسپین"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "دراوڑی"
+    },
+    {
+     "m": [
+      "rise",
+      "pause2"
+     ],
+     "w": "کہاں"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "پکی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Three countries",
+   "narration_ur": "بلوچ لوگ آج تین ملکوں میں بستے ہیں: پاکستان، ایران اور افغانستان۔ ان کی زبان بلوچی ہے، جو شمال مغربی ایرانی زبانوں کے گروہ میں شمار ہوتی ہے۔ دو ہزار تیئیس کی مردم شماری میں پاکستان میں بلوچی کو مادری زبان بتانے والے اکیاسی لاکھ سے کچھ زیادہ تھے۔ ایران میں ان کی تعداد کا ایک اندازہ تقریباً بیس لاکھ ہے۔ ایرانیکا انسائیکلوپیڈیا لکھتا ہے کہ انیسویں صدی سے پہلے کی بلوچ تاریخ بہت کم معلوم ہے۔ اس لیے آج ہم ہر بات کے ساتھ بتائیں گے: یہ روایت ہے، یہ نظریہ ہے، اور یہ ثبوت ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Baloch live today in three countries: Pakistan, Iran and Afghanistan.",
+    "Their language is Balochi, counted in the northwestern group of Iranian languages.",
+    "In Pakistan's 2023 census, a little over 8.1 million people gave Balochi as their mother tongue.",
+    "One estimate for Iran is about 2 million.",
+    "Encyclopaedia Iranica writes that Baloch history before the nineteenth century is poorly known.",
+    "So with every claim today we will say whether it is tradition, theory or evidence."
+   ],
+   "shots": [
+    {
+     "search": "Balochistan region map"
+    },
+    {
+     "search": "Quetta"
+    },
+    {
+     "search": "Makran coast"
+    },
+    {
+     "card": {
+      "ur": "بلوچی",
+      "en": "Balochi language"
+     }
+    },
+    {
+     "search": "Balochi language"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The Baloch today",
+    "ur": "آج کے بلوچ"
+   },
+   "feel": "پُرسکون اور صاف آواز، جیسے نقشہ سمجھا رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ایرانی"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "اکیاسی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "کم"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "ثبوت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Mehrgarh · c. 7000 BCE",
+   "narration_ur": "پہلے ایک بات صاف کر لیں۔ یہ زمین بلوچ نام سے بہت پرانی ہے۔ کوئٹہ کے جنوب مشرق میں، بولان کے دہانے پر، مہرگڑھ نام کی ایک جگہ ہے۔ وہاں تقریباً سات ہزار قبلِ مسیح کے آس پاس ایک چھوٹا سا کاشتکار گاؤں بسا تھا۔ وہاں گندم اور جو اگائی جاتی تھی، اور بھیڑ بکریاں اور مویشی پالے جاتے تھے۔ ماہرینِ آثارِ قدیمہ اسے جنوبی ایشیا میں کھیتی اور گلہ بانی کے سب سے پرانے ثبوتوں میں گنتے ہیں۔ مگر ان لوگوں کو بلوچ کہنے کا کوئی ثبوت نہیں۔ بلوچ نام اس خطے میں بہت بعد میں آتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "First, one thing must be clear.",
+    "This land is far older than the name Baloch.",
+    "South-east of Quetta, at the mouth of the Bolan Pass, lies a site called Mehrgarh.",
+    "Around 7000 BCE a small farming village stood there.",
+    "Wheat and barley were grown there, and sheep, goats and cattle were kept.",
+    "Archaeologists count it among the oldest evidence of farming and herding in South Asia.",
+    "But there is no evidence for calling those people Baloch.",
+    "The name arrives in this region much later."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "مہرگڑھ",
+      "en": "Mehrgarh · 9,000 years"
+     }
+    },
+    {
+     "search": "Mehrgarh"
+    },
+    {
+     "search": "Bolan Pass"
+    },
+    {
+     "search": "Quetta"
+    },
+    {
+     "search": "Kachi Plain Balochistan"
+    },
+    {
+     "search": "Indus Valley Civilisation"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Mehrgarh",
+    "ur": "مہرگڑھ"
+   },
+   "chapter": {
+    "n": 1,
+    "ur": "زمین پہلے، نام بعد میں",
+    "en": "The Land First, the Name Later"
+   },
+   "feel": "نرم اور حیرت بھری آواز، جیسے پرانی مٹی کھود کر کچھ ملا ہو۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "پرانی"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "مہرگڑھ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "گندم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پرانے"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress",
+      "pause2"
+     ],
+     "w": "بعد"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Where does the name come from?",
+   "narration_ur": "لفظ بلوچ کی اصل بھی صاف معلوم نہیں۔ جرمن ماہر ایرنسٹ ہرٹسفیلڈ اسے قدیم میڈی زبان کے ایک لفظ سے جوڑتے ہیں، جس کا مطلب اونچی آواز میں چیخنا بتایا گیا ہے۔ مگر یہ ایک اندازہ ہی ہے۔ لفظ کا سب سے پرانا ذکر آٹھویں صدی کے ایک پہلوی متن میں ملتا ہے۔ بعد کے عرب جغرافیہ دان، جیسے المقدسی، بلوچوں کو کرمان، خراسان، سیستان اور مکران کے درمیانی علاقے میں رہنے والا الگ گروہ بتاتے ہیں۔ یعنی تحریری ثبوت میں پہلی بار بلوچ ایران کے جنوب مشرق میں نظر آتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Even the origin of the word Baloch is not clear.",
+    "The German scholar Ernst Herzfeld linked it to an old Median word said to mean loud shouting.",
+    "But that remains a guess.",
+    "The earliest mention of the word appears in an eighth-century Pahlavi text.",
+    "Later Arab geographers such as al-Muqaddasi describe the Baloch as a distinct group living between Kerman, Khorasan, Sistan and Makran.",
+    "In other words, in the written record the Baloch first appear in the south-east of Iran."
+   ],
+   "shots": [
+    {
+     "search": "Kerman"
+    },
+    {
+     "search": "Sistan"
+    },
+    {
+     "search": "Makran"
+    },
+    {
+     "card": {
+      "ur": "لفظ بلوچ",
+      "en": "The word Baloch"
+     }
+    },
+    {
+     "search": "Greater Khorasan"
+    },
+    {
+     "search": "Sasanian Empire"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The name Baloch",
+    "ur": "نامِ بلوچ"
+   },
+   "feel": "سادہ اور صاف، جیسے ایک ایک ثبوت میز پر رکھ رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "اصل"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "اندازہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پہلوی"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "کرمان"
+    },
+    {
+     "m": [
+      "stress",
+      "pause2"
+     ],
+     "w": "جنوب"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Theory 1: Aleppo",
+   "narration_ur": "پہلی کہانی بلوچوں کی اپنی روایت اور رزمیہ شاعری کی ہے۔ اس کے مطابق بلوچ حضرت امیر حمزہ کی نسل سے ہیں، اور ان کے بزرگ حلب میں رہتے تھے۔ پھر کربلا کے واقعے کے بعد وہ شام سے نکلے اور مشرق کی طرف چل پڑے۔ لیکن یہی روایت ہر جگہ ایک جیسی نہیں ملتی۔ کسی بیان میں عباسی خلیفہ ہارون کے خلاف جنگ کا ذکر ہے، اور مؤرخ علی شیر قانع کے مطابق صرف رند قبیلہ اس نسل سے ہے۔ ایرانیکا لکھتا ہے کہ اس دعوے کو جوں کا توں قبول نہیں کیا جا سکتا۔ مگر یہ روایت بلوچ شناخت کا ایک اہم حصہ ضرور ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The first story comes from the Baloch's own tradition and epic poetry.",
+    "According to it the Baloch descend from Hazrat Amir Hamza, and their forefathers lived in Aleppo.",
+    "Then, after the events of Karbala, they left Syria and set off eastward.",
+    "But the tradition is not the same everywhere.",
+    "One version mentions a war against the Abbasid caliph Harun, and the historian Ali Sher Qani says only the Rind tribe descends from Hamza.",
+    "Iranica writes that this claim cannot be taken at face value.",
+    "But the tradition is certainly an important part of Baloch identity."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "حلب کی روایت",
+      "en": "The Aleppo tradition"
+     }
+    },
+    {
+     "search": "Citadel of Aleppo"
+    },
+    {
+     "search": "Aleppo"
+    },
+    {
+     "search": "Balochi language"
+    },
+    {
+     "search": "Syria landscape"
+    },
+    {
+     "search": "Umayyad Caliphate"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The Aleppo tradition",
+    "ur": "حلب کی روایت"
+   },
+   "chapter": {
+    "n": 2,
+    "ur": "تین نظریات",
+    "en": "Three Theories"
+   },
+   "feel": "احترام اور نرمی، جیسے کسی قوم کی اپنی داستان سنا رہے ہوں۔ آخر میں توازن۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "warm"
+     ],
+     "w": "روایت"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "حلب"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مشرق"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ہارون"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "جوں"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Theory 2: Caspian / Median",
+   "narration_ur": "دوسری کہانی زبان کی ہے۔ بلوچی شمال مغربی ایرانی زبان ہے، اور اس کے کئی خاص نشان پارتھی اور میڈی زبانوں سے ملتے ہیں۔ اسی بنیاد پر کئی ماہرین کہتے ہیں کہ بلوچوں کا پرانا وطن بحیرۂ کیسپین کے وسطی علاقے کے مشرق یا جنوب مشرق میں تھا۔ برطانوی افسر اور ماہر مانسل لانگورتھ ڈیمز نے انیس سو دو میں لکھا کہ ایک نظریہ بلوچوں کو میڈی نسل سے جوڑتا ہے۔ اس نظریے کے مطابق ساسانی دور کے آخر میں وہ کرمان کی طرف آئے، اور پھر کئی صدیوں میں آہستہ آہستہ مشرق کی طرف بڑھتے گئے۔ زبان کا ثبوت مضبوط ہے، مگر وہ یہ بتاتا ہے کہ زبان کہاں سے آئی۔ یہ نہیں کہ ہر بلوچ خاندان کہاں سے آیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The second story is about language.",
+    "Balochi is a northwestern Iranian language, and several of its features resemble Parthian and Median.",
+    "On this basis many experts say the early homeland of the Baloch lay east or south-east of the central Caspian region.",
+    "The British official and scholar Mansel Longworth Dames wrote in 1902 that one theory links the Baloch to Median descent.",
+    "In this view, late in the Sasanian era they moved toward Kerman, and over several centuries drifted gradually eastward.",
+    "The language evidence is strong.",
+    "But it tells us where the language came from, not where every Baloch family came from."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "زبان کا ثبوت",
+      "en": "The language evidence"
+     }
+    },
+    {
+     "search": "Caspian Sea"
+    },
+    {
+     "search": "Medes"
+    },
+    {
+     "search": "Parthian Empire"
+    },
+    {
+     "search": "Northwestern Iranian languages"
+    },
+    {
+     "search": "Sasanian Empire"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The language theory",
+    "ur": "زبان کا نظریہ"
+   },
+   "feel": "وضاحتی اور اعتماد والی آواز، جیسے استاد نکتہ سمجھا رہا ہو۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "پارتھی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کیسپین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ڈیمز"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ساسانی"
+    },
+    {
+     "m": [
+      "stress",
+      "pause2"
+     ],
+     "w": "زبان"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Theory 3: always here?",
+   "narration_ur": "تیسرا نظریہ کہتا ہے کہ بلوچ کہیں دور سے آئے ہی نہیں تھے۔ ان کا پرانا مرکز مشرقی کرمان اور مکران کے آس پاس تھا۔ ایران کے ایک تحقیقی مقالے کے مطابق چوتھی صدی میں بھی ایک بڑی آبادی کرمان کے مشرق اور جیرفت کے قریب بتائی گئی ہے۔ کچھ دوسرے محققین نے سامی نسل، وسطی ایشیا، حتیٰ کہ ہندوستان کو بھی ان کا اصل وطن کہا ہے۔ جینیاتی تحقیق کا ایک حالیہ جائزہ بلوچوں کو مغربی یوریشیائی آبادی بتاتا ہے، جس میں ایرانی سطح مرتفع کا حصہ نمایاں ہے اور جنوبی ایشیائی ملاوٹ کم ہے۔ لیکن ڈی این اے یہ نہیں بتاتا کہ لوگوں نے خود کو بلوچ کب کہنا شروع کیا۔ اس لیے اس سوال کا کوئی ایک آخری جواب ابھی موجود نہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The third theory says the Baloch did not come from far away at all.",
+    "Their old centre was around eastern Kerman and Makran.",
+    "According to a research paper from Iran, a large population is reported in the east of Kerman near Jiroft as early as the fourth century.",
+    "Other researchers have proposed a Semitic origin, Central Asia, and even India as their original homeland.",
+    "A recent review of genetic research describes the Baloch as a West Eurasian population, with a strong Iranian Plateau share and limited South Asian admixture.",
+    "But DNA cannot tell us when people began calling themselves Baloch.",
+    "So no single final answer to this question exists yet."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "کون سا نظریہ؟",
+      "en": "Three theories, no final answer"
+     }
+    },
+    {
+     "search": "Jiroft"
+    },
+    {
+     "search": "Kerman Province"
+    },
+    {
+     "search": "Makran"
+    },
+    {
+     "search": "Iranian Plateau"
+    },
+    {
+     "search": "Sistan and Baluchestan Province"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Kerman and DNA",
+    "ur": "کرمان اور ڈی این اے"
+   },
+   "feel": "محتاط اور متوازن، جیسے ہر دعوے کو تولا جا رہا ہو۔ آخر میں دھیمی، سوچ میں ڈوبی آواز۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "مرکز"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جیرفت"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سامی"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "جینیاتی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "pause2"
+     ],
+     "w": "آخری"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Kerman → Makran → Sindh → Punjab",
+   "narration_ur": "جو بات زیادہ تر مصنفین مانتے ہیں وہ یہ ہے کہ بلوچ کئی صدیوں میں آہستہ آہستہ مشرق کی طرف آئے۔ یہ سفر ساسانی دور کے آخر میں شروع ہوا۔ اس کی وجہ معلوم نہیں، اور ایک اندازہ کیسپین کے علاقے کی بے چینی کا ہے۔ بارہویں صدی میں کرمان پر سلجوقوں کے حملے نے مشرق کی طرف ہجرت کو اور تیز کیا۔ تیرھویں اور چودھویں صدی تک بلوچوں کی لہریں سندھ میں پہنچ رہی تھیں، اور پندرھویں صدی تک پنجاب میں۔ اسی لیے آج بلوچستان کے علاوہ سندھ اور جنوبی پنجاب میں بھی بلوچ قبائل آباد ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "What most writers accept is that the Baloch moved east gradually over several centuries.",
+    "This movement began late in the Sasanian period.",
+    "The cause is unknown, and one guess is unrest in the Caspian area.",
+    "In the twelfth century a Seljuk invasion of Kerman seems to have pushed the eastward migration further.",
+    "By the thirteenth and fourteenth centuries waves of Baloch were reaching Sindh, and by the fifteenth century Punjab.",
+    "That is why Baloch tribes live today not only in Balochistan but also in Sindh and southern Punjab."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "مشرق کی طرف",
+      "en": "Eastward over centuries"
+     }
+    },
+    {
+     "search": "Seljuk Empire"
+    },
+    {
+     "search": "Sindh"
+    },
+    {
+     "search": "Punjab, Pakistan"
+    },
+    {
+     "search": "Indus River"
+    },
+    {
+     "search": "Makran"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Journey east",
+    "ur": "مشرق کا سفر"
+   },
+   "chapter": {
+    "n": 3,
+    "ur": "مشرق کا سفر",
+    "en": "The Journey East"
+   },
+   "feel": "چلتی ہوئی، رواں آواز، جیسے قافلہ آگے بڑھ رہا ہو۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "آہستہ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "وجہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سلجوقوں"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "سندھ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آباد"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Brahui: a Dravidian puzzle",
+   "narration_ur": "اب اس کہانی کا سب سے دلچسپ معمہ: براہوی۔ براہوی دراوڑی زبان ہے۔ اس کے رشتہ دار ہزاروں میل دور جنوبی ہندوستان میں بولے جاتے ہیں، حالانکہ اس کے چاروں طرف ہند یورپی زبانیں ہیں۔ ایک رائے ہے کہ براہوی بولنے والے بہت بعد میں یہاں آئے۔ دوسری رائے ہے کہ یہ کسی بہت پرانی زبان کا آخری نشان ہے، اور آسکو پارپولا اسے ہڑپائی تہذیب سے جوڑنے کی کوشش کرتے ہیں۔ لوکا پاگانی اور ساتھیوں کے جینیاتی مطالعے کے مطابق براہوی اپنے ہند یورپی پڑوسیوں سے جینیاتی طور پر قریب ہیں، اور جنوبی ہندوستان کے دراوڑی گروہوں سے نہیں۔ یعنی ممکن ہے زبان باقی رہ گئی ہو مگر آبادی بدل گئی ہو۔ اور بہت سے براہوی خود کو بلوچ ہی کہتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now the most intriguing puzzle in this story: Brahui.",
+    "Brahui is a Dravidian language.",
+    "Its relatives are spoken thousands of miles away in South India, though it is surrounded by Indo-European languages.",
+    "One view says Brahui speakers arrived here much later.",
+    "Another says it is the last trace of a very old language, and Asko Parpola tries to link it to the Harappan civilisation.",
+    "In a genetic study by Luca Pagani and colleagues, the Brahui are genetically close to their Indo-European neighbours, not to the Dravidian groups of South India.",
+    "So the language may have survived while the population changed.",
+    "And many Brahui call themselves Baloch."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "براہوی",
+      "en": "Brahui: the Dravidian puzzle"
+     }
+    },
+    {
+     "search": "Brahui language"
+    },
+    {
+     "search": "Brahui people"
+    },
+    {
+     "search": "Dravidian languages"
+    },
+    {
+     "search": "Indus Valley Civilisation"
+    },
+    {
+     "search": "Kalat, Balochistan"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The Brahui puzzle",
+    "ur": "براہوی کا معمہ"
+   },
+   "feel": "تجسس بھری آواز، جیسے کوئی راز کھل رہا ہو۔ آخر میں نرمی۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "معمہ"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "دراوڑی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ہڑپائی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جینیاتی"
+    },
+    {
+     "m": [
+      "stress",
+      "soft",
+      "slow"
+     ],
+     "w": "زبان"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Identity, not one bloodline",
+   "narration_ur": "ایرانیکا بلوچ شناخت کے بارے میں ایک بہت اہم بات لکھتا ہے۔ آج جنھیں بلوچ کہا جاتا ہے، ان میں بہت سی برادریاں دوسری نسلوں سے آئی ہیں، اور پچھلی چار صدیوں میں بلوچ قبائلی نظام میں شامل ہوئیں۔ کچھ ان میں ایسی ہیں جو بلوچوں کی آمد سے پہلے یہاں تھیں، اور کچھ بعد میں آئیں، جیسے بارکزئی، جو افغان نسل سے ہیں۔ اس لیے بلوچ پہچان بہت حد تک بلوچی زبان کے استعمال، قبائلی رشتوں اور مشترکہ رسم و رواج سے بنتی ہے، صرف نسب سے نہیں۔ اس کہانی کا سبق یہ ہے کہ قوم صرف ایک نسل کا نام نہیں ہوتی، وہ ایک مشترکہ پہچان بھی ہوتی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Iranica makes a very important point about Baloch identity.",
+    "Many communities now called Baloch are of other origins, and joined the Baloch tribal system over the last four centuries.",
+    "Some were here before the Baloch arrived, and others came later, such as the Barakzai, who are of Afghan origin.",
+    "So Baloch identity is built largely on the use of Balochi, tribal ties and shared customs, not on descent alone.",
+    "The lesson is that a people is not only the name of one bloodline, it is also a shared identity."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "بلوچ",
+      "en": "Baloch"
+     }
+    },
+    {
+     "search": "Balochi culture"
+    },
+    {
+     "search": "Hanna Lake"
+    },
+    {
+     "search": "Ziarat"
+    },
+    {
+     "search": "Baloch people"
+    },
+    {
+     "search": "Quetta"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Who counts as Baloch?",
+    "ur": "بلوچ کون کہلاتا ہے؟"
+   },
+   "feel": "سوچ بھری، گہری آواز۔ ایک اہم نکتہ آہستہ اور واضح۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "اہم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "برادریاں"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "بارکزئی"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "پہچان"
+    },
+    {
+     "m": [
+      "slow",
+      "soft",
+      "pause2"
+     ],
+     "w": "مشترکہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The Thirty Years' War",
+   "narration_ur": "اب آتے ہیں اس دور میں جہاں بلوچ تاریخ لوک شاعری میں زندہ ہے۔ پندرھویں اور سولھویں صدی کے آس پاس رند اور لاشار قبیلوں کے درمیان تیس سالہ جنگ کی کہانی مشہور ہے۔ اس کے رہنما میر چاکر رند اور میر گہرام لاشاری مانے جاتے ہیں۔ ماخذوں میں سال مختلف بتائے گئے ہیں۔ یہ جنگ بلوچی رزمیہ شاعری کا بڑا موضوع ہے، اور ہانی اور شہ مرید کی مشہور داستان بھی اسی دور سے جڑی ہے۔ روایت کے مطابق جنگ کے بعد میر چاکر پنجاب گئے اور ساہیوال کے علاقے ستگھرہ میں آباد ہوئے۔ بلوچ روایت یہ بھی کہتی ہے کہ چاکر نے ہمایوں کا ساتھ دیا۔ مگر کچھ تحقیق کار کہتے ہیں کہ مغل ماخذ اس کی تصدیق نہیں کرتے، اور وہاں چاکر ایک مقامی علاقے کے سردار کے طور پر نظر آتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now we come to a period where Baloch history lives on in folk poetry.",
+    "Around the fifteenth and sixteenth centuries a thirty-year war between the Rind and Lashar tribes is famous.",
+    "Its leaders are held to be Mir Chakar Rind and Mir Gwaharam Lashari.",
+    "Sources give different years.",
+    "The war is a major theme of Balochi epic poetry, and the famous tale of Hani and Sheh Mureed is also tied to this age.",
+    "By tradition, after the war Mir Chakar went to Punjab and settled at Satgarh in the Sahiwal area.",
+    "Baloch tradition also says Chakar helped Humayun.",
+    "But some researchers say Mughal sources do not confirm it, and there Chakar appears as a local chief."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "رند اور لاشار",
+      "en": "Rind and Lashar"
+     }
+    },
+    {
+     "search": "Mir Chakar Khan Rind"
+    },
+    {
+     "search": "Humayun"
+    },
+    {
+     "search": "Multan"
+    },
+    {
+     "search": "Sibi"
+    },
+    {
+     "search": "Sahiwal"
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Rind and Lashar",
+    "ur": "رند اور لاشار"
+   },
+   "sfx": "hit",
+   "chapter": {
+    "n": 4,
+    "ur": "رند اور لاشار: رزمیہ داستان",
+    "en": "Rind and Lashar: The Epic Age"
+   },
+   "feel": "داستان سنانے والے کی گرج اور وقار، مگر چیخے بغیر۔ آخر میں دھیما اور محتاط۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "warm"
+     ],
+     "w": "شاعری"
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "pause"
+     ],
+     "w": "تیس"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "رزمیہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ستگھرہ"
+    },
+    {
+     "m": [
+      "slow",
+      "stress",
+      "pause2"
+     ],
+     "w": "ہمایوں"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Sardar · Jirga · Mayar",
+   "narration_ur": "بلوچ معاشرہ روایتی طور پر قبیلوں کا معاشرہ رہا ہے، جس کے سربراہ کو سردار کہتے ہیں۔ سردار کے ساتھ موتبر اور ٹکری جیسے بزرگ ہوتے ہیں، اور جھگڑوں کا فیصلہ جرگے اور مصالحت کے ذریعے ہوتا ہے۔ رسم و رواج کے اس ضابطے کو بلوچی میار کہا جاتا ہے۔ اس میں مہمان نوازی، وعدے کی پاسداری، پناہ اور بہادری کو بڑی اہمیت حاصل ہے۔ پشتونولی کی ویڈیو میں آپ نے ایسی ہی باتیں سنی ہوں گی۔ دونوں ضابطوں میں مشابہتیں ہیں، مگر ہر ایک کی اپنی تاریخ اور اپنی تفصیلات ہیں۔ بعض بلوچ مؤرخین، جیسے ڈاکٹر شاہ محمد مری، کہتے ہیں کہ سرداری نظام بہت پہلے پرانا ہو چکا۔ دوسرے آج بھی قبیلے کو معاشرے کی بنیادی اکائی سمجھتے ہیں۔ اور تمام بلوچ کبھی ایک ہی سردار یا ایک ہی اتحاد کے تحت نہیں رہے۔ بلوچی بولنے والے بہت سے قبیلے الگ الگ ہی رہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Baloch society has traditionally been a society of tribes, whose head is called the sardar.",
+    "With the sardar sit elders called motebar and takkari, and disputes are settled by jirga and mediation.",
+    "This code of custom is called the Baloch Mayar.",
+    "It places great weight on hospitality, keeping one's word, refuge and courage.",
+    "You heard similar ideas in the Pashtunwali video.",
+    "The two codes have similarities, but each has its own history and details.",
+    "Some Baloch historians, such as Dr Shah Mohammad Marri, say the sardari system became outdated long ago.",
+    "Others still see the tribe as society's basic unit.",
+    "And all the Baloch never lived under one chief or one confederacy.",
+    "Many Balochi-speaking tribes remained separate."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "میار",
+      "en": "Mayar: the Baloch code"
+     }
+    },
+    {
+     "search": "Jirga"
+    },
+    {
+     "search": "Balochi culture"
+    },
+    {
+     "search": "Turban"
+    },
+    {
+     "search": "Baloch people"
+    },
+    {
+     "search": "Sibi"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Tribes and the Mayar",
+    "ur": "قبیلے اور میار"
+   },
+   "feel": "گرم جوشی مگر توازن کے ساتھ۔ ہر نکتہ صاف۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "سردار"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جرگے"
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "warm"
+     ],
+     "w": "میار"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مشابہتیں"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "پرانا"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "pause2"
+     ],
+     "w": "الگ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Kalat · 1666",
+   "narration_ur": "سولہ سو چھیاسٹھ میں قلات میں پہلی بار ایک منظم ریاست ابھری۔ اس کے بانی میر احمد خان تھے، جن کے نام پر احمدزئی خاندان کہلایا۔ یہ خاندان براہوی تھا، اور ریاست براہوی اور بلوچ قبیلوں کے اتحاد پر کھڑی تھی۔ اس ریاست کا عروج میر نصیر خان اول کے دور میں آیا، جو سترہ سو انچاس سے سترہ سو چورانوے تک حکمران رہے۔ ان کے دور میں قلات کی حدود آج کے پاکستان، ایران اور افغانستان کے بلوچ علاقوں تک پھیل گئیں۔ احمد شاہ ابدالی کی درانی سلطنت سے ان کے تعلقات کے بارے میں ماخذ مختلف ہیں۔ کچھ کے مطابق انھوں نے سترہ سو اٹھاون میں بغاوت کی، اور کچھ کے مطابق احمد شاہ نے قلات کے معاملات میں مداخلت نہ کرنے کی ضمانت دی۔ اس ریاست کے برطانوی دور اور سن اڑتالیس کی کہانی الگ ویڈیوز میں آئے گی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In 1666 the first organised state of Balochistan emerged at Kalat.",
+    "Its founder was Mir Ahmad Khan, after whom the Ahmadzai dynasty is named.",
+    "The dynasty was Brahui, and the state rested on a union of Brahui and Baloch tribes.",
+    "The state reached its peak under Mir Nasir Khan I, who ruled from 1749 to 1794.",
+    "In his time Kalat's reach spread over Baloch areas of today's Pakistan, Iran and Afghanistan.",
+    "Sources differ on his relations with Ahmad Shah Abdali's Durrani Empire.",
+    "Some say he revolted in 1758, while others say Ahmad Shah guaranteed non-interference in Kalat's affairs.",
+    "The story of this state under the British, and of 1948, will come in separate videos."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "قلات",
+      "en": "Khanate of Kalat · 1666"
+     }
+    },
+    {
+     "search": "Khanate of Kalat"
+    },
+    {
+     "search": "Nasir Khan I Ahmadzai"
+    },
+    {
+     "search": "Kalat, Balochistan"
+    },
+    {
+     "search": "Durrani Empire"
+    },
+    {
+     "search": "Miri Fort Kalat"
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Khanate of Kalat",
+    "ur": "خانِ قلات"
+   },
+   "chapter": {
+    "n": 5,
+    "ur": "قلات کی ریاست",
+    "en": "The Khanate of Kalat"
+   },
+   "feel": "وقار اور عظمت، جیسے ایک ریاست کے قیام کی خبر سنا رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "منظم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "احمدزئی"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "pause"
+     ],
+     "w": "نصیر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پھیل"
+    },
+    {
+     "m": [
+      "slow",
+      "stress",
+      "pause"
+     ],
+     "w": "مختلف"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "الگ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Land and culture today",
+   "narration_ur": "اٹھارہ سو ستر کے بعد بلوچ علاقہ باقاعدہ طور پر تین حصوں میں بٹ گیا: افغانستان، ایران اور برطانوی ہندوستان، اور بعد میں پاکستان۔ بلوچ خلیجی ملکوں، عمان اور ترکمانستان میں بھی ملتے ہیں۔ ہر سال دو مارچ کو بلوچی ثقافت کا دن منایا جاتا ہے۔ بلوچ ثقافت کی پہچان ان کی پگڑی، ان کی شاعری اور ان کی مہمان نوازی ہے۔ بلوچستان کے آج کے سیاسی مسائل ایک الگ اور حساس موضوع ہیں۔ اس ویڈیو میں ہم نے صرف یہ دیکھا کہ یہ لوگ تاریخ میں کہاں سے آئے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "After 1870 the Baloch region was formally divided among Afghanistan, Iran and British India, and later Pakistan.",
+    "Baloch communities are also found in the Gulf states, Oman and Turkmenistan.",
+    "Every year on 2 March Baloch Culture Day is celebrated.",
+    "Baloch culture is recognised by its turban, its poetry and its hospitality.",
+    "The political issues of Balochistan today are a separate and sensitive subject.",
+    "In this video we only looked at where these people came from in history."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "بلوچ",
+      "en": "Baloch"
+     }
+    },
+    {
+     "search": "Gwadar"
+    },
+    {
+     "search": "Hingol National Park"
+    },
+    {
+     "search": "Hanna Lake"
+    },
+    {
+     "search": "Ziarat"
+    },
+    {
+     "search": "Balochistan, Pakistan"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Baloch today",
+    "ur": "آج کے بلوچ"
+   },
+   "feel": "پُرسکون اور وقار والی آواز۔ آخری جملے پر احتیاط اور نرمی۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "عمان"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "ثقافت"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "شاعری"
+    },
+    {
+     "m": [
+      "slow",
+      "soft",
+      "pause2"
+     ],
+     "w": "حساس"
+    },
+    {
+     "m": [],
+     "w": ""
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Firm vs still debated",
+   "narration_ur": "تو آخر میں ہم کیا پکا کہہ سکتے ہیں؟ پکی بات یہ ہے کہ بلوچی شمال مغربی ایرانی زبان ہے، اور بلوچ نام کا تحریری ذکر ایران کے جنوب مشرق کے حوالے سے ملتا ہے۔ یہ بھی ٹھیک ہے کہ وہ کئی صدیوں میں مشرق کی طرف بڑھے۔ ابھی بحث میں ہیں: حلب کی روایت، میڈی نسل کا دعویٰ، اور یہ سوال کہ ان کا اصل مرکز کہاں تھا۔ اور ایرانیکا کے مطابق بلوچ شناخت کئی گروہوں کے ملاپ سے بنی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So at the end, what can we say with confidence?",
+    "What is firm: Balochi is a northwestern Iranian language, and the name Baloch appears in writing in connection with south-eastern Iran.",
+    "It is also well supported that they moved east over several centuries.",
+    "Still debated: the Aleppo tradition, the Median descent claim, and where their original centre lay.",
+    "And according to Iranica, Baloch identity was formed from the merging of several groups."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "پکی بات",
+      "en": "Firm"
+     }
+    },
+    {
+     "search": "Bolan Pass"
+    },
+    {
+     "search": "Quetta"
+    },
+    {
+     "card": {
+      "ur": "بحث جاری",
+      "en": "Still debated"
+     }
+    },
+    {
+     "search": "Makran coast"
+    },
+    {
+     "search": "Hanna Lake"
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "What is firm",
+    "ur": "کیا پکا ہے"
+   },
+   "feel": "صاف اور ٹھہرا ہوا۔ 'پکی بات' اور 'بحث جاری' پر فرق ظاہر کریں۔",
+   "delivery": [
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "پکا"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "پکی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مشرق"
+    },
+    {
+     "m": [
+      "stress",
+      "slow",
+      "pause"
+     ],
+     "w": "بحث"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "ملاپ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Next video",
+   "narration_ur": "تو بلوچ کون ہیں؟ ایک ایرانی زبان بولنے والی قوم، جس کی ابتدائی تحریری جھلکیاں ایران کے جنوب مشرق میں ملتی ہیں، جو صدیوں میں مشرق کی طرف آئی، اور راستے میں کئی گروہوں کو اپنے ساتھ ملاتی گئی۔ آپ کے خیال میں ان تینوں نظریات میں سے کون سا ثبوتوں کے زیادہ قریب ہے؟ کمنٹ میں احترام کے ساتھ لکھیں۔ اگلی ویڈیو میں ہم افغانستان کی دوسری قوموں کو دیکھیں گے: تاجک، ہزارہ، ازبک اور ترکمن۔ ویڈیو پسند آئی ہو تو سبسکرائب کیجیے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So who are the Baloch?",
+    "A people speaking an Iranian language, whose earliest written glimpses are in south-eastern Iran, who moved east over centuries, and took many groups into their fold along the way.",
+    "Which of these three theories do you think is closest to the evidence?",
+    "Write in the comments, respectfully.",
+    "In the next video we look at the other peoples of Afghanistan: Tajiks, Hazaras, Uzbeks and Turkmen.",
+    "If you liked the video, please subscribe."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "بلوچ",
+      "en": "Baloch"
+     }
+    },
+    {
+     "search": "Hindu Kush"
+    },
+    {
+     "search": "Hanna Lake"
+    },
+    {
+     "search": "Bolan Pass"
+    },
+    {
+     "card": {
+      "ur": "اگلی ویڈیو: افغانستان کی قومیں",
+      "en": "Next: Peoples of Afghanistan"
+     }
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Next video",
+    "ur": "اگلی ویڈیو"
+   },
+   "feel": "سوال پر آواز اوپر، پھر خلاصے پر آہستہ، آخر میں مسکرا کر۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "بلوچ"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "کون"
+    },
+    {
+     "m": [],
+     "w": ""
+    },
+    {
+     "m": [
+      "slow",
+      "warm"
+     ],
+     "w": "تاجک"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "سبسکرائب"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Where Did the Baloch Come From? 3 Stories #Shorts",
+   "scenes": [
+    {
+     "image": "01a",
+     "text_on_screen": "Baloch origins",
+     "narration_ur": "بلوچ کون ہیں، اور وہ آئے کہاں سے؟ اس کی تین کہانیاں ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01c",
+     "text_on_screen": "Story 1: Aleppo",
+     "narration_ur": "پہلی کہانی بلوچوں کی اپنی روایت ہے: ان کے بزرگ حلب سے آئے تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01d",
+     "text_on_screen": "Story 2: Caspian",
+     "narration_ur": "دوسری کہانی زبان کی ہے: بلوچی کا پرانا وطن کیسپین کے قریب بتایا جاتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07b",
+     "text_on_screen": "Story 3: Kerman",
+     "narration_ur": "تیسری کہانی کہتی ہے کہ ان کا پرانا مرکز مشرقی کرمان کے آس پاس تھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01e",
+     "text_on_screen": "No final answer",
+     "narration_ur": "فیصلہ کیا ہے؟ مکمل ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "The Dravidian Language in Balochistan #Shorts",
+   "scenes": [
+    {
+     "image": "09b",
+     "text_on_screen": "Brahui",
+     "narration_ur": "بلوچستان میں ایک ایسی زبان بھی ہے جو جنوبی ہندوستان کی زبانوں کے خاندان سے ہے: براہوی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09c",
+     "text_on_screen": "Dravidian",
+     "narration_ur": "ماہرین کہتے ہیں کہ براہوی دراوڑی زبان ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09d",
+     "text_on_screen": "Genes say…",
+     "narration_ur": "مگر ایک جینیاتی مطالعہ کہتا ہے کہ براہوی اپنے پڑوسیوں کے قریب ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09e",
+     "text_on_screen": "Mystery",
+     "narration_ur": "تو شاید زبان رہ گئی اور آبادی بدل گئی۔ مکمل کہانی ویڈیو میں ہے۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "9,000 Years Before the Baloch: Mehrgarh #Shorts",
+   "scenes": [
+    {
+     "image": "03b",
+     "text_on_screen": "Mehrgarh",
+     "narration_ur": "کوئٹہ کے قریب مہرگڑھ میں تقریباً سات ہزار قبلِ مسیح میں ایک کاشتکار گاؤں بسا تھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "03c",
+     "text_on_screen": "Bolan",
+     "narration_ur": "یہ بولان کے دہانے پر ہے، جنوبی ایشیا کے قدیم ترین کھیتی کے ثبوتوں میں سے ایک۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "03d",
+     "text_on_screen": "Farmers",
+     "narration_ur": "وہاں گندم، جو اور مویشی تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "03e",
+     "text_on_screen": "Not yet Baloch",
+     "narration_ur": "مگر بلوچ نام بہت بعد میں آتا ہے۔ پوری کہانی ویڈیو میں۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ]
+}
