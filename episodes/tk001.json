@@ -39,6 +39,9 @@
     {
      "search": "Persian miniature",
      "skip": true
+    },
+    {
+     "img": "02d"
     }
    ],
    "mood": "tense",
@@ -115,6 +118,9 @@
     },
     {
      "search": "Swat Valley"
+    },
+    {
+     "img": "01b"
     }
    ],
    "mood": "calm",
@@ -267,6 +273,9 @@
     },
     {
      "search": "Jalalabad"
+    },
+    {
+     "img": "03a"
     }
    ],
    "mood": "calm",
@@ -1221,6 +1230,12 @@
     {
      "search": "Tajikistan",
      "skip": true
+    },
+    {
+     "img": "15b"
+    },
+    {
+     "img": "15c"
     }
    ],
    "mood": "calm",
@@ -1302,6 +1317,9 @@
     {
      "search": "Afridi",
      "skip": true
+    },
+    {
+     "img": "16a"
     }
    ],
    "mood": "tense",
@@ -1467,6 +1485,15 @@
     {
      "search": "Kandahar",
      "skip": true
+    },
+    {
+     "img": "18c"
+    },
+    {
+     "img": "18e"
+    },
+    {
+     "img": "18g"
     }
    ],
    "mood": "calm",

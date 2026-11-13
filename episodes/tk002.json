@@ -132,6 +132,12 @@
     },
     {
      "search": "Peshawar"
+    },
+    {
+     "img": "01a"
+    },
+    {
+     "img": "01b"
     }
    ],
    "mood": "calm",
@@ -216,6 +222,9 @@
     {
      "search": "Sulaiman Khel",
      "skip": true
+    },
+    {
+     "img": "02d"
     }
    ],
    "mood": "calm",
@@ -302,6 +311,12 @@
     },
     {
      "search": "Sulaiman Mountains"
+    },
+    {
+     "img": "03a"
+    },
+    {
+     "img": "03b"
     }
    ],
    "mood": "calm",
@@ -572,6 +587,12 @@
     {
      "search": "Arg (Kabul)",
      "skip": true
+    },
+    {
+     "img": "06c"
+    },
+    {
+     "img": "06e"
     }
    ],
    "mood": "epic",
@@ -990,6 +1011,18 @@
     {
      "search": "Zhob",
      "skip": true
+    },
+    {
+     "img": "11e"
+    },
+    {
+     "img": "11g"
+    },
+    {
+     "img": "11h"
+    },
+    {
+     "img": "13c"
     }
    ],
    "mood": "calm",
@@ -1139,6 +1172,9 @@
     },
     {
      "search": "Khyber Rifles"
+    },
+    {
+     "img": "13c"
     }
    ],
    "mood": "epic",
@@ -1212,6 +1248,15 @@
     {
      "search": "Waziristan",
      "skip": true
+    },
+    {
+     "img": "14b"
+    },
+    {
+     "img": "14d"
+    },
+    {
+     "img": "14f"
     }
    ],
    "mood": "calm",
@@ -1458,6 +1503,18 @@
     {
      "search": "Tribe",
      "skip": true
+    },
+    {
+     "img": "17a"
+    },
+    {
+     "img": "17b"
+    },
+    {
+     "img": "17c"
+    },
+    {
+     "img": "17d"
     }
    ],
    "mood": "calm",
@@ -1635,6 +1692,9 @@
     },
     {
      "search": "Hotak dynasty"
+    },
+    {
+     "img": "19b"
     }
    ],
    "mood": "calm",
