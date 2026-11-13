@@ -42,7 +42,7 @@ CRF = os.environ.get("TK_CRF", "18")          # single shots (they are encoded o
 FINAL_CRF = os.environ.get("TK_FINAL_CRF", "21")
 BURN = [x.strip() for x in os.environ.get("TK_BURN", "").split(",") if x.strip()]   # "" = none (YouTube subtitles only); "ur" or "ur,en" burns them in
 TEST = os.environ.get("TK_TEST") == "1"
-MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.55"))      # 0.7 = quieter music, 1.4 = louder
+MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.85"))      # 0.7 = quieter music, 1.4 = louder
 AI_VOICE = os.environ.get("TK_VOICE_UR", "ur-PK-AsadNeural")
 UA = "TareekhKiKahani/1.0 (history documentary channel; sibghattranslator@gmail.com)"
 
@@ -448,7 +448,7 @@ def card_text(dst, lines, y_center=H // 2):
     items = []
     for text, size, color, rtl in lines:
         f = urdu(size) if rtl else latin(size)
-        for ln in wrap(d, text, f, W - 420, rtl)[:3]: items.append((ln, f, color, rtl, int(size * 1.35)))
+        for ln in wrap(d, text, f, W - 420, rtl)[:3]: items.append((ln, f, color, rtl, int(f.size * 1.5) if rtl else int(size * 1.35)))   # Nastaleeq is tall: give it room
     total = sum(i[4] for i in items); y = y_center - total // 2
     for ln, f, color, rtl, h in items:
         draw_c(d, ln, f, W / 2, y, color, rtl, stroke=3); y += h
