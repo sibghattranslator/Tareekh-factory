@@ -670,6 +670,7 @@ def purge_banned(ep, data=None):
 
 
 _COMMONS_DEAD = [False]
+_OTHER_USED = {}
 _JUNK = re.compile(r"\d{6}-D-|\bnavy\b|\bseals?\b|\barmy\b|marines?\b|operation|soldier|troop|military|cricket|\bvs\b|shahid|shaheen|imran|bhutto|hilal|feld|restaurant|kabab|kebab|bread|hound|stadium|economic forum|\bwef\b|literacy|princes of hope|kartarpur|gurdwara|genealogy library|nordisk|webley|revolver|guardi|football|player|parable|unforgiving|graph\b|mercedes|jersey|\bgym\b|concert|actor|actress|singer|minister|president|chief of|general\b|screenshot|microsoft|office|powerpoint|interchange|cloverleaf|unleashing|marin|dominican|infobox|logo|icon|flag|ribbon|symbol|seal_of|coat_of|signature|blank|edit-|wikidata|question_book|commons-|stub|\.svg|medal|emblem|map_of|locator", re.I)
 
 
@@ -791,7 +792,14 @@ def fetch_pictures(ep, scenes):
             note = "picture/video in folder" if have else ""
             if not have and sh.get("search") and not sh.get("card"):
                 print(f"  picture {stem}: searching Commons for '{sh['search']}' ...", end=" ", flush=True)
-                hit = commons_search(sh["search"], used)
+                if _OTHER_USED.get(ep) is None:                       # pictures already shown in the other videos: do not show them again
+                    o = set()
+                    for uf in IMGS.glob("tk*/commons_used.json"):
+                        if uf.parent.name != ep:
+                            try: o |= set(json.loads(uf.read_text(encoding="utf-8")))
+                            except Exception: pass
+                    _OTHER_USED[ep] = o
+                hit = commons_search(sh["search"], used | _OTHER_USED[ep]) or commons_search(sh["search"], used)
                 if hit:
                     try:
                         raw = _http_get(hit["url"], 120)
@@ -971,6 +979,17 @@ def chunk_chars(sent, limit=84):
         else: cur = (cur + " " + w).strip()
     if cur: out.append(cur)
     return out
+
+
+def sentence_starts(sc, mask, hop=0.01):
+    """Start time (seconds) of every Urdu sentence, timed on the real speech like the subtitles."""
+    ur_s = split_sentences(sc.get("narration_ur", ""))
+    if not ur_s: return []
+    cum = np.concatenate([[0], np.cumsum(mask) * hop]); total = cum[-1]
+    if total <= 0: return [0.0] * len(ur_s)
+    times = np.arange(len(mask) + 1) * hop
+    w = np.array([max(len(x.replace(" ", "")), 1) for x in ur_s], float); w = np.concatenate([[0], np.cumsum(w)[:-1]]) / w.sum() * total
+    return [float(times[min(np.searchsorted(cum, v, "right"), len(times) - 1)]) for v in w]
 
 
 def make_cues(sc, mask, hop=0.01):
@@ -1278,10 +1297,21 @@ def render_episode(ep, data, work, out_video, out_dir, rec_dir=None, only=None, 
             compose([cbase], [card_fr], [(str(pa), 0.2, 1.4, True), (str(pb), 1.4, CARD, True)], card)
         # shots
         shots = norm_shots(i, sc); ns = max(1, int(round(body_fr / FPS / 6.5)))
-        if len(shots) < ns:                                             # not enough shots listed: repeat the last picture with another move
-            while len(shots) < ns: shots.append(dict(shots[-1], stem=shots[-1]["stem"], w=1.0))
-        ws = np.array([s.get("w", 1.0) for s in shots], float)
-        vis = np.maximum(np.round(ws / ws.sum() * body_fr).astype(int), 2 * XF); vis[-1] += body_fr - vis.sum()
+        anchored = bool(shots) and all(isinstance(s.get("at"), int) for s in shots) \
+            and all(shots[k]["at"] <= shots[k + 1]["at"] for k in range(len(shots) - 1))
+        if anchored:                                                    # "at": N = this picture appears when sentence N starts (picture matches the words)
+            st = sentence_starts(sc, voiced_mask(a))
+            b = [0 if k == 0 or not st else int(round(st[min(max(s["at"], 1), len(st)) - 1] * FPS)) for k, s in enumerate(shots)]
+            b = [min(x, body_fr - 2 * XF) for x in b]
+            vis = np.array([b[k + 1] - b[k] if k + 1 < len(b) else body_fr - b[k] for k in range(len(b))], int)
+            vis = np.maximum(vis, 2 * XF); vis[-1] += body_fr - vis.sum()
+            if vis[-1] < 2 * XF:                                        # sentences too close together: share the time equally instead
+                vis = np.maximum(np.round(np.ones(len(shots)) / len(shots) * body_fr).astype(int), 2 * XF); vis[-1] += body_fr - vis.sum()
+        else:
+            if len(shots) < ns:                                         # not enough shots listed: repeat the last picture with another move
+                while len(shots) < ns: shots.append(dict(shots[-1], stem=shots[-1]["stem"], w=1.0))
+            ws = np.array([s.get("w", 1.0) for s in shots], float)
+            vis = np.maximum(np.round(ws / ws.sum() * body_fr).astype(int), 2 * XF); vis[-1] += body_fr - vis.sum()
         clips = []
         for k, s in enumerate(shots):
             fr = int(vis[k] + (XF if k < len(shots) - 1 else 0)); shot_no += 1

@@ -294,3 +294,5 @@ ERA 10 - PLACES & SPECIAL STORIES (can be placed anywhere)
 TOPICS DONE
 (see the file TOPICS_DONE.txt in my folder)
 =====================================================================
+
+PICTURE RULE (from tk006 on): every shot has "at": N = the sentence number where that picture appears. The picture must show what that sentence talks about (pharaoh -> his mask / pyramid, blue stone -> lapis lazuli). Shots in sentence order, first shot at 1. Do not reuse pictures from earlier videos (the factory skips them by itself).

@@ -21,25 +21,31 @@
    ],
    "shots": [
     {
+     "search": "Mask of Tutankhamun",
+     "at": 1
+    },
+    {
+     "search": "Lapis lazuli",
+     "at": 2
+    },
+    {
+     "search": "Badakhshan Province",
+     "at": 3
+    },
+    {
+     "search": "Giza pyramid complex",
+     "at": 4
+    },
+    {
      "card": {
-      "ur": "نیلا پتھر",
-      "en": "The blue stone"
-     }
+      "ur": "یہ کہانی کتنی پرانی ہے؟",
+      "en": "How old is this story?"
+     },
+     "at": 5
     },
     {
-     "search": "Mask of Tutankhamun"
-    },
-    {
-     "search": "Lapis lazuli"
-    },
-    {
-     "search": "Badakhshan Province"
-    },
-    {
-     "search": "Standard of Ur"
-    },
-    {
-     "search": "Hindu Kush"
+     "search": "Hindu Kush",
+     "at": 7
     }
    ],
    "mood": "tense",
@@ -115,22 +121,28 @@
      "card": {
       "ur": "ثبوت کی تین قسمیں",
       "en": "Three kinds of evidence"
-     }
+     },
+     "at": 1
     },
     {
-     "search": "National Museum of Afghanistan"
+     "search": "National Museum of Afghanistan",
+     "at": 2
     },
     {
-     "search": "Avesta"
+     "search": "Excavation (archaeology)",
+     "at": 3
     },
     {
-     "search": "Strabo"
+     "search": "Avesta",
+     "at": 4
     },
     {
-     "search": "Afghanistan"
+     "search": "Strabo",
+     "at": 5
     },
     {
-     "search": "Bactria"
+     "search": "Bactria",
+     "at": 6
     }
    ],
    "mood": "calm",
@@ -195,25 +207,35 @@
    ],
    "shots": [
     {
+     "search": "Mundigak",
+     "at": 1
+    },
+    {
+     "search": "Mundigak",
+     "at": 2
+    },
+    {
+     "search": "Kandahar",
+     "at": 3
+    },
+    {
+     "search": "Helmand culture",
+     "at": 4
+    },
+    {
+     "search": "Indus Valley Civilisation",
+     "at": 5
+    },
+    {
+     "search": "Mehrgarh",
+     "at": 6
+    },
+    {
      "card": {
-      "ur": "پہلے شہر",
-      "en": "The first towns"
-     }
-    },
-    {
-     "search": "Mundigak"
-    },
-    {
-     "search": "Kandahar"
-    },
-    {
-     "search": "Helmand culture"
-    },
-    {
-     "search": "Mehrgarh"
-    },
-    {
-     "search": "Shahr-e Sukhteh"
+      "ur": "تحریر نہیں ملی",
+      "en": "No writing was found"
+     },
+     "at": 7
     }
    ],
    "mood": "calm",
@@ -297,25 +319,35 @@
    ],
    "shots": [
     {
-     "search": "Sar-i Sang"
+     "search": "Lapis lazuli",
+     "at": 1
     },
     {
-     "search": "Kokcha River"
+     "search": "Sar-i Sang",
+     "at": 2
     },
     {
-     "search": "Lapis lazuli"
+     "search": "Kokcha River",
+     "at": 4
     },
     {
-     "search": "Royal Cemetery at Ur"
+     "search": "Tepe Gawra",
+     "at": 5
     },
     {
-     "search": "Tepe Gawra"
+     "search": "Royal Cemetery at Ur",
+     "at": 6
+    },
+    {
+     "search": "Shahr-e Sukhteh",
+     "at": 7
     },
     {
      "card": {
-      "ur": "نیلا راستہ",
-      "en": "The blue road"
-     }
+      "ur": "کیمیائی ثبوت: بدخشاں",
+      "en": "Chemical proof: Badakhshan"
+     },
+     "at": 8
     }
    ],
    "mood": "calm",
@@ -397,25 +429,35 @@
    ],
    "shots": [
     {
-     "search": "Shortugai"
-    },
-    {
-     "search": "Indus Valley Civilisation"
-    },
-    {
-     "search": "Amu Darya"
-    },
-    {
      "card": {
       "ur": "سندھ کی بستی، آمو کے کنارے",
       "en": "An Indus town on the Oxus"
-     }
+     },
+     "at": 1
     },
     {
-     "search": "Takhar Province"
+     "search": "Shortugai",
+     "at": 2
     },
     {
-     "search": "Kokcha River"
+     "search": "Harappa",
+     "at": 3
+    },
+    {
+     "search": "Indus Valley Civilisation",
+     "at": 4
+    },
+    {
+     "search": "Amu Darya",
+     "at": 5
+    },
+    {
+     "search": "Kokcha River",
+     "at": 6
+    },
+    {
+     "search": "Takhar Province",
+     "at": 7
     }
    ],
    "mood": "calm",
@@ -485,25 +527,35 @@
    ],
    "shots": [
     {
+     "search": "Viktor Sarianidi",
+     "at": 1
+    },
+    {
+     "search": "Bactria–Margiana Archaeological Complex",
+     "at": 2
+    },
+    {
      "card": {
-      "ur": "آمو دریا کی تہذیب",
-      "en": "The Oxus civilization"
-     }
+      "ur": "۲۳۰۰ تا ۱۷۰۰ قبل مسیح",
+      "en": "2300 – 1700 BC"
+     },
+     "at": 3
     },
     {
-     "search": "Bactria–Margiana Archaeological Complex"
+     "search": "Gonur Depe",
+     "at": 4
     },
     {
-     "search": "Gonur Depe"
+     "search": "Bactria–Margiana Archaeological Complex",
+     "at": 5
     },
     {
-     "search": "Viktor Sarianidi"
+     "search": "Bactrian princess",
+     "at": 6
     },
     {
-     "search": "Bactria"
-    },
-    {
-     "search": "Amu Darya"
+     "search": "Amu Darya",
+     "at": 7
     }
    ],
    "mood": "epic",
@@ -580,25 +632,34 @@
    ],
    "shots": [
     {
-     "search": "Dashly Tepe"
+     "search": "Dashly",
+     "at": 1
     },
     {
-     "search": "Bactria–Margiana Archaeological Complex"
+     "search": "Balkh Province",
+     "at": 3
     },
     {
      "card": {
-      "ur": "کیا وہ آریا تھے؟",
+      "ur": "یہ تہذیب کیوں ختم ہوئی؟",
+      "en": "Why did it end?"
+     },
+     "at": 5
+    },
+    {
+     "search": "Karakum Desert",
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "کیا یہ لوگ آریا تھے؟",
       "en": "Were they Aryans?"
-     }
+     },
+     "at": 8
     },
     {
-     "search": "Balkh Province"
-    },
-    {
-     "search": "Jowzjan Province"
-    },
-    {
-     "search": "Hindu Kush"
+     "search": "Andronovo culture",
+     "at": 9
     }
    ],
    "mood": "tense",
@@ -684,25 +745,31 @@
    ],
    "shots": [
     {
-     "search": "Aryan"
-    },
-    {
-     "search": "Rigveda"
-    },
-    {
-     "search": "Avesta"
-    },
-    {
-     "search": "Indo-Iranian languages"
-    },
-    {
-     "search": "Eurasian Steppe"
-    },
-    {
      "card": {
       "ur": "آریا کون تھے؟",
       "en": "Who were the Aryans?"
-     }
+     },
+     "at": 1
+    },
+    {
+     "search": "Aryan",
+     "at": 2
+    },
+    {
+     "search": "Avesta",
+     "at": 4
+    },
+    {
+     "search": "Rigveda",
+     "at": 5
+    },
+    {
+     "search": "Indo-Iranian languages",
+     "at": 6
+    },
+    {
+     "search": "Eurasian Steppe",
+     "at": 7
     }
    ],
    "mood": "calm",
@@ -785,24 +852,30 @@
    "shots": [
     {
      "card": {
-      "ur": "لفظ کا غلط استعمال",
+      "ur": "ایک لفظ کا غلط استعمال",
       "en": "A word misused"
-     }
+     },
+     "at": 1
     },
     {
-     "search": "Arthur de Gobineau"
+     "search": "Arthur de Gobineau",
+     "at": 2
     },
     {
-     "search": "Indo-European languages"
+     "search": "An Essay on the Inequality of the Human Races",
+     "at": 3
     },
     {
-     "search": "Friedrich Max Müller"
+     "search": "Indo-European languages",
+     "at": 4
     },
     {
-     "search": "Sanskrit"
+     "search": "Sanskrit",
+     "at": 5
     },
     {
-     "search": "Indo-Iranians"
+     "search": "Indo-Iranians",
+     "at": 6
     }
    ],
    "mood": "tense",
@@ -871,22 +944,39 @@
    ],
    "shots": [
     {
-     "search": "Ariana"
+     "search": "Ariana",
+     "at": 1
     },
     {
-     "search": "Eratosthenes"
+     "search": "Eratosthenes",
+     "at": 3
     },
     {
-     "search": "Strabo"
+     "search": "Strabo",
+     "at": 4
     },
     {
-     "search": "Herat"
+     "search": "Indus River",
+     "at": 5
     },
     {
-     "search": "Balkh"
+     "search": "Airyanem Vaejah",
+     "at": 6
     },
     {
-     "search": "Iran"
+     "search": "Iran",
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "ایک قوم نہیں، بہت سے قبیلے",
+      "en": "Not one people, many tribes"
+     },
+     "at": 8
+    },
+    {
+     "search": "Afghanistan",
+     "at": 9
     }
    ],
    "mood": "calm",
@@ -975,22 +1065,35 @@
    ],
    "shots": [
     {
-     "search": "Avesta"
+     "search": "Avesta",
+     "at": 1
     },
     {
-     "search": "Zoroastrianism"
+     "search": "Zoroastrianism",
+     "at": 2
     },
     {
-     "search": "Vendidad"
+     "search": "Vendidad",
+     "at": 3
     },
     {
-     "search": "Balkh"
+     "search": "Ahriman",
+     "at": 4
     },
     {
-     "search": "Herat"
+     "search": "Balkh",
+     "at": 5
     },
     {
-     "search": "Faravahar"
+     "search": "Herat",
+     "at": 6
+    },
+    {
+     "card": {
+      "ur": "سولہ میں سے نو جگہیں پہچانی گئیں",
+      "en": "9 of the 16 lands identified"
+     },
+     "at": 7
     }
    ],
    "mood": "calm",
@@ -1072,25 +1175,50 @@
    ],
    "shots": [
     {
-     "search": "Zoroaster"
-    },
-    {
-     "search": "Shahnameh"
-    },
-    {
-     "search": "Ferdowsi"
-    },
-    {
-     "search": "Vishtaspa"
-    },
-    {
-     "search": "Gathas"
+     "search": "Zoroaster",
+     "at": 1
     },
     {
      "card": {
       "ur": "زرتشت: کہاں اور کب؟",
       "en": "Zarathustra: where and when?"
-     }
+     },
+     "at": 2
+    },
+    {
+     "search": "Gathas",
+     "at": 3
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 4
+    },
+    {
+     "search": "Avestan",
+     "at": 5
+    },
+    {
+     "search": "Shahnameh",
+     "at": 7
+    },
+    {
+     "search": "Ferdowsi",
+     "at": 8
+    },
+    {
+     "search": "Balkh",
+     "at": 9
+    },
+    {
+     "card": {
+      "ur": "بحث کے دو رخ",
+      "en": "Two sides of the debate"
+     },
+     "at": 10
+    },
+    {
+     "search": "Bactria",
+     "at": 12
     }
    ],
    "mood": "tense",
@@ -1196,25 +1324,28 @@
    ],
    "shots": [
     {
-     "search": "Balkh"
+     "search": "Balkh",
+     "at": 1
     },
     {
-     "search": "Nowruz"
+     "search": "Silk Road",
+     "at": 3
     },
     {
-     "search": "Mazar-i-Sharif"
+     "search": "Genghis Khan",
+     "at": 4
     },
     {
-     "search": "Silk Road"
+     "search": "Mazar-i-Sharif",
+     "at": 5
     },
     {
-     "search": "Genghis Khan"
+     "search": "Nowruz",
+     "at": 6
     },
     {
-     "card": {
-      "ur": "بلخ، شہروں کی ماں",
-      "en": "Balkh, Mother of Cities"
-     }
+     "search": "Shrine of Ali",
+     "at": 8
     }
    ],
    "mood": "calm",
@@ -1301,25 +1432,39 @@
    ],
    "shots": [
     {
-     "search": "Tillya Tepe"
-    },
-    {
-     "search": "Viktor Sarianidi"
-    },
-    {
-     "search": "National Museum of Afghanistan"
-    },
-    {
-     "search": "Jowzjan Province"
-    },
-    {
-     "search": "Sheberghan"
-    },
-    {
      "card": {
-      "ur": "سنہری ٹیلا",
+      "ur": "سونے کا ٹیلہ",
       "en": "The Hill of Gold"
-     }
+     },
+     "at": 1
+    },
+    {
+     "search": "Tillya Tepe",
+     "at": 2
+    },
+    {
+     "search": "Sheberghan",
+     "at": 3
+    },
+    {
+     "search": "Bactrian Gold",
+     "at": 4
+    },
+    {
+     "search": "Tillya Tepe",
+     "at": 5
+    },
+    {
+     "search": "National Museum of Afghanistan",
+     "at": 6
+    },
+    {
+     "search": "Da Afghanistan Bank",
+     "at": 7
+    },
+    {
+     "search": "Bactrian Gold",
+     "at": 8
     }
    ],
    "mood": "epic",
@@ -1405,25 +1550,35 @@
    ],
    "shots": [
     {
-     "search": "Khorasan"
-    },
-    {
-     "search": "Hindu Kush"
-    },
-    {
-     "search": "Amu Darya"
-    },
-    {
-     "search": "Helmand River"
-    },
-    {
-     "search": "Afghanistan"
-    },
-    {
      "card": {
-      "ur": "مشترک ورثہ",
+      "ur": "مشترکہ ورثہ",
       "en": "A shared heritage"
-     }
+     },
+     "at": 1
+    },
+    {
+     "search": "Herat",
+     "at": 2
+    },
+    {
+     "search": "Samarkand",
+     "at": 3
+    },
+    {
+     "search": "Greater Khorasan",
+     "at": 5
+    },
+    {
+     "search": "Amu Darya",
+     "at": 6
+    },
+    {
+     "search": "Helmand River",
+     "at": 7
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 8
     }
    ],
    "mood": "calm",
@@ -1502,25 +1657,34 @@
    ],
    "shots": [
     {
+     "search": "Lapis lazuli",
+     "at": 1
+    },
+    {
+     "search": "Afghanistan",
+     "at": 2
+    },
+    {
      "card": {
-      "ur": "اگلی ویڈیو: ہخامنشی سلطنت",
-      "en": "Next: The Achaemenid Empire"
-     }
+      "ur": "آپ کی رائے؟",
+      "en": "What do you think?"
+     },
+     "at": 3
     },
     {
-     "search": "Achaemenid Empire"
+     "search": "Achaemenid Empire",
+     "at": 5
     },
     {
-     "search": "Cyrus the Great"
+     "search": "Greco-Bactrian Kingdom",
+     "at": 6
     },
     {
-     "search": "Darius the Great"
-    },
-    {
-     "search": "Persepolis"
-    },
-    {
-     "search": "Hindu Kush"
+     "card": {
+      "ur": "سبسکرائب کریں",
+      "en": "Subscribe"
+     },
+     "at": 7
     }
    ],
    "mood": "calm",
@@ -1581,37 +1745,37 @@
    "title": "The Blue Stone That Came From Afghanistan #Shorts",
    "scenes": [
     {
-     "image": "01b",
+     "image": "01a",
      "text_on_screen": "Tutankhamun's blue stone",
      "narration_ur": "توت عنخ آمون کے سنہری نقاب میں گہرے نیلے رنگ کی پٹیاں جڑی ہیں۔ یہ نیلا پتھر لاجورد ہے۔",
      "narration_roman": ""
     },
     {
-     "image": "01c",
+     "image": "01b",
      "text_on_screen": "Lapis lazuli",
      "narration_ur": "ہزاروں سال تک یہ دنیا کے سب سے قیمتی رنگوں میں گنا گیا۔",
      "narration_roman": ""
     },
     {
-     "image": "04a",
+     "image": "04b",
      "text_on_screen": "Sar-i Sang, Badakhshan",
      "narration_ur": "تحقیق کے مطابق مصر اور میسوپوٹیمیا کے بہت سے لاجورد کے زیورات ایک ہی جگہ سے آئے، بدخشاں میں سرِ سنگ کی کانوں سے۔",
      "narration_roman": ""
     },
     {
-     "image": "04d",
+     "image": "04e",
      "text_on_screen": "Ur, 2500 BC",
      "narration_ur": "ڈھائی ہزار قبل مسیح کے آس پاس یہ پتھر اُر کے شاہی قبرستان تک پہنچ رہا تھا، زیورات اور مہروں کی شکل میں۔",
      "narration_roman": ""
     },
     {
-     "image": "05a",
+     "image": "05b",
      "text_on_screen": "Shortugai",
      "narration_ur": "اور شمالی افغانستان میں شورتغئی نام کی ایک بستی ملی، جو غالباً وادئ سندھ کے لوگوں نے انہی کانوں کے قریب بسائی تھی۔",
      "narration_roman": ""
     },
     {
-     "image": "01d",
+     "image": "01c",
      "text_on_screen": "Full story in the video",
      "narration_ur": "چھ ہزار سال سے زیادہ پرانی اس کہانی کی مکمل ویڈیو دیکھیں۔",
      "narration_roman": ""
@@ -1622,7 +1786,7 @@
    "title": "Who Were the Aryans? The Word Misused #Shorts",
    "scenes": [
     {
-     "image": "08a",
+     "image": "08b",
      "text_on_screen": "The word Arya",
      "narration_ur": "آریا کا لفظ سنتے ہی بہت سے لوگ کسی نسل کا تصور کرتے ہیں۔ مگر اس لفظ کی اصل کہانی کچھ اور ہے۔",
      "narration_roman": ""
@@ -1634,7 +1798,7 @@
      "narration_roman": ""
     },
     {
-     "image": "08b",
+     "image": "08d",
      "text_on_screen": "Noble, honourable",
      "narration_ur": "اس کا مطلب عام طور پر شریف یا معزز بتایا جاتا ہے، اور یہ ایک زبان اور عبادت والے لوگوں کا خود نام تھا۔",
      "narration_roman": ""
@@ -1669,7 +1833,7 @@
      "narration_roman": ""
     },
     {
-     "image": "11d",
+     "image": "11e",
      "text_on_screen": "Bakhdhi, meaning Balkh",
      "narration_ur": "ان میں باختی ہے، یعنی بلخ، اور ہرویو، یعنی ہرات۔ عالم کہتے ہیں کہ ان میں سے کم از کم نو جگہیں پہچانی جا سکتی ہیں۔",
      "narration_roman": ""
@@ -1681,13 +1845,13 @@
      "narration_roman": ""
     },
     {
-     "image": "12b",
+     "image": "12f",
      "text_on_screen": "The Shahnameh",
      "narration_ur": "فردوسی کا شاہنامہ کہتا ہے کہ بلخ کے بادشاہ گشتاسپ نے ان کا دین قبول کیا، مگر یہ ہزاروں سال بعد کی روایت ہے۔",
      "narration_roman": ""
     },
     {
-     "image": "13b",
+     "image": "13e",
      "text_on_screen": "Nowruz in Balkh",
      "narration_ur": "اور بلخ کو نوروز کی جائے پیدائش میں بھی شمار کیا جاتا ہے، جس کی تقریبات کوئی تین ہزار سال پرانی بتائی جاتی ہیں۔",
      "narration_roman": ""
@@ -1700,5 +1864,10 @@
     }
    ]
   }
- ]
+ ],
+ "refresh_pics": {
+  "all": true,
+  "v": 2
+ },
+ "rerender_v": 2
 }
