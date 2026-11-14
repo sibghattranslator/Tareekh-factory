@@ -1,7 +1,7 @@
-# UPLOAD.bat reads this file. Minutes must be 00, 15, 30 or 45.
-# Every episode gets one "slot day": its Shorts go out in the morning, its long video in the evening.
-long_time=18:00
-shorts_time=07:45
-gap_minutes=60
-days_between_episodes=2
-first_day_offset=1
+# 1 episode per day: its 3 Shorts at noon/afternoon, the long video in the evening (Pakistan time).
+# If nothing is queued ahead, the episode goes out TODAY (slots already passed publish right away).
+long_time=19:00
+shorts_time=13:00
+gap_minutes=120
+days_between_episodes=1
+first_day_offset=0

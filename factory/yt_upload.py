@@ -242,7 +242,7 @@ def upload_subs(page, vid, files):
 # ----------------------------------------------------------------------------- settings + schedule (automatic)
 SETTINGS_F = ROOT / "factory" / "upload_settings.txt"
 STATE_F = ROOT / "factory" / "schedule_state.json"          # remembers which day each episode was given (not in git)
-DEFAULTS = {"long_time": "18:00", "shorts_time": "07:45", "gap_minutes": "60", "days_between_episodes": "2", "first_day_offset": "1"}
+DEFAULTS = {"long_time": "19:00", "shorts_time": "13:00", "gap_minutes": "120", "days_between_episodes": "1", "first_day_offset": "0"}
 
 
 def load_settings():
@@ -311,7 +311,7 @@ def make_plan(pend, st):
         day = max(day, max(dt.date.fromisoformat(v) for v in days.values()) + dt.timedelta(days=int(st["days_between_episodes"])))
     plan = []
     for ep, d, left_long, left_shorts in pend:
-        if ep in days and dt.date.fromisoformat(days[ep]) >= dt.date.today() + dt.timedelta(days=1):
+        if ep in days and dt.date.fromisoformat(days[ep]) >= dt.date.today():
             my = dt.date.fromisoformat(days[ep])                         # same slot as an earlier (partly failed) run
         else:
             my = day; days[ep] = my.isoformat(); day = my + dt.timedelta(days=int(st["days_between_episodes"]))

@@ -150,7 +150,9 @@ def set_details(yt, v, t, when):
     status = {"privacyStatus": st["privacyStatus"], "embeddable": st.get("embeddable", True),
               "license": st.get("license", "youtube"), "publicStatsViewable": st.get("publicStatsViewable", True),
               "selfDeclaredMadeForKids": False}
-    if can_schedule: status["privacyStatus"] = "private"; status["publishAt"] = utc_iso(when)
+    if can_schedule and when <= dt.datetime.now() + dt.timedelta(minutes=10):
+        status["privacyStatus"] = "public"; status.pop("publishAt", None)          # slot already passed today: publish right now
+    elif can_schedule: status["privacyStatus"] = "private"; status["publishAt"] = utc_iso(when)
     elif st.get("publishAt"): status["publishAt"] = st["publishAt"]
     snippet = {"title": m["title"], "description": fit_bytes(m.get("desc") if t["kind"] == "short" else m["desc"]),
                "tags": m["tags"], "categoryId": CATEGORY, "defaultLanguage": "ur", "defaultAudioLanguage": "ur"}
@@ -233,10 +235,12 @@ def main():
             seen[k] = (keep, t); dup.append(drop)
         else: seen[k] = (v, t)
     found = sorted(seen.values(), key=lambda x: (x[1]["ep"], x[1]["kind"] != "long", x[1]["index"]))
-    pend = [(ep, READY / ep, True, []) for ep in sorted({t["ep"] for _, t in found})]
+    open_eps = {t["ep"] for v, t in found if v["status"]["privacyStatus"] == "private" and not v["status"].get("publishAt")}
+    pend = [(ep, READY / ep, True, []) for ep in sorted(open_eps)]        # only episodes that still need a date
     plan, state = Y.make_plan(pend, st)
     slot = {ep: (lt, sh) for ep, _d, _l, _s, lt, sh in plan}
     for v, t in found:
+        if t["ep"] not in slot: t["when"] = dt.datetime.now(); continue          # already scheduled/published: untouched
         lt, sh = slot[t["ep"]]; t["when"] = lt if t["kind"] == "long" else sh + dt.timedelta(minutes=gap * t["index"])
     if a.plan:
         for v, t in found:
