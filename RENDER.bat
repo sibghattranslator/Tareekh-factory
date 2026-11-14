@@ -5,7 +5,7 @@ cd /d "%~dp0"
 call "%~dp0factory\setup.bat" || goto :end
 echo.
 echo Making videos... (AI voice needs internet)
-python "factory\render.py"
+python "factory\render.py" %*
 :end
 echo.
 pause

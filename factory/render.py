@@ -507,6 +507,8 @@ def render(ep_file):
 
 def main():
     eps = sorted(EPIS.glob("tk[0-9][0-9][0-9].json"))
+    only = [re.sub(r"\D", "", a).zfill(3) for a in sys.argv[1:] if re.search(r"\d", a)]
+    if only: eps = [e for e in eps if e.stem[2:] in only]; print("Rendering only:", ", ".join("tk" + o for o in only))
     if not eps: print("No episodes found in", EPIS); return
     for e in eps:
         try: render(e)
