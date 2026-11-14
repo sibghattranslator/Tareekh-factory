@@ -9,8 +9,8 @@
  CURRENT SETTINGS (decided 10-14 Nov 2026) - THESE OVERRIDE ANYTHING BELOW THAT DISAGREES
 =====================================================================
 1. VOICE: I record my OWN voice in URDU. No AI Hindi voice, no Hindi-script narration. The narration is written in
-   URDU SCRIPT (simple spoken Urdu that Hindi speakers also follow). Titles stay English + Hindi script mixed;
-   thumbnails carry English + Urdu-script words.
+   URDU SCRIPT (simple spoken Urdu that Hindi speakers also follow). EVERY TITLE has THREE languages (English +
+   Hindi script + Urdu script, max 100 characters); thumbnails carry English + Urdu-script words.
 2. SUBTITLES: NOT burned into the video. For EVERY video, TWO subtitle files are made and BOTH are required:
    Urdu (.srt) and English (.srt). So every Urdu sentence needs its English twin ("subtitle_en", one per sentence).
 3. PICTURES: real pictures only (English Wikipedia article images - Commons is blocked by my ISP), about 6 shots per
@@ -91,9 +91,10 @@ A. TOPIC CHECK – FIRST read the file D:\Tareekh Ki Kahani\TOPICS_DONE.txt on m
    official queue: it lists every video already made and the NEXT number.
    Confirm the topic is NOT in it.
    Suggest the best next topic from the ROADMAP if I didn't give one.
-B. 5 TITLE OPTIONS – English + Hindi script mixed, curiosity-driven but honest
-   (max 100 characters). Mark your best one.
-   Example style: "Durand Line – पाकिस्तान और अफ़ग़ानिस्तान की सरहद का असली सच"
+B. 5 TITLE OPTIONS – in THREE languages in every title: English + Hindi script + Urdu script, curiosity-driven but
+   honest. YouTube allows max 100 characters, so keep each part short (the main 2-4 words of each language).
+   Mark your best one.
+   Example style: "Durand Line – डूरंड लाइन का सच – ڈیورنڈ لائن کا سچ"
 C. THUMBNAIL – 3 ideas: main image, 2–4 big words in English + the same in Urdu script, colour mood.
 D. SCRIPT – scene by scene, as a table or numbered list:
    [Scene no.] | [Time] | [VISUAL: about 6 shots - map / old painting / real photo (English Wikipedia
