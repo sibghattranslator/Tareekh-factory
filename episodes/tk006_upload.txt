@@ -1,0 +1,91 @@
+TK006 - UPLOAD DETAILS  (topic: roadmap 6 - Ancient Afghanistan - Aryana, Bactria and the Avesta)
+===========================================================
+
+TITLE (best, already used as the file name)
+Ancient Afghanistan – प्राचीन अफ़ग़ानिस्तान – قدیم افغانستان
+
+OTHER TITLE OPTIONS
+2. Aryana, Bactria and the Avesta – आर्याना, बैक्ट्रिया, अवेस्ता – آریانا باختر اوستا
+3. The Blue Stone of Afghanistan – अफ़ग़ानिस्तान का नीला पत्थर – افغانستان کا نیلا پتھر
+4. Who Were the Aryans? – आर्य कौन थे – آریا کون تھے
+5. Zoroaster and Balkh – ज़रथुस्त्र और बल्ख़ – زرتشت اور بلخ
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu words قدیم افغانستان + "ANCIENT AFGHANISTAN" + "Aryana · Bactria · Avesta".
+(Neutral picture only: lapis lazuli, Balkh or Hindu Kush. No flags, no fighters, no banned-group imagery.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk006_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+Long before written history, caravans carried blue lapis lazuli out of the Afghan mountains to Egypt and Mesopotamia. Who lived here, what do Aryana, Bactria and the Avesta really mean, and where does evidence end and tradition begin? Both sides of the debates, kept apart.
+लिखित इतिहास से बहुत पहले अफ़ग़ानिस्तान के पहाड़ों से नीला लाजवर्द मिस्र और मेसोपोटामिया तक जाता था। आर्याना, बैक्ट्रिया और अवेस्ता का असली मतलब क्या है, और सबूत कहाँ ख़त्म और रिवायत कहाँ शुरू होती है? हर बहस के दोनों पहलू अलग-अलग।
+لکھی ہوئی تاریخ سے بہت پہلے افغان پہاڑوں سے نیلا لاجورد مصر اور میسوپوٹیمیا تک جاتا تھا۔ آریانا، باختر اور اوستا کا اصل مطلب کیا ہے، اور ثبوت کہاں ختم اور روایت کہاں شروع ہوتی ہے؟ ہر بحث کے دونوں رخ الگ الگ۔
+
+CHAPTERS
+(paste from tk006_chapters.txt)
+
+SOURCES (main)
+- Encyclopaedia Iranica, "Aria" (Aria and Ariane; Eratosthenes' use of the name): https://www.iranicaonline.org/articles/aria
+- Encyclopaedia Iranica, "Aryana, Bulletin of the Historical Society of Afghanistan": https://www.iranicaonline.org/articles/aryana-bulletin-of-the-historical-society-of-afghanistan
+- Encyclopaedia Iranica, "Zoroaster iii. Zoroaster in the Avesta" (homeland and date questioned): https://www.iranicaonline.org/?p=1902
+- Vendidad, Fargard 1 (Darmesteter translation, Sacred Books of the East): https://avesta.org/vendidad/vd1sbe.htm
+- UNESCO Silk Roads, "Balkh" (Mother of Cities, Nowruz, Genghis Khan 1220): https://fr.unesco.org/silkroad/node/11103 , https://fr.unesco.org/silkroad/content/balkh
+- Britannica, "Aryan": https://www.britannica.com/topic/Aryan
+- Britannica, "Shortughai" (Harappan colony near the lapis trade): https://www.britannica.com/place/Shortughai
+- Discover Magazine, "Central Asia's lost civilization" (Oxus civilization, 1988): https://www.discovermagazine.com/central-asias-lost-civilization-1988
+- Lyonnet and Dubova, "The World of the Oxus Civilization" (2020): https://www.perlego.com/book/1974285/the-world-of-the-oxus-civilization-pdf
+- Harappa.com, Mundigak (Casal excavations; Mehrgarh c. 7000 BCE): https://www.harappa.com/node/4166
+- NEH Humanities, "Now you see them" (Tillya Tepe, 20,578 objects): https://www.neh.gov/humanities/2008/julyaugust/feature/now-you-see-them
+- Smithsonian Magazine, "Lost and Found" (Bactrian gold, bank vault 1989, inventory 2004): https://www.smithsonianmag.com/arts-culture/lost-found-7605081/
+- National Geographic, "Inside the Quest to Save Afghanistan's Bactrian Gold": https://www.nationalgeographic.com/history/world-history-magazine/article/discoveries-bactrian-gold-afghanistan-silk-road
+- Oxford Invisible East, "Nowruz in Balkh and Bamiyan" (Red Tulip Festival): https://invisibleeast.site.ox.ac.uk/article/nowruz-balkh-and-bamiy
+- WorldHistory.org, "Aryan": https://worldhistory.org/Aryan
+- Wikipedia: Bactria-Margiana Archaeological Complex; Lapis lazuli; Sar-i Sang; Shortugai; Mundigak; Ariana; Zoroaster; Zoroastrianism in Afghanistan; Tillya Tepe; Avestan geography
+
+#Afghanistan #Aryana #Bactria #TareekhKiKahani #History
+
+TAGS (15)
+ancient afghanistan, aryana, bactria, avesta, balkh, zoroaster, lapis lazuli, oxus civilization, aryan meaning, afghanistan history, mundigak, tillya tepe, nowruz history, tareekh ki kahani, urdu documentary
+
+PINNED COMMENT
+آپ کے خیال میں افغانستان کے اس قدیم ورثے کو بچانے کے لیے سب سے پہلے کیا کرنا چاہیے؟ احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔
+Main sources: Encyclopaedia Iranica, Vendidad (Darmesteter), UNESCO Silk Roads, Britannica, Smithsonian. Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk006_subtitles_Urdu.srt
+- English: tk006_subtitles_English.srt
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Lapis from Sar-i Sang worked 6,000+ years; Badakhshan source matched to Ur beads and Egyptian amulets by trace-element analysis (Turin team) | Superscout summary of British Museum/IUGS and Turin study; Wikipedia (Lapis lazuli) | medium-high
+Tutankhamun's mask contains lapis inlay of Badakhshan origin | Secondary sources only; video says "many ornaments" came from Badakhshan | medium
+Lapis at Tepe Gawra c. 4900-4000 BCE; bulk to Ur by mid-3rd millennium BCE | Wikipedia (Lapis lazuli); Superscout | medium-high
+Shortugai: Harappan colony c. 2000 BCE near the lapis mines; discovered 1976; Harappan bricks, seal, pottery | Britannica; Wikipedia (Shortugai) | high
+Shortugai founded probably for gold, copper, tin, lapis | Wikipedia (Shortugai) | medium (inference)
+Mundigak: Casal 1951-58; palace and temple; contact with Turkmenistan, Baluchistan, Indus; no writing; no city after c. 2500 BCE | Wikipedia (Mundigak); Harappa.com | medium-high
+Mehrgarh c. 7000 BCE | Harappa.com (Jarrige) | high
+BMAC c. 2300-1700 BCE, Sarianidi, most cities in Margiana, Dashly in northern Bactria | Wikipedia (BMAC); Discover Magazine; Lyonnet and Dubova | high (dates vary by author)
+No clear archaeological evidence of an invasion into Bactria and Margiana; Aryan link disputed | Wikipedia (BMAC) citing Bryant, Lyonnet, Parpola | medium
+Arya as ethnocultural self-name, "noble"; linguistic and ritual, not racial | Britannica; WorldHistory.org; Wikipedia (Aryan) | high
+Gobineau 1850s race theory later used by Nazi ideology | Britannica; Wikipedia (Aryan) | high
+Ariana introduced by Eratosthenes (c. 276-195 BCE), described by Strabo; borders Indus east, sea south | Iranica "Aria"; Wikipedia (Ariana) | high
+Bactria called "ornament of Ariane" by Apollodorus of Artemita | Iranica "Aria" | high
+Iranica: Eratosthenes' use was a mistake since not one tribe | Iranica "Aria" (Schmitt) | high
+Historical Society of Afghanistan named its journal Aryana for the Eratosthenes report | Iranica | high
+Vendidad Fargard 1 lists sixteen lands; Bakhdhi beautiful; Haroyu with tears and wailing (1880 translation) | Avesta.org (Darmesteter) | medium-high (translations differ)
+At least nine of the sixteen lands identifiable | Darmesteter's introduction | medium-high
+Zoroaster: eastern Iran, end of 2nd millennium BCE; homeland, date and historicity questioned | Iranica "Zoroaster iii" | high
+Traditional date 258 years before Alexander, about 600 BCE | Encyclopedia.com; Wikipedia (Zoroaster) | high
+Modern range 1500-500 BCE | Wikipedia (Zoroaster) | medium
+Shahnameh: Vishtaspa accepted the faith; Zoroaster killed at Balkh; Shahnameh c. 1010 CE | Wikipedia (Zoroaster, Balkh); Heritage Institute | medium-high
+UNESCO: Zoroaster said to have taught in Balkh, perhaps 6th century BCE; Balkh a birthplace of Nowruz, about 3,000 years | UNESCO Silk Roads | medium (as UNESCO states it)
+Balkh called Umm al-Bilad; destroyed by Genghis Khan 1220 | UNESCO Silk Roads | high
+Balkh about 20 km north-west of Mazar-i-Sharif | Wikipedia (Balkh) | high
+Red Tulip Festival, Mazar-i-Sharif | Oxford Invisible East | medium-high
+Tillya Tepe 1978: six tombs, a warrior and five women, 20,578 objects, 1st c. BCE to 1st c. CE | NEH; National Geographic | high
+Hoard hidden in vault 1989, rediscovered 2003-04 | Smithsonian; NEH | high
+Greater Khorasan civilisation suggested as a wider name | Wikipedia (BMAC) | low-medium (one proposal)
+
+SHORTS (3, files in the Shorts folder)
+1. The Blue Stone That Came From Afghanistan #Shorts
+2. Who Were the Aryans? The Word Misused #Shorts
+3. Zoroaster and Balkh: Where Was He From #Shorts

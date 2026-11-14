@@ -9,15 +9,15 @@ tk001 | 1. Who are the Pashtuns (Pathans)? | saved 2026-11-10 | rendered 2026-11
 
 SCRIPT SAVED (waiting for RENDER.bat)
 ------------------------------------------------------------
+tk006 | 6. Ancient Afghanistan - Aryana, Bactria and the Avesta | saved 2026-11-14
 tk005 | 5. Tajiks, Hazaras, Uzbeks, Turkmen - peoples of Afghanistan | saved 2026-11-14
 tk004 | 4. Who are the Baloch? Origin and history | saved 2026-11-13
 
-REMAINING (115 topics)
+REMAINING (114 topics)
 ------------------------------------------------------------
 
 ERA 1 - ANCIENT LAND & PEOPLES
   3. Pashtunwali - the unwritten law (melmastia, nanawatai, badal)
-  6. Ancient Afghanistan - Aryana, Bactria and the Avesta
   7. Persian Achaemenid Empire in Afghanistan (Cyrus, Darius)
   8. Alexander the Great in Afghanistan and the Swat-Bajaur campaigns
   9. Greco-Bactrian Kingdom - Greeks in Afghanistan

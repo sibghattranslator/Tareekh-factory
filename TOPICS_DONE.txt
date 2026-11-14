@@ -11,5 +11,6 @@ tk003 | roadmap 3 | Pashtunwali – the unwritten law | 2026-11-12
 tk004 | roadmap 4 | Who Are the Baloch? – बलोच कौन हैं: हलब, कैस्पियन और ब्राहुई का राज़ | 2026-11-13
 
 tk005 | roadmap 5 | Tajik, Hazara, Uzbek, Turkmen – ताजिक, हज़ारा, उज़्बेक, तुर्कमान – تاجک ہزارہ ازبک ترکمن | 2026-11-14
+tk006 | roadmap 6 | Ancient Afghanistan – प्राचीन अफ़ग़ानिस्तान – قدیم افغانستان | 2026-11-14
 
-NEXT: tk006 = roadmap 6 - Ancient Afghanistan - Aryana, Bactria and the Avesta
+NEXT: tk007 = roadmap 7 - Persian Achaemenid Empire in Afghanistan (Cyrus, Darius)
