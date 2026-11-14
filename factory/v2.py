@@ -790,6 +790,14 @@ def fetch_pictures(ep, scenes):
         for sh in norm_shots(si, sc):
             stem = sh["stem"]; have = find_pic(ep, stem) or find_vid(ep, stem)
             note = "picture/video in folder" if have else ""
+            if not have and sh.get("url"):                               # ready-made illustration (AI picture) for this exact sentence
+                print(f"  picture {stem}: downloading illustration ...", end=" ", flush=True)
+                try:
+                    tmp = folder / f"{stem}.part"; tmp.write_bytes(_http_get(sh["url"], 120))
+                    Image.open(tmp).convert("RGB").save(folder / f"{stem}.jpg", quality=92); tmp.unlink()
+                    got += 1; have = True; note = "illustration (AI)"; print("ok")
+                except Exception as e:
+                    print(f"failed ({e}) - using a Wikipedia picture instead")
             if not have and sh.get("search") and not sh.get("card"):
                 print(f"  picture {stem}: searching Commons for '{sh['search']}' ...", end=" ", flush=True)
                 if _OTHER_USED.get(ep) is None:                       # pictures already shown in the other videos: do not show them again

@@ -37,11 +37,9 @@
      "at": 4
     },
     {
-     "card": {
-      "ur": "یہ کہانی کتنی پرانی ہے؟",
-      "en": "How old is this story?"
-     },
-     "at": 5
+     "at": 5,
+     "search": "Caravan (travellers)",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232746_f3f0d8ee-555f-47bc-afdb-72559f5d1fb8.png"
     },
     {
      "search": "Hindu Kush",
@@ -220,7 +218,8 @@
     },
     {
      "search": "Helmand culture",
-     "at": 4
+     "at": 4,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232820_e13c5787-0654-4801-891c-a69e7c38c8a0.png"
     },
     {
      "search": "Indus Valley Civilisation",
@@ -328,7 +327,8 @@
     },
     {
      "search": "Kokcha River",
-     "at": 4
+     "at": 4,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232758_862a3c08-1ca7-41f7-ac5e-d75c4b36b334.png"
     },
     {
      "search": "Tepe Gawra",
@@ -445,7 +445,8 @@
     },
     {
      "search": "Indus Valley Civilisation",
-     "at": 4
+     "at": 4,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232820_0c86c87f-c13a-4129-8621-36b583615e50.png"
     },
     {
      "search": "Amu Darya",
@@ -547,7 +548,8 @@
     },
     {
      "search": "Bactria–Margiana Archaeological Complex",
-     "at": 5
+     "at": 5,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232758_d962d646-c599-464b-8298-4d5f4f720dfa.png"
     },
     {
      "search": "Bactrian princess",
@@ -637,7 +639,8 @@
     },
     {
      "search": "Balkh Province",
-     "at": 3
+     "at": 3,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232758_33dd3ae0-e228-4bed-a855-d9153bb8f6cb.png"
     },
     {
      "card": {
@@ -752,8 +755,9 @@
      "at": 1
     },
     {
-     "search": "Aryan",
-     "at": 2
+     "search": "Indo-Iranians",
+     "at": 2,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232758_d83bc552-c11c-487d-b04e-5274ec381c70.png"
     },
     {
      "search": "Avesta",
@@ -1867,7 +1871,7 @@
  ],
  "refresh_pics": {
   "all": true,
-  "v": 2
+  "v": 3
  },
- "rerender_v": 2
+ "rerender_v": 3
 }
