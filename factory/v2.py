@@ -1014,10 +1014,14 @@ def write_srt(path, cues):
 
 
 # ----------------------------------------------------------------------------- music
+MUSIC_PRE = [""]                                      # e.g. "pro2_" = the fuller guitar/drum music set, variant 2 (music_pro.py)
+
+
 def load_music(name, channels=2):
-    for ext in (".wav", ".mp3", ".m4a"):
-        p = MUSIC / f"{name}{ext}"
-        if p.exists(): return read_audio(p, None, channels)
+    for pre in (MUSIC_PRE[0], ""):                    # the new set first, then the old file names / your own files
+        for ext in (".wav", ".mp3", ".m4a"):
+            p = MUSIC / f"{pre}{name}{ext}"
+            if p.exists(): return read_audio(p, None, channels)
     return None
 
 
@@ -1186,6 +1190,12 @@ def render_episode(ep, data, work, out_video, out_dir, rec_dir=None, only=None, 
     scenes = data["scenes"]
     idx = list(range(1, len(scenes) + 1)) if not only else list(only)
     ensure_music(MUSIC)
+    MUSIC_PRE[0] = ""
+    if os.environ.get("TK_MUSIC_SET", "pro") != "old":      # set TK_MUSIC_SET=old to go back to the first music
+        try:
+            import music_pro
+            vv = music_pro.variant_for(ep); music_pro.ensure_pro(MUSIC, vv); MUSIC_PRE[0] = f"pro{vv}_"
+        except Exception as e: print(f"  (new music skipped, using the old one: {e})")
     if os.environ.get("TK_WATERMARK", "1") != "0":
         try: WM_PNG[0] = make_watermark(work / "watermark.png")
         except Exception as e: print(f"  (watermark skipped: {e})"); WM_PNG[0] = None
