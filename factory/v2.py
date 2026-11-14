@@ -1025,6 +1025,26 @@ def load_music(name, channels=2):
     return None
 
 
+MUSIC_SHIFT = [0]                                      # semitones the new set is moved from D (so the old music matches its key)
+OLD_LAYER = {"calm": 0.55, "tense": 0.75, "epic": 0.75}   # how much of the first music (deep drone, rubab, big drums) is mixed in
+
+
+def load_old_layer(name):
+    """The FIRST music (music\\bed_*.wav, hit, riser) moved to the key of the new set, to be layered under it. None if missing."""
+    if os.environ.get("TK_MUSIC_SET", "mix") in ("pro", "old"): return None
+    for ext in (".wav", ".mp3", ".m4a"):
+        p = MUSIC / f"{name}{ext}"
+        if p.exists():
+            a = read_audio(p, None, 2)
+            sh = MUSIC_SHIFT[0]
+            if sh and name.startswith("bed_"):                 # loop is seamless, so resample around the circle
+                r = 2 ** (sh / 12.0); n = len(a); m = int(n / r)
+                pos = (np.arange(m) * r) % n; i0 = pos.astype(int); fr = (pos - i0)[:, None]; i1 = (i0 + 1) % n
+                a = (a[i0] * (1 - fr) + a[i1] * fr).astype(np.float32)
+            return a
+    return None
+
+
 def smooth(x, n):
     if n <= 1: return x
     k = np.ones(n) / n; pad = np.pad(x, (n // 2, n - n // 2 - 1), mode="edge")
@@ -1107,6 +1127,10 @@ def build_master(timeline, total_samples, voices, hits, risers):
         if bed is None: continue
         reps = int(math.ceil(total_samples / len(bed))) + 1
         tile = np.tile(bed, (reps, 1))[:total_samples]
+        if MUSIC_PRE[0]:                                              # combination: new guitar/drums + the first music underneath
+            ob = load_old_layer("bed_" + m)
+            if ob is not None:
+                tile = tile + np.tile(ob, (int(math.ceil(total_samples / len(ob))) + 1, 1))[:total_samples] * OLD_LAYER.get(m, 0.6)
         env = np.zeros(total_samples // (SR // grid) + 2)
         for s, e, mm in timeline:
             if mm == m: env[s // (SR // grid):e // (SR // grid)] = 1
@@ -1196,10 +1220,10 @@ def render_episode(ep, data, work, out_video, out_dir, rec_dir=None, only=None, 
     idx = list(range(1, len(scenes) + 1)) if not only else list(only)
     ensure_music(MUSIC)
     MUSIC_PRE[0] = ""
-    if os.environ.get("TK_MUSIC_SET", "pro") != "old":      # set TK_MUSIC_SET=old to go back to the first music
+    if os.environ.get("TK_MUSIC_SET", "mix") != "old":      # set TK_MUSIC_SET=old to go back to the first music
         try:
             import music_pro
-            vv = music_pro.variant_for(ep); music_pro.ensure_pro(MUSIC, vv); MUSIC_PRE[0] = f"pro{vv}_"
+            vv = music_pro.variant_for(ep); music_pro.ensure_pro(MUSIC, vv); MUSIC_PRE[0] = f"pro{vv}_"; MUSIC_SHIFT[0] = music_pro.VARIANTS[vv]["shift"]
         except Exception as e: print(f"  (new music skipped, using the old one: {e})")
     if os.environ.get("TK_WATERMARK", "1") != "0":
         try: WM_PNG[0] = make_watermark(work / "watermark.png")
@@ -1219,6 +1243,13 @@ def render_episode(ep, data, work, out_video, out_dir, rec_dir=None, only=None, 
     cues_ur_all, cues_en_all = [], []
     marks = [(0.0, "Intro")]
     hit = load_music("hit"); riser = load_music("riser")
+    if MUSIC_PRE[0]:                                                  # big hit / roll = new (mid-range) + first (deep boom)
+        def _comb(x, name, g):
+            o = load_old_layer(name)
+            if x is None or o is None: return x
+            n = max(len(x), len(o)); y = np.zeros((n, 2), np.float32); y[:len(x)] += x; y[:len(o)] += o * g
+            return (y / max(1.0, float(np.max(np.abs(y))) / 0.95)).astype(np.float32)
+        hit = _comb(hit, "hit", 0.6); riser = _comb(riser, "riser", 0.4)
     FILL_ON = os.environ.get("TK_FILLS", "1") != "0"
     fills = {k: load_music(k) for k in ("fill_a", "fill_b", "fill_c", "fill_tense", "fill_epic", "stinger")}
     fill_n = 0
