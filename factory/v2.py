@@ -1117,10 +1117,15 @@ def build_master(timeline, total_samples, voices, hits, risers):
     n = total_samples // hop + 1
     vp = np.pad(np.abs(voice), (0, n * hop - total_samples)).reshape(n, hop).max(axis=1)
     speaking = (vp > 10 ** (-42 / 20)).astype(float)
+    # bridge the tiny gaps between words (closing, 0.3 s) so the music only comes up in REAL pauses and topic changes
+    w = 15
+    dil = np.convolve(speaking, np.ones(w), mode="same") > 0
+    speaking = (np.convolve(dil.astype(float), np.ones(w), mode="same") >= w - 0.5).astype(float) if n > w else speaking
+    speaking = np.maximum(speaking, (vp > 10 ** (-42 / 20)).astype(float))
     env_d = np.ones(n); g = 1.0
-    for k in range(n):                                                  # attack 80 ms, release 600 ms
-        target = 0.45 if speaking[k] else 1.0
-        coef = 1 - math.exp(-0.02 / (0.08 if target < g else 0.9)); g += (target - g) * coef; env_d[k] = g
+    for k in range(n):                                                  # under the voice: low (0.30); in pauses: full; attack 80 ms, release 0.7 s
+        target = 0.30 if speaking[k] else 1.0
+        coef = 1 - math.exp(-0.02 / (0.08 if target < g else 0.7)); g += (target - g) * coef; env_d[k] = g
     duck = np.interp(np.arange(total_samples), np.arange(n) * hop, env_d).astype(np.float32)
     music *= duck[:, None]
     mix = music * 0.8 * MUSIC_GAIN
