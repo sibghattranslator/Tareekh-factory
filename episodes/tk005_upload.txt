@@ -1,0 +1,104 @@
+TK005 - UPLOAD DETAILS  (topic: roadmap 5 - Tajiks, Hazaras, Uzbeks, Turkmen - peoples of Afghanistan)
+===========================================================
+
+TITLE (best, already used as the file name)
+Tajik, Hazara, Uzbek, Turkmen – ताजिक, हज़ारा, उज़्बेक, तुर्कमान – تاجک ہزارہ ازبک ترکمن
+
+OTHER TITLE OPTIONS
+2. Peoples of Afghanistan – अफ़ग़ानिस्तान की क़ौमें – افغانستان کی قومیں
+3. Who Are the Hazaras? – हज़ारा कौन हैं – ہزارہ کون ہیں؟
+4. Afghanistan Never Counted Its People – कभी गिनती नहीं हुई – کبھی پوری گنتی نہیں ہوئی
+5. Hazara, Tajik, Uzbek: The Real Story – असली कहानी – اصل کہانی
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu words افغانستان کی قومیں + "PEOPLES OF AFGHANISTAN" + "Tajik · Hazara · Uzbek · Turkmen".
+(Neutral landscape picture only: Band-e Amir, Hindu Kush or Bamyan valley. No flags, no fighters, no banned-group imagery.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk005_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+Afghanistan has never finished counting its own people. Who are the Tajiks, Hazaras, Uzbeks and Turkmen, where did they come from, and why do the numbers keep changing? Evidence and disputed claims, kept apart.
+अफ़ग़ानिस्तान ने आज तक अपने लोगों की पूरी गिनती नहीं की। ताजिक, हज़ारा, उज़्बेक और तुर्कमान कौन हैं, कहाँ से आए, और आँकड़े क्यों बदलते रहते हैं? सबूत और विवादित दावे अलग-अलग।
+افغانستان نے آج تک اپنے لوگوں کی پوری گنتی نہیں کی۔ تاجک، ہزارہ، ازبک اور ترکمن کون ہیں، کہاں سے آئے، اور اعداد بدلتے کیوں رہتے ہیں؟ ثبوت اور متنازع دعوے الگ الگ۔
+
+CHAPTERS
+(paste from tk005_chapters.txt)
+
+SOURCES (main)
+- Encyclopaedia Iranica, "Hazara ii. History" (origins, Abdur Rahman, marginalisation): https://www.iranicaonline.org/articles/hazara-2
+- Encyclopaedia Iranica, "Hazara": https://www.iranicaonline.org/articles/hazara/
+- Encyclopaedia Iranica, "Afghanistan iv. Ethnography": https://www.iranicaonline.org/?p=9542
+- The Diplomat, "How many people live in Afghanistan" (1979 census, estimate ranges, Sept 2025): https://thediplomat.com/2025/09/how-many-people-live-in-afghanistan
+- Swedish Committee for Afghanistan, "The Afghan population" (1979 census not completed): https://swedishcommittee.org/?p=462
+- Minority Rights Group, Afghanistan; Hazaras; Uzbeks and Turkmen: https://minorityrights.org/country/afghanistan/ , https://minorityrights.org/communities/hazaras/ , https://minorityrights.org/communities/uzbeks-and-turkmen/
+- Melbourne Asia Review, "The Hazaras in Afghanistan: exclusion, minoritisation and resistance": https://www.melbourneasiareview.edu.au/?p=35786
+- Human Rights Watch, "Afghanistan: The Massacre in Mazar-i Sharif" (Nov 1998): https://www.hrw.org/report/1998/11/01/afghanistan-massacre-mazar-i-sharif
+- Human Rights Watch backgrounder (Oct 2001, May 1997 prisoner killings): https://www.hrw.org/legacy/backgrounder/asia/afghan-bck1006.htm
+- RFE/RL, "Taliban Accused Of Forcibly Evicting Ethnic Uzbeks, Turkmen In Northern Afghanistan" (Dec 2021): https://rferl.org/amp/taliban-evictions-uzbeks-turkmen/31601904.html
+- "Population Displacement and State Building: The Legacies of Pashtun Resettlement in Afghanistan", International Organization (Cambridge): https://resolve.cambridge.org/core/journals/international-organization/article/population-displacement-and-state-building-the-legacies-of-pashtun-resettlement-in-afghanistan/F17E51AD7DD2EF88521FD74E10CE1B55
+- Bulletin of SOAS, "The advent of Pashtun maldars in north-western Afghanistan" (Ghilzai families near Mazar before 1880): https://core-prod.cambridgecore.org/core/journals/bulletin-of-the-school-of-oriental-and-african-studies/article/advent-of-pashtun-maldars-in-northwestern-afghanistan/E269974C8CF6F981D7D267E797FD06B2
+- Middle East Institute, Taliban Leadership Tracker (ethnic composition): https://talibantracker.mei.edu/english/taliban/demographics
+- EUAA, Country Guidance Afghanistan (2024-25), overview of ethnic groups: https://dip-aws.euaa.europa.eu/country-guidance-afghanistan-2024/3141-overview
+- UNHCR Refworld, World Directory of Minorities (2004 constitution list of recognised groups): https://webarchive.archive.unhcr.org/20191031024307oe_/https://www.refworld.org/docid/4954ce5ec.html
+- Amu TV (Taliban says its government is inclusive): https://amu.tv/?p=100013
+- Library of Congress Country Studies, Afghanistan (Uzbeks, Turkmen, Abdur Rahman): https://countrystudies.us/afghanistan/41.htm , https://countrystudies.us/afghanistan/42.htm , https://countrystudies.us/afghanistan/15.htm
+- OCA Magazine, "To people like you I can say that I'm Uzbek" (Afghan Uzbeks, 1920s arrivals): https://www.ocamagazine.com/2017/12/09/to-people-like-you-i-can-say-that-im-uzbek/
+- Wikipedia: Ethnic groups of Afghanistan; Tajiks; Hazaras; Pashtun colonization of northern Afghanistan; Maimana Khanate; Afghan Turkmens; Hazara Town; Mari Abad
+- Newsline, "Planned Extermination: Balochistan's Shia Hazara Community": https://newslinemagazine.com/?p=4617
+
+#Afghanistan #Hazara #Tajik #TareekhKiKahani #History
+
+TAGS (15)
+tajik, hazara, uzbek, turkmen, peoples of afghanistan, afghanistan ethnic groups, hazara history, hazarajat, afghanistan history, abdur rahman khan, northern afghanistan, quetta hazara, tareekh ki kahani, urdu documentary, hazara origin
+
+PINNED COMMENT
+آپ کے خیال میں افغانستان کی سب قوموں کو ساتھ لے کر چلنے کا بہترین راستہ کیا ہو سکتا ہے؟ احترام کے ساتھ لکھیں، اور کسی قوم یا فرقے کی توہین سے بچیں۔
+Main sources: Encyclopaedia Iranica (Hazara), Human Rights Watch (Mazar-i Sharif 1998), Minority Rights Group, The Diplomat, MEI Taliban tracker. Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk005_subtitles_Urdu.srt
+- English: tk005_subtitles_English.srt
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Only one census, 1979, incomplete (13,051,358 counted) | The Diplomat (2025); Swedish Committee | high
+Older estimates: Tajik 27, Hazara 9, Uzbek 9, Turkmen 3 percent | Minority Rights Group | medium (estimates only)
+Tajik range 12-30 percent, Hazara range 3-19 percent; Persian speakers about 30-35 percent combined | The Diplomat (2025) | medium
+Word Tajik from Middle Persian tazik "Arab" | Iranica as quoted on Wikipedia (Tajiks) | medium-high
+In Afghanistan Tajik is mostly a Dari-speaking Sunni identified by region; self-use of the word recent | Wikipedia (Tajiks; Ethnic groups of Afghanistan) | medium
+Tajiks majority in Badakhshan, Panjshir, Parwan, Kapisa; large in Kabul, Herat, Balkh | Wikipedia (Tajiks) | medium
+Samanids called the first Tajik state | Wikipedia (Tajiks) | low-medium (one view)
+Hazaras third largest group; Hazarajat; Hazaragi; mostly Shia | Iranica (Hazara); The Diplomat | high
+Hazara origins uncertain; Bacon: Chagatai Mongols 1229-1447; three theories | Iranica (Hazara ii) | high (as Iranica's account)
+Babur is the first written mention (early 16th c.) | Wikipedia (Hazaras) | medium
+Genetics: mixed East and West Eurasian, close to Uzbeks and other Turkic groups | Wikipedia (Hazaras), citing genetic studies | medium
+Hazara identity formed by centuries of marginalisation | Iranica (Hazara ii) | high (as Iranica's view)
+Abdur Rahman took the throne 1880 with British help | Melbourne Asia Review | high
+Hazara uprisings and campaigns 1888-1893; jihad declared; slaves and land promised | Minority Rights Group; Melbourne Asia Review; Iranica | high
+Over half killed, enslaved or displaced (some estimates; 60 percent or more in others) | Minority Rights Group; Wikipedia (1888-1893 Hazara uprisings) | medium (estimates differ)
+British officials in Balochistan believed the Amir meant to exterminate the Hazaras (1893 report) | Wikipedia (Hazara genocide) citing the archival report | medium
+Habibullah amnesty for exiles in 1901 | Wikipedia (Hazaras) | medium
+106th Hazara Pioneers raised 1904, disbanded 1933; Hazaras settle in Quetta 1930s onward | Wikipedia (Hazara Town; Mari Abad); Newsline | medium
+General Musa Khan, Hazara, Commander-in-Chief 1958-66 | Wikipedia (Hazara Town); The News (2013) | high
+Uzbek range 1.3 to 2 million | Wikipedia (Ethnic groups); GlobalSecurity | low-medium
+Maimana khanate founded 1747, annexed 1892; Uzbek khanates in the north | Wikipedia (Maimana Khanate); Library of Congress | medium-high
+Uzbek arrivals in the 1920s-30s after the Russian revolution; Bukhara-style carpets | Library of Congress; OCA Magazine | medium
+Turkmen live in Jowzjan, Faryab, Balkh, Badghis, Herat; Oghuz origin | Wikipedia (Afghan Turkmens); Minority Rights Group | medium-high
+Turkmen introduced karakul sheep; carpets | Wikipedia (Afghan Turkmens) | medium
+Turkmen crossing of the Amu Darya after 1917 and during collectivisation | Marsden (HKW); Joshua Project; Barakat | medium
+Before 1880 only about 3,000 Ghilzai families near Mazar; Pashtun settlement under Abdur Rahman; free land and tax exemption | BSOAS article; RFE/RL | high
+Settlers' descendants more attached to local institutions, hostile to centre and Taliban | International Organization (Cambridge) | medium-high
+Hizb-e Wahdat formed 1989 in Bamyan | Encyclopedia.com (Hazara) | medium
+Dostum became self-appointed Uzbek spokesman after leaving Najibullah | Minority Rights Group | medium
+Northern Alliance = Tajik, Uzbek, Hazara factions | OCA Magazine | medium
+May 1997: about 3,000 Taliban prisoners killed by United Front forces | HRW backgrounder (2001) | high
+Aug 1998: at least 2,000 civilians killed in Mazar, mostly Hazara, possibly many more | HRW (1998; 2001) | high (minimum); higher figures claimed elsewhere
+2004 constitution recognised 14 groups; third official language where majority speaks it | Refworld directory; CIA Factbook via global-geography | medium-high
+MEI tracker (Sept 2025): 90 percent Pashtun, about 5.4 Tajik, about 3 Uzbek among 1,185 | MEI Taliban tracker | medium-high
+EUAA: no formal discriminatory policy, but non-Pashtun poorly represented | EUAA Country Guidance 2025 | high
+Taliban says its government is inclusive | Amu TV | low-medium (report of a claim)
+Jowzjan 2021: allegations of land seizure by Pashtun nomads; nomad rep says land is state land | RFE/RL (Dec 2021) | medium-high (allegations, as reported)
+
+SHORTS (3, files in the Shorts folder)
+1. Afghanistan Never Counted Its People #Shorts
+2. Who Are the Hazaras? 3 Theories #Shorts
+3. Quetta's Hazaras: A Regiment and a Town #Shorts
