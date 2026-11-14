@@ -186,8 +186,9 @@ def work_video(yt, v, t, when, done):
     if t["kind"] == "long":
         th, ur, en = d / f"{ep}_thumbnail.jpg", d / f"{ep}_subtitles_Urdu.srt", d / f"{ep}_subtitles_English.srt"
         if th.exists(): steps.append(("thumb", lambda: set_thumb(yt, vid, th)))
-        if ur.exists(): steps.append(("ur", lambda: add_subs(yt, vid, "ur", "Urdu", ur)))
-        if en.exists(): steps.append(("en", lambda: add_subs(yt, vid, "en", "English", en)))
+        for key, lang, nm, f in (("ur", "ur", "Urdu", ur), ("en", "en", "English", en)):
+            if f.exists(): steps.append((key, lambda lang=lang, nm=nm, f=f: add_subs(yt, vid, lang, nm, f)))
+            else: print(f"      [MISSING] {nm} subtitles file {f.name} - BOTH Urdu and English subtitles are required. Render this episode again.")
     names = {"meta": "title, description, tags, flags", "thumb": "thumbnail", "ur": "Urdu subtitles", "en": "English subtitles"}
     for key, fn in steps:
         if rec.get(key): print(f"      [done before] {names[key]}"); continue
