@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw
 _W = [None]
 SEA, LAND, EDGE, RIVER = (16, 26, 42), (70, 76, 64), (118, 122, 98), (52, 86, 120)
 GOLD, WHITE = (245, 196, 86), (255, 255, 255)
+BORDER = (168, 170, 150)
 
 
 def _world():
@@ -44,6 +45,8 @@ def _base(places, W, H, SS=2):
         if seen(r): d.polygon([xy(la, lo) for lo, la in r], fill=LAND, outline=EDGE)
     for r in w["rivers"]:
         if seen(r): d.line([xy(la, lo) for lo, la in r], fill=RIVER, width=2 * SS)
+    for r in w.get("borders", []):                          # today's country borders, thin and light (disputed lines are not drawn)
+        if seen(r): d.line([xy(la, lo) for lo, la in r], fill=BORDER, width=2 * SS)
     for r in w["lakes"]:
         if seen(r): d.polygon([xy(la, lo) for lo, la in r], fill=SEA, outline=RIVER)
     im = im.resize((W, H), Image.LANCZOS)
@@ -71,7 +74,7 @@ def map_frames(spec, frames, folder, W=1920, H=1080, fps=30):
     pts = [xy(p[1], p[2]) for p in places]
     arcs = [_arc(pts[a], pts[b]) if i % 2 == 0 else [(x, 2 * (pts[a][1] + (pts[b][1] - pts[a][1]) * n / 60) - y) for n, (x, y) in enumerate(_arc(pts[a], pts[b]))]
             for i, (a, b) in enumerate(routes)]              # every second line bends the other way, so lines do not lie on each other
-    f_lab, f_title = v2.latin(46), v2.latin(40)
+    f_lab, f_title, f_sub = v2.latin(46), v2.latin(40), v2.latin(32)
     T = frames / fps
     t_in = min(0.8, T * 0.12)                               # first place appears
     t_run = max(min(T - t_in - 1.2, 2.2 * max(len(arcs), 1) + 1.0), 0.6)   # all lines finish, then the map rests
@@ -98,10 +101,13 @@ def map_frames(spec, frames, folder, W=1920, H=1080, fps=30):
             pulse = 1 + 0.25 * math.sin((t - shown_at[j]) * 3.2)
             R = 26 * pulse; d.ellipse([x - R, y - R, x + R, y + R], outline=GOLD + (int(150 * a),), width=4)
             r = 11 * a; d.ellipse([x - r, y - r, x + r, y + r], fill=GOLD + (255,), outline=(0, 0, 0, 255), width=2)
-            name = str(places[j][0]); tw = d.textlength(name, font=f_lab)
+            name = str(places[j][0])
+            tw = max(d.textlength(name, font=f_lab), d.textlength(str(places[j][3]), font=f_sub) if len(places[j]) > 3 and places[j][3] else 0)
             lx = x + 24 if x + 24 + tw < W - 30 else x - 24 - tw
             ly = min(max(y - 62, 20), H - 80)
             d.text((lx, ly), name, font=f_lab, fill=WHITE + (int(255 * a),), stroke_width=4, stroke_fill=(0, 0, 0, int(230 * a)))
+            if len(places[j]) > 3 and places[j][3]:                 # today's country, smaller, under the place name
+                d.text((lx, ly + 54), str(places[j][3]), font=f_sub, fill=(255, 226, 150, int(255 * a)), stroke_width=3, stroke_fill=(0, 0, 0, int(230 * a)))
         if spec.get("title"):
             d.text((70, 56), str(spec["title"]), font=f_title, fill=GOLD + (255,), stroke_width=3, stroke_fill=(0, 0, 0, 230))
         Image.alpha_composite(im, ov).convert("RGB").save(folder / f"f{f:05d}.jpg", quality=90)

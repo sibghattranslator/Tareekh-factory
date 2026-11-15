@@ -313,3 +313,4 @@ RULES ADDED 15 NOV 2026 (from tk007 on; the user's instructions - be critical ab
 7. Repeating a picture from an earlier video is allowed when it is the right picture; heavy repetition is not.
 8. MUSIC: background level is 0.50 (was 0.65). It rises only in pauses and topic changes. War / danger scenes: "mood": "tense"; empire / big moments: "epic".
 9. Tall pictures (masks, statues, portraits) are shown whole over a blurred background - use them freely.
+   Map places may carry today's country as a 4th item: ["Badakhshan", 36.2, 70.8, "Afghanistan"] - always give it for cities and regions. Maps show today's country borders as thin light lines.

@@ -1952,16 +1952,7 @@
  ],
  "refresh_pics": {
   "all": true,
-  "v": 4,
-  "keep": [
-   "01e",
-   "03d",
-   "04c",
-   "05d",
-   "06e",
-   "07b",
-   "08b"
-  ]
+  "v": 3
  },
- "rerender_v": 4
+ "rerender_v": 3
 }
