@@ -69,7 +69,9 @@ def _ease(t): t = max(0.0, min(1.0, t)); return t * t * (3 - 2 * t)
 def map_frames(spec, frames, folder, W=1920, H=1080, fps=30):
     import v2
     places = spec["places"]
-    routes = spec.get("routes") or [[0, j] for j in range(1, len(places))]
+    routes = spec.get("routes")
+    if routes is None: routes = [[0, j] for j in range(1, len(places))]
+    if routes in ("none", []): routes = []                  # "routes": "none" = only show the places, one after another, no lines
     base, xy = _base(places, W, H)
     pts = [xy(p[1], p[2]) for p in places]
     arcs = [_arc(pts[a], pts[b]) if i % 2 == 0 else [(x, 2 * (pts[a][1] + (pts[b][1] - pts[a][1]) * n / 60) - y) for n, (x, y) in enumerate(_arc(pts[a], pts[b]))]
@@ -82,7 +84,21 @@ def map_frames(spec, frames, folder, W=1920, H=1080, fps=30):
     shown_at = {routes[0][0] if routes else 0: 0.0}
     for i, (a, b) in enumerate(routes):
         shown_at.setdefault(a, t_in + i * seg); shown_at.setdefault(b, t_in + (i + 1) * seg)
+    if not routes: shown_at = {j: min(j * 0.8, max(T - 1.5, 0) * j / max(len(places) - 1, 1)) for j in range(len(places))}
     for j in range(len(places)): shown_at.setdefault(j, 0.0)
+    # label places: try right, left, below-right, below-left, far above, far below - the first spot that covers no other label or dot
+    meas = ImageDraw.Draw(Image.new("RGB", (8, 8))); boxes = []; lab_pos = {}
+    for j, (x, y) in enumerate(pts):
+        sub = str(places[j][3]) if len(places[j]) > 3 and places[j][3] else ""
+        tw = max(meas.textlength(str(places[j][0]), font=f_lab), meas.textlength(sub, font=f_sub) if sub else 0); th = 92 if sub else 54
+        cands = [(x + 24, y - 62), (x - 24 - tw, y - 62), (x + 24, y + 14), (x - 24 - tw, y + 14), (x - tw / 2, y - 62 - th), (x - tw / 2, y + 40)]
+        def bad(c):
+            bx = (c[0] - 6, c[1] - 6, c[0] + tw + 6, c[1] + th + 6)
+            if bx[0] < 20 or bx[2] > W - 20 or bx[1] < 20 or bx[3] > H - 20: return True
+            if any(bx[0] < b[2] and b[0] < bx[2] and bx[1] < b[3] and b[1] < bx[3] for b in boxes): return True
+            return any(i != j and bx[0] < px < bx[2] and bx[1] < py < bx[3] for i, (px, py) in enumerate(pts))
+        c = next((c for c in cands if not bad(c)), cands[0])
+        lab_pos[j] = c; boxes.append((c[0], c[1], c[0] + tw, c[1] + th))
     folder.mkdir(parents=True, exist_ok=True)
     for f in range(frames):
         t = f / fps
@@ -103,8 +119,7 @@ def map_frames(spec, frames, folder, W=1920, H=1080, fps=30):
             r = 11 * a; d.ellipse([x - r, y - r, x + r, y + r], fill=GOLD + (255,), outline=(0, 0, 0, 255), width=2)
             name = str(places[j][0])
             tw = max(d.textlength(name, font=f_lab), d.textlength(str(places[j][3]), font=f_sub) if len(places[j]) > 3 and places[j][3] else 0)
-            lx = x + 24 if x + 24 + tw < W - 30 else x - 24 - tw
-            ly = min(max(y - 62, 20), H - 80)
+            lx, ly = lab_pos[j]
             d.text((lx, ly), name, font=f_lab, fill=WHITE + (int(255 * a),), stroke_width=4, stroke_fill=(0, 0, 0, int(230 * a)))
             if len(places[j]) > 3 and places[j][3]:                 # today's country, smaller, under the place name
                 d.text((lx, ly + 54), str(places[j][3]), font=f_sub, fill=(255, 226, 150, int(255 * a)), stroke_width=3, stroke_fill=(0, 0, 0, int(230 * a)))

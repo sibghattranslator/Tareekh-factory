@@ -1,0 +1,2294 @@
+{
+ "id": "tk007",
+ "format": 2,
+ "title": "Persian Empire in Afghanistan – अफ़ग़ानिस्तान में फ़ारसी साम्राज्य – افغانستان میں فارسی سلطنت",
+ "thumb_text": "Persian Empire",
+ "thumb_ur": "ہخامنشی سلطنت",
+ "thumb_sub": "Cyrus · Darius · Bactria",
+ "scenes": [
+  {
+   "text_on_screen": "A camel from Balkh",
+   "narration_ur": "ایران کے شہر شیراز کے قریب تختِ جمشید کے کھنڈر ہیں، جہاں پتھر کی سیڑھیوں پر سینکڑوں لوگ تراشے ہوئے ہیں۔ ان میں ایک قطار ایسے لوگوں کی ہے جو دو کوہان والا اونٹ لیے چل رہے ہیں۔ ماہرین کے مطابق یہ باختر کے لوگ ہیں، یعنی آج کے بلخ اور شمالی افغانستان کے۔ ان کے آس پاس ہرات اور قندھار کے علاقوں کے وفد بھی کھڑے ہیں، ہاتھوں میں تحفے لیے۔ سوال یہ ہے کہ ڈھائی ہزار سال پہلے افغانستان کے لوگ ایران کے ایک محل کی دیوار پر کیسے پہنچے؟ جواب ایک سلطنت ہے، جسے ہخامنشی سلطنت کہتے ہیں، اور جو اپنے وقت کی دنیا کی سب سے بڑی سلطنت تھی۔ آج ہم دیکھیں گے کہ سائرس اور دارا کی یہ سلطنت افغانستان تک کیسے پہنچی، اور یہاں دو سو سال کیا ہوتا رہا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Near the city of Shiraz in Iran stand the ruins of Persepolis, where hundreds of people are carved on the stone stairways.",
+    "One row shows men walking with a two-humped camel.",
+    "Experts say these are the people of Bactria, today's Balkh and northern Afghanistan.",
+    "Around them stand delegations from the regions of Herat and Kandahar, with gifts in their hands.",
+    "The question is: how did people from Afghanistan end up on a palace wall in Iran, two and a half thousand years ago?",
+    "The answer is an empire, called the Achaemenid Empire, the largest the world had seen in its time.",
+    "Today we see how this empire of Cyrus and Darius reached Afghanistan, and what happened here for two hundred years."
+   ],
+   "shots": [
+    {
+     "search": "Persepolis",
+     "at": 1
+    },
+    {
+     "search": "Apadana",
+     "at": 2
+    },
+    {
+     "search": "Bactria",
+     "at": 3
+    },
+    {
+     "search": "Persepolis",
+     "at": 4
+    },
+    {
+     "card": {
+      "ur": "افغانستان کے لوگ یہاں کیسے پہنچے؟",
+      "en": "How did they get here?"
+     },
+     "at": 5
+    },
+    {
+     "search": "Achaemenid Empire",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Persepolis",
+        29.93,
+        52.89,
+        "Iran"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ]
+      ],
+      "title": "From Persepolis to Afghanistan"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "A camel from Balkh",
+    "ur": "بلخ کا اونٹ"
+   },
+   "sfx": "hit",
+   "feel": "دھیمی اور پراسرار آواز، جیسے کوئی پرانا راز کھول رہے ہوں۔ سوال والے جملے پر ٹھہر کر پوچھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کھنڈر"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "اونٹ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "باختر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "تحفے"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "ڈھائی"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "ہخامنشی"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "دو"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Three kinds of sources",
+   "narration_ur": "شروع کرنے سے پہلے ایک ضروری بات۔ اس دور کی کہانی ہمیں تین طرح کے ذرائع سے ملتی ہے۔ پہلا ذریعہ فارسی بادشاہوں کے اپنے کتبے ہیں، جو انہوں نے پہاڑوں اور محلوں پر کھدوائے۔ دوسرا ذریعہ یونانی لکھنے والے ہیں، جیسے ہیروڈوٹس، جو خود فارس کے دشمن ملک سے تھے۔ تیسرا ذریعہ کھدائی سے ملنے والی چیزیں اور پرانے سرکاری خط ہیں۔ مسئلہ یہ ہے کہ بادشاہ کا کتبہ بادشاہ کی اپنی تعریف ہوتا ہے، اور دشمن کی کتاب میں دشمن کی نظر ہوتی ہے۔ اور افغانستان کے عام لوگوں کی اپنی آواز اس دور سے تقریباً نہیں ملتی۔ اس لیے ہم ہر بات کے ساتھ بتائیں گے کہ وہ کس نے کہی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Before we begin, one important point.",
+    "The story of this age comes to us from three kinds of sources.",
+    "The first is the Persian kings' own inscriptions, carved on cliffs and palaces.",
+    "The second is Greek writers such as Herodotus, who came from a land that was Persia's enemy.",
+    "The third is objects found in excavations, and old official letters.",
+    "The problem is that a king's inscription is the king praising himself, and an enemy's book carries an enemy's view.",
+    "And the voice of Afghanistan's ordinary people from this age has almost not survived.",
+    "So with every claim, we will say who made it."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ذرائع کی تین قسمیں",
+      "en": "Three kinds of sources"
+     },
+     "at": 1
+    },
+    {
+     "search": "Behistun Inscription",
+     "at": 3
+    },
+    {
+     "search": "Herodotus",
+     "at": 4
+    },
+    {
+     "search": "Persepolis Administrative Archives",
+     "at": 5
+    },
+    {
+     "search": "Darius the Great",
+     "at": 6
+    },
+    {
+     "search": "Balkh",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Who is speaking?",
+    "ur": "یہ بات کس نے کہی؟"
+   },
+   "feel": "سادہ اور ایماندار آواز، جیسے استاد سبق سے پہلے اصول بتا رہا ہو۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "ایک"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کتبے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہیروڈوٹس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کھدائی"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "تعریف"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "اپنی"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "کس"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Cyrus the Great",
+   "narration_ur": "چھٹی صدی قبل مسیح کے وسط میں فارس، یعنی آج کے جنوبی ایران، کا ایک چھوٹا سا بادشاہ تھا جس کا نام کوروش تھا۔ یونانیوں نے اسے سائرس کہا، اور آج دنیا اسے سائرس اعظم کے نام سے جانتی ہے۔ تقریباً پانچ سو پچاس قبل مسیح میں اس نے اپنے طاقتور پڑوسی، ماد کی سلطنت کو شکست دی۔ پھر اس نے مغرب میں لیڈیا کی امیر ریاست فتح کی، جو آج کے ترکی میں تھی۔ اور پانچ سو انتالیس قبل مسیح میں وہ بابل میں داخل ہوا، جو اس وقت دنیا کا سب سے مشہور شہر تھا۔ صرف بیس پچیس سال میں ایک چھوٹی سی ریاست بحیرۂ روم سے وسطی ایشیا تک پھیل گئی۔ مگر ہماری کہانی کے لیے سب سے اہم سوال یہ ہے کہ سائرس مشرق میں کہاں تک آیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In the middle of the sixth century BC, Persis, today's southern Iran, had a minor king named Kurush.",
+    "The Greeks called him Cyrus, and today the world knows him as Cyrus the Great.",
+    "Around 550 BC he defeated his powerful neighbour, the kingdom of the Medes.",
+    "Then in the west he conquered the rich kingdom of Lydia, in today's Turkey.",
+    "And in 539 BC he entered Babylon, then the most famous city in the world.",
+    "In just twenty to twenty-five years a small kingdom spread from the Mediterranean to Central Asia.",
+    "But for our story the most important question is how far east Cyrus came."
+   ],
+   "shots": [
+    {
+     "search": "Pasargadae",
+     "at": 1
+    },
+    {
+     "search": "Cyrus the Great",
+     "at": 2
+    },
+    {
+     "search": "Ecbatana",
+     "at": 3
+    },
+    {
+     "search": "Sardis",
+     "at": 4
+    },
+    {
+     "search": "Babylon",
+     "at": 5
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Pasargadae",
+        30.2,
+        53.18,
+        "Iran"
+       ],
+       [
+        "Ecbatana",
+        34.8,
+        48.5,
+        "Iran"
+       ],
+       [
+        "Sardis",
+        38.49,
+        28.04,
+        "Turkey"
+       ],
+       [
+        "Babylon",
+        32.54,
+        44.42,
+        "Iraq"
+       ]
+      ],
+      "title": "The conquests of Cyrus"
+     },
+     "at": 6
+    },
+    {
+     "card": {
+      "ur": "سائرس مشرق میں کہاں تک آیا؟",
+      "en": "How far east did Cyrus come?"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Cyrus the Great",
+    "ur": "سائرس اعظم"
+   },
+   "feel": "بلند اور پُراعتماد آواز، جیسے کسی بڑی فتح کی کہانی سنا رہے ہوں۔ آخری جملے پر آواز دھیمی کر کے سوال چھوڑیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کوروش"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سائرس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ماد"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "لیڈیا"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "بابل"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بیس"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "مشرق"
+    }
+   ],
+   "chapter": {
+    "n": 1,
+    "ur": "سائرس اعظم",
+    "en": "Cyrus the Great"
+   }
+  },
+  {
+   "text_on_screen": "Cyrus in the east",
+   "narration_ur": "سچ یہ ہے کہ سائرس کی مشرقی مہموں کے بارے میں ہم بہت کم جانتے ہیں۔ اندازہ ہے کہ پانچ سو پینتالیس اور پانچ سو چالیس قبل مسیح کے بیچ باختر، ہرات، قندھار اور سیستان کے علاقے اس کی سلطنت میں آ گئے۔ رومی مصنف پلینی لکھتا ہے کہ سائرس نے کاپیسا نام کا ایک شہر تباہ کیا، جو آج کے بگرام کے قریب مانا جاتا ہے۔ یونانی مؤرخ آریان ایک اور قصہ سناتا ہے۔ اس کے مطابق سائرس کی فوج صحرا میں بھوک سے مرنے لگی تھی، اور ہلمند کے کنارے رہنے والے ایک قبیلے نے اسے اناج پہنچایا۔ سائرس نے اس قبیلے کو محسن کا لقب دیا، اور یہ نام صدیوں تک چلتا رہا۔ باختر کے بارے میں ماہرین کی دو رائیں ہیں۔ کچھ کہتے ہیں کہ سائرس نے اسے جنگ سے فتح کیا، جبکہ انسائیکلوپیڈیا ایرانیکا کے مطابق شاید یہ علاقہ بغیر بڑی جنگ کے، ایک سیاسی اتحاد سے سلطنت میں شامل ہوا۔ دونوں باتوں کا پکا ثبوت ابھی تک نہیں ملا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The truth is that we know very little about Cyrus's eastern campaigns.",
+    "It is estimated that between 545 and 540 BC the regions of Bactria, Herat, Kandahar and Sistan came into his empire.",
+    "The Roman writer Pliny says Cyrus destroyed a city called Kapisa, thought to lie near today's Bagram.",
+    "The Greek historian Arrian tells another story.",
+    "By his account Cyrus's army was starving in the desert, and a tribe living along the Helmand brought it grain.",
+    "Cyrus gave that tribe the title of Benefactors, and the name lasted for centuries.",
+    "About Bactria, scholars hold two views.",
+    "Some say Cyrus conquered it by war, while Encyclopaedia Iranica suggests it may have joined the empire without a major war, through a political union.",
+    "Firm proof for either view has not yet been found."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ہم بہت کم جانتے ہیں",
+      "en": "We know very little"
+     },
+     "at": 1
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Pasargadae",
+        30.2,
+        53.18,
+        "Iran"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Sistan (Drangiana)",
+        30.96,
+        61.86,
+        "Afghanistan / Iran"
+       ]
+      ],
+      "title": "Cyrus's eastern lands, c. 545–540 BC"
+     },
+     "at": 2
+    },
+    {
+     "search": "Kapisa Province",
+     "at": 3
+    },
+    {
+     "search": "Arrian",
+     "at": 4
+    },
+    {
+     "search": "Helmand River",
+     "at": 5,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261115_025949_edb989f4-0fcc-448a-ba81-1b761146e478.png"
+    },
+    {
+     "search": "Helmand River",
+     "at": 6
+    },
+    {
+     "search": "Bactria",
+     "at": 7
+    },
+    {
+     "search": "Balkh",
+     "at": 8
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Cyrus in the east",
+    "ur": "سائرس مشرق میں"
+   },
+   "feel": "محتاط آواز، کیونکہ یہاں ثبوت کم ہے۔ دو رائیں بتاتے ہوئے دونوں کو برابر وزن دیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "کم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "باختر"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "کاپیسا"
+    },
+    {
+     "m": [],
+     "w": "آریان"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہلمند"
+    },
+    {
+     "m": [
+      "warm",
+      "stress"
+     ],
+     "w": "محسن"
+    },
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "دو"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اتحاد"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "پکا"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "How did Cyrus die?",
+   "narration_ur": "پانچ سو تیس قبل مسیح میں سائرس مر گیا، اور اس کی موت بھی ایک معمہ ہے۔ ہیروڈوٹس کے مطابق وہ سیر دریا کے پار مساگیتے نام کے خانہ بدوش قبیلے سے لڑنے گیا، جس کی ملکہ کا نام تومیرس تھا۔ اس قصے میں سائرس جنگ میں مارا جاتا ہے، اور ملکہ اس سے اپنے بیٹے کا بدلہ لیتی ہے۔ مگر ہیروڈوٹس خود لکھتا ہے کہ سائرس کی موت کے کئی قصے مشہور تھے، اور اس نے وہ چنا جو اسے سب سے قابلِ یقین لگا۔ ایک اور یونانی، کتیسیاس، کہتا ہے کہ وہ کسی دوسرے مشرقی قبیلے سے لڑتے ہوئے زخمی ہوا۔ اور زینوفون کی کتاب میں وہ اپنے محل میں آرام سے فوت ہوتا ہے۔ تینوں باتیں ایک ساتھ سچ نہیں ہو سکتیں، اس لیے ایمانداری یہی ہے کہ کہا جائے: ہم نہیں جانتے۔ جو چیز پکی ہے وہ اس کا مقبرہ ہے، جو آج بھی ایران میں پاسارگاد کے میدان میں کھڑا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In 530 BC Cyrus died, and his death too is a puzzle.",
+    "According to Herodotus he went beyond the Syr Darya to fight a nomad people called the Massagetae, whose queen was named Tomyris.",
+    "In this story Cyrus is killed in battle, and the queen takes revenge on him for her son.",
+    "But Herodotus himself writes that many stories of Cyrus's death were told, and he chose the one he found most believable.",
+    "Another Greek, Ctesias, says he was wounded fighting a different eastern tribe.",
+    "And in Xenophon's book he dies peacefully in his palace.",
+    "All three cannot be true together, so the honest thing is to say: we do not know.",
+    "What is certain is his tomb, which still stands on the plain of Pasargadae in Iran."
+   ],
+   "shots": [
+    {
+     "search": "Cyrus the Great",
+     "at": 1
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Pasargadae",
+        30.2,
+        53.18,
+        "Iran"
+       ],
+       [
+        "Syr Darya",
+        44.0,
+        67.0,
+        "Kazakhstan"
+       ]
+      ],
+      "title": "Herodotus: the last campaign"
+     },
+     "at": 2
+    },
+    {
+     "search": "Massagetae",
+     "at": 3
+    },
+    {
+     "search": "Histories (Herodotus)",
+     "at": 4
+    },
+    {
+     "search": "Ctesias",
+     "at": 5
+    },
+    {
+     "search": "Xenophon",
+     "at": 6
+    },
+    {
+     "card": {
+      "ur": "تین قصے، ایک موت",
+      "en": "Three stories, one death"
+     },
+     "at": 7
+    },
+    {
+     "search": "Tomb of Cyrus",
+     "at": 8
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "How did Cyrus die?",
+    "ur": "سائرس کی موت"
+   },
+   "feel": "قصہ سنانے والی آواز، مگر ہر قصے کے بعد ہلکا سا شک۔ 'ہم نہیں جانتے' صاف اور ٹھہر کر کہیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "معمہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مساگیتے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بدلہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کئی"
+    },
+    {
+     "m": [],
+     "w": "کتیسیاس"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "آرام"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ایمانداری"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "مقبرہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Darius and Behistun",
+   "narration_ur": "سائرس کے بعد اس کا بیٹا کمبوجیہ بادشاہ بنا، اور اس نے مصر فتح کیا۔ پانچ سو بائیس قبل مسیح میں وہ مر گیا، اور سلطنت میں تخت کی لڑائی چھڑ گئی۔ اس لڑائی سے ایک نیا بادشاہ نکلا، دارا، جسے دارا اعظم بھی کہتے ہیں۔ دارا نے مغربی ایران میں بیستون کے پہاڑ پر، زمین سے تقریباً سو میٹر اوپر، ایک لمبا کتبہ کھدوایا۔ یہ کتبہ تین زبانوں میں ہے: قدیم فارسی، عیلامی اور بابلی۔ اس میں دارا اپنے ملکوں کی فہرست دیتا ہے، اور اس فہرست میں ہمارے علاقے کے نام صاف لکھے ہیں۔ باختریش یعنی باختر، ہرئیوا یعنی ہرات، ہرہووتیش یعنی قندھار کا علاقہ، زرنکا یعنی سیستان، اور گندارا۔ اسے افغانستان کے ان علاقوں کا پہلا تحریری ذکر مانا جاتا ہے جس کی تاریخ پکی ہے، تقریباً پانچ سو بیس قبل مسیح۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "After Cyrus his son Cambyses became king, and he conquered Egypt.",
+    "In 522 BC he died, and a fight for the throne broke out across the empire.",
+    "Out of that fight came a new king, Darius, also called Darius the Great.",
+    "On the cliff of Behistun in western Iran, about a hundred metres above the ground, Darius had a long inscription carved.",
+    "It is in three languages: Old Persian, Elamite and Babylonian.",
+    "In it Darius lists his lands, and the names of our region are clearly written in that list.",
+    "Bakhtrish, that is Bactria; Haraiva, that is Herat; Harauvatish, the Kandahar region; Zranka, that is Sistan; and Gandara.",
+    "This is regarded as the first firmly dated written mention of these regions of Afghanistan, about 520 BC."
+   ],
+   "shots": [
+    {
+     "search": "Cambyses II",
+     "at": 1
+    },
+    {
+     "card": {
+      "ur": "۵۲۲ قبل مسیح: تخت کی لڑائی",
+      "en": "522 BC: the fight for the throne"
+     },
+     "at": 2
+    },
+    {
+     "search": "Darius the Great",
+     "at": 3
+    },
+    {
+     "search": "Behistun Inscription",
+     "at": 4
+    },
+    {
+     "search": "Old Persian cuneiform",
+     "at": 5
+    },
+    {
+     "search": "Behistun Inscription",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Sistan (Drangiana)",
+        30.96,
+        61.86,
+        "Afghanistan / Iran"
+       ],
+       [
+        "Gandara",
+        34.0,
+        71.5,
+        "Pakistan / Afghanistan"
+       ]
+      ],
+      "title": "Lands named by Darius",
+      "routes": "none"
+     },
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "تقریباً ۵۲۰ قبل مسیح",
+      "en": "About 520 BC"
+     },
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The Behistun inscription",
+    "ur": "بیستون کا کتبہ"
+   },
+   "feel": "پُروقار آواز۔ صوبوں کے پرانے نام آہستہ اور صاف پڑھیں، ہر نام کے بعد ہلکا وقفہ۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": "کمبوجیہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تخت"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "دارا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بیستون"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فہرست"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ہرئیوا"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "پہلا"
+    }
+   ],
+   "chapter": {
+    "n": 2,
+    "ur": "دارا اور بیستون",
+    "en": "Darius and Behistun"
+   }
+  },
+  {
+   "text_on_screen": "Revolts in the east",
+   "narration_ur": "بیستون کا کتبہ ہمیں یہ بھی بتاتا ہے کہ دارا کے پہلے سال میں مشرق میں کیا ہوا۔ مرو کے علاقے میں، جو آج ترکمانستان میں ہے، فرادہ نام کے ایک شخص نے بغاوت کر دی۔ دارا نے باختر کے گورنر دادرشی کو حکم بھیجا کہ اس بغاوت کو ختم کرے۔ کتبے کے مطابق دسمبر پانچ سو اکیس قبل مسیح میں دادرشی نے باغیوں کو شکست دی۔ اسی وقت جنوب میں، قندھار کے علاقے میں، ایک اور لڑائی چل رہی تھی۔ فارس میں تخت کے ایک دعوے دار نے وہاں فوج بھیجی، مگر دارا کے وفادار گورنر ویوانہ نے اسے تین لڑائیوں میں ہرا دیا۔ ان میں سے ایک لڑائی کاپیشاکانیش نام کے قلعے پر ہوئی، جس کی صحیح جگہ پر ماہرین متفق نہیں۔ یاد رکھیں کہ یہ سب دارا کی اپنی زبانی ہے، اور ہارنے والوں کا بیان ہمارے پاس نہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Behistun inscription also tells us what happened in the east in Darius's first year.",
+    "In the region of Merv, in today's Turkmenistan, a man named Frada rose in revolt.",
+    "Darius sent orders to Dadarshi, the governor of Bactria, to put the revolt down.",
+    "According to the inscription, Dadarshi defeated the rebels in December 521 BC.",
+    "At the same time in the south, in the Kandahar region, another fight was under way.",
+    "A claimant to the throne in Persis sent an army there, but Darius's loyal governor Vivana beat it in three battles.",
+    "One of those battles was at a fort called Kapishakanish, whose exact location scholars do not agree on.",
+    "Remember that all this is in Darius's own words, and we do not have the account of those who lost."
+   ],
+   "shots": [
+    {
+     "search": "Darius the Great",
+     "at": 1
+    },
+    {
+     "search": "Merv",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Merv (Margiana)",
+        37.66,
+        62.19,
+        "Turkmenistan"
+       ]
+      ],
+      "title": "521 BC: the governor of Bactria marches"
+     },
+     "at": 3
+    },
+    {
+     "search": "Margiana",
+     "at": 4
+    },
+    {
+     "search": "Old Kandahar",
+     "at": 5
+    },
+    {
+     "search": "Arachosia",
+     "at": 6
+    },
+    {
+     "search": "Arghandab River",
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "یہ دارا کا اپنا بیان ہے",
+      "en": "This is Darius's own account"
+     },
+     "at": 8
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Revolts in the east",
+    "ur": "مشرق میں بغاوتیں"
+   },
+   "feel": "تیز اور سنجیدہ آواز، جیسے جنگ کی خبر سنا رہے ہوں۔ آخری جملے پر رک کر یاد دلائیں کہ یہ بادشاہ کا اپنا بیان ہے۔",
+   "delivery": [
+    {
+     "m": [],
+     "w": "مشرق"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "فرادہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "دادرشی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "دسمبر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "قندھار"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ویوانہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "قلعے"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "اپنی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Provinces and governors",
+   "narration_ur": "اتنی بڑی سلطنت کو چلانے کے لیے دارا نے اسے صوبوں میں بانٹا۔ ہر صوبے کے گورنر کو قدیم فارسی میں خشترپاون کہتے تھے، یعنی سلطنت کا محافظ، اور یونانیوں نے اسے ساتراپ بنا دیا۔ آج کے افغانستان میں کئی صوبے تھے۔ شمال میں باختر، جس کا مرکز بلخ تھا، اور مغرب میں آریا، یعنی ہرات۔ جنوب میں اراخوزیا، یعنی قندھار، اور اس کے مغرب میں درنگیانا، یعنی سیستان۔ مشرق میں گندارا تھا، جو وادئ کابل سے پشاور تک پھیلا ہوا تھا۔ ان سب میں باختر کا درجہ خاص تھا، کیونکہ وہاں اکثر شاہی خاندان کا کوئی شہزادہ گورنر ہوتا تھا۔ انسائیکلوپیڈیا ایرانیکا کے مطابق باختر کے مقامی سرداروں نے فارسی حکومت کے نیچے بھی اپنی طاقت بڑی حد تک قائم رکھی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "To run so large an empire, Darius divided it into provinces.",
+    "The governor of each province was called khshathrapavan in Old Persian, meaning protector of the realm, and the Greeks turned it into satrap.",
+    "There were several provinces in today's Afghanistan.",
+    "In the north Bactria, centred on Balkh, and in the west Aria, that is Herat.",
+    "In the south Arachosia, that is Kandahar, and to its west Drangiana, that is Sistan.",
+    "In the east was Gandara, stretching from the Kabul valley to Peshawar.",
+    "Among them Bactria had a special rank, because its governor was often a prince of the royal family.",
+    "According to Encyclopaedia Iranica, the local nobles of Bactria kept much of their power even under Persian rule."
+   ],
+   "shots": [
+    {
+     "search": "Achaemenid Empire",
+     "at": 1
+    },
+    {
+     "search": "Satrap",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Sistan (Drangiana)",
+        30.96,
+        61.86,
+        "Afghanistan / Iran"
+       ],
+       [
+        "Gandara",
+        34.0,
+        71.5,
+        "Pakistan / Afghanistan"
+       ]
+      ],
+      "title": "Achaemenid provinces in and around Afghanistan",
+      "routes": "none"
+     },
+     "at": 3
+    },
+    {
+     "search": "Balkh",
+     "at": 7
+    },
+    {
+     "search": "Bactria",
+     "at": 8
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The satrapies",
+    "ur": "صوبے"
+   },
+   "feel": "واضح اور ترتیب والی آواز، جیسے نقشے پر انگلی رکھ کر سمجھا رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "صوبوں"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "خشترپاون"
+    },
+    {
+     "m": [],
+     "w": "کئی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بلخ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اراخوزیا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "گندارا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "شہزادہ"
+    },
+    {
+     "m": [
+      "slow",
+      "warm"
+     ],
+     "w": "مقامی"
+    }
+   ],
+   "chapter": {
+    "n": 3,
+    "ur": "صوبے اور گورنر",
+    "en": "Provinces and Governors"
+   }
+  },
+  {
+   "text_on_screen": "Silver, gold and the blue stone",
+   "narration_ur": "صوبوں کا سب سے بڑا کام خراج دینا تھا۔ ہیروڈوٹس ایک فہرست دیتا ہے کہ کون سا علاقہ کتنی چاندی دیتا تھا۔ اس کے مطابق باختر ہر سال تین سو ساٹھ ٹیلنٹ چاندی دیتا تھا، جو آج کے حساب سے کوئی دس ہزار کلو کے قریب بنتی ہے۔ گندارا اور اس کے پڑوسی مل کر ایک سو ستر ٹیلنٹ دیتے تھے۔ مگر بہت سے ماہرین کہتے ہیں کہ ہیروڈوٹس کے یہ ہندسے پوری طرح قابلِ اعتبار نہیں۔ ایک زیادہ پکا ثبوت خود دارا کا ہے۔ سوسہ میں اپنے محل کے کتبے میں وہ لکھتا ہے کہ سونا سارد اور باختر سے آیا، لاجورد سغد سے، اور ہاتھی دانت اراخوزیا، ہند اور کوش سے۔ یعنی پچھلی ویڈیو کا نیلا پتھر اب بادشاہ کے محل کی سجاوٹ بن چکا تھا۔ اور تختِ جمشید کی سیڑھیوں پر باختر کا وہ اونٹ اسی خراج کی تصویر ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The provinces' biggest duty was to pay tribute.",
+    "Herodotus gives a list of how much silver each region paid.",
+    "By his account Bactria paid 360 talents of silver every year, which comes to roughly ten thousand kilograms.",
+    "Gandara and its neighbours together paid 170 talents.",
+    "But many scholars say these figures of Herodotus are not fully reliable.",
+    "A firmer piece of evidence comes from Darius himself.",
+    "In the inscription of his palace at Susa he writes that the gold came from Sardis and Bactria, the lapis lazuli from Sogdiana, and the ivory from Arachosia, India and Kush.",
+    "So the blue stone of our last video had now become decoration for a king's palace.",
+    "And that Bactrian camel on the stairs of Persepolis is a picture of this very tribute."
+   ],
+   "shots": [
+    {
+     "search": "Apadana",
+     "at": 1
+    },
+    {
+     "search": "Herodotus",
+     "at": 2
+    },
+    {
+     "search": "Achaemenid coinage",
+     "at": 3
+    },
+    {
+     "search": "Gandhara",
+     "at": 4
+    },
+    {
+     "card": {
+      "ur": "ہیروڈوٹس کے ہندسوں پر شک ہے",
+      "en": "Herodotus's figures are doubted"
+     },
+     "at": 5
+    },
+    {
+     "search": "Palace of Darius in Susa",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Susa",
+        32.19,
+        48.26,
+        "Iran"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Sardis",
+        38.49,
+        28.04,
+        "Turkey"
+       ]
+      ],
+      "title": "Materials for the palace at Susa",
+      "routes": [
+       [
+        1,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        3,
+        0
+       ]
+      ]
+     },
+     "at": 7
+    },
+    {
+     "search": "Lapis lazuli",
+     "at": 8
+    },
+    {
+     "search": "Bactrian camel",
+     "at": 9
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Tribute",
+    "ur": "خراج"
+   },
+   "feel": "حساب بتانے والی سادہ آواز۔ نیلے پتھر والے جملے پر ہلکی مسکراہٹ، کیونکہ یہ پچھلی ویڈیو سے جڑتا ہے۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خراج"
+    },
+    {
+     "m": [],
+     "w": "چاندی"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "ساٹھ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ستر"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "ہندسے"
+    },
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "پکا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سونا"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "نیلا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اونٹ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Roads, language and letters",
+   "narration_ur": "اتنی دور کے صوبوں سے رابطہ کیسے رکھا جاتا تھا؟ جواب ہے سڑکیں، ڈاک کے گھوڑے، اور ایک مشترکہ دفتری زبان۔ یہ زبان فارسی نہیں بلکہ آرامی تھی، جو مصر سے لے کر باختر تک دفتروں میں لکھی جاتی تھی۔ تختِ جمشید سے ہزاروں مٹی کی تختیاں ملی ہیں، جن میں مسافروں کو دیے گئے راشن کا حساب ہے۔ ان میں ایسے مسافروں کا ذکر ہے جو اراخوزیا، باختر اور قندھار کی طرف جا رہے تھے یا وہاں سے آ رہے تھے۔ اور پرانے قندھار کی کھدائی میں، انیس سو ستر کی دہائی میں، برطانوی ماہرین کو اسی طرح کی عیلامی تختیوں کے ٹکڑے ملے۔ اس کا مطلب یہ نکلتا ہے کہ قندھار میں بھی وہی سرکاری حساب کتاب چلتا تھا جو دارالحکومت میں تھا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "How was contact kept with provinces so far away?",
+    "The answer is roads, post horses, and one shared office language.",
+    "That language was not Persian but Aramaic, written in offices from Egypt to Bactria.",
+    "Thousands of clay tablets have been found at Persepolis, recording the rations given to travellers.",
+    "They mention travellers going to, or coming from, Arachosia, Bactria and Kandahar.",
+    "And in the excavation of Old Kandahar in the 1970s, British archaeologists found fragments of the same kind of Elamite tablets.",
+    "This suggests that Kandahar ran the same official bookkeeping as the capital."
+   ],
+   "shots": [
+    {
+     "search": "Royal Road",
+     "at": 1
+    },
+    {
+     "search": "Angarium",
+     "at": 2
+    },
+    {
+     "search": "Imperial Aramaic",
+     "at": 3
+    },
+    {
+     "search": "Persepolis Administrative Archives",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Persepolis",
+        29.93,
+        52.89,
+        "Iran"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Travellers on the royal roads"
+     },
+     "at": 5
+    },
+    {
+     "search": "Old Kandahar",
+     "at": 6
+    },
+    {
+     "search": "Kandahar",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Aramaic, the office language",
+    "ur": "آرامی، دفتری زبان"
+   },
+   "feel": "تجسس والی آواز۔ قندھار والی دریافت پر ذرا جوش، کیونکہ یہ ہمارے قریب کی بات ہے۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "رابطہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سڑکیں"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "آرامی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "تختیاں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مسافروں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "عیلامی"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "وہی"
+    }
+   ],
+   "chapter": {
+    "n": 4,
+    "ur": "سڑکیں، زبان اور خط",
+    "en": "Roads, Language and Letters"
+   }
+  },
+  {
+   "text_on_screen": "Letters from ancient Balkh",
+   "narration_ur": "اب اس دور کا سب سے دلچسپ ثبوت۔ یہ اڑتالیس دستاویزات ہیں، جو آج لندن کے خلیلی مجموعے میں رکھی ہیں۔ ان میں سے تیس چمڑے پر لکھی ہیں اور اٹھارہ لکڑی کی چھڑیوں پر، اور ان کی تاریخیں تین سو ترپن سے تین سو چوبیس قبل مسیح تک ہیں۔ زیادہ تر خط باختر کے گورنر اخوامزدا نے اپنے ماتحت بگاونت کو لکھے، جو خلم کا حاکم تھا۔ خلم آج بھی شمالی افغانستان کا ایک قصبہ ہے۔ ایک خط میں حکم ہے کہ ایک قصبے کے گرد دیوار اور خندق بنائی جائے۔ دوسرے میں سپاہیوں کو اجازت ملتی ہے کہ پہلے ٹڈی دل سے لڑیں اور فصل کاٹیں، اور دیوار بعد میں بنائیں۔ ایک اور خط میں گورنر ڈانٹتا ہے کہ اونٹ پالنے والوں سے غلط ٹیکس کیوں لیا گیا۔ ایک احتیاط ضروری ہے: یہ دستاویزات باقاعدہ کھدائی سے نہیں بلکہ بازار کے راستے سامنے آئیں، اس لیے یہ معلوم نہیں کہ یہ ٹھیک کس جگہ سے ملیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now, the most interesting evidence of this age.",
+    "These are forty-eight documents, kept today in the Khalili Collection in London.",
+    "Thirty are written on leather and eighteen on wooden sticks, and they date from 353 to 324 BC.",
+    "Most of the letters were written by Akhvamazda, the governor of Bactria, to his subordinate Bagavant, who governed Khulm.",
+    "Khulm is still a town in northern Afghanistan today.",
+    "One letter orders that a wall and a ditch be built around a town.",
+    "In another, the soldiers are allowed to fight the locusts and bring in the harvest first, and build the wall later.",
+    "In yet another, the governor scolds him for wrongly taxing the camel keepers.",
+    "One caution is needed: these documents did not come from a proper excavation but through the antiquities market, so we do not know exactly where they were found."
+   ],
+   "shots": [
+    {
+     "search": "Khalili Collection of Aramaic Documents",
+     "at": 1
+    },
+    {
+     "search": "Khalili Collection of Aramaic Documents",
+     "at": 2
+    },
+    {
+     "search": "Khalili Collection of Aramaic Documents",
+     "at": 3
+    },
+    {
+     "search": "Balkh",
+     "at": 4,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261115_030122_2f6a50fe-2dd5-474e-9af0-7ccf16bc857b.png"
+    },
+    {
+     "search": "Kholm, Afghanistan",
+     "at": 5
+    },
+    {
+     "card": {
+      "ur": "حکم: دیوار اور خندق بناؤ",
+      "en": "Order: build a wall and a ditch"
+     },
+     "at": 6
+    },
+    {
+     "search": "Locust",
+     "at": 7,
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261115_030122_f8381c74-8abb-4b12-9523-805f9aa9c51b.png"
+    },
+    {
+     "search": "Bactrian camel",
+     "at": 8
+    },
+    {
+     "card": {
+      "ur": "یہ کھدائی سے نہیں، بازار سے ملے",
+      "en": "Not from an excavation"
+     },
+     "at": 9
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Letters from Balkh",
+    "ur": "بلخ کے خط"
+   },
+   "feel": "گرم اور دلچسپی بھری آواز، جیسے کسی کا پرانا خط پڑھ کر سنا رہے ہوں۔ احتیاط والا جملہ سنجیدگی سے۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "سب"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "اڑتالیس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "چمڑے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اخوامزدا"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "خلم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "دیوار"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "ٹڈی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ڈانٹتا"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "احتیاط"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Soldiers of the east",
+   "narration_ur": "خراج کے علاوہ صوبوں کو ایک اور چیز دینی پڑتی تھی: سپاہی۔ چار سو اسی قبل مسیح میں دارا کے بیٹے خشایارشا نے یونان پر بہت بڑا حملہ کیا۔ ہیروڈوٹس اس فوج کی قوموں کی لمبی فہرست دیتا ہے، اور اس میں ہمارے علاقے کے لوگ بھی ہیں۔ باختر کے سپاہی، جن کے پاس سرکنڈے کی کمانیں اور چھوٹے نیزے تھے، اور ان کے ساتھ ہرات اور گندارا کے دستے۔ وہ ایک اور قوم کا نام بھی لیتا ہے، پکتوئس، جو کھال کے چوغے پہنتے تھے۔ کچھ لکھنے والے اس نام کو پختون سے جوڑتے ہیں، مگر بہت سے ماہرینِ لسانیات کہتے ہیں کہ دونوں ناموں کا رشتہ ثابت نہیں۔ یہ بحث ابھی کھلی ہے۔ اور ہیروڈوٹس نے اس فوج کی جو تعداد لکھی ہے، لاکھوں میں، اسے آج کے تقریباً سب مؤرخ مبالغہ مانتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Besides tribute, the provinces had to give one more thing: soldiers.",
+    "In 480 BC Darius's son Xerxes launched a huge invasion of Greece.",
+    "Herodotus gives a long list of the peoples in that army, and people of our region are in it too.",
+    "Bactrian soldiers with cane bows and short spears, and with them contingents from Herat and Gandara.",
+    "He names another people as well, the Paktyes, who wore cloaks of skin.",
+    "Some writers link this name with Pashtun, but many linguists say a connection between the two names is not proven.",
+    "This debate is still open.",
+    "And the size Herodotus gives for that army, in the millions, is treated as exaggeration by almost all historians today."
+   ],
+   "shots": [
+    {
+     "search": "Immortals (Achaemenid Empire)",
+     "at": 1
+    },
+    {
+     "search": "Xerxes I",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Sardis",
+        38.49,
+        28.04,
+        "Turkey"
+       ],
+       [
+        "Thermopylae",
+        38.8,
+        22.54,
+        "Greece"
+       ]
+      ],
+      "title": "480 BC: the march to Greece",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 3
+    },
+    {
+     "search": "Bactria (satrapy)",
+     "at": 4
+    },
+    {
+     "search": "Pactyans",
+     "at": 5
+    },
+    {
+     "card": {
+      "ur": "پکتوئس اور پختون: رشتہ ثابت نہیں",
+      "en": "Paktyes and Pashtun: not proven"
+     },
+     "at": 6
+    },
+    {
+     "search": "Second Persian invasion of Greece",
+     "at": 8
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Soldiers for the king",
+    "ur": "بادشاہ کے سپاہی"
+   },
+   "feel": "مضبوط اور سنجیدہ آواز۔ پکتوئس اور پختون والی بات پر غیر جانبدار رہیں، کسی طرف جھکاؤ نہ ہو۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "خراج"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خشایارشا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فہرست"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کمانیں"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "پکتوئس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پختون"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "بحث"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مبالغہ"
+    }
+   ],
+   "chapter": {
+    "n": 5,
+    "ur": "مشرق کے سپاہی",
+    "en": "Soldiers of the East"
+   }
+  },
+  {
+   "text_on_screen": "Faith and the Cyrus Cylinder",
+   "narration_ur": "اب مذہب کی بات۔ دارا اپنے کتبوں میں بار بار ایک خدا کا نام لیتا ہے: اہورا مزدا۔ یہ وہی نام ہے جو اوستا میں آتا ہے، جس کا ذکر ہم نے پچھلی ویڈیو میں کیا تھا۔ مگر کیا ہخامنشی بادشاہ پورے معنوں میں زرتشتی تھے؟ اس پر ماہرین متفق نہیں، کیونکہ کتبوں میں زرتشت کا نام کہیں نہیں آتا، اور سلطنت میں ہر قوم اپنے اپنے دیوتاؤں کی عبادت کرتی رہی۔ اسی سے جڑی ایک مشہور چیز سائرس کا استوانہ ہے، مٹی کا ایک چھوٹا سا بیلن جو بابل سے ملا۔ بہت سے لوگ اسے انسانی حقوق کا پہلا منشور کہتے ہیں۔ دوسری طرف برٹش میوزیم اور بہت سے مؤرخ کہتے ہیں کہ یہ بابل کی پرانی شاہی روایت کا ایک عام کتبہ ہے، اور اس میں انسانی حقوق جیسا کوئی تصور نہیں۔ دونوں رائیں آپ کے سامنے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now, about religion.",
+    "In his inscriptions Darius names one god again and again: Ahura Mazda.",
+    "It is the same name that appears in the Avesta, which we discussed in the last video.",
+    "But were the Achaemenid kings Zoroastrians in the full sense?",
+    "Scholars do not agree, because the inscriptions never name Zarathustra, and every people in the empire went on worshipping its own gods.",
+    "Linked to this is a famous object, the Cyrus Cylinder, a small clay cylinder found at Babylon.",
+    "Many people call it the first charter of human rights.",
+    "On the other side, the British Museum and many historians say it is an ordinary text in Babylon's old royal tradition, with no concept like human rights in it.",
+    "Both views are before you."
+   ],
+   "shots": [
+    {
+     "search": "Naqsh-e Rostam",
+     "at": 1
+    },
+    {
+     "search": "Ahura Mazda",
+     "at": 2
+    },
+    {
+     "search": "Avesta",
+     "at": 3
+    },
+    {
+     "search": "Faravahar",
+     "at": 4
+    },
+    {
+     "search": "Zoroastrianism",
+     "at": 5
+    },
+    {
+     "search": "Cyrus Cylinder",
+     "at": 6
+    },
+    {
+     "search": "Cyrus Cylinder",
+     "at": 7
+    },
+    {
+     "search": "British Museum",
+     "at": 8
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Two views",
+    "ur": "دو رائیں"
+   },
+   "feel": "متوازن اور پُرسکون آواز۔ دونوں رائیں ایک جیسے لہجے میں، بغیر کسی طرف داری کے۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "اب"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "اہورا"
+    },
+    {
+     "m": [],
+     "w": "اوستا"
+    },
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "ہخامنشی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "متفق"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "استوانہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "منشور"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "برٹش"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "دونوں"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The Oxus Treasure",
+   "narration_ur": "ہخامنشی دور کے باختر کی سب سے مشہور نشانی ایک خزانہ ہے۔ اسے آمو دریا کا خزانہ کہتے ہیں، اور یہ اٹھارہ سو ستتر سے اٹھارہ سو اسی کے بیچ دریا کے شمالی کنارے سے ملا، جو آج تاجکستان میں ہے۔ اس میں سونے اور چاندی کی تقریباً ایک سو اسی چیزیں ہیں: کڑے، چھوٹے مجسمے، ایک چھوٹا سا سنہری رتھ، اور پتلی تختیاں۔ برٹش میوزیم کے مطابق یہ ہخامنشی دور کے سونے چاندی کے کام کا سب سے اہم مجموعہ ہے جو بچ سکا ہے۔ اس کی کہانی بھی دلچسپ ہے۔ سوداگر اسے کابل کے راستے ہندوستان لے جا رہے تھے کہ راستے میں ڈاکوؤں نے انہیں لوٹ لیا، اور ایک برطانوی افسر نے خزانے کا بڑا حصہ واپس دلوایا۔ چونکہ یہ بھی باقاعدہ کھدائی سے نہیں ملا، اس لیے اس کی صحیح جگہ اور پوری تعداد پر آج تک سوال اٹھتے ہیں۔ آج یہ خزانہ لندن کے برٹش میوزیم میں ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The most famous relic of Achaemenid-age Bactria is a treasure.",
+    "It is called the Oxus Treasure, and it was found between 1877 and 1880 on the north bank of the river, in today's Tajikistan.",
+    "It holds about 180 objects of gold and silver: armlets, small statues, a tiny golden chariot, and thin plaques.",
+    "According to the British Museum it is the most important surviving collection of Achaemenid gold and silver work.",
+    "Its story is interesting too.",
+    "Merchants were carrying it to India by way of Kabul when bandits robbed them on the road, and a British officer recovered most of the treasure.",
+    "Since it too did not come from a proper excavation, questions about its exact findspot and full number remain to this day.",
+    "Today the treasure is in the British Museum in London."
+   ],
+   "shots": [
+    {
+     "search": "Oxus Treasure",
+     "at": 1
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Takht-i Kuwad",
+        37.1,
+        68.3,
+        "Tajikistan"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Where the treasure was found",
+      "routes": "none"
+     },
+     "at": 2
+    },
+    {
+     "search": "Oxus Treasure",
+     "at": 3
+    },
+    {
+     "search": "Oxus Treasure",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Takht-i Kuwad",
+        37.1,
+        68.3,
+        "Tajikistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Peshawar",
+        34.01,
+        71.58,
+        "Pakistan"
+       ]
+      ],
+      "title": "The merchants' road, 1880",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 6
+    },
+    {
+     "search": "Amu Darya",
+     "at": 7
+    },
+    {
+     "search": "British Museum",
+     "at": 8
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The Oxus Treasure",
+    "ur": "آمو دریا کا خزانہ"
+   },
+   "feel": "حیرت والی آواز، جیسے خزانے کا صندوق کھول رہے ہوں۔ ڈاکوؤں والا قصہ ذرا تیز۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "خزانہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آمو"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سونے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "اہم"
+    },
+    {
+     "m": [],
+     "w": "کہانی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ڈاکوؤں"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سوال"
+    },
+    {
+     "m": [],
+     "w": "لندن"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The fall of the empire",
+   "narration_ur": "دو سو سال بعد یہ سلطنت مغرب سے آنے والے ایک نوجوان بادشاہ کے سامنے گر گئی۔ مقدونیہ کا سکندر تین سو چونتیس قبل مسیح میں ایشیا میں داخل ہوا۔ تین سو اکتیس قبل مسیح میں، آج کے شمالی عراق میں گوگمیلا کے میدان پر آخری بڑی جنگ ہوئی۔ اس جنگ میں فارسی فوج کے بائیں بازو کی کمان باختر کے گورنر بیسوس کے پاس تھی، اور اس کے ساتھ باختر کے گھڑسوار تھے۔ فارس کا بادشاہ دارا سوم ہار کر مشرق کی طرف بھاگا۔ تین سو تیس قبل مسیح میں بیسوس اور اس کے ساتھیوں نے اپنے ہی بادشاہ کو قتل کر دیا۔ پھر بیسوس نے خود کو بادشاہ کہا اور باختر کی طرف نکل گیا۔ اور یہاں وہ پرانے خط پھر کام آتے ہیں: ان میں ایک فہرست ہے جس میں بیسوس کے لیے سامان کا حساب لکھا ہے، نومبر دسمبر تین سو تیس قبل مسیح کا۔ یعنی جو بات ہم یونانی کتابوں میں پڑھتے ہیں، اس کی گواہی باختر کے اپنے دفتر کا ایک کاغذ بھی دیتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Two hundred years later this empire fell before a young king coming from the west.",
+    "Alexander of Macedon crossed into Asia in 334 BC.",
+    "In 331 BC, on the plain of Gaugamela in today's northern Iraq, the last great battle was fought.",
+    "In that battle the left wing of the Persian army was commanded by Bessus, the governor of Bactria, and with him rode the Bactrian cavalry.",
+    "The Persian king, Darius the Third, was defeated and fled east.",
+    "In 330 BC Bessus and his companions killed their own king.",
+    "Then Bessus called himself king and set off for Bactria.",
+    "And here those old letters help again: among them is a list recording supplies for Bessus, from November and December of 330 BC.",
+    "So what we read in the Greek books is confirmed by a document from Bactria's own office."
+   ],
+   "shots": [
+    {
+     "search": "Alexander Mosaic",
+     "at": 1
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 2
+    },
+    {
+     "search": "Battle of Gaugamela",
+     "at": 3
+    },
+    {
+     "search": "Bessus",
+     "at": 4
+    },
+    {
+     "search": "Darius III",
+     "at": 5
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Gaugamela",
+        36.36,
+        43.25,
+        "Iraq"
+       ],
+       [
+        "Ecbatana",
+        34.8,
+        48.5,
+        "Iran"
+       ],
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ]
+      ],
+      "title": "330 BC: the flight east",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 6
+    },
+    {
+     "search": "Khalili Collection of Aramaic Documents",
+     "at": 8
+    },
+    {
+     "search": "Balkh",
+     "at": 9
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The fall",
+    "ur": "سلطنت کا خاتمہ"
+   },
+   "feel": "تیز اور ڈرامائی آواز۔ بادشاہ کے قتل والے جملے پر آواز نیچی اور ٹھہری ہوئی۔ آخری جملہ فخر سے۔",
+   "delivery": [
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "نوجوان"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سکندر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "گوگمیلا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بیسوس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہار"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "اپنے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خود"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فہرست"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "گواہی"
+    }
+   ],
+   "chapter": {
+    "n": 6,
+    "ur": "سلطنت کا خاتمہ",
+    "en": "The Fall of the Empire"
+   }
+  },
+  {
+   "text_on_screen": "Benefit or burden?",
+   "narration_ur": "تو ان دو سو سالوں کو کیسے دیکھا جائے؟ ایک رائے یہ ہے کہ یہ ایک مشترکہ تہذیب کا دور تھا، جس میں سڑکیں، تجارت اور دفتری نظام ملا، اور مقامی سردار اپنی جگہ قائم رہے۔ دوسری رائے یہ ہے کہ یہ باہر کی حکومت تھی، جس نے بھاری خراج لیا اور یہاں کے جوانوں کو دور دراز کی جنگوں میں بھیجا۔ ثبوت دونوں باتوں کے ملتے ہیں، اور عام لوگوں کی اپنی رائے ہم تک نہیں پہنچی۔ آج کا خلاصہ: سائرس مشرق تک آیا، دارا نے بیستون پر ان علاقوں کے نام لکھوائے، اور باختر، ہرات اور قندھار دو سو سال ایک عالمی سلطنت کے صوبے رہے۔ آپ کے خیال میں ہخامنشی دور ہمارے علاقے کے لیے فائدہ تھا یا بوجھ؟ کمنٹ میں احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔ اگلی ویڈیو میں دیکھیں گے کہ سکندر افغانستان میں آیا تو یہاں کے لوگوں نے اس کا مقابلہ کیسے کیا۔ ویڈیو پسند آئی ہو تو چینل کو سبسکرائب کریں، اور اگلی ویڈیو تک خدا حافظ۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So how should these two hundred years be seen?",
+    "One view is that it was an age of shared civilisation, which brought roads, trade and administration, while local nobles kept their place.",
+    "The other view is that it was foreign rule, which took heavy tribute and sent the young men of this land to distant wars.",
+    "There is evidence for both, and the ordinary people's own opinion has not reached us.",
+    "Today's summary: Cyrus came east, Darius had the names of these lands carved at Behistun, and Bactria, Herat and Kandahar were provinces of a world empire for two hundred years.",
+    "In your view, was the Achaemenid age a benefit or a burden for our region?",
+    "Write in the comments respectfully, and avoid insulting any people or religion.",
+    "In the next video we will see how the people here resisted Alexander when he came to Afghanistan.",
+    "If you liked the video, subscribe to the channel, and goodbye until the next video."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "فائدہ یا بوجھ؟",
+      "en": "Benefit or burden?"
+     },
+     "at": 1
+    },
+    {
+     "search": "Royal Road",
+     "at": 2
+    },
+    {
+     "search": "Apadana",
+     "at": 3
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Balkh (Bactria)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Two hundred years as provinces",
+      "routes": "none"
+     },
+     "at": 5
+    },
+    {
+     "card": {
+      "ur": "آپ کی رائے؟",
+      "en": "What do you think?"
+     },
+     "at": 6
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 8
+    },
+    {
+     "card": {
+      "ur": "سبسکرائب کریں",
+      "en": "Subscribe"
+     },
+     "at": 9
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Benefit or burden?",
+    "ur": "فائدہ یا بوجھ؟"
+   },
+   "feel": "سوچنے والی، دوستانہ آواز۔ سوال سننے والے سے براہِ راست پوچھیں۔ آخر میں گرم جوشی سے خدا حافظ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "دو"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مشترکہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "باہر"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "ثبوت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خلاصہ"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "فائدہ"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "احترام"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سکندر"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "سبسکرائب"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "A Camel From Balkh on the Walls of Persepolis #Shorts",
+   "scenes": [
+    {
+     "image": "01a",
+     "text_on_screen": "Persepolis, Iran",
+     "narration_ur": "ایران میں تختِ جمشید کی پتھر کی سیڑھیوں پر سینکڑوں لوگ تراشے ہوئے ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01b",
+     "text_on_screen": "A two-humped camel",
+     "narration_ur": "ان میں کچھ لوگ دو کوہان والا اونٹ لیے چل رہے ہیں۔ ماہرین کے مطابق یہ باختر، یعنی آج کے بلخ کے لوگ ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01c",
+     "text_on_screen": "Bactria = Balkh",
+     "narration_ur": "ڈھائی ہزار سال پہلے باختر، ہرات اور قندھار ہخامنشی سلطنت کے صوبے تھے، اور بادشاہ کو خراج دیتے تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09f",
+     "text_on_screen": "The palace at Susa",
+     "narration_ur": "دارا اپنے محل کے کتبے میں لکھتا ہے کہ اس کے لیے سونا سارد اور باختر سے آیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09h",
+     "text_on_screen": "Lapis lazuli",
+     "narration_ur": "اور نیلا پتھر لاجورد سغد سے، جبکہ ہاتھی دانت قندھار کے علاقے سے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "09i",
+     "text_on_screen": "Full story in the video",
+     "narration_ur": "پتھر پر تراشا ہوا وہ اونٹ اسی خراج کی تصویر ہے۔ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "2,300-Year-Old Letters From Balkh #Shorts",
+   "scenes": [
+    {
+     "image": "11a",
+     "text_on_screen": "48 documents",
+     "narration_ur": "یہ اڑتالیس دستاویزات ہیں، چمڑے اور لکڑی پر لکھی ہوئی، کوئی تئیس سو سال پرانی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11b",
+     "text_on_screen": "Written in Aramaic",
+     "narration_ur": "یہ آرامی زبان میں ہیں، جو ہخامنشی سلطنت کی دفتری زبان تھی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11d",
+     "text_on_screen": "Governor of Bactria",
+     "narration_ur": "زیادہ تر خط باختر کے گورنر اخوامزدا نے اپنے ماتحت بگاونت کو لکھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11e",
+     "text_on_screen": "Khulm, Afghanistan",
+     "narration_ur": "بگاونت خلم کا حاکم تھا، جو آج بھی شمالی افغانستان کا ایک قصبہ ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11g",
+     "text_on_screen": "Locusts first, wall later",
+     "narration_ur": "ایک خط میں سپاہیوں کو اجازت ملتی ہے کہ پہلے ٹڈی دل سے لڑیں اور فصل کاٹیں، اور شہر کی دیوار بعد میں بنائیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "15g",
+     "text_on_screen": "Supplies for Bessus, 330 BC",
+     "narration_ur": "اور ایک فہرست میں بیسوس کے لیے سامان کا حساب ہے، وہی بیسوس جس نے سکندر کا مقابلہ کیا۔ مکمل کہانی ویڈیو میں ہے۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "How Did Cyrus the Great Die? Three Stories #Shorts",
+   "scenes": [
+    {
+     "image": "05a",
+     "text_on_screen": "Cyrus the Great, 530 BC",
+     "narration_ur": "سائرس اعظم پانچ سو تیس قبل مسیح میں مر گیا۔ مگر کیسے؟ اس کے تین الگ قصے ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05c",
+     "text_on_screen": "Herodotus: the Massagetae",
+     "narration_ur": "ہیروڈوٹس کہتا ہے کہ وہ سیر دریا کے پار ملکہ تومیرس کے قبیلے سے لڑتے ہوئے مارا گیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05d",
+     "text_on_screen": "Herodotus admits it",
+     "narration_ur": "مگر ہیروڈوٹس خود مانتا ہے کہ اس موت کے کئی قصے مشہور تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05e",
+     "text_on_screen": "Ctesias",
+     "narration_ur": "کتیسیاس کہتا ہے کہ وہ کسی دوسرے مشرقی قبیلے سے لڑتے ہوئے زخمی ہوا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05f",
+     "text_on_screen": "Xenophon",
+     "narration_ur": "اور زینوفون کی کتاب میں وہ اپنے محل میں آرام سے فوت ہوتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "05h",
+     "text_on_screen": "The tomb at Pasargadae",
+     "narration_ur": "سچ یہ ہے کہ ہم نہیں جانتے۔ پکی چیز صرف اس کا مقبرہ ہے، جو آج بھی ایران میں کھڑا ہے۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ]
+}

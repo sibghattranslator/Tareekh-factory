@@ -1,0 +1,74 @@
+TK007 - UPLOAD DETAILS  (topic: roadmap 7 - Persian Achaemenid Empire in Afghanistan - Cyrus, Darius)
+===========================================================
+
+TITLE (best, already used as the file name)
+Persian Empire in Afghanistan – अफ़ग़ानिस्तान में फ़ारसी साम्राज्य – افغانستان میں فارسی سلطنت
+
+OTHER TITLE OPTIONS
+2. Cyrus and Darius in Afghanistan – अफ़ग़ानिस्तान में साइरस और दारा – افغانستان میں سائرس اور دارا
+3. When Balkh Paid Tribute to Persia – जब बल्ख़ फ़ारस को ख़िराज देता था – جب بلخ فارس کو خراج دیتا تھا
+4. 2,300-Year-Old Letters From Balkh – बल्ख़ के 2300 साल पुराने ख़त – بلخ کے تئیس سو سال پرانے خط
+5. The Achaemenid Empire and Afghanistan – हख़ामनी साम्राज्य – ہخامنشی سلطنت اور افغانستان
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu words ہخامنشی سلطنت + "PERSIAN EMPIRE" + "Cyrus · Darius · Bactria".
+(Neutral picture only: Persepolis reliefs, Behistun or the Oxus Treasure. No flags, no fighters, no banned-group imagery.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk007_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+For two hundred years Balkh, Herat and Kandahar were provinces of the Achaemenid Persian Empire. How did Cyrus and Darius reach Afghanistan, what did the provinces pay, and what do 2,300-year-old letters from Balkh tell us? Royal inscriptions, Greek writers and excavated documents, kept apart, with both sides of every debate.
+दो सौ साल तक बल्ख़, हेरात और क़ंधार हख़ामनी फ़ारसी साम्राज्य के सूबे रहे। साइरस और दारा अफ़ग़ानिस्तान तक कैसे पहुँचे, सूबे क्या ख़िराज देते थे, और बल्ख़ के 2300 साल पुराने ख़त क्या बताते हैं? शाही कतबे, यूनानी लेखक और खुदाई के दस्तावेज़, हर बहस के दोनों पहलू।
+دو سو سال تک بلخ، ہرات اور قندھار ہخامنشی فارسی سلطنت کے صوبے رہے۔ سائرس اور دارا افغانستان تک کیسے پہنچے، صوبے کتنا خراج دیتے تھے، اور بلخ کے تئیس سو سال پرانے خط کیا بتاتے ہیں؟ شاہی کتبے، یونانی مصنف اور کھدائی کی دستاویزات، ہر بحث کے دونوں رخ۔
+
+Some pictures in this video are illustrations made to show scenes for which no photograph exists.
+
+CHAPTERS
+(paste from tk007_chapters.txt)
+
+SOURCES (main)
+- Encyclopaedia Iranica, "Bactria i. Pre-Islamic period" (annexation under Cyrus, twelfth satrapy, local nobles): https://www.iranicaonline.org/articles/bactria/bactria-i-pre-islamic-period/
+- Livius.org, "Bactria" (first mention in the Behistun inscription c. 520 BCE; satrapy ruled by a crown prince): https://livius.org/articles/place/bactria
+- Livius.org, "Dadarshi (2)" and "Frada" (Margiana revolt, Behistun inscription): https://livius.org/person/dadarsi-2 , https://livius.org/articles/person/frada
+- Livius.org, "Vivana" (satrap of Arachosia, Kapishakanish, Arshada): https://livius.org/articles/person/vivana
+- Encyclopaedia Iranica, "Arachosia" (R. Schmitt): https://www.iranicaonline.org/articles/arachosia
+- Pliny the Elder, Natural History 6.92 (Kapisa destroyed by Cyrus), translation at: https://www.philipharland.com/Blog/?p=17129
+- Herodotus, Histories 1.201-214 (death of Cyrus), 3.89-94 (tribute list), 7.61-86 (peoples in Xerxes' army)
+- Arrian, Anabasis 3.27 (the Ariaspians, "Benefactors"); 3.8-3.30 (Gaugamela, Bessus)
+- Darius I, Behistun inscription (DB) and Susa foundation charter (DSf)
+- The Khalili Collections, "Aramaic Documents" (48 documents, 353-324 BC): https://khalilicollections.org/all-collections/aramaic-documents/
+- Google Arts & Culture / Khalili Collections, "Provincial Life Under Artaxerxes & Alexander the Great": https://artsandculture.google.com/story/qgWhItGUBhz3KQ
+- Naveh and Shaked, "Aramaic Documents from Ancient Bactria" (2012)
+- British Museum, the Oxus Treasure and the Cyrus Cylinder (collection pages)
+- Wikipedia: Achaemenid Empire; Bactria (satrapy); Arachosia; Behistun Inscription; Khalili Collection of Aramaic Documents; Oxus Treasure; Cyrus Cylinder; Old Kandahar; Pactyans; Persepolis Administrative Archives
+
+#Afghanistan #Achaemenid #Cyrus #TareekhKiKahani #History
+
+TAGS (15)
+achaemenid empire afghanistan, persian empire afghanistan, cyrus the great, darius the great, bactria, balkh history, arachosia kandahar, behistun inscription, oxus treasure, aramaic documents bactria, bessus, afghanistan history, ancient afghanistan, tareekh ki kahani, urdu documentary
+
+PINNED COMMENT
+آپ کے خیال میں ہخامنشی دور ہمارے علاقے کے لیے فائدہ تھا یا بوجھ؟ احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔
+Main sources: Behistun inscription, Herodotus, Arrian, Encyclopaedia Iranica, Livius.org, the Khalili Collections, British Museum. Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk007_subtitles_Urdu.srt
+- English: tk007_subtitles_English.srt
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Bactria, Aria, Arachosia, Drangiana, Gandara named among Darius's lands, c. 520 BC | Behistun inscription; Livius | high
+Cyrus's eastern campaigns c. 545-540 BC | Dating is a scholarly estimate; video says "estimated" | medium
+Bactria may have joined by a union rather than conquest | Encyclopaedia Iranica (Bactria); Livius gives alternatives | medium (disputed, both views given)
+Cyrus destroyed Kapisa | Pliny, NH 6.92 (written ~600 years later) | medium
+Ariaspians fed Cyrus's army, called Benefactors | Arrian 3.27; Diodorus 17.81 | medium
+Cyrus's death: three versions | Herodotus 1.214; Ctesias; Xenophon, Cyropaedia 8.7 | high that versions differ
+Margiana revolt crushed by Dadarshi, December 521 BC | Behistun inscription; Livius | high (royal account only)
+Vivana's three victories in Arachosia | Behistun inscription; Livius | high (royal account only)
+Bactria paid 360 talents; Gandarians and neighbours 170 | Herodotus 3.91-92; figures doubted by scholars (said in video) | medium
+Gold from Sardis and Bactria, lapis from Sogdiana, ivory from Arachosia, India, Kush | Darius, Susa charter DSf | high
+Elamite tablet fragments at Old Kandahar (1970s British excavations) | Helms / Fisher, Old Kandahar reports; Wikipedia (Old Kandahar) | medium-high
+48 Aramaic documents, 30 on leather, 18 wooden sticks, 353-324 BC; Akhvamazda, Bagavant, Khulmi; wall, locusts, camel keepers; supplies for Bessus Nov-Dec 330 BC | Khalili Collections; Naveh and Shaked 2012 | high (provenance unknown, said in video)
+Paktyes in Herodotus linked by some to Pashtuns | Herodotus 7.67; link disputed by linguists (both views given) | low-medium
+Cyrus Cylinder as "first human rights charter" | Claim widely made; British Museum and many historians reject it (both views given) | disputed
+Oxus Treasure: about 180 objects, found 1877-1880, north bank of the Oxus, now British Museum | British Museum; Wikipedia | high
+Bessus commanded the Persian left at Gaugamela, 331 BC; killed Darius III in 330 BC | Arrian 3.8-3.21; Curtius | high
