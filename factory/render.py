@@ -112,10 +112,30 @@ def short_frame(src, dst):
     bg.save(dst, quality=92)
 
 
-def short_text(scene, dst):
+def subscribe_button(d, cx, cy, scale=1.0, label="SUBSCRIBE"):
+    """Red YouTube-style Subscribe pill with a bell, centred at (cx, cy)."""
+    f = font(int(46 * scale)); tw = d.textlength(label, font=f)
+    bw, bh = tw + 150 * scale, 92 * scale
+    x0, y0 = cx - bw / 2, cy - bh / 2
+    d.rounded_rectangle((x0 + 4, y0 + 6, x0 + bw + 4, y0 + bh + 6), radius=bh / 2, fill=(0, 0, 0, 110))
+    d.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=bh / 2, fill=(230, 20, 20, 255), outline=(255, 255, 255, 255), width=max(3, int(4 * scale)))
+    d.text((x0 + 38 * scale, cy - 30 * scale), label, font=f, fill=(255, 255, 255, 255))
+    bx, by, r = x0 + bw - 62 * scale, cy, 22 * scale          # bell
+    d.pieslice((bx - r, by - r - 6 * scale, bx + r, by + r - 6 * scale), 180, 360, fill=(255, 255, 255, 255))
+    d.rectangle((bx - r, by - 6 * scale, bx + r, by + 12 * scale), fill=(255, 255, 255, 255))
+    d.rectangle((bx - r - 6 * scale, by + 10 * scale, bx + r + 6 * scale, by + 16 * scale), fill=(255, 255, 255, 255))
+    d.ellipse((bx - 6 * scale, by + 17 * scale, bx + 6 * scale, by + 29 * scale), fill=(255, 255, 255, 255))
+
+
+def short_text(scene, dst, last=False):
     img = Image.new("RGBA", (SW, SH), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     f2 = font(40); name = "Tareekh Ki Kahani"
     d.text(((SW - d.textlength(name, font=f2)) / 2, 150), name, font=f2, fill=(255, 255, 255, 200))
+    subscribe_button(d, SW / 2, 270, 1.0)                      # every scene: small button under the channel name
+    if last:                                                    # last scene: big call to action
+        f3 = font(58); msg = "More stories - Subscribe!"
+        d.text(((SW - d.textlength(msg, font=f3)) / 2, 880), msg, font=f3, fill=(255, 255, 255, 255), stroke_width=6, stroke_fill=(0, 0, 0, 255))
+        subscribe_button(d, SW / 2, 1040, 1.5)
     text = latin_part(scene.get("text_on_screen", ""))
     if text:
         f = font(76); lines = wrap(d, text, f, SW - 140)[:4]; y = 1290
@@ -384,7 +404,7 @@ def build(ep, scenes, work, label, vertical=False, rec_dir=None):
             secs = wav_seconds(wav) + 0.7; who = "reused"
         else:
             img2x = work / f"{i:02d}_2x.jpg"; ov = work / f"{i:02d}_text.png"
-            if vertical: short_frame(pic, img2x); short_text(sc, ov)
+            if vertical: short_frame(pic, img2x); short_text(sc, ov, last=(i == n))
             else: cover(pic, img2x); lower_third(sc, ov)
             wav, who = scene_audio(ep, i, sc, work, rec_dir)
             secs = wav_seconds(wav) + 0.7
@@ -425,7 +445,7 @@ def build_short_v2(ep, sh, k, work, rec_dir, final):
         wav = work / f"{i:02d}.wav"; v2.write_wav(wav, a)
         secs = len(a) / v2.SR + 0.7
         img2x = work / f"{i:02d}_2x.jpg"; ov = work / f"{i:02d}_text.png"
-        short_frame(pic, img2x); short_text(sc, ov)
+        short_frame(pic, img2x); short_text(sc, ov, last=(i == n))
         clip = work / f"{i:02d}.mp4"
         make_clip(img2x, ov, wav, clip, secs + XF, i - 1, SW, SH)
         clips.append(clip); durs.append(secs + XF); voices.append((int(round(t * v2.SR)) + int(0.15 * v2.SR), a))
