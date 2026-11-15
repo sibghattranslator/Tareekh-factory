@@ -29,7 +29,26 @@
      "at": 2
     },
     {
-     "search": "Badakhshan Province",
+     "map": {
+      "places": [
+       [
+        "Badakhshan",
+        36.2,
+        70.8
+       ],
+       [
+        "Egypt",
+        29.98,
+        31.13
+       ],
+       [
+        "Mesopotamia",
+        30.96,
+        46.1
+       ]
+      ],
+      "title": "Where the blue stone travelled"
+     },
      "at": 3
     },
     {
@@ -339,7 +358,36 @@
      "at": 6
     },
     {
-     "search": "Shahr-e Sukhteh",
+     "map": {
+      "places": [
+       [
+        "Badakhshan",
+        36.2,
+        70.8
+       ],
+       [
+        "Shahr-i Sokhta",
+        30.6,
+        61.33
+       ],
+       [
+        "Ur",
+        30.96,
+        46.1
+       ]
+      ],
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ],
+      "title": "The blue road"
+     },
      "at": 7
     },
     {
@@ -449,7 +497,21 @@
      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KGCnMB16KWzA8Q6BPP7UezXx6L/hf_20261114_232820_0c86c87f-c13a-4129-8621-36b583615e50.png"
     },
     {
-     "search": "Amu Darya",
+     "map": {
+      "places": [
+       [
+        "Indus Valley (Harappa)",
+        30.63,
+        72.86
+       ],
+       [
+        "Shortugai",
+        37.3,
+        69.5
+       ]
+      ],
+      "title": "An Indus colony, far from home"
+     },
      "at": 5
     },
     {
@@ -772,7 +834,26 @@
      "at": 6
     },
     {
-     "search": "Eurasian Steppe",
+     "map": {
+      "places": [
+       [
+        "Central Asian steppe",
+        48.0,
+        62.0
+       ],
+       [
+        "Iranian plateau",
+        33.0,
+        54.0
+       ],
+       [
+        "India",
+        28.0,
+        77.0
+       ]
+      ],
+      "title": "One likely route (disputed)"
+     },
      "at": 7
     }
    ],
@@ -1779,7 +1860,7 @@
      "narration_roman": ""
     },
     {
-     "image": "01c",
+     "image": "01b",
      "text_on_screen": "Full story in the video",
      "narration_ur": "چھ ہزار سال سے زیادہ پرانی اس کہانی کی مکمل ویڈیو دیکھیں۔",
      "narration_roman": ""
@@ -1871,7 +1952,16 @@
  ],
  "refresh_pics": {
   "all": true,
-  "v": 3
+  "v": 4,
+  "keep": [
+   "01e",
+   "03d",
+   "04c",
+   "05d",
+   "06e",
+   "07b",
+   "08b"
+  ]
  },
- "rerender_v": 3
+ "rerender_v": 4
 }

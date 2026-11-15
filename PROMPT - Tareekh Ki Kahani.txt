@@ -296,3 +296,20 @@ TOPICS DONE
 =====================================================================
 
 PICTURE RULE (from tk006 on): every shot has "at": N = the sentence number where that picture appears. The picture must show what that sentence talks about (pharaoh -> his mask / pyramid, blue stone -> lapis lazuli). Shots in sentence order, first shot at 1. Do not reuse pictures from earlier videos (the factory skips them by itself).
+
+RULES ADDED 15 NOV 2026 (from tk007 on; the user's instructions - be critical about pictures)
+1. PICTURE = WORDS. Every shot has "at": N (sentence number). The picture shows exactly what that sentence says:
+   a named person -> his portrait / statue / mask; an object -> that object; a place -> that place. Never a loosely related picture.
+2. SEARCH WORDS = the exact title of the English Wikipedia article of the thing itself (e.g. "Mask of Tutankhamun", "Cyrus Cylinder",
+   "Behistun Inscription"). The factory takes that article's main picture. Never a broad word (it once gave a singer for "Ariana").
+3. ANIMATED MAP whenever a sentence says something moved or stretched from one place to another (trade, journey, march, empire, border):
+   {"map": {"places": [["Badakhshan", 36.2, 70.8], ["Egypt", 29.98, 31.13]], "routes": [[0, 1]], "title": "The blue road"}, "at": 3}
+   The first place is where the line starts. Maps show no modern borders. At least 3 maps per video. Do not use map shots in Shorts.
+4. NO REAL PICTURE EXISTS (daily life, a lost town, a caravan, a battle scene): AI illustration {"search": "<fallback article>", "url": "...", "at": N},
+   painterly style, no flags, no weapons in focus, no real person's face. Otherwise a title card. Never show an unrelated photo.
+5. NEVER: modern military / NATO / army photos, singers, shops, trains, aircraft, sports. Safety rule stays: no banned-group, militant or flag imagery.
+6. CHECK BEFORE RECORDING: after the user runs UPDATE.bat and PICS.bat, Claude opens images\tkNNN\SHOTLIST_tkNNN.txt and the pictures on the
+   user's computer, replaces every wrong one (other article title, AI illustration, map or card), and only then tells him to record.
+7. Repeating a picture from an earlier video is allowed when it is the right picture; heavy repetition is not.
+8. MUSIC: background level is 0.50 (was 0.65). It rises only in pauses and topic changes. War / danger scenes: "mood": "tense"; empire / big moments: "epic".
+9. Tall pictures (masks, statues, portraits) are shown whole over a blurred background - use them freely.

@@ -42,7 +42,7 @@ CRF = os.environ.get("TK_CRF", "18")          # single shots (they are encoded o
 FINAL_CRF = os.environ.get("TK_FINAL_CRF", "21")
 BURN = [x.strip() for x in os.environ.get("TK_BURN", "").split(",") if x.strip()]   # "" = none (YouTube subtitles only); "ur" or "ur,en" burns them in
 TEST = os.environ.get("TK_TEST") == "1"
-MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.65"))      # 0.7 = quieter music, 1.4 = louder
+MUSIC_GAIN = float(os.environ.get("TK_MUSIC", "0.50"))      # 0.7 = quieter music, 1.4 = louder
 AI_VOICE = os.environ.get("TK_VOICE_UR", "ur-PK-AsadNeural")
 UA = "TareekhKiKahani/1.0 (history documentary channel; sibghattranslator@gmail.com)"
 
@@ -495,6 +495,12 @@ def norm_shots(si, sc):
 
 def cover2x(src, dst, w=W, h=H):
     im = Image.open(src).convert("RGB"); tw, th = w * 2, h * 2
+    if w > h and im.height > im.width * 0.95:          # tall picture (a mask, a statue, a portrait): show ALL of it over a soft blurred copy
+        bg = im.resize((tw, int(im.height * tw / im.width) + 1), Image.BILINEAR)
+        t = (bg.height - th) // 2; bg = bg.crop((0, t, tw, t + th)).filter(ImageFilter.GaussianBlur(60))
+        bg = Image.blend(bg, Image.new("RGB", bg.size, (0, 0, 0)), 0.45)
+        fh = int(th * 0.94); fg = im.resize((int(im.width * fh / im.height), fh), Image.LANCZOS)
+        bg.paste(fg, ((tw - fg.width) // 2, (th - fh) // 2)); bg.save(dst, quality=93); return
     r = max(tw / im.width, th / im.height)
     im = im.resize((int(im.width * r) + 1, int(im.height * r) + 1), Image.LANCZOS)
     l, t = (im.width - tw) // 2, (im.height - th) // 2
@@ -652,7 +658,7 @@ def purge_banned(ep, data=None):
     mark = folder / f".refresh_v{rp.get('v', 0)}"
     if rp.get("all") and not mark.exists():                      # start the pictures again from scratch
         for f in folder.glob("*"):
-            if re.fullmatch(r"\d\d[a-z]\.(jpg|jpeg|png|webp)", f.name): f.unlink(); n += 1
+            if re.fullmatch(r"\d\d[a-z]\.(jpg|jpeg|png|webp)", f.name) and f.stem not in (rp.get("keep") or []): f.unlink(); n += 1
         for nm in ("commons_used.json", "credits.txt"):
             if (folder / nm).exists(): (folder / nm).unlink()
         mark.write_text("done", encoding="utf-8")
@@ -671,7 +677,7 @@ def purge_banned(ep, data=None):
 
 _COMMONS_DEAD = [False]
 _OTHER_USED = {}
-_JUNK = re.compile(r"\d{6}-D-|\bnavy\b|\bseals?\b|\barmy\b|marines?\b|operation|soldier|troop|military|cricket|\bvs\b|shahid|shaheen|imran|bhutto|hilal|feld|restaurant|kabab|kebab|bread|hound|stadium|economic forum|\bwef\b|literacy|princes of hope|kartarpur|gurdwara|genealogy library|nordisk|webley|revolver|guardi|football|player|parable|unforgiving|graph\b|mercedes|jersey|\bgym\b|concert|actor|actress|singer|minister|president|chief of|general\b|screenshot|microsoft|office|powerpoint|interchange|cloverleaf|unleashing|marin|dominican|infobox|logo|icon|flag|ribbon|symbol|seal_of|coat_of|signature|blank|edit-|wikidata|question_book|commons-|stub|\.svg|medal|emblem|map_of|locator", re.I)
+_JUNK = re.compile(r"\d{6}-[A-Z]-[A-Z0-9]{4,}|\bnato\b|air force|\bisaf\b|ten-miler|airbus|a310|airlines?|super ?market|grande|express train|railway|carpets? being|pomegranate|rubab|butterfly|forget-me-not|genetic|\d{6}-D-|\bnavy\b|\bseals?\b|\barmy\b|marines?\b|operation|soldier|troop|military|cricket|\bvs\b|shahid|shaheen|imran|bhutto|hilal|feld|restaurant|kabab|kebab|bread|hound|stadium|economic forum|\bwef\b|literacy|princes of hope|kartarpur|gurdwara|genealogy library|nordisk|webley|revolver|guardi|football|player|parable|unforgiving|graph\b|mercedes|jersey|\bgym\b|concert|actor|actress|singer|minister|president|chief of|general\b|screenshot|microsoft|office|powerpoint|interchange|cloverleaf|unleashing|marin|dominican|infobox|logo|icon|flag|ribbon|symbol|seal_of|coat_of|signature|blank|edit-|wikidata|question_book|commons-|stub|\.svg|medal|emblem|map_of|locator", re.I)
 
 
 def wiki_search(query, used, want_landscape=True):
@@ -713,9 +719,49 @@ def wiki_search(query, used, want_landscape=True):
             if not lic or re.search(r"fair use|non-?commercial|\bNC\b|\bND\b", lic, re.I): continue
             item = dict(url=ii.get("thumburl") or ii.get("url"), title=p.get("title", ""), license=lic,
                         author=_clean(meta.get("Artist", {}).get("value"))[:90], page=ii.get("descriptionurl", ""))
-            if w / max(h, 1) >= 1.25 or not want_landscape: return item
+            named = any(c[3] == p.get("title") and c[0] < 0 for c in cand)      # the file name itself contains the search words
+            if w / max(h, 1) >= 1.25 or not want_landscape or named: return item   # a well-named tall picture beats a wide unrelated one
             best = best or item
     return best
+
+
+def wiki_lead(query, used):
+    """The search words are the exact name of an English Wikipedia article: take that article's own main picture
+    (the one shown at the top of the article). If it was already used in this video, take another picture of the SAME article.
+    This is far more reliable than a word search (which once gave a singer for 'Ariana' and a butterfly for 'Strabo')."""
+    from urllib.parse import quote
+    base = "https://en.wikipedia.org/w/api.php?format=json&action=query&"
+    try:
+        j = json.loads(_http_get(base + "redirects=1&prop=pageimages|images&piprop=name&pilicense=free&imlimit=80&titles=" + quote(query)).decode("utf-8", "ignore"))
+    except Exception: return None
+    pages = [p for p in (j.get("query", {}).get("pages", {})).values() if "missing" not in p and not _BAN.search(p.get("title", ""))]
+    if not pages: return None
+    pg = pages[0]
+    qtok = {w for w in re.findall(r"[a-z]{4,}", (query + " " + pg.get("title", "")).lower())}
+    titles = []
+    if pg.get("pageimage"): titles.append("File:" + pg["pageimage"].replace("_", " "))
+    rest = [im.get("title", "") for im in pg.get("images", [])]
+    rest = [t for t in rest if re.search(r"\.(jpe?g|png)$", t, re.I)]
+    rest.sort(key=lambda t: -len(qtok & set(re.findall(r"[a-z]{4,}", t.lower()))))      # file names that contain the subject's name first
+    titles += [t for t in rest if t not in titles]
+    titles = [t for t in titles if t not in used and not _BAN.search(t) and not _JUNK.search(t)][:20]
+    if not titles: return None
+    try:
+        ij = json.loads(_http_get(base + "prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=2400&titles=" + quote("|".join(titles))).decode("utf-8", "ignore"))
+    except Exception: return None
+    norm = {n.get("to"): n.get("from") for n in ij.get("query", {}).get("normalized", [])}
+    def pos(p):
+        t = p.get("title", ""); t = t if t in titles else norm.get(t, t)
+        return titles.index(t) if t in titles else 99
+    for p in sorted((ij.get("query", {}).get("pages", {})).values(), key=pos):
+        ii = (p.get("imageinfo") or [{}])[0]
+        if ii.get("mime") not in ("image/jpeg", "image/png"): continue
+        if ii.get("width", 0) < 700 or ii.get("height", 0) < 450: continue
+        meta = ii.get("extmetadata", {}); lic = _clean(meta.get("LicenseShortName", {}).get("value"))
+        if not lic or re.search(r"fair use|non-?commercial|\bNC\b|\bND\b", lic, re.I): continue
+        return dict(url=ii.get("thumburl") or ii.get("url"), title=p.get("title", ""), license=lic,
+                    author=_clean(meta.get("Artist", {}).get("value"))[:90], page=ii.get("descriptionurl", ""))
+    return None
 
 
 def commons_search(query, used, want_landscape=True, limit=12):
@@ -807,7 +853,7 @@ def fetch_pictures(ep, scenes):
                             try: o |= set(json.loads(uf.read_text(encoding="utf-8")))
                             except Exception: pass
                     _OTHER_USED[ep] = o
-                hit = commons_search(sh["search"], used | _OTHER_USED[ep]) or commons_search(sh["search"], used)
+                hit = wiki_lead(sh["search"], used) or commons_search(sh["search"], used | _OTHER_USED[ep]) or commons_search(sh["search"], used)
                 if hit:
                     try:
                         raw = _http_get(hit["url"], 120)
@@ -1326,6 +1372,11 @@ def render_episode(ep, data, work, out_video, out_dir, rec_dir=None, only=None, 
             vid = find_vid(ep, s["stem"])
             if vid:
                 clip = sdir / f"shot{k}.mp4"; video_clip(vid, fr, clip); clips.append(clip); continue
+            if s.get("map"):                                            # animated map: places light up, a line travels between them
+                try:
+                    import mapanim
+                    clip = sdir / f"shot{k}.mp4"; mapanim.map_clip(s["map"], fr, clip, sdir / f"map{k}"); clips.append(clip); continue
+                except Exception as e: log(f"    (map animation failed: {e} - picture/card used instead)")
             pic = find_pic(ep, s["stem"]); c2 = sdir / f"shot{k}_2x.jpg"
             if pic: cover2x(pic, c2)
             else:
