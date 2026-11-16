@@ -1,0 +1,2157 @@
+{
+ "id": "tk008",
+ "format": 2,
+ "title": "Alexander the Great in Afghanistan – अफ़ग़ानिस्तान में सिकंदर – افغانستان میں سکندر اعظم",
+ "thumb_text": "Alexander in Afghanistan",
+ "thumb_ur": "سکندر اعظم",
+ "thumb_sub": "Bactria · Swat · Bajaur",
+ "scenes": [
+  {
+   "text_on_screen": "Where does Kandahar's name come from?",
+   "narration_ur": "افغانستان کے جنوب میں ایک بڑا شہر ہے جس کا نام قندھار ہے۔ بہت سے لوگ کہتے ہیں کہ یہ نام سکندر سے نکلا ہے۔ پشتونوں اور فارسی بولنے والوں میں آج بھی سکندر نام کے لوگ ملتے ہیں۔ مگر کیا سکندر واقعی یہاں آیا تھا؟ آیا تھا، اور یہاں اسے اپنی زندگی کی کچھ سب سے سخت لڑائیاں لڑنی پڑیں۔ آج ہم دیکھیں گے کہ سکندر افغانستان میں کتنا عرصہ رہا، کس سے لڑا، اور اس نے کیا چھوڑا۔ اور سوات اور باجوڑ کی پہاڑیوں میں اس کے ساتھ کیا ہوا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In the south of Afghanistan there is a big city called Kandahar.",
+    "Many people say this name comes from Iskandar, Alexander.",
+    "Among Pashtuns and Persian speakers you still find people named Sikandar today.",
+    "But did Alexander really come here?",
+    "He did, and here he fought some of the hardest campaigns of his life.",
+    "Today we see how long Alexander stayed in Afghanistan, whom he fought, and what he left behind.",
+    "And what happened to him in the hills of Swat and Bajaur."
+   ],
+   "shots": [
+    {
+     "search": "Kandahar",
+     "at": 1
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 2
+    },
+    {
+     "search": "Pashtun people",
+     "at": 3
+    },
+    {
+     "card": {
+      "ur": "کیا سکندر واقعی یہاں آیا تھا؟",
+      "en": "Did Alexander really come here?"
+     },
+     "at": 4
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 5
+    },
+    {
+     "search": "Swat Valley",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Massaga (Swat)",
+        34.77,
+        72.35,
+        "Pakistan"
+       ],
+       [
+        "Bajaur",
+        34.75,
+        71.5,
+        "Pakistan"
+       ]
+      ],
+      "title": "Alexander in Afghanistan and Pakistan",
+      "routes": "none"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Alexander in Afghanistan",
+    "ur": "افغانستان میں سکندر"
+   },
+   "sfx": "hit",
+   "feel": "دھیمی اور پراسرار آواز، جیسے کوئی پرانا سوال کھول رہے ہوں۔ سوال والے جملے پر ٹھہر کر پوچھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جنوب"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سکندر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آج"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "واقعی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سخت"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "کتنا"
+    },
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "باجوڑ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Who tells us this story?",
+   "narration_ur": "سکندر کی کہانی ایک عجیب مسئلے کے ساتھ آتی ہے۔ اس کے اپنے ساتھیوں کی لکھی ہوئی کتابیں، جیسے بطلیموس کی، ہم تک نہیں پہنچیں۔ جو کچھ ہمارے پاس ہے وہ بعد کے مصنفوں نے لکھا، یعنی اریان، کرٹیئس، پلوٹارک اور دیودورس۔ ان میں اریان کو سب سے معتبر مانا جاتا ہے، مگر وہ بھی سکندر کے چار سو سال سے زیادہ بعد لکھ رہا تھا۔ اور یہ سب یونانی یا رومی تھے، یعنی ان کی نظر سکندر کی فوج کی نظر ہے۔ افغانستان اور سوات کے لوگوں کی اپنی لکھی ہوئی کوئی بات اس دور کی ہمیں نہیں ملتی۔ اس لیے ہم ہر بات کے ساتھ بتائیں گے کہ اسے کون سا مصنف کہتا ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Alexander's story comes with a strange problem.",
+    "The books written by his own companions, such as Ptolemy's, have not reached us.",
+    "What we have was written by later authors: Arrian, Curtius, Plutarch and Diodorus.",
+    "Of these Arrian is considered the most reliable, but even he was writing more than four hundred years after Alexander.",
+    "And they were all Greeks or Romans, so their view is the view of Alexander's army.",
+    "We have nothing written by the people of Afghanistan and Swat themselves from this time.",
+    "So with every claim, we will say which author makes it."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "ذرائع کا مسئلہ",
+      "en": "The problem of sources"
+     },
+     "at": 1
+    },
+    {
+     "search": "Anabasis of Alexander",
+     "at": 2
+    },
+    {
+     "search": "Arrian",
+     "at": 3
+    },
+    {
+     "search": "Plutarch",
+     "at": 4
+    },
+    {
+     "search": "Quintus Curtius Rufus",
+     "at": 5
+    },
+    {
+     "search": "Diodorus Siculus",
+     "at": 6
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Who is speaking?",
+    "ur": "یہ بات کس نے کہی؟"
+   },
+   "feel": "سادہ اور ایماندار آواز، جیسے استاد سبق سے پہلے اصول بتا رہا ہو۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "عجیب"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ساتھیوں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بعد"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "چار"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "فوج"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "اپنی"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "کون"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The murder of Darius",
+   "narration_ur": "اکتوبر تین سو اکتیس قبل مسیح میں گوگامیلا کی لڑائی میں سکندر نے ایران کے بادشاہ دارا سوم کو شکست دی۔ دارا مشرق کی طرف بھاگا، اس امید پر کہ باختر اور سغد کی فوجیں اسے سہارا دیں گی۔ مگر اس کے اپنے کچھ سردار اسے قید کر چکے تھے۔ ان کا سربراہ باختر کا گورنر بیسوس تھا۔ جولائی تین سو تیس قبل مسیح میں، ہیکاٹومپلوس کے قریب، دارا کو قتل کر دیا گیا۔ یونانی مصنفوں کے مطابق یہ کام بیسوس اور اس کے ساتھیوں نے کیا۔ سکندر کو دارا کی لاش ملی، اور مصنف لکھتے ہیں کہ اس نے اسے پرسیپولس بھجوا کر شاہی خاندان کے مقبرے میں دفن کرایا۔ اب سکندر خود کو ایران کے بادشاہ کا جائز وارث کہہ سکتا تھا، اور بیسوس کا پیچھا کرنا اس کا حق بن گیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In October 331 BC, at the battle of Gaugamela, Alexander defeated the Persian king Darius III.",
+    "Darius fled east, hoping that the armies of Bactria and Sogdiana would support him.",
+    "But some of his own nobles had taken him prisoner.",
+    "Their leader was Bessus, the governor of Bactria.",
+    "In July 330 BC, near Hecatompylos, Darius was killed.",
+    "According to the Greek authors, this was done by Bessus and his companions.",
+    "Alexander found Darius's body, and the authors write that he had it sent to Persepolis and buried in the royal tomb.",
+    "Now Alexander could call himself the rightful heir of the Persian king, and chasing Bessus became his duty."
+   ],
+   "shots": [
+    {
+     "search": "Battle of Gaugamela",
+     "at": 1
+    },
+    {
+     "search": "Darius III",
+     "at": 2
+    },
+    {
+     "search": "Bessus",
+     "at": 3
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Gaugamela",
+        36.55,
+        43.45,
+        "Iraq"
+       ],
+       [
+        "Hecatompylos",
+        36.2,
+        54.1,
+        "Iran"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ]
+      ],
+      "title": "The flight of Darius",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 4
+    },
+    {
+     "search": "Hecatompylos",
+     "at": 5
+    },
+    {
+     "search": "Persepolis",
+     "at": 6
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 7
+    },
+    {
+     "search": "Achaemenid Empire",
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The murder of Darius",
+    "ur": "دارا کا قتل"
+   },
+   "feel": "بلند اور تیز آواز، جیسے فیصلہ کن لڑائی کی کہانی ہو۔ قتل والے جملے پر آواز نیچی کر لیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "گوگامیلا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مشرق"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "قید"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بیسوس"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "ہیکاٹومپلوس"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مصنفوں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "لاش"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "جائز"
+    }
+   ],
+   "chapter": {
+    "n": 1,
+    "ur": "دارا کا انجام",
+    "en": "The End of Darius"
+   }
+  },
+  {
+   "text_on_screen": "Through Herat, Farah and Kandahar",
+   "narration_ur": "سکندر آج کے افغانستان میں مغرب سے داخل ہوا، اور پہلے ہرات کے علاقے آریا میں آیا۔ وہاں کے گورنر ساتیبرزانس نے ہتھیار ڈال دیے اور سکندر نے اسے عہدے پر رہنے دیا۔ مگر سکندر کے آگے جاتے ہی اس نے بغاوت کر دی، اور آخر مارا گیا۔ پھر سکندر سیستان کے علاقے درنگیانا میں پہنچا، جہاں اس نے اپنے ہی سینئر ساتھی فیلوتاس پر غداری کا الزام لگایا۔ فیلوتاس کو سزائے موت دی گئی، اور اس کے باپ پارمینیون کو بھی قتل کرایا گیا۔ پھر وہ جنوب مشرق میں اراخوزیا، یعنی قندھار کے علاقے، میں آیا۔ یہاں ایک شہر بسایا گیا جس کا نام اسکندریہ اراخوزیا رکھا گیا، اور ماہرین اسے آج کے پرانے قندھار کے کھنڈروں سے جوڑتے ہیں۔ آگے ہندوکش کے دامن میں اس نے ایک اور شہر بسایا، جسے کوہِ قاف کا اسکندریہ کہا گیا، اور جس کی جگہ عموماً بگرام کے قریب بتائی جاتی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Alexander entered today's Afghanistan from the west, and came first to Aria, the region of Herat.",
+    "The governor there, Satibarzanes, surrendered and Alexander let him keep his post.",
+    "But as soon as Alexander moved on, he rebelled, and in the end he was killed.",
+    "Then Alexander reached Drangiana, the Sistan region, where he accused his own senior companion Philotas of treason.",
+    "Philotas was executed, and his father Parmenion was also put to death.",
+    "Then he came south-east to Arachosia, the Kandahar region.",
+    "Here a city was founded and named Alexandria in Arachosia, and scholars link it to the ruins of Old Kandahar.",
+    "Further on, at the foot of the Hindu Kush, he founded another city, called Alexandria of the Caucasus, usually placed near Bagram."
+   ],
+   "shots": [
+    {
+     "search": "Herat",
+     "at": 1
+    },
+    {
+     "search": "Satibarzanes",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Prophthasia (Farah)",
+        32.37,
+        62.11,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Alexandria of the Caucasus",
+        34.98,
+        69.3,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Alexander's route through Afghanistan",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        2,
+        3
+       ]
+      ]
+     },
+     "at": 3
+    },
+    {
+     "search": "Philotas (son of Parmenion)",
+     "at": 4
+    },
+    {
+     "search": "Arachosia",
+     "at": 5
+    },
+    {
+     "search": "Old Kandahar",
+     "at": 6
+    },
+    {
+     "search": "Kandahar",
+     "at": 7
+    },
+    {
+     "search": "Bagram",
+     "at": 8
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Alexander enters Afghanistan",
+    "ur": "سکندر افغانستان میں"
+   },
+   "feel": "واضح اور ترتیب والی آواز، جیسے نقشے پر راستہ بتا رہے ہوں۔ فیلوتاس والے جملے پر سنجیدگی۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مغرب"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہتھیار"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بغاوت"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "فیلوتاس"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سزائے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اراخوزیا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "اسکندریہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہندوکش"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Crossing the Hindu Kush",
+   "narration_ur": "بہار تین سو انتیس قبل مسیح میں سکندر نے ہندوکش کا پہاڑ عبور کیا۔ ماہرین کے مطابق بیسوس کو یقین تھا کہ اتنی جلدی برف والا درہ کوئی پار نہیں کرے گا، اس لیے اس نے اسے بغیر پہرے کے چھوڑ دیا۔ کرٹیئس لکھتا ہے کہ فوج کو شدید سردی اور بھوک کا سامنا ہوا، اور کھانے کے لیے بوجھ ڈھونے والے جانور بھی ذبح کرنے پڑے۔ بیسوس نے پیچھے ہٹتے ہوئے فصلیں جلا دیں اور دریائے آمو، یعنی آکسوس، کے پار چلا گیا۔ سکندر نے فوج کو چمڑے کی بھری ہوئی مشکوں پر دریا پار کرایا۔ اب بیسوس کے اپنے ساتھی، سپتامینس اور ڈاتافرنس، نے اسے پکڑ کر بطلیموس کے حوالے کر دیا۔ یونانی مصنفوں کے مطابق سکندر نے اس کے ناک کان کٹوائے۔ بعد میں اسے ایکباتانا لے جا کر سزائے موت دی گئی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In the spring of 329 BC Alexander crossed the Hindu Kush mountains.",
+    "Scholars say Bessus was sure no one would cross the snowy pass so early, so he left it unguarded.",
+    "Curtius writes that the army faced bitter cold and hunger, and even had to slaughter its pack animals for food.",
+    "As Bessus withdrew he burned the crops and went across the Amu Darya, the Oxus.",
+    "Alexander took the army across the river on inflated leather skins.",
+    "Now Bessus's own companions, Spitamenes and Datames, seized him and handed him to Ptolemy.",
+    "According to the Greek authors, Alexander had his nose and ears cut off.",
+    "Later he was taken to Ecbatana and executed."
+   ],
+   "shots": [
+    {
+     "search": "Hindu Kush",
+     "at": 1
+    },
+    {
+     "search": "Khawak Pass",
+     "at": 2
+    },
+    {
+     "search": "Bessus",
+     "at": 3
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Alexandria of the Caucasus",
+        34.98,
+        69.3,
+        "Afghanistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Oxus crossing",
+        37.22,
+        67.28,
+        "Afghanistan / Uzbekistan"
+       ]
+      ],
+      "title": "Over the Hindu Kush to the Oxus",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 4
+    },
+    {
+     "search": "Amu Darya",
+     "at": 5
+    },
+    {
+     "search": "Balkh",
+     "at": 6
+    },
+    {
+     "search": "Ptolemy I Soter",
+     "at": 7
+    },
+    {
+     "search": "Ecbatana",
+     "at": 8
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Crossing the Hindu Kush",
+    "ur": "ہندوکش کا سفر"
+   },
+   "sfx": "hit",
+   "feel": "سخت اور تھکی ہوئی آواز، جیسے برف میں چل رہے ہوں۔ ناک کان والے جملے پر دھیمی اور سنجیدہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بہار"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "یقین"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بھوک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فصلیں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مشکوں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ساتھی"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "ناک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ایکباتانا"
+    }
+   ],
+   "chapter": {
+    "n": 2,
+    "ur": "ہندوکش پار",
+    "en": "Crossing the Hindu Kush"
+   }
+  },
+  {
+   "text_on_screen": "Spitamenes and Sogdiana",
+   "narration_ur": "بیسوس کے جانے سے لڑائی ختم نہیں ہوئی۔ سکندر آمو دریا سے آگے سغد میں گیا، جو آج ازبکستان اور تاجکستان کا علاقہ ہے۔ وہاں اس نے سیر دریا کے کنارے ایک شہر بسایا، جسے سب سے دور کا اسکندریہ کہا گیا۔ اسی دوران سغد کے لوگوں نے بغاوت کر دی، اور ان کا رہنما وہی سپتامینس تھا جس نے بیسوس کو پکڑوایا تھا۔ وہ کھلے میدان میں لڑنے کے بجائے گھڑ سوار چھاپے مار کر غائب ہو جاتا تھا۔ تین سو انتیس قبل مسیح میں سمرقند کے قریب اس نے سکندر کے تقریباً دو ہزار سپاہی گھیر کر ختم کر دیے۔ ماہرین اسے ایشیا میں سکندر کی سب سے بڑی فوجی ناکامیوں میں گنتے ہیں۔ جواب میں سکندر نے سغد کی کئی بستیاں اجاڑ دیں اور بہت سے لوگ مروا دیے۔ آخر تین سو اٹھائیس قبل مسیح کے اختتام پر، اریان کے مطابق، سپتامینس کے اپنے اتحادیوں نے اسے مار کر اس کا سر سکندر کو بھیج دیا۔ یونانی مصنف انہیں باغی لکھتے ہیں، مگر کئی ماہرین کی رائے ہے کہ سغد کے لوگ دراصل اپنی زمین بچا رہے تھے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The fighting did not end with Bessus.",
+    "Alexander went beyond the Amu Darya into Sogdiana, today's Uzbekistan and Tajikistan.",
+    "There he founded a city on the banks of the Syr Darya, called the Farthest Alexandria.",
+    "Meanwhile the people of Sogdiana rose in revolt, and their leader was the same Spitamenes who had handed over Bessus.",
+    "Instead of fighting in the open, he would strike with horsemen and vanish.",
+    "In 329 BC near Samarkand he surrounded and destroyed about two thousand of Alexander's soldiers.",
+    "Scholars count it among Alexander's biggest military failures in Asia.",
+    "In reply Alexander ruined many Sogdian settlements and had many people killed.",
+    "In the end, at the close of 328 BC, according to Arrian, Spitamenes's own allies killed him and sent his head to Alexander.",
+    "The Greek authors call them rebels, but many scholars believe the Sogdians were really defending their land."
+   ],
+   "shots": [
+    {
+     "search": "Spitamenes",
+     "at": 1
+    },
+    {
+     "search": "Sogdia",
+     "at": 2
+    },
+    {
+     "search": "Alexandria Eschate",
+     "at": 3
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Maracanda (Samarkand)",
+        39.65,
+        66.96,
+        "Uzbekistan"
+       ],
+       [
+        "Alexandria Eschate (Khujand)",
+        40.28,
+        69.62,
+        "Tajikistan"
+       ]
+      ],
+      "title": "Sogdiana: the farthest Alexandria",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 4
+    },
+    {
+     "search": "Khujand",
+     "at": 5
+    },
+    {
+     "search": "Samarkand",
+     "at": 6
+    },
+    {
+     "search": "Zeravshan River",
+     "at": 7
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 8
+    },
+    {
+     "search": "Sogdian Rock",
+     "at": 9
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The revolt of Spitamenes",
+    "ur": "سپتامینس کی بغاوت"
+   },
+   "feel": "تیز اور سنجیدہ آواز۔ اس باب میں مقامی لوگوں کی طرف سے سوچ کر بولیں، ان کی بہادری کا احترام رکھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "جانے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سغد"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "دور"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "رہنما"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "چھاپے"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "دو"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ناکامیوں"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "بستیاں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اتحادیوں"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "باغی"
+    }
+   ],
+   "chapter": {
+    "n": 3,
+    "ur": "سغد کی بغاوت",
+    "en": "The Sogdian Revolt"
+   }
+  },
+  {
+   "text_on_screen": "The Sogdian Rock and Roxana",
+   "narration_ur": "تین سو ستائیس قبل مسیح کی بہار میں سکندر سغد کے ایک پہاڑی قلعے کی طرف گیا، جسے سغدی چٹان کہتے ہیں۔ اریان کے مطابق قلعے کے سردار نے مذاق میں کہا کہ سکندر کو اوپر آنے کے لیے پَر لگانے پڑیں گے۔ سکندر نے تقریباً تین سو بہترین چڑھنے والے سپاہی چنے اور رات کو چٹان پر چڑھا دیے۔ صبح قلعے والوں نے اوپر سپاہی دیکھے تو ہتھیار ڈال دیے۔ قیدیوں میں سردار اوکسیارتس کی بیٹی روکسانہ بھی تھی، جسے یونانی مصنف بہت خوبصورت بتاتے ہیں۔ سکندر نے اس سے شادی کر لی۔ اکثر ماہرین اسے سیاسی شادی سمجھتے ہیں، کیونکہ اس سے باختر اور سغد کے سرداروں کو سکندر کے ساتھ جوڑنے میں مدد ملی۔ اوکسیارتس بعد میں سکندر کا حامی بنا اور اسے ہندوکش کے علاقے کی گورنری ملی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In the spring of 327 BC Alexander went to a mountain fortress in Sogdiana, called the Sogdian Rock.",
+    "According to Arrian, the commander of the fortress joked that Alexander would need wings to come up.",
+    "Alexander picked about three hundred of his best climbers and sent them up the rock at night.",
+    "In the morning the defenders saw soldiers above them and surrendered.",
+    "Among the prisoners was Roxana, the daughter of the nobleman Oxyartes, whom the Greek authors call very beautiful.",
+    "Alexander married her.",
+    "Most scholars see it as a political marriage, because it helped tie the nobles of Bactria and Sogdiana to Alexander.",
+    "Oxyartes later became Alexander's supporter and received the governorship of the Hindu Kush region."
+   ],
+   "shots": [
+    {
+     "search": "Sogdian Rock",
+     "at": 1
+    },
+    {
+     "search": "Arimazes",
+     "at": 2
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 3
+    },
+    {
+     "search": "Roxana",
+     "at": 4
+    },
+    {
+     "search": "Oxyartes",
+     "at": 5
+    },
+    {
+     "search": "Marriage of Alexander and Roxana",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Maracanda (Samarkand)",
+        39.65,
+        66.96,
+        "Uzbekistan"
+       ]
+      ],
+      "title": "Bactria and Sogdiana",
+      "routes": "none"
+     },
+     "at": 7
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Roxana",
+    "ur": "روکسانہ"
+   },
+   "feel": "قصہ سنانے والی آواز، جیسے پرانی کہانی۔ پَر والے جملے پر ہلکی مسکراہٹ، شادی والے جملے پر نرمی۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بہار"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "مذاق"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "صبح"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "روکسانہ"
+    },
+    {
+     "m": [
+      "soft",
+      "pause"
+     ],
+     "w": "شادی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سیاسی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "حامی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Alexander changes",
+   "narration_ur": "ان برسوں میں سکندر خود بھی بدل رہا تھا۔ اس نے ایرانی لباس پہننا اور ایرانی درباری رسمیں اپنانا شروع کیں۔ مقدونی سپاہیوں کو یہ بات پسند نہ آئی۔ تین سو اٹھائیس قبل مسیح میں سمرقند میں ایک دعوت کے دوران جھگڑے میں سکندر نے اپنے پرانے ساتھی کلیٹس کو نیزہ مار کر قتل کر دیا۔ اریان لکھتا ہے کہ بعد میں وہ کئی دن غم میں پڑا رہا۔ پھر اس نے درباریوں سے کہا کہ وہ اس کے سامنے جھک کر سلام کریں، جسے پروسکینیسس کہتے ہیں۔ مؤرخ کالسٹھینیز نے انکار کیا اور بعد میں ایک سازش کے الزام میں قید ہوا، جہاں وہ مر گیا۔ کچھ مؤرخ اسے سکندر کا ظلم کہتے ہیں، اور کچھ کہتے ہیں کہ ایک نئی سلطنت چلانے کے لیے اسے مقامی سرداروں کو ساتھ ملانا ہی پڑتا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In these years Alexander himself was changing.",
+    "He began to wear Persian dress and adopt Persian court customs.",
+    "The Macedonian soldiers did not like this.",
+    "In 328 BC, in a quarrel at a banquet in Samarkand, Alexander killed his old companion Cleitus with a spear.",
+    "Arrian writes that afterwards he lay in grief for several days.",
+    "Then he asked his courtiers to bow before him, which is called proskynesis.",
+    "The historian Callisthenes refused and was later imprisoned on a charge of conspiracy, where he died.",
+    "Some historians call it Alexander's cruelty, and others say that to run a new empire he had to bring the local nobles with him."
+   ],
+   "shots": [
+    {
+     "search": "Alexander the Great",
+     "at": 1
+    },
+    {
+     "search": "Persian people",
+     "at": 2
+    },
+    {
+     "search": "Samarkand",
+     "at": 3
+    },
+    {
+     "search": "Cleitus the Black",
+     "at": 4
+    },
+    {
+     "search": "Proskynesis",
+     "at": 5
+    },
+    {
+     "search": "Callisthenes",
+     "at": 6
+    },
+    {
+     "card": {
+      "ur": "ظلم یا سیاست؟",
+      "en": "Cruelty or politics?"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Alexander changes",
+    "ur": "سکندر بدلتا ہے"
+   },
+   "feel": "سنجیدہ اور ٹھہری ہوئی آواز۔ کلیٹس والے جملے پر آواز بہت دھیمی۔ آخر میں غیر جانبدار لہجہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خود"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ایرانی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مقدونی"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "کلیٹس"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "غم"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جھک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "انکار"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ظلم"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "From Kabul to Bajaur",
+   "narration_ur": "تین سو ستائیس قبل مسیح کے آخر میں سکندر پھر ہندوکش پار کر کے کابل کی وادی میں آیا۔ اب اس کا ہدف ہندوستان کی سرحد کی وادیاں تھیں، یعنی آج کے پاکستان کے شمال میں سوات اور باجوڑ۔ یہاں اس نے فوج کے دو حصے کیے۔ ایک حصہ ہیفیسٹیون اور پرڈیکاس کی قیادت میں درۂ خیبر کے راستے سندھ کی طرف بھیجا گیا۔ دوسرا حصہ لے کر سکندر خود دریائے کنڑ کی وادی سے ہوتا ہوا شمال کے پہاڑی قبیلوں کی طرف گیا۔ یونانی انہیں اسپاسیوی اور گوریائی کہتے تھے، اور ان کی بستیاں آج کے کنڑ اور باجوڑ میں تھیں۔ اسپاسیوی نام کو سنسکرت لفظ اشوا، یعنی گھوڑا، سے جوڑا جاتا ہے۔ کچھ لوگ ان قبیلوں کو آج کے یوسفزئی پشتونوں کے اجداد کہتے ہیں، مگر اس کا کوئی پکا ثبوت نہیں۔ یوسفزئی تو بہت بعد، سولہویں صدی میں سوات آئے، اس لیے ماہرین اس پر متفق نہیں۔ اریان کے مطابق ان لڑائیوں میں سکندر کے کندھے میں تیر لگا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Late in 327 BC Alexander crossed the Hindu Kush again and came to the Kabul valley.",
+    "Now his target was the valleys on the border of India, today's Swat and Bajaur in northern Pakistan.",
+    "Here he divided the army in two.",
+    "One part was sent under Hephaestion and Perdiccas towards the Indus through the Khyber Pass.",
+    "With the other part Alexander himself went up the Kunar valley towards the hill tribes of the north.",
+    "The Greeks called them Aspasians and Guraeans, and their settlements lay in today's Kunar and Bajaur.",
+    "The name Aspasian is linked to the Sanskrit word ashva, meaning horse.",
+    "Some call these tribes the ancestors of today's Yusufzai Pashtuns, but there is no firm proof.",
+    "The Yusufzai came to Swat much later, in the sixteenth century, so scholars do not agree on this.",
+    "According to Arrian, Alexander was hit by an arrow in the shoulder in these battles."
+   ],
+   "shots": [
+    {
+     "search": "Kabul",
+     "at": 1
+    },
+    {
+     "search": "Taxiles",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Peshawar",
+        34.01,
+        71.58,
+        "Pakistan"
+       ],
+       [
+        "Kunar valley",
+        34.85,
+        71.1,
+        "Afghanistan"
+       ],
+       [
+        "Bajaur",
+        34.75,
+        71.5,
+        "Pakistan"
+       ]
+      ],
+      "title": "The army splits in two",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        2,
+        3
+       ]
+      ]
+     },
+     "at": 3
+    },
+    {
+     "search": "Khyber Pass",
+     "at": 4
+    },
+    {
+     "search": "Kunar River",
+     "at": 5
+    },
+    {
+     "search": "Bajaur District",
+     "at": 6
+    },
+    {
+     "search": "Yusufzai",
+     "at": 7
+    },
+    {
+     "search": "Panjkora River",
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Into the Pashtun hills",
+    "ur": "پہاڑی وادیوں میں"
+   },
+   "feel": "پھر سے تازہ اور پُراعتماد آواز، جیسے نئی مہم شروع ہو رہی ہو۔ یوسفزئی والے جملے پر احتیاط اور سچائی۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کابل"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سرحد"
+    },
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "فوج"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہیفیسٹیون"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "کنڑ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اسپاسیوی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "گھوڑا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ثبوت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بعد"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "کندھے"
+    }
+   ],
+   "chapter": {
+    "n": 4,
+    "ur": "کابل سے باجوڑ",
+    "en": "From Kabul to Bajaur"
+   }
+  },
+  {
+   "text_on_screen": "Massaga",
+   "narration_ur": "دریائے پنجکوڑہ پار کر کے سکندر سوات کی طرف بڑھا، جہاں اسّاکینی قبیلے کا بڑا قلعہ ماساگا تھا۔ اریان کے مطابق ماساگا ان کا سب سے بڑا شہر تھا۔ اس کے محافظوں میں ہندوستان سے آئے ہوئے کرائے کے سپاہی بھی تھے، جن کی تعداد سات ہزار بتائی جاتی ہے۔ کئی دن کے محاصرے میں سکندر کی پنڈلی پر تیر لگا۔ آخر شہر نے ہتھیار ڈالنے کی بات کی، اور معاہدہ ہوا کہ کرائے کے سپاہی سکندر کی فوج میں شامل ہو جائیں۔ اب آگے تین الگ روایتیں ہیں۔ اریان کہتا ہے کہ ان سپاہیوں نے رات کو بھاگنے کی کوشش کی، اس لیے سکندر نے انہیں گھیر کر مارا۔ پلوٹارک کہتا ہے کہ سکندر نے معاہدے کے باوجود انہیں راستے میں مار ڈالا، اور اسے سکندر کی فوجی عزت پر ایک داغ کہتا ہے۔ دیودورس بھی یہی لکھتا ہے کہ معاہدہ توڑا گیا۔ حقیقت جو بھی ہو، یہ واقعہ بتاتا ہے کہ سکندر کی فتوحات ہمیشہ شان والی نہیں تھیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Crossing the Panjkora river, Alexander moved into Swat, where the great fortress of the Assacenian tribe, Massaga, stood.",
+    "According to Arrian, Massaga was their biggest city.",
+    "Among its defenders were mercenaries from India, said to number seven thousand.",
+    "During several days of siege an arrow hit Alexander's leg.",
+    "In the end the city agreed to surrender, and a treaty was made that the mercenaries would join Alexander's army.",
+    "Now there are three different accounts.",
+    "Arrian says these soldiers tried to slip away at night, so Alexander surrounded and killed them.",
+    "Plutarch says that despite the treaty Alexander killed them on the road, and calls it a stain on Alexander's military honour.",
+    "Diodorus also writes that the treaty was broken.",
+    "Whatever the truth, this event shows that Alexander's conquests were not always glorious."
+   ],
+   "shots": [
+    {
+     "search": "Panjkora River",
+     "at": 1
+    },
+    {
+     "search": "Massaga",
+     "at": 2
+    },
+    {
+     "search": "Swat Valley",
+     "at": 3
+    },
+    {
+     "search": "Arrian",
+     "at": 4
+    },
+    {
+     "search": "Cleophis",
+     "at": 5
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bajaur",
+        34.75,
+        71.5,
+        "Pakistan"
+       ],
+       [
+        "Massaga (Swat)",
+        34.77,
+        72.35,
+        "Pakistan"
+       ],
+       [
+        "Aornos (Pir Sar)",
+        34.6,
+        72.75,
+        "Pakistan"
+       ]
+      ],
+      "title": "Bajaur, Massaga and Aornos",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 6
+    },
+    {
+     "search": "Plutarch",
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "تین روایتیں",
+      "en": "Three accounts"
+     },
+     "at": 8
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 9
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "Massaga",
+    "ur": "ماساگا"
+   },
+   "sfx": "hit",
+   "feel": "تین الگ روایتیں ہیں، ہر ایک کو الگ نام لے کر پڑھیں۔ آخری جملے پر آہستہ اور سنجیدہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ماساگا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سب"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کرائے"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "پنڈلی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "معاہدہ"
+    },
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "تین"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اریان"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "پلوٹارک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "دیودورس"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "حقیقت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Nysa, Bazira and Aornos",
+   "narration_ur": "ماساگا کے بعد سکندر نے بازیرا اور اورا کے قلعے لیے، جو آج سوات میں بِریکوٹ اور اُدیگرام کے مقامات سمجھے جاتے ہیں۔ پھر ایک یونانی کہانی میں ایک شہر نیسا کا ذکر آتا ہے، جہاں دیوتا دیونیسس کی پوجا ہوتی تھی۔ سکندر خود کو دیونیسس کی نسل سے مانتا تھا، اس لیے وہاں فوج کے ساتھ جشن منایا گیا۔ نیسا کی اصل جگہ پر آج بھی بحث ہے۔ آخر میں بہت سے لوگ جان بچانے کے لیے اورنوس نامی بلند پہاڑی قلعے میں چلے گئے۔ اورنوس کی پہچان سر اورل اسٹائن نے سنہ انیس سو چھبیس میں پیر سر کے پہاڑ سے کی، اور آج بھی زیادہ ماہرین اسی کو مانتے ہیں۔ یونانی کہتے تھے کہ دیوتا ہرکولیس بھی اس قلعے کو فتح نہ کر سکا تھا۔ سکندر نے درخت کٹوا کر ایک پشتہ بنوانا شروع کیا تاکہ پتھر پھینکنے والی مشینیں قلعے کے قریب پہنچ سکیں۔ چار دن کی لڑائی کے بعد محافظوں نے مذاکرات کیے، مگر اریان کے مطابق انہوں نے رات کو نکلنے کا منصوبہ بنایا تھا۔ سکندر نے اسی وقت حملہ کر دیا اور قلعہ لے لیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "After Massaga Alexander took the forts of Bazira and Ora, believed to be today's Birkot and Udegram in Swat.",
+    "Then a Greek story mentions a city called Nysa, where the god Dionysus was worshipped.",
+    "Alexander considered himself descended from Dionysus, so the army held a celebration there.",
+    "The real site of Nysa is still debated today.",
+    "In the end many people took refuge in a high mountain fortress called Aornos.",
+    "Sir Aurel Stein identified Aornos in 1926 with the mountain of Pir Sar, and most scholars still accept this today.",
+    "The Greeks said that even the god Heracles had failed to take this fortress.",
+    "Alexander had trees cut and began building an earthwork ramp so his stone-throwing machines could reach the fortress.",
+    "After four days of fighting the defenders negotiated, but according to Arrian they planned to slip away at night.",
+    "Alexander attacked at that very moment and took the fortress."
+   ],
+   "shots": [
+    {
+     "search": "Bazira",
+     "at": 1
+    },
+    {
+     "search": "Dionysus",
+     "at": 2
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 3
+    },
+    {
+     "card": {
+      "ur": "نیسا کہاں تھا؟",
+      "en": "Where was Nysa?"
+     },
+     "at": 4
+    },
+    {
+     "search": "Aornos",
+     "at": 5
+    },
+    {
+     "search": "Aurel Stein",
+     "at": 6
+    },
+    {
+     "search": "Heracles",
+     "at": 7
+    },
+    {
+     "search": "Pir Sar",
+     "at": 8
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Massaga (Swat)",
+        34.77,
+        72.35,
+        "Pakistan"
+       ],
+       [
+        "Aornos (Pir Sar)",
+        34.6,
+        72.75,
+        "Pakistan"
+       ],
+       [
+        "Taxila",
+        33.74,
+        72.79,
+        "Pakistan"
+       ]
+      ],
+      "title": "Swat to the Indus",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 9
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Aornos: the rock",
+    "ur": "اورنوس کی چٹان"
+   },
+   "feel": "بڑی کہانی سنانے والی آواز۔ ہرکولیس والے جملے پر چیلنج کا انداز، ڈھلان بنانے پر محنت اور آخر میں سنجیدگی۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بازیرا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "نیسا"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "جشن"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بحث"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اورنوس"
+    },
+    {
+     "m": [
+      "slow",
+      "stress"
+     ],
+     "w": "اسٹائن"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ہرکولیس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پشتہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مذاکرات"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "حملہ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Across the Indus and home",
+   "narration_ur": "اس کے بعد سکندر نے دریائے سندھ عبور کیا، اور ٹیکسلا کے حکمران نے اسے خوش آمدید کہا۔ تین سو چھبیس قبل مسیح میں دریائے جہلم کے کنارے اس نے راجہ پورس کو شکست دی۔ مگر اس کے بعد اس کی فوج نے آگے بڑھنے سے انکار کر دیا۔ سکندر کو واپس مڑنا پڑا، اور تین سو تئیس قبل مسیح میں بابل میں، بتیس برس کی عمر میں، وہ مر گیا۔ اس کی فوج میں اب صرف مقدونی نہیں تھے، بلکہ باختر اور سغد کے بہت سے گھڑ سوار بھی شامل ہو چکے تھے۔ اور افغانستان کی چھاؤنیوں اور بستیوں میں ہزاروں یونانی اور مقدونی سپاہی رہ گئے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "After this Alexander crossed the Indus river, and the ruler of Taxila welcomed him.",
+    "In 326 BC, on the banks of the Jhelum river, he defeated Raja Porus.",
+    "But after this his army refused to advance further.",
+    "Alexander had to turn back, and in 323 BC in Babylon, at the age of thirty-two, he died.",
+    "His army no longer held only Macedonians, but also many horsemen from Bactria and Sogdiana.",
+    "And thousands of Greek and Macedonian soldiers stayed behind in the garrisons and settlements of Afghanistan."
+   ],
+   "shots": [
+    {
+     "search": "Taxila",
+     "at": 1
+    },
+    {
+     "search": "Battle of the Hydaspes",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Taxila",
+        33.74,
+        72.79,
+        "Pakistan"
+       ],
+       [
+        "Hydaspes (Jhelum)",
+        32.93,
+        73.73,
+        "Pakistan"
+       ],
+       [
+        "Babylon",
+        32.54,
+        44.42,
+        "Iraq"
+       ]
+      ],
+      "title": "From Taxila to Babylon",
+      "routes": [
+       [
+        0,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ]
+     },
+     "at": 3
+    },
+    {
+     "search": "Babylon",
+     "at": 4
+    },
+    {
+     "search": "Bactria",
+     "at": 5
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 6
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Across the Indus",
+    "ur": "سندھ کے پار"
+   },
+   "feel": "بلند اور بھرپور آواز، جیسے بڑی مہم کا خلاصہ ہو۔ آخر میں آواز دھیمی اور افسردہ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ٹیکسلا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "پورس"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "انکار"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "بابل"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "گھڑ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ہزاروں"
+    }
+   ],
+   "chapter": {
+    "n": 5,
+    "ur": "سندھ کے پار",
+    "en": "Across the Indus"
+   }
+  },
+  {
+   "text_on_screen": "What did he leave behind?",
+   "narration_ur": "سکندر نے کتنے شہر بسائے؟ پلوٹارک نے ستر شہر لکھے، مگر زیادہ تر ماہرین اسے بڑھا چڑھا کر کہی ہوئی بات سمجھتے ہیں۔ افغانستان میں جن شہروں کی پکی نشانیاں ملتی ہیں ان میں پرانا قندھار شامل ہے۔ وہاں انیس سو ستاون اور انیس سو تریسٹھ میں بادشاہ اشوک کے یونانی زبان کے کتبے ملے، جو تقریباً دو سو اٹھاون قبل مسیح کے ہیں۔ ان سے پتا چلتا ہے کہ سکندر کے تقریباً پینسٹھ سال بعد بھی وہاں یونانی بولنے والے لوگ رہتے تھے۔ سکندر کے بعد باختر میں یونانیوں کی اپنی سلطنت بنی، جسے یونانی باختری سلطنت کہتے ہیں۔ شمال کے مشہور شہر آئے خانم کی بنیاد کئی ماہرین سکندر کے بعد کے دور میں رکھتے ہیں، سکندر کے ہاتھوں نہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "How many cities did Alexander found?",
+    "Plutarch wrote seventy cities, but most scholars see this as an exaggeration.",
+    "Among the cities in Afghanistan with firm traces is Old Kandahar.",
+    "There, in 1957 and 1963, Greek-language inscriptions of King Ashoka were found, dated to about 258 BC.",
+    "They show that about sixty-five years after Alexander, Greek speakers still lived there.",
+    "After Alexander the Greeks of Bactria built their own kingdom, called the Greco-Bactrian Kingdom.",
+    "Many scholars place the founding of the famous northern city of Ai Khanoum in the period after Alexander, not by his own hand."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "سکندر نے کتنے شہر بسائے؟",
+      "en": "How many cities did he found?"
+     },
+     "at": 1
+    },
+    {
+     "search": "Plutarch",
+     "at": 2
+    },
+    {
+     "search": "Old Kandahar",
+     "at": 3
+    },
+    {
+     "search": "Kandahar Greek Edicts of Ashoka",
+     "at": 4
+    },
+    {
+     "search": "Ashoka",
+     "at": 5
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 6
+    },
+    {
+     "search": "Ai-Khanoum",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The traces",
+    "ur": "نشانیاں"
+   },
+   "feel": "گرم اور سوچنے والی آواز۔ اشوک کے کتبے والے جملے پر دلچسپی کے ساتھ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "کتنے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ستر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پرانا"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "اشوک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پینسٹھ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سلطنت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آئے"
+    }
+   ],
+   "chapter": {
+    "n": 6,
+    "ur": "اس نے کیا چھوڑا؟",
+    "en": "What Did He Leave?"
+   }
+  },
+  {
+   "text_on_screen": "Iskandar in memory",
+   "narration_ur": "فارسی ادب میں سکندر کو اسکندر کہتے ہیں، اور فردوسی کے شاہنامے میں اس کی لمبی کہانی ہے۔ مگر ایک پرانی زرتشتی روایت میں اسے ملعون کہا گیا، کیونکہ اس نے پرسیپولس کو آگ لگائی۔ قرآن میں ذوالقرنین کا ذکر ہے، اور کچھ لوگوں نے ان کی شناخت سکندر سے کی ہے، مگر بہت سے علماء ان کو الگ شخصیت مانتے ہیں، اور اس پر اختلاف ہے۔ مارکو پولو کے مطابق تیرھویں صدی میں بدخشاں کے کچھ حکمران خود کو سکندر کی نسل کہتے تھے۔ یہ دعویٰ تاریخی ثبوت سے ثابت نہیں، مگر اس سے پتا چلتا ہے کہ سکندر کا نام یہاں کتنا طاقتور رہا۔ اور قندھار کے نام کے بارے میں، کچھ لوگ اسے سکندر سے جوڑتے ہیں، مگر دوسرے ماہرین اسے گندھارا کے نام سے نکلا ہوا مانتے ہیں۔ سچ یہ ہے کہ نام کی اصل پر ماہرین متفق نہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In Persian literature Alexander is Eskandar, and Ferdowsi's Shahnameh has a long story of him.",
+    "But in an old Zoroastrian tradition he is called accursed, because he set Persepolis on fire.",
+    "The Quran mentions Dhul-Qarnayn, and some have identified him with Alexander, but many scholars see him as a separate figure, and there is disagreement.",
+    "According to Marco Polo, in the thirteenth century some rulers of Badakhshan called themselves descendants of Alexander.",
+    "This claim is not proved by historical evidence, but it shows how powerful Alexander's name remained here.",
+    "And on the name of Kandahar, some link it to Alexander, but other scholars believe it comes from the name Gandhara.",
+    "The truth is that scholars do not agree on the origin of the name."
+   ],
+   "shots": [
+    {
+     "search": "Shahnameh",
+     "at": 1
+    },
+    {
+     "search": "Persepolis",
+     "at": 2
+    },
+    {
+     "search": "Dhu al-Qarnayn",
+     "at": 3
+    },
+    {
+     "search": "Marco Polo",
+     "at": 4
+    },
+    {
+     "search": "Badakhshan",
+     "at": 5
+    },
+    {
+     "search": "Gandhara",
+     "at": 6
+    },
+    {
+     "search": "Kandahar",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Iskandar in memory",
+    "ur": "یادوں میں اسکندر"
+   },
+   "feel": "نرم اور احترام والی آواز۔ ذوالقرنین والے جملے پر خاص احتیاط۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فردوسی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "زرتشتی"
+    },
+    {
+     "m": [
+      "slow",
+      "soft"
+     ],
+     "w": "ذوالقرنین"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بدخشاں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ثبوت"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "گندھارا"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سچ"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Conqueror or invader?",
+   "narration_ur": "تو سکندر یہاں فاتح تھا یا حملہ آور؟ یونانی اور رومی مصنفوں کی نظر میں وہ ایک عظیم فاتح تھا۔ سغد اور سوات کے وہ لوگ جن کے قلعے گرائے گئے، ان کی اپنی آواز ہم تک نہیں پہنچی۔ جدید مؤرخ دونوں باتیں کہتے ہیں: اس نے ان علاقوں کو یونانی دنیا سے جوڑا، اور بہت سی بستیاں اجاڑ دیں۔ آج کا خلاصہ: سکندر نے دو سال سے زیادہ افغانستان اور سغد میں گزارے، ہر قدم پر مقامی مزاحمت دیکھی، اور سوات و باجوڑ میں بھی سخت لڑائیاں لڑیں۔ آپ کے خیال میں سکندر فاتح تھا یا حملہ آور؟ کمنٹ میں احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔ اگلی ویڈیو میں دیکھیں گے کہ سکندر کے بعد باختر میں یونانیوں کی اپنی سلطنت کیسے بنی۔ ویڈیو پسند آئی ہو تو چینل کو سبسکرائب کریں، بیل کا نشان دبائیں، اور اگلی ویڈیو تک خدا حافظ۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So was Alexander a conqueror here, or an invader?",
+    "In the eyes of Greek and Roman authors he was a great conqueror.",
+    "The voice of the people of Sogdiana and Swat whose forts were destroyed has not reached us.",
+    "Modern historians say both: he linked these regions to the Greek world, and he ruined many settlements.",
+    "Today's summary: Alexander spent more than two years in Afghanistan and Sogdiana, met local resistance at every step, and fought hard battles in Swat and Bajaur too.",
+    "In your view, was Alexander a conqueror or an invader?",
+    "Write in the comments respectfully, and avoid insulting any people or religion.",
+    "In the next video we will see how the Greeks built their own kingdom in Bactria after Alexander.",
+    "If you liked the video, subscribe to the channel, press the bell, and goodbye until the next video."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "فاتح یا حملہ آور؟",
+      "en": "Conqueror or invader?"
+     },
+     "at": 1
+    },
+    {
+     "search": "Alexander the Great",
+     "at": 2
+    },
+    {
+     "search": "Spitamenes",
+     "at": 3
+    },
+    {
+     "search": "Swat Valley",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Herat (Aria)",
+        34.35,
+        62.2,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Massaga (Swat)",
+        34.77,
+        72.35,
+        "Pakistan"
+       ]
+      ],
+      "title": "Alexander's years in this region",
+      "routes": "none"
+     },
+     "at": 5
+    },
+    {
+     "card": {
+      "ur": "آپ کی رائے؟",
+      "en": "What do you think?"
+     },
+     "at": 6
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 8
+    },
+    {
+     "card": {
+      "ur": "سبسکرائب کریں",
+      "en": "Subscribe"
+     },
+     "at": 9
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Conqueror or invader?",
+    "ur": "فاتح یا حملہ آور؟"
+   },
+   "feel": "سوچنے والی، دوستانہ آواز۔ سوال سننے والے سے براہِ راست پوچھیں۔ آخر میں گرم جوشی سے خدا حافظ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "فاتح"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "عظیم"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "آواز"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "دونوں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خلاصہ"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "خیال"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "احترام"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "باختر"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "سبسکرائب"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Is Kandahar Named After Alexander? #Shorts",
+   "scenes": [
+    {
+     "image": "01a",
+     "text_on_screen": "Kandahar, Afghanistan",
+     "narration_ur": "قندھار شہر کے نام کے بارے میں ایک مشہور بات ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "01b",
+     "text_on_screen": "Alexander the Great",
+     "narration_ur": "کہا جاتا ہے کہ یہ نام اسکندر، یعنی سکندر اعظم، سے نکلا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "04f",
+     "text_on_screen": "Old Kandahar",
+     "narration_ur": "سکندر کے زمانے میں یہاں اسکندریہ اراخوزیا نام کا شہر بسایا گیا، جس کے کھنڈر پرانے قندھار میں ہیں۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "13d",
+     "text_on_screen": "Ashoka's Greek edicts",
+     "narration_ur": "وہیں سے بادشاہ اشوک کے یونانی زبان کے کتبے ملے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "14f",
+     "text_on_screen": "Or from Gandhara?",
+     "narration_ur": "مگر کچھ ماہرین کہتے ہیں کہ قندھار گندھارا کے نام سے نکلا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "14g",
+     "text_on_screen": "Experts disagree",
+     "narration_ur": "تو نام کی اصل پر ماہرین متفق نہیں۔ پوری کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "What Happened at Massaga in Swat? #Shorts",
+   "scenes": [
+    {
+     "image": "10c",
+     "text_on_screen": "Swat Valley, Pakistan",
+     "narration_ur": "سوات میں ماساگا نام کا ایک بڑا قلعہ تھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10b",
+     "text_on_screen": "Massaga, 326 BC",
+     "narration_ur": "سکندر نے کئی دن اس کا محاصرہ کیا، اور اس دوران اسے تیر لگا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10e",
+     "text_on_screen": "The treaty",
+     "narration_ur": "آخر شہر نے معاہدہ کر کے ہتھیار ڈال دیے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10d",
+     "text_on_screen": "Arrian's version",
+     "narration_ur": "اریان کہتا ہے کہ کرائے کے سپاہیوں کو رات کو بھاگتے ہوئے مارا گیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10g",
+     "text_on_screen": "Plutarch's version",
+     "narration_ur": "پلوٹارک کہتا ہے کہ معاہدہ توڑا گیا، اور اسے سکندر کی عزت پر داغ کہتا ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10i",
+     "text_on_screen": "Which is true?",
+     "narration_ur": "سچ کیا ہے؟ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "How Alexander Took the Sogdian Rock #Shorts",
+   "scenes": [
+    {
+     "image": "07a",
+     "text_on_screen": "The Sogdian Rock, 327 BC",
+     "narration_ur": "تین سو ستائیس قبل مسیح میں سکندر سغد کی ایک پہاڑی چٹان کے سامنے تھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07b",
+     "text_on_screen": "Wings needed?",
+     "narration_ur": "قلعے کے سردار نے مذاق کیا کہ سکندر کو اوپر آنے کے لیے پَر لگانے پڑیں گے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07c",
+     "text_on_screen": "300 climbers",
+     "narration_ur": "سکندر نے تین سو چڑھنے والے سپاہی رات کو چٹان پر چڑھا دیے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07d",
+     "text_on_screen": "Roxana",
+     "narration_ur": "صبح اوپر سپاہی دیکھ کر قلعے والوں نے ہتھیار ڈال دیے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07f",
+     "text_on_screen": "A political marriage",
+     "narration_ur": "قیدیوں میں سردار کی بیٹی روکسانہ تھی، جس سے سکندر نے شادی کر لی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07h",
+     "text_on_screen": "Full story in the video",
+     "narration_ur": "یہ شادی سیاسی بھی تھی۔ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ]
+}

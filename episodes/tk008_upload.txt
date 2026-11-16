@@ -1,0 +1,72 @@
+TK008 - UPLOAD DETAILS  (topic: roadmap 8 - Alexander the Great in Afghanistan and the Swat-Bajaur campaigns)
+===========================================================
+
+TITLE (best, already used as the file name)
+Alexander the Great in Afghanistan – अफ़ग़ानिस्तान में सिकंदर – افغانستان میں سکندر اعظم
+
+OTHER TITLE OPTIONS
+2. Alexander in Swat and Bajaur – स्वात और बाजौर में सिकंदर – سوات اور باجوڑ میں سکندر
+3. Is Kandahar Named After Alexander? – क्या क़ंधार सिकंदर से बना? – کیا قندھار سکندر سے بنا؟
+4. Massaga, Aornos and the Hindu Kush – मासागा, अवरनोस और हिंदुकुश – ماساگا، اورنوس اور ہندوکش
+5. Conqueror or Invader? Alexander in Bactria – फ़ातेह या हमलावर? – فاتح یا حملہ آور؟ باختر میں سکندر
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu words سکندر اعظم + "ALEXANDER IN AFGHANISTAN" + "Bactria · Swat · Bajaur".
+(Neutral picture only: Alexander mosaic or bust, Hindu Kush, Swat valley, Old Kandahar. No flags, no fighters, no banned-group imagery.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk008_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+Alexander the Great spent more than two years in what is today Afghanistan and then fought through Swat and Bajaur. Whom did he fight, what happened at Massaga and Aornos, how did Spitamenes resist him in Sogdiana, and is Kandahar really named after him? Greek and Roman writers, archaeology and modern scholars, kept apart, with both sides of every debate.
+सिकंदर ने आज के अफ़ग़ानिस्तान में दो साल से ज़्यादा बिताए और फिर स्वात और बाजौर की पहाड़ियों में लड़ा। उसने किससे लड़ाई की, मासागा और अवरनोस में क्या हुआ, सग़द में स्पितामेनेस ने कैसे मुक़ाबला किया, और क्या क़ंधार का नाम सच में उसके नाम से है? यूनानी और रोमन लेखक, पुरातत्व और आज के इतिहासकार, हर बहस के दोनों पहलू।
+سکندر اعظم نے آج کے افغانستان میں دو سال سے زیادہ گزارے اور پھر سوات اور باجوڑ کی پہاڑیوں میں لڑا۔ اس نے کس سے لڑائی کی، ماساگا اور اورنوس میں کیا ہوا، سغد میں سپتامینس نے کیسے مقابلہ کیا، اور کیا قندھار کا نام واقعی اس کے نام سے ہے؟ یونانی اور رومی مصنف، کھدائی اور آج کے مؤرخ، ہر بحث کے دونوں رخ۔
+
+CHAPTERS
+(paste from tk008_chapters.txt)
+
+SOURCES (main)
+- Arrian, Anabasis of Alexander (books 3-5): Darius, Bessus, Sogdiana, the Sogdian Rock, Massaga, Aornos
+- Quintus Curtius Rufus, History of Alexander (books 6-8); Plutarch, Life of Alexander; Diodorus Siculus, book 17
+- Livius.org, "Artaxerxes V Bessus": https://www.livius.org/articles/person/artaxerxes-v-bessus
+- Livius.org, "Alexander" chapters 2.11-2.13 (Bactria, Sogdia, Swat campaign): https://www.livius.org/articles/person/alexander-the-great/alexander-2.12/ , https://www.livius.org/articles/person/alexander-the-great/alexander-2.13/
+- Livius.org, "Aornus (326 BCE)": https://www.livius.org/battle/aornus/
+- Moritani and Zahir, "Alexander the Great at Aornos (Mount Pir-Sar), Shangla, Khyber Pakhtunkhwa: Report on Historical and Archaeological Field Investigations (2017-2018)": https://tehqeeqat.org/downloadpdf/4989
+- Aurel Stein, "On Alexander's Track to the Indus" (1929), and Stein's 1926 identification of Aornos with Pir Sar
+- Michael Iliakis, "Alexander the Great and the Settlement of Bactria-Sogdiana" (Charles University, Prague): https://dspace.cuni.cz/bitstream/handle/20.500.11956/152279/Michael_Iliakis_34-47.pdf
+- Schlumberger and others, the Greek and Greek-Aramaic edicts of Ashoka at Kandahar (1957 and 1963); Maniscalco, Annali di Ca' Foscari 2018: https://edizionicafoscari.unive.it/en/edizioni/riviste/annali-di-ca-foscari-serie-orientale/2018/1/a-new-interpretation-of-the-edicts-of-asoka-from-k
+- Marco Polo, Travels, on the rulers of Badakhshan
+- Wikipedia: Alexander the Great; Battle of Gaugamela; Bessus; Spitamenes; Sogdian Rock; Roxana; Massaga; Aornos; Pir Sar; Old Kandahar; Kandahar Greek Edicts of Ashoka; Greco-Bactrian Kingdom
+
+#Afghanistan #AlexanderTheGreat #Swat #TareekhKiKahani #History
+
+TAGS (15)
+alexander the great afghanistan, alexander the great swat, alexander in bajaur, kandahar name origin, massaga siege, aornos pir sar, spitamenes sogdiana, bessus darius, sogdian rock roxana, hindu kush crossing, sikandar e azam, afghanistan history, ancient afghanistan, tareekh ki kahani, urdu documentary
+
+PINNED COMMENT
+آپ کے خیال میں سکندر یہاں فاتح تھا یا حملہ آور؟ احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔
+Main sources: Arrian, Curtius, Plutarch, Diodorus, Livius.org, Stein, Moritani and Zahir (Aornos fieldwork), Iliakis. Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk008_subtitles_Urdu.srt
+- English: tk008_subtitles_English.srt
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Gaugamela Oct 331 BC; Darius killed July 330 BC near Hecatompylos by Bessus and companions | Arrian; Livius; Wikipedia (Bessus) | high
+Alexander crossed the Hindu Kush in spring 329 BC; Bessus left the pass unguarded and burned crops | Livius (Alexander 2.12); Wikipedia (Bessus) | medium-high (pass identity, Khawak, is a scholars' guess)
+Pack animals slaughtered, cold and hunger on the crossing | Curtius 7.3 (attributed in the video) | medium
+Bessus handed to Ptolemy by Spitamenes and Datames; nose and ears cut; executed at Ecbatana | Arrian 3.30; Livius; Wikipedia (Bessus) | medium-high (sources differ on details)
+Spitamenes destroyed about 2,000 soldiers near Samarkand, 329 BC | History Hit; Arrian 4.3-4.6 (about 2,300 per Arrian) | medium (said "about two thousand")
+Spitamenes killed by his own Massagetae allies, head sent to Alexander, late 328 BC | Arrian 4.17 (attributed) | medium (Curtius says his wife)
+Sogdian Rock, early 327 BC; 300 climbers; Roxana daughter of Oxyartes; marriage | Arrian 4.18-19; Curtius 8.2; Plutarch | high
+Cleitus killed with a spear at Samarkand (Maracanda), 328 BC | Arrian 4.8-9; Curtius 8; Plutarch | high
+Proskynesis episode and Callisthenes's imprisonment and death | Arrian 4.10-14 | medium (details vary)
+Army split at Kabul; Hephaestion and Perdiccas to the Indus; Alexander through Kunar, Bajaur | Arrian 4.22-23 | high
+Yusufzai arrived in Swat in the 16th century; link to Aspasians/Assacenians unproven | scholarly consensus (said in video as unproven) | medium
+Massaga: 7,000 mercenaries; Arrian's, Plutarch's and Diodorus's versions of what followed | Arrian 4.26-27; Plutarch, Alex. 59; Diodorus 17.84 | high that the accounts differ
+Aornos = Pir Sar (Stein 1926; 2017-18 fieldwork supports) | Stein; Moritani and Zahir; Livius | medium-high (Mount Ilam also proposed)
+Hydaspes 326 BC; mutiny at the Hyphasis; death in Babylon 323 BC | Arrian; standard chronology | high
+Old Kandahar = Alexandria in Arachosia; Greek edicts of Ashoka found 1957 and 1963 | Schlumberger et al.; Wikipedia (Old Kandahar) | medium-high
+Plutarch's "seventy cities" an exaggeration; Alexander's city-building limited | Plutarch, De Alexandri fortuna; Iliakis | medium
+Marco Polo: rulers of Badakhshan claimed descent from Alexander | Marco Polo, Travels | high that he wrote it; claim itself unproven
+Kandahar's name: Alexander or Gandhara | scholars disagree (both views said in video) | disputed
+Dhul-Qarnayn identification with Alexander | disputed among scholars (said in video, no verdict) | disputed
