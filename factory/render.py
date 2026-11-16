@@ -112,10 +112,11 @@ def short_frame(src, dst):
     bg.save(dst, quality=92)
 
 
-def subscribe_button(d, cx, cy, scale=1.0, label="SUBSCRIBE"):
+def subscribe_button(d, cx, cy, scale=1.0, label="SUBSCRIBE", left=None):
     """Red YouTube-style Subscribe pill with a bell, centred at (cx, cy)."""
     f = font(int(46 * scale)); tw = d.textlength(label, font=f)
     bw, bh = tw + 150 * scale, 92 * scale
+    if left is not None: cx = left + bw / 2
     x0, y0 = cx - bw / 2, cy - bh / 2
     d.rounded_rectangle((x0 + 4, y0 + 6, x0 + bw + 4, y0 + bh + 6), radius=bh / 2, fill=(0, 0, 0, 110))
     d.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=bh / 2, fill=(230, 20, 20, 255), outline=(255, 255, 255, 255), width=max(3, int(4 * scale)))
@@ -125,20 +126,21 @@ def subscribe_button(d, cx, cy, scale=1.0, label="SUBSCRIBE"):
     d.rectangle((bx - r, by - 6 * scale, bx + r, by + 12 * scale), fill=(255, 255, 255, 255))
     d.rectangle((bx - r - 6 * scale, by + 10 * scale, bx + r + 6 * scale, by + 16 * scale), fill=(255, 255, 255, 255))
     d.ellipse((bx - 6 * scale, by + 17 * scale, bx + 6 * scale, by + 29 * scale), fill=(255, 255, 255, 255))
+    return bw
 
 
 def short_text(scene, dst, last=False):
     img = Image.new("RGBA", (SW, SH), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     f2 = font(40); name = "Tareekh Ki Kahani"
     d.text(((SW - d.textlength(name, font=f2)) / 2, 150), name, font=f2, fill=(255, 255, 255, 200))
-    subscribe_button(d, SW / 2, 270, 1.0)                      # every scene: small button under the channel name
-    if last:                                                    # last scene: big call to action
-        f3 = font(58); msg = "More stories - Subscribe!"
-        d.text(((SW - d.textlength(msg, font=f3)) / 2, 880), msg, font=f3, fill=(255, 255, 255, 255), stroke_width=6, stroke_fill=(0, 0, 0, 255))
-        subscribe_button(d, SW / 2, 1040, 1.5)
+    f3 = font(40)                                               # bottom area, like the Chestha Shorts: button left, small line right
+    sc_ = 1.25 if last else 1.0; cy = 1580
+    bw = subscribe_button(d, 0, cy, sc_, left=60)
+    msg = "More stories daily" if last else "New history story daily"
+    d.text((60 + bw + 30, cy - 22), msg, font=f3, fill=(255, 255, 255, 255), stroke_width=4, stroke_fill=(0, 0, 0, 255))
     text = latin_part(scene.get("text_on_screen", ""))
     if text:
-        f = font(76); lines = wrap(d, text, f, SW - 140)[:4]; y = 1290
+        f = font(76); lines = wrap(d, text, f, SW - 140)[:2]; y = 1290
         for ln in lines:
             d.text(((SW - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=(255, 215, 80, 255),
                    stroke_width=6, stroke_fill=(0, 0, 0, 255)); y += 96

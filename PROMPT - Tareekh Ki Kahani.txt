@@ -317,4 +317,4 @@ RULES ADDED 15 NOV 2026 (from tk007 on; the user's instructions - be critical ab
 
 SHORTS RULES (added 15 NOV 2026)
 - Every Short has its own 6 lines: he must record them in RECORD.bat (tabs Short 1, 2, 3), otherwise the AI voice is used. Say this at the top of every script message.
-- Every Short frame shows a red SUBSCRIBE button with a bell under the channel name; the last scene shows a big one (render.py subscribe_button).
+- Every Short frame shows a red SUBSCRIBE button with a bell at the bottom-left (like the Chestha Shorts), with a small line beside it; the last scene shows a bigger one (render.py subscribe_button).
