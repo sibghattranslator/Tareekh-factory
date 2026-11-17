@@ -214,6 +214,26 @@ def work_video(yt, v, t, when, done):
 
 
 # ----------------------------------------------------------------------------- main
+def align_long(yt, found):
+    """A scheduled long video must go out on the same day as its Shorts (long 19:00, Shorts earlier). Moves it if not."""
+    def loc(v): return dt.datetime.fromisoformat(v["status"]["publishAt"].replace("Z", "+00:00")).astimezone().replace(tzinfo=None)
+    by = {}
+    for v, t in found:
+        if v["status"].get("publishAt"): by.setdefault(t["ep"], []).append((v, t))
+    for ep, lst in by.items():
+        longs = [x for x in lst if x[1]["kind"] == "long"]; shorts = [x for x in lst if x[1]["kind"] == "short"]
+        if not longs or not shorts: continue
+        v = longs[0][0]; cur = loc(v); day = min(loc(x[0]) for x in shorts).date()
+        if cur.date() == day: continue
+        new = dt.datetime.combine(day, cur.time())
+        st = v["status"]
+        body = {"id": v["id"], "status": {"privacyStatus": "private", "publishAt": utc_iso(new.astimezone()),
+                "embeddable": st.get("embeddable", True), "license": st.get("license", "youtube"),
+                "publicStatsViewable": st.get("publicStatsViewable", True), "selfDeclaredMadeForKids": False}}
+        call(yt.videos().update(part="status", body=body))
+        log(f"{ep} long video moved to {new:%Y-%m-%d %H:%M} (same day as its Shorts)")
+
+
 def main():
     import argparse
     ap = argparse.ArgumentParser()
@@ -256,6 +276,7 @@ def main():
         return
     Y.STATE_F.write_text(json.dumps(state))
     try:
+        align_long(yt, found)
         for v, t in found:
             done_f = t["dir"] / "meta_done.json"
             done = json.loads(done_f.read_text(encoding="utf-8")) if done_f.exists() else {}
