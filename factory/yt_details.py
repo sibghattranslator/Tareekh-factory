@@ -49,6 +49,12 @@ def find_secret():
 
 
 def get_service():
+    try:
+        import google.oauth2.credentials, google_auth_oauthlib.flow, googleapiclient.discovery
+    except ImportError:                                  # install the Google packages into THIS python, then go on
+        import subprocess
+        log("Installing the Google packages (one time, about a minute) ...")
+        subprocess.call([sys.executable, "-m", "pip", "install", "--user", "google-api-python-client", "google-auth-oauthlib", "google-auth-httplib2"])
     from google.oauth2.credentials import Credentials
     from google_auth_oauthlib.flow import InstalledAppFlow
     from google.auth.transport.requests import Request
