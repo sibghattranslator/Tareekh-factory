@@ -72,7 +72,7 @@ def get_service():
             sys.exit("\n  The Google sign-in file (client_secret.json) was not found.\n"
                      "  Copy the file client_secret....json from your Chestha Exams Winner folder into:\n"
                      f"     {HERE}\n  and rename it to client_secret.json. Then run DETAILS.bat again.")
-        print("\n  A browser window opens: sign in with sibghattranslator@gmail.com and CHOOSE the channel 'Tareekh Ki Kahani'.\n")
+        print("\n  A browser window opens: sign in with Sibghatuu@gmail.com and CHOOSE the channel 'Tareekh Ki Kahani'.\n")
         creds = InstalledAppFlow.from_client_secrets_file(str(sec), SCOPES).run_local_server(port=0, prompt="select_account consent")
     TOKEN_F.write_text(creds.to_json())
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
