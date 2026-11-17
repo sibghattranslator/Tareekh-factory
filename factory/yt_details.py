@@ -72,7 +72,7 @@ def get_service():
             sys.exit("\n  The Google sign-in file (client_secret.json) was not found.\n"
                      "  Copy the file client_secret....json from your Chestha Exams Winner folder into:\n"
                      f"     {HERE}\n  and rename it to client_secret.json. Then run DETAILS.bat again.")
-        print("\n  A browser window opens: sign in with Sibghatuu@gmail.com and CHOOSE the channel 'Tareekh Ki Kahani'.\n")
+        print("\n  A browser window opens: sign in with Sibghatuu@gmail.com.\n")
         creds = InstalledAppFlow.from_client_secrets_file(str(sec), SCOPES).run_local_server(port=0, prompt="select_account consent")
     TOKEN_F.write_text(creds.to_json())
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
@@ -90,13 +90,15 @@ def call(req):
 
 # ----------------------------------------------------------------------------- what is on the channel / what we know
 def channel_videos(yt):
-    ch = call(yt.channels().list(part="id,snippet,contentDetails", mine=True))["items"]
-    if not ch: sys.exit("  This Google account has no YouTube channel.")
-    ch = ch[0]
-    if ch["id"] != CHANNEL_ID:
-        TOKEN_F.unlink(missing_ok=True)
-        sys.exit(f"\n  You signed in to the channel '{ch['snippet']['title']}', not 'Tareekh Ki Kahani'. Nothing was changed.\n"
-                 "  Run DETAILS.bat again and choose the channel 'Tareekh Ki Kahani' in the sign-in window.")
+    """Reads Tareekh Ki Kahani by its channel id (works whichever channel of Sibghatuu the sign-in landed on)."""
+    items = call(yt.channels().list(part="id,snippet,contentDetails", id=CHANNEL_ID)).get("items", [])
+    if not items: sys.exit("  Channel Tareekh Ki Kahani could not be read.")
+    ch = items[0]
+    try:
+        me = call(yt.channels().list(part="id,snippet", mine=True)).get("items", [])
+        if me and me[0]["id"] != CHANNEL_ID:
+            log(f"Note: signed in as channel '{me[0]['snippet']['title']}'; reading 'Tareekh Ki Kahani' by its id.")
+    except Exception: pass
     ids, tok = [], None
     uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
     while len(ids) < 400:
