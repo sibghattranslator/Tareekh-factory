@@ -15,4 +15,6 @@ tk006 | roadmap 6 | Ancient Afghanistan – प्राचीन अफ़ग�
 tk007 | roadmap 7 | Persian Empire in Afghanistan – अफ़ग़ानिस्तान में फ़ारसी साम्राज्य – افغانستان میں فارسی سلطنت | 2026-11-15
 tk008 | roadmap 8 | Alexander the Great in Afghanistan – अफ़ग़ानिस्तान में सिकंदर – افغانستان میں سکندر اعظم | 2026-11-16
 
-NEXT: tk009 = roadmap 9 - Greco-Bactrian Kingdom - Greeks in Afghanistan
+tk009 | roadmap 9 | Greeks in Afghanistan: Greco-Bactrian Kingdom – अफ़ग़ानिस्तान में यूनानी – افغانستان میں یونانی سلطنت | 2026-11-21
+
+NEXT: tk010 = roadmap 10 - Kushan Empire - Kanishka, Peshawar and the Silk Road

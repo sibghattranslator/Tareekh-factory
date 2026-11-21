@@ -1,0 +1,67 @@
+TK009 - UPLOAD DETAILS  (topic: roadmap 9 - Greco-Bactrian Kingdom, Greeks in Afghanistan)
+===========================================================
+
+TITLE (best, already used as the file name)
+Greeks in Afghanistan: Greco-Bactrian Kingdom – अफ़ग़ानिस्तान में यूनानी – افغانستان میں یونانی
+
+OTHER TITLE OPTIONS
+2. The Lost Greek City of Ai-Khanoum – खोया हुआ यूनानी शहर – آئے خانم، گمشدہ یونانی شہر
+3. Greek Kings of Bactria – बैक्ट्रिया के यूनानी बादशाह – باختر کے یونانی بادشاہ
+4. The Giant Gold Coin of Eucratides – यूक्रातिदीस का सोने का सिक्का – یوکراتیدیس کا سونے کا سکہ
+5. How Greeks Ruled Afghanistan – यूनानियों ने अफ़ग़ानिस्तान पर कैसे राज किया – یونانیوں نے افغانستان پر کیسے حکومت کی
+
+THUMBNAIL
+Made by RENDER.bat: big Urdu words افغانستان میں یونانی + "GREEKS IN AFGHANISTAN" + "Bactria · Ai-Khanoum · Eucratides".
+(Neutral picture only: Eucratides gold coin, Ai-Khanoum ruins, Hindu Kush, Balkh. No flags, no fighters, no banned-group imagery.)
+
+DESCRIPTION  (paste; replace the CHAPTERS block with the file tk009_chapters.txt made by RENDER.bat)
+-----------------------------------------------------------
+After Alexander, Greeks built their own kingdom in Bactria, in today's Afghanistan, and it lasted about 125 years. Who were these Greek kings, what did the lost city of Ai-Khanoum on the Amu River contain, why did Antiochus III besiege Balkh, what is the giant gold coin of Eucratides, and how did the nomads end it all? Ancient writers, coins and excavation kept apart, with the debates marked.
+सिकंदर के बाद यूनानियों ने आज के अफ़ग़ानिस्तान में बैक्ट्रिया में अपना राज्य बनाया, जो लगभग सवा सौ साल चला। ये यूनानी बादशाह कौन थे, अमू दरिया के किनारे खोए हुए शहर आए ख़ानुम में क्या मिला, अंतियोख़स तृतीय ने बल्ख़ का घेराव क्यों किया, यूक्रातिदीस का विशाल सोने का सिक्का क्या है, और ख़ानाबदोशों ने इसे कैसे ख़त्म किया।
+سکندر کے بعد یونانیوں نے آج کے افغانستان میں باختر میں اپنی سلطنت بنائی، جو سوا سو سال کے لگ بھگ چلی۔ یہ یونانی بادشاہ کون تھے، دریائے آمو کے کنارے گمشدہ شہر آئے خانم میں کیا ملا، انطیوخس سوم نے بلخ کا محاصرہ کیوں کیا، یوکراتیدیس کا بہت بڑا سونے کا سکہ کیا ہے، اور خانہ بدوشوں نے اسے کیسے ختم کیا؟ قدیم مصنف، سکے اور کھدائی الگ الگ، اور بحثیں صاف بتائی گئی ہیں۔
+
+CHAPTERS
+(paste from tk009_chapters.txt)
+
+SOURCES (main)
+- Polybius, Histories 11.34 (Antiochus III and Euthydemus, the siege of Bactra)
+- Justin, Epitome of Trogus (Bactria, Diodotus, Eucratides); Strabo, Geography 11 (nomads, extent of the kingdom)
+- Diodorus Siculus, book 18 (revolt of the Greek settlers in 323 BC); Strabo 15 (treaty of Seleucus and Chandragupta)
+- Sima Qian, Shiji ch. 123 (Zhang Qian's report on Daxia/Bactria)
+- Paul Bernard and the French archaeological mission, Fouilles d'Ai Khanoum (1964-1978)
+- Bibliotheque nationale de France: the gold 20-stater of Eucratides
+- Wikipedia: Greco-Bactrian Kingdom; Ai-Khanoum; Diodotus I; Euthydemus I; Demetrius I of Bactria; Eucratides I; Heliocles I; Indo-Greek Kingdom; Zhang Qian; Bactrian language
+
+#Afghanistan #GrecoBactrian #AiKhanoum #TareekhKiKahani #History
+
+TAGS (15)
+greco bactrian kingdom, greeks in afghanistan, ai khanoum, bactria history, eucratides gold coin, euthydemus antiochus siege, diodotus bactria, demetrius indo greek, zhang qian bactria, balkh history, ancient afghanistan, hellenistic afghanistan, alexander successors, tareekh ki kahani, urdu documentary
+
+PINNED COMMENT
+آپ کے خیال میں ان یونانیوں کو اس سرزمین کا حصہ سمجھنا چاہیے یا نہیں؟ احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔
+Main sources: Polybius, Justin, Strabo, Sima Qian, the French excavations at Ai-Khanoum, coin evidence. Full list in the description.
+
+SUBTITLES TO UPLOAD (YouTube Studio > Subtitles > Add language)
+- Urdu: tk009_subtitles_Urdu.srt
+- English: tk009_subtitles_English.srt
+
+FACT-CHECK TABLE
+Claim | Source | Confidence
+Greek settlers in Bactria revolted after Alexander's death in 323 BC; Diodorus gives over 20,000 | Diodorus 18.7 (attributed in the video) | medium (numbers vary)
+Seleucus ceded eastern lands to Chandragupta c. 305 BC for 500 elephants | Strabo 15; Justin | medium-high (exact lands debated)
+Diodotus I broke from the Seleucids c. 255-246 BC | Wikipedia (Greco-Bactrian Kingdom); coins | medium (date range said in video)
+Euthydemus from Magnesia; seized the throne from Diodotus II's line | Polybius 11.34; Justin | medium-high
+Battle of the Arius and siege of Bactra by Antiochus III, 208-206 BC; peace; promise of a daughter to Demetrius | Polybius 11.34 | high (siege length two to three years, said so)
+Euthydemus warned of nomads | Polybius/Strabo as reported | medium
+Demetrius I expanded south of the Hindu Kush c. 190-180 BC; elephant-scalp coins | coins; Wikipedia | medium-high (extent debated)
+Menander I appears as Milinda in a Buddhist text | Milindapanha | high
+Ai-Khanoum at the Amu and Kokcha junction; found 1961; French excavations until the late 1970s | Wikipedia; French mission reports | high (details of the 1961 find said loosely)
+Gymnasium, theatre, palace, temples, treasury with lapis lazuli, philosophical text fragment | French excavation reports | medium-high
+Delphic maxims inscription copied by Clearchus | Ai-Khanoum inscription (Robert 1968) | high (said as "according to the inscription")
+Eucratides 20-stater: about 170 g, found near Bukhara in the 19th century, now in Paris | BnF | high
+Eucratides killed by his son, chariot over the body | Justin | medium (only one source, said in video)
+Nomads (Saka, Yuezhi) overran Bactria c. 140-120 BC; Ai-Khanoum burned | Strabo; Zhang Qian; excavation | medium (dates approximate)
+Zhang Qian found no great king in Bactria; trade-skilled people | Sima Qian | medium-high
+Bactrian language written in Greek letters for centuries; Kanishka's inscriptions | Rabatak inscription; Wikipedia | high
+Greek influence depth and the mixed-culture debate | scholarly debate (both sides said in video) | disputed
+Justin's "thousand cities" and Strabo's reach to China | Justin; Strabo (called exaggeration in video) | low as fact, flagged

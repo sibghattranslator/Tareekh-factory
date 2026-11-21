@@ -1,0 +1,2068 @@
+{
+ "id": "tk009",
+ "format": 2,
+ "title": "Greeks in Afghanistan: Greco-Bactrian Kingdom – अफ़ग़ानिस्तान में यूनानी – افغانستان میں یونانی",
+ "thumb_text": "Greeks in Afghanistan",
+ "thumb_ur": "افغانستان میں یونانی",
+ "thumb_sub": "Bactria · Ai-Khanoum · Eucratides",
+ "scenes": [
+  {
+   "text_on_screen": "A Greek city in Afghanistan",
+   "narration_ur": "شمالی افغانستان میں دریائے آمو کے کنارے ایک شہر کے کھنڈر ملے ہیں جہاں یونانی تھیٹر تھا۔ وہاں یونانی طرز کی ورزش گاہ، کتبے اور سکے بھی ملے۔ یہ سب سکندر کے بعد کا ہے، جب یونانیوں نے باختر میں اپنی سلطنت بنائی۔ یہ سلطنت سوا سو سال کے لگ بھگ چلی۔ مگر اس کی کہانی ہمیں بہت کم لکھی ہوئی ملتی ہے۔ آج ہم دیکھیں گے کہ یہ یونانی بادشاہ کون تھے، ان کا شہر کیسا تھا، اور وہ کیسے غائب ہو گئے۔ اور اس سونے کے سکے کو بھی دیکھیں گے جو قدیم دنیا کے سب سے بڑے سکوں میں سے ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "On the bank of the Amu River in northern Afghanistan, ruins were found of a city that had a Greek theatre.",
+    "A Greek-style gymnasium, inscriptions and coins were found there too.",
+    "All this comes from after Alexander, when the Greeks built their own kingdom in Bactria.",
+    "This kingdom lasted for about a hundred and twenty-five years.",
+    "But we find very little of its story written down.",
+    "Today we see who these Greek kings were, what their city was like, and how they disappeared.",
+    "And we will see the gold coin that is among the biggest of the ancient world."
+   ],
+   "shots": [
+    {
+     "search": "Ai-Khanoum",
+     "at": 1
+    },
+    {
+     "search": "Gymnasium (ancient Greece)",
+     "at": 2
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 3
+    },
+    {
+     "card": {
+      "ur": "سوا سو سال کی سلطنت",
+      "en": "A kingdom of about 125 years"
+     },
+     "at": 4
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 5
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Ai-Khanoum",
+        37.17,
+        69.41,
+        "Afghanistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ]
+      ],
+      "title": "The Greek kingdom of Bactria",
+      "routes": "none"
+     },
+     "at": 6
+    },
+    {
+     "search": "Eucratides I",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Greeks in Afghanistan",
+    "ur": "افغانستان میں یونانی"
+   },
+   "sfx": "hit",
+   "feel": "حیرت اور تجسس سے بھری آواز۔ پہلے جملے پر ٹھہر کر بات شروع کریں، جیسے کوئی راز بتا رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "کھنڈر"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ورزش"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "باختر"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سوا"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "کم"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "کون"
+    },
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "سونے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Who tells us this story?",
+   "narration_ur": "یونانی بادشاہوں کی یہ کہانی ہمارے پاس ٹکڑوں میں پہنچی ہے۔ باختر کے اپنے مؤرخوں کی کوئی کتاب ہم تک نہیں آئی۔ رومی مصنف یوستین نے ایک پرانی کتاب کا خلاصہ لکھا، جس میں باختر کا ذکر چند سطروں میں ہے۔ یونانی مؤرخ پولیبیس نے انطیوخس سوم کی مہم لکھی، اور سٹرابو نے باختر کے زوال کی بات کی۔ چین کے مؤرخ سیما چیان نے اپنے سفیر ژانگ چیان کی رپورٹ لکھی، جو بعد میں باختر پہنچا۔ باقی کہانی سکوں اور کھدائی سے پڑھی جاتی ہے، یعنی بادشاہوں کے نام زیادہ تر سکوں سے ملتے ہیں۔ اس لیے کئی تاریخیں صرف اندازے ہیں، اور جہاں اندازہ ہو گا ہم بتا دیں گے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The story of these Greek kings has reached us in pieces.",
+    "No book by Bactria's own historians has come down to us.",
+    "The Roman author Justin wrote a summary of an older book, in which Bactria gets only a few lines.",
+    "The Greek historian Polybius wrote about the campaign of Antiochus the Third, and Strabo spoke about Bactria's fall.",
+    "The Chinese historian Sima Qian recorded the report of his envoy Zhang Qian, who reached Bactria later.",
+    "The rest of the story is read from coins and excavations, so most kings' names come from coins.",
+    "So many dates are only estimates, and wherever it is an estimate we will say so."
+   ],
+   "shots": [
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 1
+    },
+    {
+     "search": "Bactria",
+     "at": 2
+    },
+    {
+     "search": "Justin (historian)",
+     "at": 3
+    },
+    {
+     "search": "Polybius",
+     "at": 4
+    },
+    {
+     "search": "Strabo",
+     "at": 5
+    },
+    {
+     "search": "Sima Qian",
+     "at": 6
+    },
+    {
+     "search": "Ancient Greek coinage",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Who is speaking?",
+    "ur": "یہ بات کس نے کہی؟"
+   },
+   "feel": "سادہ اور ایماندار آواز، جیسے استاد سبق سے پہلے اصول بتا رہا ہو۔",
+   "delivery": [
+    {
+     "m": [
+      "pause"
+     ],
+     "w": "ٹکڑوں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اپنے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خلاصہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مہم"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "رپورٹ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سکوں"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "اندازے"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "After Alexander",
+   "narration_ur": "تین سو تئیس قبل مسیح میں سکندر بابل میں فوت ہوا۔ باختر میں اس نے جو یونانی فوجی بسائے تھے، ان میں سے بہت سے وہاں رہنا نہیں چاہتے تھے۔ سکندر کی موت کی خبر سن کر ہزاروں یونانی سپاہیوں نے بغاوت کی اور گھر واپس جانے کے لیے نکل پڑے۔ دیودورس کے مطابق ان کی تعداد بیس ہزار سے زیادہ تھی، اور آخر میں انہیں روک کر دبا دیا گیا۔ کئی مؤرخ اس سے یہ نتیجہ نکالتے ہیں کہ یہ یونانی اکثر مجبوری میں وہاں بسائے گئے تھے۔ پھر سکندر کے جرنیلوں میں سلطنت کی بانٹ شروع ہوئی۔ مشرق کا بڑا حصہ سلوکس کے ہاتھ آیا، اور اس کی سلطنت سلوکی سلطنت کہلاتی ہے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "In 323 BC Alexander died in Babylon.",
+    "Many of the Greek soldiers he had settled in Bactria did not want to stay there.",
+    "On hearing of Alexander's death, thousands of Greek soldiers revolted and set out to go home.",
+    "According to Diodorus there were more than twenty thousand of them, and in the end they were stopped and put down.",
+    "Many historians conclude from this that these Greeks were often settled there by force of circumstance.",
+    "Then Alexander's generals began to divide his empire.",
+    "Most of the east came to Seleucus, and his empire is called the Seleucid Empire."
+   ],
+   "shots": [
+    {
+     "search": "Death of Alexander the Great",
+     "at": 1
+    },
+    {
+     "search": "Bactria",
+     "at": 2
+    },
+    {
+     "card": {
+      "ur": "یونانی بستیوں کی بغاوت",
+      "en": "The settlers' revolt"
+     },
+     "at": 3
+    },
+    {
+     "search": "Diodorus Siculus",
+     "at": 4
+    },
+    {
+     "search": "Wars of the Diadochi",
+     "at": 5
+    },
+    {
+     "search": "Seleucus I Nicator",
+     "at": 6
+    },
+    {
+     "search": "Seleucid Empire",
+     "at": 7
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "After Alexander",
+    "ur": "سکندر کے بعد"
+   },
+   "feel": "سنجیدہ آواز۔ سپاہیوں کی بغاوت والے جملوں میں رفتار تھوڑی تیز کریں، پھر دھیمی ہو جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بابل"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بسائے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ہزاروں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بیس"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "نتیجہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "جرنیلوں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سلوکس"
+    }
+   ],
+   "chapter": {
+    "n": 1,
+    "ur": "سکندر کے بعد",
+    "en": "After Alexander"
+   }
+  },
+  {
+   "text_on_screen": "Seleucus and the elephants",
+   "narration_ur": "سلوکس نے مشرق میں اپنا اقتدار پکا کرنے کی کوشش کی۔ تین سو پانچ قبل مسیح کے قریب اس کا سامنا ہندوستان میں موریا سلطنت کے بانی چندرگپت سے ہوا۔ یونانی مصنفوں کے مطابق دونوں میں معاہدہ ہوا، اور سلوکس نے کچھ مشرقی علاقے چندرگپت کو دے دیے۔ بدلے میں اسے پانچ سو ہاتھی ملے۔ اس طرح ہندوکش کے جنوب کا کچھ حصہ موریا سلطنت میں چلا گیا، مگر شمال میں باختر سلوکیوں کے پاس رہا۔ سلوکیوں کا مرکز بہت دور، شام اور عراق میں تھا۔ اس لیے باختر ان کے لیے ایک دور دراز سرحدی صوبہ تھا، جسے کچھ عرصہ سلوکس کے بیٹے انطیوخس نے مشرق میں رہ کر سنبھالا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Seleucus tried to make his rule firm in the east.",
+    "Around 305 BC he faced Chandragupta, founder of the Maurya Empire in India.",
+    "According to Greek authors the two made a treaty, and Seleucus gave some eastern lands to Chandragupta.",
+    "In return he received five hundred elephants.",
+    "So part of the land south of the Hindu Kush went to the Mauryas, but Bactria in the north stayed with the Seleucids.",
+    "The Seleucid centre was very far away, in Syria and Iraq.",
+    "So Bactria was a far frontier province for them, which Seleucus's son Antiochus handled for some time while staying in the east."
+   ],
+   "shots": [
+    {
+     "search": "Seleucia on the Tigris",
+     "at": 1
+    },
+    {
+     "search": "Chandragupta Maurya",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Seleucia on the Tigris",
+        33.1,
+        44.52,
+        "Iraq"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Pataliputra",
+        25.6,
+        85.14,
+        "India"
+       ]
+      ],
+      "title": "Seleucids and Mauryans",
+      "routes": "none"
+     },
+     "at": 3
+    },
+    {
+     "search": "Asian elephant",
+     "at": 4
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 5
+    },
+    {
+     "search": "Antioch",
+     "at": 6
+    },
+    {
+     "search": "Antiochus I Soter",
+     "at": 7
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Seleucus and Chandragupta",
+    "ur": "سلوکس اور چندرگپت"
+   },
+   "feel": "مضبوط اور صاف آواز۔ ہاتھیوں کے سودے والے جملے پر ذرا مسکراہٹ بھری شان رکھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اقتدار"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "چندرگپت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "معاہدہ"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "ہاتھی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "جنوب"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "مرکز"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سرحدی"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Diodotus breaks away",
+   "narration_ur": "دو سو پچاس قبل مسیح کے آس پاس باختر کے یونانی گورنر دیودوتس نے سلوکی بادشاہ سے علیحدگی کا اعلان کیا۔ صحیح سال پر مؤرخ متفق نہیں، اور اندازے دو سو پچپن سے دو سو چھیالیس قبل مسیح تک جاتے ہیں۔ اسی زمانے میں مغرب میں پارتھیا کے لوگ بھی سلوکیوں سے الگ ہو رہے تھے۔ سلوکی بادشاہ مصر کے ساتھ جنگوں میں پھنسے ہوئے تھے، اس لیے مشرق پر توجہ نہ دے سکے۔ دیودوتس کے سکوں پر زیوس کی تصویر ملتی ہے۔ اس کے بیٹے دیودوتس دوم نے بھی کچھ سال حکومت کی۔ یوں باختر ایک آزاد یونانی ریاست بن گیا، جسے ہم یونانی باختری سلطنت کہتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Around 250 BC Diodotus, the Greek governor of Bactria, declared his break from the Seleucid king.",
+    "Historians do not agree on the exact year, and estimates run from about 255 to 246 BC.",
+    "At the same time, in the west the people of Parthia were also splitting from the Seleucids.",
+    "The Seleucid kings were caught in wars with Egypt, so they could not give attention to the east.",
+    "Diodotus's coins show a picture of Zeus.",
+    "His son Diodotus the Second also ruled for some years.",
+    "So Bactria became a free Greek state, which we call the Greco-Bactrian Kingdom."
+   ],
+   "shots": [
+    {
+     "search": "Diodotus I",
+     "at": 1
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 2
+    },
+    {
+     "search": "Parthian Empire",
+     "at": 3
+    },
+    {
+     "search": "Ptolemaic Kingdom",
+     "at": 4
+    },
+    {
+     "search": "Zeus",
+     "at": 5
+    },
+    {
+     "search": "Diodotus II",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Ai-Khanoum",
+        37.17,
+        69.41,
+        "Afghanistan"
+       ],
+       [
+        "Maracanda (Samarkand)",
+        39.65,
+        66.96,
+        "Uzbekistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ]
+      ],
+      "title": "The Greco-Bactrian Kingdom",
+      "routes": "none"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "The break from the Seleucids",
+    "ur": "سلوکیوں سے علیحدگی"
+   },
+   "feel": "واضح اور مضبوط آواز۔ تاریخوں کے اندازے والے جملے پر سادہ اور ایماندار لہجہ رکھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "دیودوتس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "متفق"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پارتھیا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مصر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "زیوس"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "بیٹے"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "آزاد"
+    }
+   ],
+   "chapter": {
+    "n": 2,
+    "ur": "آزاد باختر",
+    "en": "Free Bactria"
+   }
+  },
+  {
+   "text_on_screen": "Why was Bactria rich?",
+   "narration_ur": "باختر ایک بہت دولت مند علاقہ تھا۔ یہاں دریاؤں کا پانی، اچھی زمین اور نہریں تھیں، اس لیے کھیتی بہت ہوتی تھی۔ بدخشاں کے پہاڑوں سے لاجورد پتھر نکلتا تھا، جو دور دور تک بکتا تھا۔ یہ علاقہ ایران، وسطی ایشیا، چین اور ہندوستان کے راستوں کے بیچ میں تھا۔ یوستین نے اسے ہزار شہروں والی باختری سلطنت کہا۔ یہ مبالغہ لگتا ہے، مگر اس سے پتا چلتا ہے کہ علاقہ کتنا آباد اور مشہور تھا۔ کئی مؤرخ کہتے ہیں کہ یہی دولت یونانی بادشاہوں کی طاقت کی بنیاد بنی، اور بعد میں خانہ بدوشوں کو بھی اسی نے کھینچا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Bactria was a very rich region.",
+    "It had river water, good land and canals, so farming was strong.",
+    "Lapis lazuli came from the mountains of Badakhshan and was sold far and wide.",
+    "The region lay between the routes of Iran, Central Asia, China and India.",
+    "Justin called it the Bactrian empire of a thousand cities.",
+    "This looks like an exaggeration, but it shows how populated and famous the region was.",
+    "Many historians say this wealth was the base of the Greek kings' power, and later it also drew the nomads."
+   ],
+   "shots": [
+    {
+     "search": "Bactria",
+     "at": 1
+    },
+    {
+     "search": "Amu Darya",
+     "at": 2
+    },
+    {
+     "search": "Lapis lazuli",
+     "at": 3
+    },
+    {
+     "search": "Silk Road",
+     "at": 4
+    },
+    {
+     "search": "Justin (historian)",
+     "at": 5
+    },
+    {
+     "search": "Bactrian camel",
+     "at": 6
+    },
+    {
+     "search": "Balkh",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "A rich land",
+    "ur": "ایک دولت مند سرزمین"
+   },
+   "feel": "گرم اور وضاحتی آواز۔ ہزار شہروں والی بات پر ہلکی سی مسکراہٹ، پھر سنجیدہ ہو جائیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "دولت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "نہریں"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "لاجورد"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بیچ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہزار"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "مبالغہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بنیاد"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Euthydemus and the siege of Bactra",
+   "narration_ur": "دیودوتس دوم کو ہٹا کر ایک نیا بادشاہ یوتھیڈیموس تخت پر آیا۔ پولیبیس لکھتا ہے کہ وہ اصل میں مگنیشیا کا یونانی تھا۔ دو سو آٹھ قبل مسیح کے آس پاس سلوکی بادشاہ انطیوخس سوم بڑی فوج لے کر مشرق آیا۔ یوتھیڈیموس نے ہری رود کے پاس مقابلہ کیا، ہار گیا، اور باختر شہر، یعنی بلخ، میں بند ہو گیا۔ انطیوخس نے دو سے تین سال شہر کو گھیرے رکھا۔ پولیبیس کے مطابق یوتھیڈیموس نے کہا کہ وہ باغی نہیں، اس نے باغیوں کی نسل سے حکومت لی ہے۔ اس نے یہ بھی کہا کہ دونوں کو خانہ بدوش حملہ آوروں کا خطرہ ہے، اور اگر یونانیوں میں پھوٹ رہی تو سب ہار جائیں گے۔ آخر صلح ہوئی، انطیوخس نے اسے بادشاہ مان لیا، اور اپنی بیٹی اس کے بیٹے دیمیتریوس کو دینے کا وعدہ کیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "A new king, Euthydemus, came to the throne after removing Diodotus the Second.",
+    "Polybius writes that he was originally a Greek from Magnesia.",
+    "Around 208 BC the Seleucid king Antiochus the Third came east with a large army.",
+    "Euthydemus resisted near the Hari River, lost, and shut himself in the city of Bactra, that is Balkh.",
+    "Antiochus kept the city besieged for two to three years.",
+    "According to Polybius, Euthydemus said he was not a rebel, that he had taken power from the descendants of rebels.",
+    "He also said that both faced a danger from nomad invaders, and if the Greeks stayed divided all would lose.",
+    "In the end peace was made, Antiochus accepted him as king, and promised his daughter to the son Demetrius."
+   ],
+   "shots": [
+    {
+     "search": "Euthydemus I",
+     "at": 1
+    },
+    {
+     "search": "Magnesia on the Maeander",
+     "at": 2
+    },
+    {
+     "search": "Antiochus III the Great",
+     "at": 3
+    },
+    {
+     "search": "Hari River",
+     "at": 4
+    },
+    {
+     "search": "Balkh",
+     "at": 5
+    },
+    {
+     "search": "Polybius",
+     "at": 6
+    },
+    {
+     "search": "Saka",
+     "at": 7
+    },
+    {
+     "card": {
+      "ur": "صلح",
+      "en": "Peace, about 206 BC"
+     },
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The siege of Bactra",
+    "ur": "باختر کا محاصرہ"
+   },
+   "sfx": "hit",
+   "feel": "کہانی سنانے والی آواز۔ مکالمے والے جملوں میں ایسے بولیں جیسے دو بادشاہ آمنے سامنے بات کر رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "یوتھیڈیموس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مگنیشیا"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "انطیوخس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہار"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "گھیرے"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "باغی"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خانہ"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "صلح"
+    }
+   ],
+   "chapter": {
+    "n": 3,
+    "ur": "بلخ کا محاصرہ",
+    "en": "The Siege of Bactra"
+   }
+  },
+  {
+   "text_on_screen": "Demetrius crosses the Hindu Kush",
+   "narration_ur": "یوتھیڈیموس کا بیٹا دیمیتریوس اول بڑا فاتح بنا۔ وہ دو سو قبل مسیح کے آس پاس تخت پر آیا۔ کئی مؤرخ کہتے ہیں کہ اس نے ہندوکش پار کر کے ارکوزیا، یعنی قندھار کے علاقے، اور کابل کی وادی تک حکومت بڑھائی۔ اس کے سکوں پر اس کے سر پر ہاتھی کے سر کی کھال کی ٹوپی نظر آتی ہے۔ اسے ہندوستان کی طرف پیش قدمی کی علامت سمجھا جاتا ہے۔ اس کے بعد یونانی بادشاہوں کی ایک شاخ پنجاب اور گندھارا میں حکومت کرنے لگی، جنہیں ہند یونانی کہا جاتا ہے۔ ان میں مشہور مینانڈر تھا، جس کا ذکر ایک بدھ کتاب میں ملندا کے نام سے ملتا ہے۔ تو یونانی حکومت اب ہندوکش کے دونوں طرف تھی، اور یہ اس کی سب سے بڑی توسیع تھی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Euthydemus's son Demetrius the First became a great conqueror.",
+    "He came to the throne around 200 BC.",
+    "Many historians say he crossed the Hindu Kush and extended his rule to Arachosia, the Kandahar region, and the Kabul valley.",
+    "On his coins he wears a cap made from an elephant's scalp.",
+    "It is taken as a sign of the advance toward India.",
+    "After this a branch of Greek kings began to rule in Punjab and Gandhara, called the Indo-Greeks.",
+    "The famous one among them was Menander, who appears in a Buddhist book under the name Milinda.",
+    "So Greek rule was now on both sides of the Hindu Kush, and this was its greatest expansion."
+   ],
+   "shots": [
+    {
+     "search": "Demetrius I of Bactria",
+     "at": 1
+    },
+    {
+     "search": "Arachosia",
+     "at": 2
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Taxila",
+        33.74,
+        72.79,
+        "Pakistan"
+       ]
+      ],
+      "title": "Demetrius expands south",
+      "routes": "none"
+     },
+     "at": 3
+    },
+    {
+     "search": "Asian elephant",
+     "at": 5
+    },
+    {
+     "search": "Indo-Greek Kingdom",
+     "at": 6
+    },
+    {
+     "search": "Menander I",
+     "at": 7
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 8
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "Demetrius goes south",
+    "ur": "دیمیتریوس جنوب میں"
+   },
+   "feel": "پُراعتماد اور بلند آواز۔ توسیع والے جملوں میں جوش، آخر میں ٹھہراؤ۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "دیمیتریوس"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آس"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "ہندوکش"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہاتھی"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "علامت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "پنجاب"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مینانڈر"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "دونوں"
+    }
+   ],
+   "chapter": {
+    "n": 4,
+    "ur": "ہندوکش کے پار",
+    "en": "Across the Hindu Kush"
+   }
+  },
+  {
+   "text_on_screen": "Greek cities of Afghanistan",
+   "narration_ur": "ایک سوال یہ ہے کہ یونانیوں نے افغانستان میں کتنے شہر بسائے۔ سکندر کے نام پر کئی اسکندریہ مشہور ہیں، جیسے ہندوکش کے دامن میں، اور ارکوزیا میں، یعنی پرانا قندھار۔ بلخ ایک بڑا شہر تھا، اور آئے خانم دریا کے کنارے ایک اور بڑا مرکز۔ پلوٹارک نے سکندر کے ستر شہروں کی بات کی، جسے مؤرخ مبالغہ سمجھتے ہیں۔ کئی مؤرخوں کے مطابق بہت سے شہر پہلے سے موجود مقامی بستیاں تھیں، جن میں یونانی بسا دیے گئے۔ اس لیے یونانی شہر اکثر مقامی شہروں کے ساتھ ساتھ اور ان کے اوپر بنے۔ سٹرابو نے لکھا کہ یونانی سلطنت چین کی سرحدوں تک پھیلی، مگر اکثر مؤرخ اسے بڑھا چڑھا کر کہی گئی بات سمجھتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "One question is how many cities the Greeks founded in Afghanistan.",
+    "Several Alexandrias are famous in Alexander's name, such as at the foot of the Hindu Kush and in Arachosia, that is Old Kandahar.",
+    "Balkh was a big city, and Ai-Khanoum another big centre on the river.",
+    "Plutarch spoke of seventy cities of Alexander, which historians regard as an exaggeration.",
+    "According to many historians, many of the cities were existing local towns in which Greeks were settled.",
+    "So Greek cities were often built beside and on top of local cities.",
+    "Strabo wrote that the Greek empire spread to the borders of China, but most historians regard this as an overstatement."
+   ],
+   "shots": [
+    {
+     "search": "Old Kandahar",
+     "at": 1
+    },
+    {
+     "search": "Bagram",
+     "at": 2
+    },
+    {
+     "search": "Balkh",
+     "at": 3
+    },
+    {
+     "search": "Plutarch",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Ai-Khanoum",
+        37.17,
+        69.41,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Greek cities in Afghanistan",
+      "routes": "none"
+     },
+     "at": 5
+    },
+    {
+     "search": "Hellenistic period",
+     "at": 6
+    },
+    {
+     "search": "Strabo",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "How many Greek cities?",
+    "ur": "کتنے یونانی شہر؟"
+   },
+   "feel": "سادہ اور ایماندار آواز۔ مبالغے والے جملوں پر ہلکا سا شک بھرا لہجہ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "کتنے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اسکندریہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "بلخ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ستر"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مقامی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "اوپر"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "سٹرابو"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Ai-Khanoum: the lost city",
+   "narration_ur": "اب چلتے ہیں اس شہر کی طرف جس سے ہم نے شروع کیا تھا۔ افغانستان کے شمال میں دریائے آمو اور دریائے کوکچہ کے ملنے کی جگہ پر ایک بڑا ٹیلہ تھا۔ اس جگہ کا نام آئے خانم ہے، جسے ازبک زبان میں چاند خاتون کہا جاتا ہے۔ انیس سو اکسٹھ میں بادشاہ ظاہر شاہ شکار کے لیے گئے تو انہیں وہاں کی ایک قدیم یونانی چیز دکھائی گئی۔ اس کے بعد فرانسیسی ماہر پال برنار کی ٹیم نے وہاں کئی سال کھدائی کی۔ کھدائی انیس سو اٹھہتر کے بعد جنگ کی وجہ سے رک گئی۔ آج بھی کسی کو پکا معلوم نہیں کہ اس شہر کا قدیم یونانی نام کیا تھا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now let us go to the city we began with.",
+    "In northern Afghanistan, where the Amu and Kokcha rivers meet, there was a large mound.",
+    "The place is called Ai-Khanoum, which in Uzbek means Lady Moon.",
+    "In 1961 when King Zahir Shah went hunting there, he was shown an ancient Greek object from the place.",
+    "After that, the team of the French archaeologist Paul Bernard dug there for several years.",
+    "The digging stopped after 1978 because of war.",
+    "Even today nobody knows for sure what this city's ancient Greek name was."
+   ],
+   "shots": [
+    {
+     "search": "Ai-Khanoum",
+     "at": 1
+    },
+    {
+     "search": "Amu Darya",
+     "at": 2
+    },
+    {
+     "search": "Kokcha River",
+     "at": 3
+    },
+    {
+     "card": {
+      "ur": "آئے خانم",
+      "en": "Ai-Khanoum, 'Lady Moon'"
+     },
+     "at": 4
+    },
+    {
+     "search": "Mohammed Zahir Shah",
+     "at": 5
+    },
+    {
+     "search": "Paul Bernard (archaeologist)",
+     "at": 6
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Ai-Khanoum",
+        37.17,
+        69.41,
+        "Afghanistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Ai-Khanoum on the Oxus",
+      "routes": "none"
+     },
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "The city on the Oxus",
+    "ur": "دریائے آمو کا شہر"
+   },
+   "feel": "دھیمی اور حیرت بھری آواز، جیسے کوئی دریافت کی کہانی سنا رہے ہوں۔",
+   "delivery": [
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "شہر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ملنے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "آئے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "اکسٹھ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "برنار"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "جنگ"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "قدیم"
+    }
+   ],
+   "chapter": {
+    "n": 5,
+    "ur": "آئے خانم کا شہر",
+    "en": "The City of Ai-Khanoum"
+   }
+  },
+  {
+   "text_on_screen": "Inside the Greek city",
+   "narration_ur": "اس شہر میں ایک بڑا محل تھا جس کے صحن کے ارد گرد کئی کمرے تھے۔ ایک ورزش گاہ تھی، جیسی یونان کے شہروں میں نوجوانوں کی تربیت کے لیے ہوتی تھی۔ ایک تھیٹر تھا جس میں ہزاروں لوگ بیٹھ سکتے تھے۔ کھدائی میں مندر، چشمے اور ایک خزانے کا کمرہ بھی ملا۔ خزانے سے بدخشاں کا نیلا لاجورد پتھر اور دور دراز کی چیزیں ملیں، جو بتاتی ہیں کہ یہ تجارتی شہر تھا۔ ایک فلسفیانہ تحریر کا ٹکڑا بھی ملا، جو بتاتا ہے کہ یہاں یونانی کتابیں پڑھی جاتی تھیں۔ سوچیں، ہندوکش کے پاس ایک ایسا شہر جہاں یونانی ڈرامہ بھی دیکھا جاتا تھا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The city had a large palace with many rooms around its courtyard.",
+    "There was a gymnasium, like those in Greek cities for training the young.",
+    "There was a theatre where thousands of people could sit.",
+    "The excavation also found temples, fountains and a treasury room.",
+    "From the treasury came blue lapis lazuli from Badakhshan and things from far away, which show this was a trading city.",
+    "A fragment of a philosophical text was also found, which suggests that Greek books were read here.",
+    "Think of it: near the Hindu Kush, a city where Greek drama was watched."
+   ],
+   "shots": [
+    {
+     "search": "Ai-Khanoum",
+     "at": 1
+    },
+    {
+     "search": "Gymnasium (ancient Greece)",
+     "at": 2
+    },
+    {
+     "search": "Ancient Greek theatre",
+     "at": 3
+    },
+    {
+     "search": "Greek temple",
+     "at": 4
+    },
+    {
+     "search": "Lapis lazuli",
+     "at": 5
+    },
+    {
+     "search": "Badakhshan Province",
+     "at": 6
+    },
+    {
+     "search": "Papyrus",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "What was inside?",
+    "ur": "شہر کے اندر کیا تھا؟"
+   },
+   "feel": "تفصیل سنانے والی آواز، ہر چیز کا نام صاف ادا کریں۔ آخر میں ٹھہراؤ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "محل"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ورزش"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "تھیٹر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خزانے"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "لاجورد"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "فلسفیانہ"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "سوچیں"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "Greek words, local life",
+   "narration_ur": "اس شہر میں ایک کتبہ ملا جو یونان کے مشہور مقام ڈیلفی کی نصیحتوں کی نقل ہے۔ کتبے کے مطابق کلیارخوس نام کا ایک شخص، جو ارسطو کا شاگرد بتایا گیا ہے، ڈیلفی سے یہ نصیحتیں نقل کر کے یہاں لایا۔ ان میں زندگی کے ہر دور کے لیے ایک نصیحت تھی، جیسے بچپن میں ادب اور بڑھاپے میں اچھا مشورہ۔ مگر شہر کی عمارتوں میں مقامی اثر بھی ملتا ہے، جیسے ایشیائی طرز کے مندر اور نہری نظام۔ مؤرخین میں بحث ہے کہ یہاں کی آبادی کتنی یونانی تھی اور کتنی مقامی۔ کچھ کہتے ہیں کہ شہر یونانی تھا، دوسرے کہتے ہیں کہ یہ ملی جلی ثقافت تھی۔ سچ یہ ہے کہ ثبوت دونوں باتوں کی طرف اشارہ کرتے ہیں۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "An inscription was found in this city that copies the sayings of the famous Greek site of Delphi.",
+    "According to the inscription, a man named Clearchus, described as a pupil of Aristotle, copied these sayings at Delphi and brought them here.",
+    "They had a saying for every stage of life, such as good manners in childhood and good advice in old age.",
+    "But the city's buildings also show local influence, such as Asian-style temples and a canal system.",
+    "Historians debate how much of the population here was Greek and how much was local.",
+    "Some say the city was Greek, others say it was a mixed culture.",
+    "The truth is that the evidence points to both."
+   ],
+   "shots": [
+    {
+     "search": "Delphi",
+     "at": 1
+    },
+    {
+     "search": "Clearchus of Soli",
+     "at": 2
+    },
+    {
+     "search": "Aristotle",
+     "at": 3
+    },
+    {
+     "search": "Hellenistic art",
+     "at": 4
+    },
+    {
+     "search": "Irrigation",
+     "at": 5
+    },
+    {
+     "search": "Zoroastrianism",
+     "at": 6
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "Greek and local together",
+    "ur": "یونانی اور مقامی ملاپ"
+   },
+   "feel": "سوچنے والی اور نرم آواز۔ مثالیں گنواتے وقت ہر مثال پر ہلکا سا ٹھہراؤ۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ڈیلفی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ارسطو"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "نصیحت"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مقامی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بحث"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "ملی"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "ثبوت"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The giant gold coin",
+   "narration_ur": "اب اس سکے کی طرف آئیں جس کا ہم نے وعدہ کیا تھا۔ بادشاہ یوکراتیدیس نے سونے کا بیس سٹیٹر کا ایک بہت بڑا سکہ بنوایا۔ اس کا وزن تقریباً ایک سو ستر گرام ہے، اور اسے قدیم دنیا کے سب سے بڑے سونے کے سکوں میں گنا جاتا ہے۔ یہ سکہ بخارا کے علاقے سے انیسویں صدی میں ملا، اور آج پیرس کے قومی کتب خانے میں ہے۔ اس پر بادشاہ کا چہرہ اور ہیلمٹ کی تصویر بنی ہے۔ دوسرے بادشاہوں نے ایسے سکے بھی بنوائے جن پر ایک طرف یونانی اور دوسری طرف ہندوستانی خروشٹھی تحریر ہے۔ یہ سکے ہی ہمیں بتاتے ہیں کہ بادشاہ کون تھے، اور کس کے بعد کون آیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Now to the coin we promised.",
+    "King Eucratides had a huge gold coin of twenty staters made.",
+    "It weighs about one hundred and seventy grams and is counted among the biggest gold coins of the ancient world.",
+    "The coin was found in the Bukhara region in the nineteenth century, and today it is in the national library in Paris.",
+    "It shows the king's face with a helmet.",
+    "Other kings made coins with Greek writing on one side and Indian Kharosthi writing on the other.",
+    "These coins tell us who the kings were and who came after whom."
+   ],
+   "shots": [
+    {
+     "search": "Ancient Greek coinage",
+     "at": 1
+    },
+    {
+     "search": "Eucratides I",
+     "at": 2
+    },
+    {
+     "search": "Bukhara",
+     "at": 3
+    },
+    {
+     "search": "Bibliothèque nationale de France",
+     "at": 4
+    },
+    {
+     "card": {
+      "ur": "بیس سٹیٹر کا سکہ",
+      "en": "The 20-stater gold coin"
+     },
+     "at": 5
+    },
+    {
+     "search": "Agathocles of Bactria",
+     "at": 6
+    },
+    {
+     "search": "Kharosthi",
+     "at": 7
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The biggest gold coin",
+    "ur": "سب سے بڑا سونے کا سکہ"
+   },
+   "feel": "شان دار آواز۔ سکے کے وزن والے جملے پر آہستہ اور وزنی انداز رکھیں۔",
+   "delivery": [
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "سکے"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "یوکراتیدیس"
+    },
+    {
+     "m": [
+      "stress",
+      "slow"
+     ],
+     "w": "ستر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بخارا"
+    },
+    {
+     "m": [
+      "soft"
+     ],
+     "w": "ہیلمٹ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خروشٹھی"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "بتاتے"
+    }
+   ],
+   "chapter": {
+    "n": 6,
+    "ur": "سکوں کی کہانی",
+    "en": "The Story of the Coins"
+   }
+  },
+  {
+   "text_on_screen": "Eucratides and a divided kingdom",
+   "narration_ur": "یوکراتیدیس تقریباً ایک سو ستر قبل مسیح میں بادشاہ بنا۔ اس نے باختر کو دوبارہ طاقت دی، مگر یونانی بادشاہ اب آپس میں بٹے ہوئے تھے۔ ایک طرف وہ بادشاہ تھے جو ہندوکش کے جنوب اور پنجاب میں تھے، دوسری طرف باختر میں یوکراتیدیس۔ مغرب میں پارتھیا کا بادشاہ مہرداد اول بھی اپنی سلطنت بڑھا رہا تھا۔ یوستین کے مطابق یوکراتیدیس کو اس کے اپنے بیٹے نے قتل کر دیا، اور اس کی لاش کے اوپر سے رتھ گزارا۔ یہ بات صرف ایک رومی مصنف کہتا ہے، اس لیے اسے احتیاط سے ماننا چاہیے۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Eucratides became king around 170 BC.",
+    "He gave Bactria strength again, but the Greek kings were now divided among themselves.",
+    "On one side were the kings south of the Hindu Kush and in Punjab, on the other Eucratides in Bactria.",
+    "In the west the Parthian king Mithridates the First was also extending his empire.",
+    "According to Justin, Eucratides was killed by his own son, who drove a chariot over his body.",
+    "Only one Roman author says this, so it should be taken with care."
+   ],
+   "shots": [
+    {
+     "search": "Eucratides I",
+     "at": 1
+    },
+    {
+     "search": "Bactria",
+     "at": 2
+    },
+    {
+     "search": "Mithridates I of Parthia",
+     "at": 3
+    },
+    {
+     "search": "Justin (historian)",
+     "at": 4
+    },
+    {
+     "search": "Heliocles I",
+     "at": 5
+    },
+    {
+     "search": "Hindu Kush",
+     "at": 6
+    }
+   ],
+   "mood": "tense",
+   "key": {
+    "en": "A divided Greek kingdom",
+    "ur": "بٹی ہوئی سلطنت"
+   },
+   "feel": "سنجیدہ اور گہری آواز۔ باپ کے قتل والے جملے پر دھیمی اور تلخ ادائیگی۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "تقریباً"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "طاقت"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "طرف"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "مہرداد"
+    },
+    {
+     "m": [
+      "slow",
+      "pause"
+     ],
+     "w": "بیٹے"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "احتیاط"
+    }
+   ]
+  },
+  {
+   "text_on_screen": "The end of the Greek kings",
+   "narration_ur": "ایک سو چالیس قبل مسیح کے آس پاس شمال سے خانہ بدوش قبیلے بڑھنے لگے۔ یونانی مصنف سٹرابو ان کے نام ساکا اور تخاری وغیرہ بتاتا ہے، اور چینی مؤرخ یوژی کا ذکر کرتے ہیں۔ اسی دوران آئے خانم کا شہر جلا دیا گیا اور پھر کبھی آباد نہ ہو سکا۔ آخری یونانی بادشاہ ہیلیوکلیس کے بارے میں خیال ہے کہ وہ ہندوکش کے جنوب میں کابل کی وادی کی طرف چلا گیا۔ ایک سو تیس قبل مسیح کے بعد کے برسوں میں چینی سفیر ژانگ چیان باختر پہنچا۔ اس نے لکھا کہ وہاں کوئی بڑا بادشاہ نہیں، شہروں پر چھوٹے سردار ہیں، اور لوگ تجارت میں ماہر ہیں۔ یوں باختر میں یونانی بادشاہت کا دور تقریباً ایک سو بیس قبل مسیح کے آس پاس ختم ہو گیا۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "Around 140 BC nomad tribes began moving in from the north.",
+    "The Greek author Strabo gives their names as Saka, Tochari and others, and the Chinese historians mention the Yuezhi.",
+    "In the same period the city of Ai-Khanoum was burned and was never settled again.",
+    "Of the last Greek king Heliocles it is thought that he moved south of the Hindu Kush toward the Kabul valley.",
+    "In the years after 130 BC the Chinese envoy Zhang Qian reached Bactria.",
+    "He wrote that there was no great king there, small chiefs ruled the cities, and the people were skilled in trade.",
+    "So the era of Greek kingship in Bactria ended around 120 BC."
+   ],
+   "shots": [
+    {
+     "search": "Saka",
+     "at": 1
+    },
+    {
+     "search": "Yuezhi",
+     "at": 2
+    },
+    {
+     "search": "Ai-Khanoum",
+     "at": 3
+    },
+    {
+     "search": "Heliocles I",
+     "at": 4
+    },
+    {
+     "search": "Zhang Qian",
+     "at": 5
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Chang'an (Xi'an)",
+        34.34,
+        108.94,
+        "China"
+       ],
+       [
+        "Ferghana (Dayuan)",
+        40.4,
+        71.8,
+        "Uzbekistan"
+       ],
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ]
+      ],
+      "title": "Zhang Qian's journey",
+      "routes": "none"
+     },
+     "at": 6
+    },
+    {
+     "search": "Balkh",
+     "at": 7
+    }
+   ],
+   "mood": "epic",
+   "key": {
+    "en": "The end",
+    "ur": "یونانی حکومت کا انجام"
+   },
+   "feel": "دھیمی اور اداس آواز۔ شہر جلنے والے جملے پر آہستہ اور وزنی بولیں۔",
+   "delivery": [
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "خانہ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سٹرابو"
+    },
+    {
+     "m": [
+      "stress",
+      "pause"
+     ],
+     "w": "جلا"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "ہیلیوکلیس"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "سفیر"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "سردار"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "یونانی"
+    }
+   ],
+   "chapter": {
+    "n": 7,
+    "ur": "یونانیوں کا انجام",
+    "en": "The End of the Greeks"
+   }
+  },
+  {
+   "text_on_screen": "What did the Greeks leave?",
+   "narration_ur": "یونانی سلطنت ختم ہو گئی، مگر اس کی کچھ نشانیاں باقی رہیں۔ باختر کی مقامی زبان یونانی حروف میں لکھی جانے لگی، اور یہ سلسلہ صدیوں تک چلا۔ ایک مؤرخ کے مطابق بعد میں نویں صدی عیسوی تک بھی یہ حروف باختری زبان کے لیے استعمال ہوتے رہے۔ بعد میں کشان بادشاہ کنشک نے بھی اپنے کتبے اسی لکھائی میں لکھوائے۔ گندھارا کے مجسموں میں یونانی انداز اور بدھ مت مل گئے، اس کی تفصیل اگلی ویڈیو میں ہے۔ مگر مؤرخین کہتے ہیں کہ یونانی اثر کتنا گہرا تھا، اس پر اختلاف ہے۔ یہ کہنا ٹھیک ہے کہ یونانیوں نے یہاں اپنی چھاپ ضرور چھوڑی۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "The Greek kingdom ended, but some of its traces remained.",
+    "Bactria's local language began to be written in Greek letters, and this went on for centuries.",
+    "According to one account, these letters were used for the Bactrian language even until the ninth century AD.",
+    "Later the Kushan king Kanishka also had his inscriptions written in the same script.",
+    "In the statues of Gandhara Greek style and Buddhism joined together, and the details are in the next video.",
+    "But historians say there is disagreement on how deep the Greek influence was.",
+    "It is fair to say the Greeks certainly left their mark here."
+   ],
+   "shots": [
+    {
+     "search": "Bactrian language",
+     "at": 1
+    },
+    {
+     "search": "Rabatak inscription",
+     "at": 2
+    },
+    {
+     "search": "Kushan Empire",
+     "at": 3
+    },
+    {
+     "search": "Kanishka",
+     "at": 4
+    },
+    {
+     "search": "Gandhara",
+     "at": 5
+    },
+    {
+     "search": "Greco-Buddhist art",
+     "at": 6
+    },
+    {
+     "search": "Ai-Khanoum",
+     "at": 7
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "What was left?",
+    "ur": "پیچھے کیا رہا؟"
+   },
+   "feel": "سوچنے والی، گرم آواز۔ آخری جملے پر سچائی کے ساتھ ٹھہراؤ۔",
+   "delivery": [
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "نشانیاں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "حروف"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "نویں"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "کنشک"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "مجسموں"
+    },
+    {
+     "m": [
+      "soft",
+      "slow"
+     ],
+     "w": "اختلاف"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "چھاپ"
+    }
+   ],
+   "chapter": {
+    "n": 8,
+    "ur": "یونانیوں کی نشانیاں",
+    "en": "What the Greeks Left"
+   }
+  },
+  {
+   "text_on_screen": "Which Afghanistan? Which Greece?",
+   "narration_ur": "تو کیا یہ یونانی افغانستان کے اجنبی حکمران تھے، یا اس سرزمین کا حصہ بن گئے تھے؟ حقیقت شاید بیچ میں ہے، کیونکہ کھدائی میں یونانی شہر بھی ملا اور مقامی روایتیں بھی۔ آج کا خلاصہ: سکندر کے بعد یونانیوں نے باختر میں اپنی سلطنت بنائی، جو سوا سو سال کے لگ بھگ چلی۔ آئے خانم کا شہر ہمیں بتاتا ہے کہ ہندوکش کے پاس یونانی تھیٹر اور کتبے بھی تھے۔ اور پھر خانہ بدوش آئے، اور ایک نیا باب شروع ہوا۔ آپ کے خیال میں ان یونانیوں کو اس سرزمین کا حصہ سمجھنا چاہیے یا نہیں؟ کمنٹ میں احترام کے ساتھ لکھیں، اور کسی قوم یا مذہب کی توہین سے بچیں۔ اگلی ویڈیو میں دیکھیں گے کہ کشان سلطنت کیسے اٹھی، اور کنشک نے پشاور کو کیسے اپنا مرکز بنایا۔ ویڈیو پسند آئی ہو تو چینل کو سبسکرائب کریں، بیل کا نشان دبائیں، اور اگلی ویڈیو تک خدا حافظ۔",
+   "narration_roman": "",
+   "subtitle_en": [
+    "So were these Greeks strangers who ruled Afghanistan, or did they become part of this land?",
+    "The truth is perhaps in the middle, because the excavation found a Greek city and local traditions too.",
+    "Today's summary: after Alexander the Greeks built their kingdom in Bactria, which lasted about a hundred and twenty-five years.",
+    "The city of Ai-Khanoum tells us that there were Greek theatres and inscriptions near the Hindu Kush.",
+    "And then the nomads came, and a new chapter began.",
+    "In your view, should these Greeks be seen as part of this land or not?",
+    "Write in the comments respectfully, and avoid insulting any people or religion.",
+    "In the next video we will see how the Kushan Empire rose, and how Kanishka made Peshawar his centre.",
+    "If you liked the video, subscribe to the channel, press the bell, and goodbye until the next video."
+   ],
+   "shots": [
+    {
+     "card": {
+      "ur": "یونانی یا مقامی؟",
+      "en": "Greek or local?"
+     },
+     "at": 1
+    },
+    {
+     "search": "Greco-Bactrian Kingdom",
+     "at": 2
+    },
+    {
+     "search": "Ai-Khanoum",
+     "at": 3
+    },
+    {
+     "search": "Eucratides I",
+     "at": 4
+    },
+    {
+     "map": {
+      "places": [
+       [
+        "Bactra (Balkh)",
+        36.76,
+        66.9,
+        "Afghanistan"
+       ],
+       [
+        "Ai-Khanoum",
+        37.17,
+        69.41,
+        "Afghanistan"
+       ],
+       [
+        "Kabul",
+        34.53,
+        69.17,
+        "Afghanistan"
+       ],
+       [
+        "Kandahar (Arachosia)",
+        31.6,
+        65.7,
+        "Afghanistan"
+       ],
+       [
+        "Taxila",
+        33.74,
+        72.79,
+        "Pakistan"
+       ]
+      ],
+      "title": "The Greek kingdoms in this region",
+      "routes": "none"
+     },
+     "at": 5
+    },
+    {
+     "card": {
+      "ur": "آپ کی رائے؟",
+      "en": "What do you think?"
+     },
+     "at": 6
+    },
+    {
+     "search": "Kushan Empire",
+     "at": 8
+    },
+    {
+     "card": {
+      "ur": "سبسکرائب کریں",
+      "en": "Subscribe"
+     },
+     "at": 9
+    }
+   ],
+   "mood": "calm",
+   "key": {
+    "en": "A mixed land",
+    "ur": "ملی جلی سرزمین"
+   },
+   "feel": "دوستانہ اور نرم آواز۔ سوال سننے والے سے براہِ راست پوچھیں۔ آخر میں گرم جوشی سے خدا حافظ۔",
+   "delivery": [
+    {
+     "m": [
+      "rise"
+     ],
+     "w": "اجنبی"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "بیچ"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خلاصہ"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "کتبے"
+    },
+    {
+     "m": [
+      "slow"
+     ],
+     "w": "خانہ"
+    },
+    {
+     "m": [
+      "rise",
+      "pause"
+     ],
+     "w": "خیال"
+    },
+    {
+     "m": [
+      "warm"
+     ],
+     "w": "احترام"
+    },
+    {
+     "m": [
+      "stress"
+     ],
+     "w": "کشان"
+    },
+    {
+     "m": [
+      "warm",
+      "slow"
+     ],
+     "w": "سبسکرائب"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "title": "A Greek City in Afghanistan? Ai-Khanoum #Shorts",
+   "scenes": [
+    {
+     "image": "11a",
+     "text_on_screen": "Ai-Khanoum, Afghanistan",
+     "narration_ur": "یہ آئے خانم ہے، شمالی افغانستان میں ایک یونانی شہر کے کھنڈر۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10b",
+     "text_on_screen": "On the Amu River",
+     "narration_ur": "یہ دریائے آمو کے کنارے ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "10e",
+     "text_on_screen": "Found in 1961",
+     "narration_ur": "انیس سو اکسٹھ میں بادشاہ ظاہر شاہ کو یہاں سے ایک قدیم یونانی چیز دکھائی گئی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11b",
+     "text_on_screen": "A Greek gymnasium",
+     "narration_ur": "کھدائی میں یونانی ورزش گاہ ملی۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11c",
+     "text_on_screen": "A Greek theatre",
+     "narration_ur": "ایک تھیٹر بھی ملا جس میں ہزاروں لوگ بیٹھ سکتے تھے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "11e",
+     "text_on_screen": "Lapis lazuli from Badakhshan",
+     "narration_ur": "خزانے سے بدخشاں کا لاجورد ملا۔ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "The Giant Gold Coin of King Eucratides #Shorts",
+   "scenes": [
+    {
+     "image": "13b",
+     "text_on_screen": "King Eucratides",
+     "narration_ur": "بادشاہ یوکراتیدیس نے سونے کا ایک بہت بڑا سکہ بنوایا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "13a",
+     "text_on_screen": "20 staters of gold",
+     "narration_ur": "یہ بیس سٹیٹر کا سکہ ہے، جس کا وزن تقریباً ایک سو ستر گرام ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "13c",
+     "text_on_screen": "Found near Bukhara",
+     "narration_ur": "یہ سکہ بخارا کے علاقے سے انیسویں صدی میں ملا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "13d",
+     "text_on_screen": "Now in Paris",
+     "narration_ur": "آج یہ پیرس کے قومی کتب خانے میں ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "14a",
+     "text_on_screen": "Killed by his own son?",
+     "narration_ur": "یوستین کہتا ہے کہ یوکراتیدیس کو اس کے اپنے بیٹے نے قتل کیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "14d",
+     "text_on_screen": "One source only",
+     "narration_ur": "مگر یہ بات صرف ایک مصنف کہتا ہے۔ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  },
+  {
+   "title": "The Siege of Bactra: Antiochus vs Euthydemus #Shorts",
+   "scenes": [
+    {
+     "image": "07c",
+     "text_on_screen": "Antiochus III, about 208 BC",
+     "narration_ur": "دو سو آٹھ قبل مسیح میں سلوکی بادشاہ انطیوخس سوم بڑی فوج لے کر باختر آیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07a",
+     "text_on_screen": "King Euthydemus",
+     "narration_ur": "یوتھیڈیموس ہار کر بلخ شہر میں بند ہو گیا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07e",
+     "text_on_screen": "Balkh under siege",
+     "narration_ur": "انطیوخس نے دو سے تین سال شہر کو گھیرے رکھا۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07f",
+     "text_on_screen": "Polybius reports",
+     "narration_ur": "پولیبیس کے مطابق یوتھیڈیموس نے کہا کہ وہ باغی نہیں ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07g",
+     "text_on_screen": "Nomads at the door",
+     "narration_ur": "اس نے خبردار کیا کہ خانہ بدوش حملہ آوروں کا خطرہ دونوں کو ہے۔",
+     "narration_roman": ""
+    },
+    {
+     "image": "07c",
+     "text_on_screen": "Peace, about 206 BC",
+     "narration_ur": "آخر صلح ہوئی۔ مکمل کہانی ویڈیو میں دیکھیں۔",
+     "narration_roman": ""
+    }
+   ]
+  }
+ ]
+}
