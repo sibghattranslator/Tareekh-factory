@@ -214,24 +214,28 @@ def work_video(yt, v, t, when, done):
 
 
 # ----------------------------------------------------------------------------- main
-def align_long(yt, found):
-    """A scheduled long video must go out on the same day as its Shorts (long 19:00, Shorts earlier). Moves it if not."""
-    def loc(v): return dt.datetime.fromisoformat(v["status"]["publishAt"].replace("Z", "+00:00")).astimezone().replace(tzinfo=None)
-    by = {}
+def pub_local(v):
+    pa = v["status"].get("publishAt")
+    return dt.datetime.fromisoformat(pa.replace("Z", "+00:00")).astimezone().replace(tzinfo=None) if pa else None
+
+
+def is_future(v):
+    p = pub_local(v)
+    return bool(p and p > dt.datetime.now())
+
+
+def reschedule(yt, found):
+    """Videos that are already scheduled (not yet live) are moved to the plan: 1 episode per day from today."""
     for v, t in found:
-        if v["status"].get("publishAt"): by.setdefault(t["ep"], []).append((v, t))
-    for ep, lst in by.items():
-        longs = [x for x in lst if x[1]["kind"] == "long"]; shorts = [x for x in lst if x[1]["kind"] == "short"]
-        if not longs or not shorts: continue
-        v = longs[0][0]; cur = loc(v); day = min(loc(x[0]) for x in shorts).date()
-        if cur.date() == day: continue
-        new = dt.datetime.combine(day, cur.time())
+        if not is_future(v): continue
+        cur, new = pub_local(v), t["when"]
+        if abs((cur - new).total_seconds()) < 120: continue
         st = v["status"]
         body = {"id": v["id"], "status": {"privacyStatus": "private", "publishAt": utc_iso(new.astimezone()),
                 "embeddable": st.get("embeddable", True), "license": st.get("license", "youtube"),
                 "publicStatsViewable": st.get("publicStatsViewable", True), "selfDeclaredMadeForKids": False}}
         call(yt.videos().update(part="status", body=body))
-        log(f"{ep} long video moved to {new:%Y-%m-%d %H:%M} (same day as its Shorts)")
+        log(f"{t['ep']} {t['kind']} moved {cur:%b %d %H:%M} -> {new:%b %d %H:%M}   {v['snippet']['title'][:40]}")
 
 
 def main():
@@ -263,20 +267,30 @@ def main():
             seen[k] = (keep, t); dup.append(drop)
         else: seen[k] = (v, t)
     found = sorted(seen.values(), key=lambda x: (x[1]["ep"], x[1]["kind"] != "long", x[1]["index"]))
-    open_eps = {t["ep"] for v, t in found if v["status"]["privacyStatus"] == "private" and not v["status"].get("publishAt")}
-    pend = [(ep, READY / ep, True, []) for ep in sorted(open_eps)]        # only episodes that still need a date
-    plan, state = Y.make_plan(pend, st)
-    slot = {ep: (lt, sh) for ep, _d, _l, _s, lt, sh in plan}
+    queued = sorted({t["ep"] for v, t in found
+                     if (v["status"]["privacyStatus"] == "private" and not v["status"].get("publishAt")) or is_future(v)})
+    now = dt.datetime.now()
+    earliest = (now + dt.timedelta(minutes=20)).replace(second=0, microsecond=0)
+    earliest += dt.timedelta(minutes=(30 - earliest.minute % 30) % 30)             # next half hour
+    day = dt.date.today() + dt.timedelta(days=int(st["first_day_offset"]))
+    slot = {}
+    for ep in queued:                                                                # 1 episode per day, starting today
+        sh = dt.datetime.combine(day, dt.datetime.strptime(st["shorts_time"], "%H:%M").time())
+        lt = dt.datetime.combine(day, dt.datetime.strptime(st["long_time"], "%H:%M").time())
+        if sh < earliest: sh = earliest                                              # today's passed slots -> next free time
+        nsh = max(1, sum(1 for v, t in found if t["ep"] == ep and t["kind"] == "short"))
+        lt = max(lt, sh + dt.timedelta(minutes=gap * (nsh - 1) + 60))
+        slot[ep] = (lt, sh); day += dt.timedelta(days=int(st["days_between_episodes"]))
     for v, t in found:
-        if t["ep"] not in slot: t["when"] = dt.datetime.now(); continue          # already scheduled/published: untouched
+        if t["ep"] not in slot: t["when"] = dt.datetime.now(); continue          # already live: untouched
         lt, sh = slot[t["ep"]]; t["when"] = lt if t["kind"] == "long" else sh + dt.timedelta(minutes=gap * t["index"])
     if a.plan:
         for v, t in found:
+            if t['ep'] not in slot: continue
             print(f"  {t['ep']} {t['kind']:5} -> {t['when']:%Y-%m-%d %H:%M}   {v['snippet']['title'][:60]}")
         return
-    Y.STATE_F.write_text(json.dumps(state))
     try:
-        align_long(yt, found)
+        reschedule(yt, found)
         for v, t in found:
             done_f = t["dir"] / "meta_done.json"
             done = json.loads(done_f.read_text(encoding="utf-8")) if done_f.exists() else {}
